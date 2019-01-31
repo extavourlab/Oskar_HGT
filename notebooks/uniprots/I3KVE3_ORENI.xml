@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2012-07-11" modified="2016-05-11" version="19">
+<accession>I3KVE3</accession>
+<name>I3KVE3_ORENI</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3">TDRD7 (1 to many)</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Oreochromis niloticus</name>
+<name type="common">Nile tilapia</name>
+<name type="synonym">Tilapia nilotica</name>
+<dbReference type="NCBI Taxonomy" id="8128"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Actinopterygii</taxon>
+<taxon>Neopterygii</taxon>
+<taxon>Teleostei</taxon>
+<taxon>Neoteleostei</taxon>
+<taxon>Acanthomorphata</taxon>
+<taxon>Ovalentaria</taxon>
+<taxon>Cichlomorphae</taxon>
+<taxon>Cichliformes</taxon>
+<taxon>Cichlidae</taxon>
+<taxon>African cichlids</taxon>
+<taxon>Pseudocrenilabrinae</taxon>
+<taxon>Oreochromini</taxon>
+<taxon>Oreochromis</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="submission" date="2012-05" db="UniProtKB">
+<authorList>
+<consortium name="Ensembl"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<reference key="2" evidence="4">
+<citation type="journal article" date="2014" name="Nature" volume="513" first="375" last="381">
+<title>The genomic substrate for adaptive radiation in African cichlid fish.</title>
+<authorList>
+<person name="Brawand D."/>
+<person name="Wagner C.E."/>
+<person name="Li Y.I."/>
+<person name="Malinsky M."/>
+<person name="Keller I."/>
+<person name="Fan S."/>
+<person name="Simakov O."/>
+<person name="Ng A.Y."/>
+<person name="Lim Z.W."/>
+<person name="Bezault E."/>
+<person name="Turner-Maier J."/>
+<person name="Johnson J."/>
+<person name="Alcazar R."/>
+<person name="Noh H.J."/>
+<person name="Russell P."/>
+<person name="Aken B."/>
+<person name="Alfoldi J."/>
+<person name="Amemiya C."/>
+<person name="Azzouzi N."/>
+<person name="Baroiller J.F."/>
+<person name="Barloy-Hubler F."/>
+<person name="Berlin A."/>
+<person name="Bloomquist R."/>
+<person name="Carleton K.L."/>
+<person name="Conte M.A."/>
+<person name="D'Cotta H."/>
+<person name="Eshel O."/>
+<person name="Gaffney L."/>
+<person name="Galibert F."/>
+<person name="Gante H.F."/>
+<person name="Gnerre S."/>
+<person name="Greuter L."/>
+<person name="Guyon R."/>
+<person name="Haddad N.S."/>
+<person name="Haerty W."/>
+<person name="Harris R.M."/>
+<person name="Hofmann H.A."/>
+<person name="Hourlier T."/>
+<person name="Hulata G."/>
+<person name="Jaffe D.B."/>
+<person name="Lara M."/>
+<person name="Lee A.P."/>
+<person name="MacCallum I."/>
+<person name="Mwaiko S."/>
+<person name="Nikaido M."/>
+<person name="Nishihara H."/>
+<person name="Ozouf-Costaz C."/>
+<person name="Penman D.J."/>
+<person name="Przybylski D."/>
+<person name="Rakotomanga M."/>
+<person name="Renn S.C."/>
+<person name="Ribeiro F.J."/>
+<person name="Ron M."/>
+<person name="Salzburger W."/>
+<person name="Sanchez-Pulido L."/>
+<person name="Santos M.E."/>
+<person name="Searle S."/>
+<person name="Sharpe T."/>
+<person name="Swofford R."/>
+<person name="Tan F.J."/>
+<person name="Williams L."/>
+<person name="Young S."/>
+<person name="Yin S."/>
+<person name="Okada N."/>
+<person name="Kocher T.D."/>
+<person name="Miska E.A."/>
+<person name="Lander E.S."/>
+<person name="Venkatesh B."/>
+<person name="Fernald R.D."/>
+<person name="Meyer A."/>
+<person name="Ponting C.P."/>
+<person name="Streelman J.T."/>
+<person name="Lindblad-Toh K."/>
+<person name="Seehausen O."/>
+<person name="Di Palma F."/>
+</authorList>
+<dbReference type="PubMed" id="25186727"/>
+<dbReference type="DOI" id="10.1038/nature13726"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<comment type="caution">
+<text evidence="3">The sequence shown here is derived from an Ensembl automatic analysis pipeline and should be considered as preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="AERX01046689">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="STRING" id="8128.ENSONIP00000025088"/>
+<dbReference type="Ensembl" id="ENSONIT00000025110">
+<property type="protein sequence ID" value="ENSONIP00000025089"/>
+<property type="gene ID" value="ENSONIG00000019919"/>
+</dbReference>
+<dbReference type="eggNOG" id="KOG2039">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410XST4">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00830000128334"/>
+<dbReference type="Proteomes" id="UP000005207">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="3"/>
+<end position="76"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="251"/>
+<end position="321"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="355"/>
+<end position="425"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="524"/>
+<end position="582"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Ensembl" id="ENSONIP00000025089"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000005207"/>
+</source>
+</evidence>
+<sequence length="1097" mass="122728" checksum="9D87A461CFF9D862" modified="2012-07-11" version="1">
+MADAEVAKKMLRGILQSNKGGVSLSHLQSEYKELTGEHIPHKQMGHSNLDALLANMPSLV
+RMERSRSGEMVYFASGAKETGHLAKVVARQRTSKKTGRPHLVNTQMRVKPAAPLVLNGKK
+KKKNKRRGFGAAYTLPRGGPPVLMRQEGNNMGIKQHVFSPPPQASKIKKEVSVVHISCYC
+VLSMHWETSAMQFLLCSVSGLTVCSLVFRRMTLPSRFQKEVHAHLSRNSQQTAPPSNLNE
+SFGSGKGKPYNPQLVQGHIREILAKYSNGFWVSKLPQMYRELYKQDLPTEAIKDLETWTH
+ICIVEKTCSSNPSERLLYPAKRPPSTRPTRSGSRSSQSPPSSSSSPSPPSSPATLSPDLK
+QKLEELLVKYSSGLWAHALPKLFQDTYKTKLPGHVLVNLDLLSDICTIDYPMPDNPKRAI
+LYRRSSTGGGGGEDENCNRRNSSANEEELRVRKELGRRLSNQAVPPLQIPKEEYPSVLVV
+EATNTNGVLLRYIGEGYSQAQESMEDEMREFYGLDQSSPTPVSSLSSGQLVAVRAEEEEE
+ILRAQVCEVMTDKVKVYYVDHGFSEVISKNKAFELHEKFFKLPFQATKCKLAGLEPFCQD
+PAVLKKFETMASGKILLAEILERGQTPLVVLYDTSQDDDININAACMKALHDKSLASPLQ
+VNSAYMNVTISSVCSDGTIYCQLPSRGLAKMNETLEKIETYFHSQVTSEFLVSRPFCGKR
+CLARYKGKWSRVEITNLHGSRVLDILFIDVGVQASVEVFELREIPPPFLRDLMAIPPQAV
+KCCLADLAVSVGSWTPDAVQWLRDKVLNTTDCSMKVAKVDEKKRCIHVHLFTDKNFHDPD
+RSLNRQMAQSELLKQQPDVFLTSHRRALSGPKGSGGGGNTTTTPSSPTETPSSPTSSLQL
+PPPLELPTIGNNMDVYVSLACHPGHFVLQPWGDMYRLVVLMGEMILYYNKTEEKPLNIEK
+NQIYAAKVENSWHRVLVKGVLNSGLVSVYELDYGKHELVSCTQLRPLIKEFRQLPFQGIT
+AQLAGVKQRQWSEEASIVFRHHVEKKPMVAQLEAVQEATNPWERKLTVFLVDTSQEEKDT
+WVHDIMAEFADELTNEL
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-04-03" modified="2016-05-11" version="14">
+<accession>L9KYW4</accession>
+<name>L9KYW4_TUPCH</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Limkain-b1</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">TREES_T100018429</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Tupaia chinensis</name>
+<name type="common">Chinese tree shrew</name>
+<dbReference type="NCBI Taxonomy" id="246437"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Scandentia</taxon>
+<taxon>Tupaiidae</taxon>
+<taxon>Tupaia</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="4">
+<citation type="submission" date="2012-07" db="EMBL/GenBank/DDBJ databases">
+<title>Genome of the Chinese tree shrew, a rising model animal genetically related to primates.</title>
+<authorList>
+<person name="Zhang G."/>
+<person name="Fan Y."/>
+<person name="Yao Y."/>
+<person name="Huang Z."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<dbReference type="EMBL" id="KB320604">
+<property type="protein sequence ID" value="ELW67679.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="InParanoid" id="L9KYW4"/>
+<dbReference type="Proteomes" id="UP000011518">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005777">
+<property type="term" value="C:peroxisome"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003676">
+<property type="term" value="F:nucleic acid binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000166">
+<property type="term" value="F:nucleotide binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010468">
+<property type="term" value="P:regulation of gene expression"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.70.330">
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1010">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024582">
+<property type="entry name" value="Limkain_b1_cons_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024768">
+<property type="entry name" value="Marf1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR012677">
+<property type="entry name" value="Nucleotide-bd_a/b_plait"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR021139">
+<property type="entry name" value="NYN_limkain-b1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029060">
+<property type="entry name" value="PIN_domain-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000504">
+<property type="entry name" value="RRM_dom"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR14379">
+<property type="entry name" value="PTHR14379"/>
+<property type="match status" value="4"/>
+</dbReference>
+<dbReference type="Pfam" id="PF11608">
+<property type="entry name" value="Limkain-b1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01936">
+<property type="entry name" value="NYN"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="5"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00076">
+<property type="entry name" value="RRM_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00360">
+<property type="entry name" value="RRM"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF54928">
+<property type="entry name" value="SSF54928"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="7"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50102">
+<property type="entry name" value="RRM"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="domain" description="RRM (RNA recognition motif)" evidence="1">
+<location>
+<begin position="776"/>
+<end position="855"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="961"/>
+<end position="1037"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="1057"/>
+<end position="1131"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="1133"/>
+<end position="1208"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="1217"/>
+<end position="1292"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="1293"/>
+<end position="1368"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="1369"/>
+<end position="1443"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="1444"/>
+<end position="1518"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50102"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="ELW67679.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000011518"/>
+</source>
+</evidence>
+<sequence length="1697" mass="187860" checksum="CCC98C1A4F7C324E" modified="2013-04-03" version="1">
+MMEGNETENSCSRTLGWLQQDNDAKPWLWKFSNCFSRPEQTLQLSPQTKEYMENKKVAVE
+LKDVPSPLHAGSKLFPAVPLPDIHSLQQPKIQLSTVPKVSCCAHCPNEPSTSPMHFGGGG
+GGGSGGAGSLIHTGALLDSQSTRTITCQVGSGFAFQSASSLQNASARSNLAGIASDFPSM
+CLESNLSSCKHLPCCGKLHFQSCHGNVHKLHQFPSLQGCPSAGYFPCSDFTSGAPGHLEE
+HISQSELTPHLCTNSLHLNVVPPVCLKGSLYCEDCLNKPARNSIIDPAKVWPNIPPPNTQ
+PAPLAIPLCNGCGTKGTGKETTLLLATSLGKAASKFGSPEVAVAGQVLENLPPIGVFWDI
+ENCSVPSGRSATAVVQRIREKFFKGHREAEFICVCDISKENKEVIQELNNCQVTVAHINA
+TAKNAADDKLRQSLRRFANTHTPPATVVLVSTDVNFALELSDLRHRHGFHIILVHKNQAS
+EALLHHANELIRFEEFISDLPPRLPLKMPQCHTLLYVYNLPANKDGKSISNRLRRLSDNC
+GGKVLSITGCSAILRFINQDSAERAQKRMENEDVFGNRIIVSFTPKNRELCETKSSNAIA
+EKVKSPKKLKNPKLCLIRDASEQSSSAKATPGKGLQANSGSAAKHTHVKSLQELCRMESK
+TGSRNSEHQHGHLRLVVPPHSHPSAAVPTSKNPGMADSVYKTNQKKENLSARSVTSSPIE
+KKDKEESVFQVSYPSAFSKLIASRQVGPLLTSQSWSSRVANVSGGADCPDPYANGADVQV
+SNIDYRLSRKELQQLMQEAFSRHGKVKSVELSPHTDYQLKAIVQMENLQEAISAVNNLHR
+YKIGGKKILVSLATGVANKSLSLLRFGHKLNVSDLYKLTDTVTIREQGNGRLVCLLPSCQ
+ACQSPLGSSQSHDGSSTNCSPIIFEELEYHEPVCRQHCSNKEFSEHEFDPDSYKIPFVIL
+SLKTFAPQVHSLLQTHEGTVPLLSFSDCYAAEFGELEAVQENHGGVPLEHIITCVPGVNI
+ATAQNGVKVVKWIHNRPPPPNADPWLLRSKSPVGNPQLIQFSREVIDLLKNQPSCVIPIS
+NFIPSYHHHFAKQCRVSDYGYSKLIELLEAVPHVLQILGMGSKRLLTLTHRAQVKRFTQD
+VLKLLKSQASKQVVVREFSQAYHWCFSKDWDVTEYGVCELIDILSEIPDSTICLSQQDNE
+MVICIPKRERTQDEIERTKQFSKDVVDLLRHQPHFRMPFNKFIPSYHHHFGRQCKLAYYG
+FTKLLELFEAIPDILQVLECGEEKILTLTEVERFKALAAQFVKLLRSQKDNCLMMTDLLT
+EYAKTFGYTFRLQDYDVSSVSALTQKLCHVVKVADMESGKQIQLINRKSLRSLTAQLLVL
+LMSWEGTAHLSVDELKRHYETTHSAPLNPCEYGFMTLTELLKSLPYLVEVFTNDKTEECV
+KLTSLYLFAKNVRALLHTYHYQQIFLHEFAMAYTKYVGETLQPKTYGYSTVEELLGAIPQ
+VVWIKGHGHKRIVVLKNDMKSRLSSLGLPAADHESRPSDGERILEVPDSHPASELKLGAG
+PGQTEQELLRLTNDSPIDLLCAPVPSCLPSPQLRPDPVILQPGDLILFEEHPQEPSEATI
+LNQEETIEIPVPVKNEKLTCDPNASHVSAAVPVPPCASMETPELLLSKDPVESPAKKQPK
+NRVKLAANFSFAPGTKL
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

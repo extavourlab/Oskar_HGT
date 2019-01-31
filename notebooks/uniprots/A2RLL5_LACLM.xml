@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2007-03-06" modified="2016-05-11" version="56">
+<accession>A2RLL5</accession>
+<name>A2RLL5_LACLM</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Putative secreted protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="3">llmg_1609</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Lactococcus lactis subsp. cremoris (strain MG1363)</name>
+<dbReference type="NCBI Taxonomy" id="416870"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Bacilli</taxon>
+<taxon>Lactobacillales</taxon>
+<taxon>Streptococcaceae</taxon>
+<taxon>Lactococcus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="journal article" date="2007" name="J. Bacteriol." volume="189" first="3256" last="3270">
+<title>The complete genome sequence of the lactic acid bacterial paradigm Lactococcus lactis subsp. cremoris MG1363.</title>
+<authorList>
+<person name="Wegmann U."/>
+<person name="O'Connell-Motherway M."/>
+<person name="Zomer A."/>
+<person name="Buist G."/>
+<person name="Shearman C."/>
+<person name="Canchaya C."/>
+<person name="Ventura M."/>
+<person name="Goesmann A."/>
+<person name="Gasson M.J."/>
+<person name="Kuipers O.P."/>
+<person name="van Sinderen D."/>
+<person name="Kok J."/>
+</authorList>
+<dbReference type="PubMed" id="17307855"/>
+<dbReference type="DOI" id="10.1128/JB.01768-06"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3 4">MG1363</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="AM406671">
+<property type="protein sequence ID" value="CAL98183.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_011835437.1">
+<property type="nucleotide sequence ID" value="NC_009004.1"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="A2RLL5"/>
+<dbReference type="STRING" id="416870.llmg_1609"/>
+<dbReference type="EnsemblBacteria" id="CAL98183">
+<property type="protein sequence ID" value="CAL98183"/>
+<property type="gene ID" value="llmg_1609"/>
+</dbReference>
+<dbReference type="KEGG" id="llm:llmg_1609"/>
+<dbReference type="PATRIC" id="22284388">
+<property type="gene designation" value="VBILacLac4574_1649"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4105EPV">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG2755">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000254970"/>
+<dbReference type="OMA" id="AMIFEGV"/>
+<dbReference type="OrthoDB" id="EOG6M6JP5"/>
+<dbReference type="BioCyc" id="LLAC416870:GCDT-1617-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000364">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-0472" evidence="1">Membrane</keyword>
+<keyword id="KW-0812" evidence="1">Transmembrane</keyword>
+<keyword id="KW-1133" evidence="1">Transmembrane helix</keyword>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="15"/>
+<end position="36"/>
+</location>
+</feature>
+<feature type="domain" description="SGNH_hydro" evidence="2">
+<location>
+<begin position="228"/>
+<end position="417"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Phobius"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="CAL98183.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000000364"/>
+</source>
+</evidence>
+<sequence length="428" mass="46631" checksum="79C014AC14C526F3" modified="2007-03-06" version="1">
+MSNKARRRKKRQPRILKIGLSLILILIVALIGLLGYEKIRSAAPSGKVTSLNAAKYDKTS
+SWVSTWAASPVDMGNHNYTGTIRNLLMTDVSGTAFRLNFTNTFGNGGLQIEDAYIGIADA
+KGNIIGQNVPITFQGKSATTIAQGKELLSDTIKLTVPARTRLAVTFYTPKAIEQTGHWLA
+NETSYITVGTNQATDSNTQGWLETPSWWFIDSLDVQASDTGTTKTIVALGDSLTDGFHST
+NEGRYTDTLMNRLNSQKGNEWSLVNEGITGNQVLKDSPTNVAKNTYFGQSALSRLDRDVF
+NRPALKDIILLEGVNDINTGASANKIIEGYKKIINQAHTSGVRVIAGTIPPFKGYPTWSV
+KKEKVRQKVNHWILTSGAFDGTVDFSKVLVASGNLEELNPSYDSGDHLHPNNAGYKAMGN
+AVNLSLFK
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

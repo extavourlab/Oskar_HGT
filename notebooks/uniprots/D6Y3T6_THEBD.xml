@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2010-08-10" modified="2016-05-11" version="40">
+<accession>D6Y3T6</accession>
+<name>D6Y3T6_THEBD</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Lipolytic protein G-D-S-L family</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="3">Tbis_2328</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Thermobispora bispora (strain ATCC 19993 / DSM 43833 / CBS 139.67 / JCM 10125 / NBRC 14880 / R51)</name>
+<dbReference type="NCBI Taxonomy" id="469371"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Actinobacteria incertae sedis</taxon>
+<taxon>Thermobispora</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="submission" date="2010-01" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome of Thermobispora bispora DSM 43833.</title>
+<authorList>
+<consortium name="US DOE Joint Genome Institute (JGI-PGF)"/>
+<person name="Lucas S."/>
+<person name="Copeland A."/>
+<person name="Lapidus A."/>
+<person name="Glavina del Rio T."/>
+<person name="Dalin E."/>
+<person name="Tice H."/>
+<person name="Bruce D."/>
+<person name="Goodwin L."/>
+<person name="Pitluck S."/>
+<person name="Kyrpides N."/>
+<person name="Mavromatis K."/>
+<person name="Ivanova N."/>
+<person name="Mikhailova N."/>
+<person name="Chertkov O."/>
+<person name="Brettin T."/>
+<person name="Detter J.C."/>
+<person name="Han C."/>
+<person name="Larimer F."/>
+<person name="Land M."/>
+<person name="Hauser L."/>
+<person name="Markowitz V."/>
+<person name="Cheng J.-F."/>
+<person name="Hugenholtz P."/>
+<person name="Woyke T."/>
+<person name="Wu D."/>
+<person name="Jando M."/>
+<person name="Schneider S."/>
+<person name="Klenk H.-P."/>
+<person name="Eisen J.A."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="4">ATCC 19993 / DSM 43833 / CBS 139.67 / JCM 10125 / NBRC 14880 / R51</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="CP001874">
+<property type="protein sequence ID" value="ADG89038.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_013132571.1">
+<property type="nucleotide sequence ID" value="NC_014165.1"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="D6Y3T6"/>
+<dbReference type="STRING" id="469371.Tbis_2328"/>
+<dbReference type="EnsemblBacteria" id="ADG89038">
+<property type="protein sequence ID" value="ADG89038"/>
+<property type="gene ID" value="Tbis_2328"/>
+</dbReference>
+<dbReference type="KEGG" id="tbi:Tbis_2328"/>
+<dbReference type="PATRIC" id="38287739">
+<property type="gene designation" value="VBITheBis80272_2402"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4105EPV">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG2755">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000254970"/>
+<dbReference type="OMA" id="NRRWPDR"/>
+<dbReference type="BioCyc" id="TBIS469371:GHSI-2362-MONOMER"/>
+<dbReference type="Proteomes" id="UP000006640">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<keyword id="KW-0732" evidence="1">Signal</keyword>
+<feature type="signal peptide" evidence="1">
+<location>
+<begin position="1"/>
+<end position="29"/>
+</location>
+</feature>
+<feature type="chain" id="PRO_5003091132" evidence="1">
+<location>
+<begin position="30"/>
+<end position="429"/>
+</location>
+</feature>
+<feature type="domain" description="SGNH_hydro" evidence="2">
+<location>
+<begin position="234"/>
+<end position="418"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="SignalP"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="ADG89038.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000006640"/>
+</source>
+</evidence>
+<sequence length="429" mass="46746" checksum="8AE32AFEC22AD425" modified="2010-08-10" version="1">
+MPRPVLRWTTAAIALATAALAVPPAEAQAARESASAARYATPLPAATEIAPHAARGAADR
+KTERRHLVGAWSAATSRVPAVVGGQTIRMVVRISIGGTEARIRLSNVFGTRPVTFGRVRL
+GIQRAGARIKPGTNRSVTFGGRKSVTVAPGRAVWSDPIRGRFPRGSDLVISIYVPHTVRD
+VTGHERAYATTYLSRPGDHTRAESATAFTYTSVQWYFLDRVAVTAPATTRAVVAFGDSLT
+DGTGQEIDANRRWTDYLSHRLARVSARRRLSVLNAGIAGNRLLEPNVGPSGLSRFRRDAL
+LQPGVRTVVVFIGINDISRGSVTSAQQLIDGYQRLIKAARAKRVRVLGATLTPFGGYATW
+TPEREEIRQQVNEWIRTSRAFDGVVDFDRAVRDPDAPDRLHPAYDAGDHLHMSDAGRKRL
+AYALNLRLL
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

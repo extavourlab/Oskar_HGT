@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2016-01-20" modified="2016-06-08" version="6">
+<accession>A0A0Q9HHC3</accession>
+<name>A0A0Q9HHC3_9BACI</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Lipase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">ASE46_14715</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Bacillus sp. Root239</name>
+<dbReference type="NCBI Taxonomy" id="1736499"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Bacilli</taxon>
+<taxon>Bacillales</taxon>
+<taxon>Bacillaceae</taxon>
+<taxon>Bacillus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="submission" date="2015-10" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Millard Andrew"/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3 4">Root239</strain>
+</source>
+</reference>
+<reference key="2" evidence="3 4">
+<citation type="submission" date="2015-11" db="EMBL/GenBank/DDBJ databases">
+<title>Functional overlap of the Arabidopsis leaf and root microbiotas.</title>
+<authorList>
+<person name="Vorholt J."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3 4">Root239</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="3">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="LMJS01000033">
+<property type="protein sequence ID" value="KRD99528.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_057244447.1">
+<property type="nucleotide sequence ID" value="NZ_LMJS01000033.1"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000051047">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-0472" evidence="1">Membrane</keyword>
+<keyword id="KW-0812" evidence="1">Transmembrane</keyword>
+<keyword id="KW-1133" evidence="1">Transmembrane helix</keyword>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="7"/>
+<end position="27"/>
+</location>
+</feature>
+<feature type="domain" description="SGNH_hydro" evidence="2">
+<location>
+<begin position="72"/>
+<end position="227"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Phobius"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KRD99528.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000051047"/>
+</source>
+</evidence>
+<sequence length="240" mass="27286" checksum="732EE257B7C4332E" modified="2016-01-20" version="1">
+MSSTKKVVFISSIILNVLFLGVFAFYATSSSAMKNPLSSKDSSKQSYRDNPYYIERTTLF
+KQLSIPKESIVFLGDSITQRSEWSELFHNKQIVNRGVADDTTEGVLHRLKSITDAKPKKI
+FLMIGINDLNEQKSVKKTKANYAEILERIHKESPNTKVYIQSVLPVNNKKCGDAVDNKDV
+IALNNYLERLAKKHNDSYIDLYSKVSTHNQLKSNFTVDGLHLKGQGYGIWKQEVQAYVNQ
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

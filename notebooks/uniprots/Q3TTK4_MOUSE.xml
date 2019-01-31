@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2005-10-11" modified="2016-05-11" version="69">
+<accession>Q3TTK4</accession>
+<name>Q3TTK4_MOUSE</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Putative uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3">Tdrd7</name>
+</gene>
+<organism>
+<name type="scientific">Mus musculus</name>
+<name type="common">Mouse</name>
+<dbReference type="NCBI Taxonomy" id="10090"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Sciurognathi</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+<taxon>Mus</taxon>
+<taxon>Mus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2">
+<citation type="journal article" date="1999" name="Methods Enzymol." volume="303" first="19" last="44">
+<title>High-efficiency full-length cDNA cloning.</title>
+<authorList>
+<person name="Carninci P."/>
+<person name="Hayashizaki Y."/>
+</authorList>
+<dbReference type="PubMed" id="10349636"/>
+<dbReference type="DOI" id="10.1016/S0076-6879(99)03004-9"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="2">C57BL/6J</strain>
+<tissue evidence="2">Testis</tissue>
+</source>
+</reference>
+<reference key="2" evidence="2">
+<citation type="journal article" date="2000" name="Genome Res." volume="10" first="1617" last="1630">
+<title>Normalization and subtraction of cap-trapper-selected cDNAs to prepare full-length cDNA libraries for rapid discovery of new genes.</title>
+<authorList>
+<person name="Carninci P."/>
+<person name="Shibata Y."/>
+<person name="Hayatsu N."/>
+<person name="Sugahara Y."/>
+<person name="Shibata K."/>
+<person name="Itoh M."/>
+<person name="Konno H."/>
+<person name="Okazaki Y."/>
+<person name="Muramatsu M."/>
+<person name="Hayashizaki Y."/>
+</authorList>
+<dbReference type="PubMed" id="11042159"/>
+<dbReference type="DOI" id="10.1101/gr.145100"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="2">C57BL/6J</strain>
+<tissue evidence="2">Testis</tissue>
+</source>
+</reference>
+<reference key="3" evidence="2">
+<citation type="journal article" date="2000" name="Genome Res." volume="10" first="1757" last="1771">
+<title>RIKEN integrated sequence analysis (RISA) system--384-format sequencing pipeline with 384 multicapillary sequencer.</title>
+<authorList>
+<person name="Shibata K."/>
+<person name="Itoh M."/>
+<person name="Aizawa K."/>
+<person name="Nagaoka S."/>
+<person name="Sasaki N."/>
+<person name="Carninci P."/>
+<person name="Konno H."/>
+<person name="Akiyama J."/>
+<person name="Nishi K."/>
+<person name="Kitsunai T."/>
+<person name="Tashiro H."/>
+<person name="Itoh M."/>
+<person name="Sumi N."/>
+<person name="Ishii Y."/>
+<person name="Nakamura S."/>
+<person name="Hazama M."/>
+<person name="Nishine T."/>
+<person name="Harada A."/>
+<person name="Yamamoto R."/>
+<person name="Matsumoto H."/>
+<person name="Sakaguchi S."/>
+<person name="Ikegami T."/>
+<person name="Kashiwagi K."/>
+<person name="Fujiwake S."/>
+<person name="Inoue K."/>
+<person name="Togawa Y."/>
+<person name="Izawa M."/>
+<person name="Ohara E."/>
+<person name="Watahiki M."/>
+<person name="Yoneda Y."/>
+<person name="Ishikawa T."/>
+<person name="Ozawa K."/>
+<person name="Tanaka T."/>
+<person name="Matsuura S."/>
+<person name="Kawai J."/>
+<person name="Okazaki Y."/>
+<person name="Muramatsu M."/>
+<person name="Inoue Y."/>
+<person name="Kira A."/>
+<person name="Hayashizaki Y."/>
+</authorList>
+<dbReference type="PubMed" id="11076861"/>
+<dbReference type="DOI" id="10.1101/gr.152600"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="2">C57BL/6J</strain>
+<tissue evidence="2">Testis</tissue>
+</source>
+</reference>
+<reference key="4" evidence="2">
+<citation type="journal article" date="2001" name="Nature" volume="409" first="685" last="690">
+<title>Functional annotation of a full-length mouse cDNA collection.</title>
+<authorList>
+<consortium name="The RIKEN Genome Exploration Research Group Phase II Team and the FANTOM Consortium"/>
+</authorList>
+<dbReference type="PubMed" id="11217851"/>
+<dbReference type="DOI" id="10.1038/35055500"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="2">C57BL/6J</strain>
+<tissue evidence="2">Testis</tissue>
+</source>
+</reference>
+<reference key="5" evidence="2">
+<citation type="journal article" date="2002" name="Nature" volume="420" first="563" last="573">
+<title>Analysis of the mouse transcriptome based on functional annotation of 60,770 full-length cDNAs.</title>
+<authorList>
+<consortium name="The FANTOM Consortium and the RIKEN Genome Exploration Research Group Phase I and II Team"/>
+</authorList>
+<dbReference type="PubMed" id="12466851"/>
+<dbReference type="DOI" id="10.1038/nature01266"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="2">C57BL/6J</strain>
+<tissue evidence="2">Testis</tissue>
+</source>
+</reference>
+<reference key="6" evidence="2">
+<citation type="submission" date="2004-04" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Arakawa T."/>
+<person name="Carninci P."/>
+<person name="Fukuda S."/>
+<person name="Hashizume W."/>
+<person name="Hayashida K."/>
+<person name="Hori F."/>
+<person name="Iida J."/>
+<person name="Imamura K."/>
+<person name="Imotani K."/>
+<person name="Itoh M."/>
+<person name="Kanagawa S."/>
+<person name="Kawai J."/>
+<person name="Kojima M."/>
+<person name="Konno H."/>
+<person name="Murata M."/>
+<person name="Nakamura M."/>
+<person name="Ninomiya N."/>
+<person name="Nishiyori H."/>
+<person name="Nomura K."/>
+<person name="Ohno M."/>
+<person name="Sakazume N."/>
+<person name="Sano H."/>
+<person name="Sasaki D."/>
+<person name="Shibata K."/>
+<person name="Shiraki T."/>
+<person name="Tagami M."/>
+<person name="Tagami Y."/>
+<person name="Waki K."/>
+<person name="Watahiki A."/>
+<person name="Muramatsu M."/>
+<person name="Hayashizaki Y."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="2">C57BL/6J</strain>
+<tissue evidence="2">Testis</tissue>
+</source>
+</reference>
+<reference key="7" evidence="2">
+<citation type="journal article" date="2005" name="Science" volume="309" first="1559" last="1563">
+<title>The Transcriptional Landscape of the Mammalian Genome.</title>
+<authorList>
+<consortium name="The FANTOM Consortium"/>
+<consortium name="Riken Genome Exploration Research Group and Genome Science Group (Genome Network Project Core Group)"/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="2">C57BL/6J</strain>
+<tissue evidence="2">Testis</tissue>
+</source>
+</reference>
+<reference key="8" evidence="2">
+<citation type="journal article" date="2005" name="Science" volume="309" first="1564" last="1566">
+<title>Antisense Transcription in the Mammalian Transcriptome.</title>
+<authorList>
+<consortium name="RIKEN Genome Exploration Research Group and Genome Science Group (Genome Network Project Core Group) and the FANTOM Consortium"/>
+</authorList>
+<dbReference type="PubMed" id="16141073"/>
+<dbReference type="DOI" id="10.1126/science.1112009"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="2">C57BL/6J</strain>
+<tissue evidence="2">Testis</tissue>
+</source>
+</reference>
+<dbReference type="EMBL" id="AK161319">
+<property type="protein sequence ID" value="BAE36321.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="UniGene" id="Mm.275413"/>
+<dbReference type="STRING" id="10090.ENSMUSP00000099993"/>
+<dbReference type="PaxDb" id="Q3TTK4"/>
+<dbReference type="MGI" id="MGI:2140279">
+<property type="gene designation" value="Tdrd7"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410IPR1">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410XST4">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="ChiTaRS" id="Tdrd7">
+<property type="organism name" value="mouse"/>
+</dbReference>
+<dbReference type="Bgee" id="Q3TTK4"/>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="3"/>
+<end position="76"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="222"/>
+<end position="291"/>
+</location>
+</feature>
+<feature type="non-terminal residue" evidence="2">
+<location>
+<position position="296"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="BAE36321.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="MGI" id="MGI:2140279"/>
+</source>
+</evidence>
+<sequence length="296" mass="33419" checksum="94195D67CD7FD2AA" modified="2005-10-11" version="1" fragment="single">
+MLEADLVSKMLRAVLQSHKNGIVLPRLQGEYRSLTGDWIPFKQLGYPTLEAYLRSVPAVV
+RIEASRSGEIVCYAVACTETARIAQLVARQRTSKRKIGRQINCQMRVKKAMPFFLEGKPK
+ATLRQPGFASDYSISRKPNSALLRDRGSALGVKADVDMPPYPDTPVQRHASMSANSRFSP
+KSSLPASFQTHISRACPTEVNDNLNQTVEKPNITPPASYTNKMDEVQNRIKEILDKHNNG
+IWISKLPHFYKEFYKEDLNQGVLQQFEHWPHICTVEKPCGGGQDSLLYPARREQPL
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

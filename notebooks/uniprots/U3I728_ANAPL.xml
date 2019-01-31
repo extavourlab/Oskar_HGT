@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-11-13" modified="2016-05-11" version="19">
+<accession>U3I728</accession>
+<name>U3I728_ANAPL</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3">TDRD7</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Anas platyrhynchos</name>
+<name type="common">Mallard</name>
+<name type="synonym">Anas boschas</name>
+<dbReference type="NCBI Taxonomy" id="8839"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Archelosauria</taxon>
+<taxon>Archosauria</taxon>
+<taxon>Dinosauria</taxon>
+<taxon>Saurischia</taxon>
+<taxon>Theropoda</taxon>
+<taxon>Coelurosauria</taxon>
+<taxon>Aves</taxon>
+<taxon>Neognathae</taxon>
+<taxon>Galloanserae</taxon>
+<taxon>Anseriformes</taxon>
+<taxon>Anatidae</taxon>
+<taxon>Anas</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="submission" date="2010-04" db="EMBL/GenBank/DDBJ databases">
+<title>The genome sequence and transcriptome of duck provide insight into the interaction host.</title>
+<authorList>
+<person name="Li N."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<reference key="2" evidence="3">
+<citation type="journal article" date="2013" name="Nat. Genet." volume="45" first="776" last="783">
+<title>The duck genome and transcriptome provide insight into an avian influenza virus reservoir species.</title>
+<authorList>
+<person name="Huang Y."/>
+<person name="Li Y."/>
+<person name="Burt D.W."/>
+<person name="Chen H."/>
+<person name="Zhang Y."/>
+<person name="Qian W."/>
+<person name="Kim H."/>
+<person name="Gan S."/>
+<person name="Zhao Y."/>
+<person name="Li J."/>
+<person name="Yi K."/>
+<person name="Feng H."/>
+<person name="Zhu P."/>
+<person name="Li B."/>
+<person name="Liu Q."/>
+<person name="Fairley S."/>
+<person name="Magor K.E."/>
+<person name="Du Z."/>
+<person name="Hu X."/>
+<person name="Goodman L."/>
+<person name="Tafer H."/>
+<person name="Vignal A."/>
+<person name="Lee T."/>
+<person name="Kim K.W."/>
+<person name="Sheng Z."/>
+<person name="An Y."/>
+<person name="Searle S."/>
+<person name="Herrero J."/>
+<person name="Groenen M.A."/>
+<person name="Crooijmans R.P."/>
+<person name="Faraut T."/>
+<person name="Cai Q."/>
+<person name="Webster R.G."/>
+<person name="Aldridge J.R."/>
+<person name="Warren W.C."/>
+<person name="Bartschat S."/>
+<person name="Kehr S."/>
+<person name="Marz M."/>
+<person name="Stadler P.F."/>
+<person name="Smith J."/>
+<person name="Kraus R.H."/>
+<person name="Zhao Y."/>
+<person name="Ren L."/>
+<person name="Fei J."/>
+<person name="Morisson M."/>
+<person name="Kaiser P."/>
+<person name="Griffin D.K."/>
+<person name="Rao M."/>
+<person name="Pitel F."/>
+<person name="Wang J."/>
+<person name="Li N."/>
+</authorList>
+<dbReference type="PubMed" id="23749191"/>
+<dbReference type="DOI" id="10.1038/ng.2657"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<reference key="3" evidence="3">
+<citation type="submission" date="2013-09" db="UniProtKB">
+<authorList>
+<consortium name="Ensembl"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<comment type="caution">
+<text evidence="3">The sequence shown here is derived from an Ensembl automatic analysis pipeline and should be considered as preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="ADON01054014">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="ADON01054015">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="ADON01054016">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="ADON01054017">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="ADON01054018">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="ADON01054019">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="ADON01054020">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="ADON01054021">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="ADON01054022">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="ADON01054023">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENSAPLT00000003644">
+<property type="protein sequence ID" value="ENSAPLP00000003049"/>
+<property type="gene ID" value="ENSAPLG00000003551"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00830000128334"/>
+<dbReference type="OMA" id="KCSQWSE"/>
+<dbReference type="Proteomes" id="UP000016666">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0035770">
+<property type="term" value="C:ribonucleoprotein granule"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003729">
+<property type="term" value="F:mRNA binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0070306">
+<property type="term" value="P:lens fiber cell differentiation"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0002089">
+<property type="term" value="P:lens morphogenesis in camera-type eye"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010608">
+<property type="term" value="P:posttranscriptional regulation of gene expression"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="3"/>
+<end position="76"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="223"/>
+<end position="291"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="331"/>
+<end position="400"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="500"/>
+<end position="557"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="689"/>
+<end position="746"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Ensembl" id="ENSAPLP00000003049"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000016666"/>
+</source>
+</evidence>
+<sequence length="1083" mass="121685" checksum="133CD6D2011FCC60" modified="2013-11-13" version="1">
+MLEKELPAKTLRAVLHSNKHGIPLSELQGEYKLLTGEWIPFRHLGHNTLEGYLQSIPGVV
+RIEGSKMGEMTCHAVACPETVQIAQLVARQRSSKKKMGRQVNCQMRLKNTSPVVLVGKPR
+AAAKGLPFSRGRLCSQASLQMLLRAQGGCLSISSQLIMKPCRPLPVTRHHACLWSDKRLT
+VPPRFQKELQVHLSRKSSVDSNDNLNTSIVETRTAASGRSAPNINEVQNRIKEILNKYRN
+GIWVSKMAQIYQEMYWDELSTAVLSQLEHWPHICTVEKVCTGDQIDGLLYPAKGISPPVK
+SDTEQEKASQNVTSKVDPLLKPSMESDSASLSSDFKQKVVNILKKYSSGLWANALPKLYQ
+DTYQAKFPEGILNNLELLSDICVVNYVSNAPKKAILYVKPQRCTDENLNVTEKVQTPDNV
+KATAEHQYEESKEWYPEKVTVPPLLIPSEGPVSIMVVELNNTNEVIIRYVGKDYSYAQEQ
+MEDDMRAYYSQNRAVLQAQSLSVGQLVVVHTEDEAWLRARIISVEDKKIKVYYVDHGFSE
+VVESNSVYKLHKQFCSLPFQVAKCKLAGLEVFCDDPALVKAEACSKILAVEILERSDTPL
+FVLYDTSGEDDININATCLKALYDKSFELHLQVDALYTNVRVTSVLSDGSLYCQLPSKGL
+SRLSEILQKIEDHFLHKHLQQTSEFNVSLPFCGKICLLPCKGKWARVEITIIHSRRALGV
+RFVDTGTVATVEASDLREIPSQFLREVIAIPPQAVTCCLADLPPNTGMWTPDAVLWLRDK
+VTSCPEFSMKVVKQDAAKGIAHVYLFAPENFPDVDRSVNRQIVNADLWKHQKDVFLSVTP
+RGTTSAKVTGDTVSALQLNRGRLEKSFSDSAEPAVEPSSAVSASDMPPPLPLSKVGGLMD
+VYVSVACHPGHFVVQPWKELHNLEALMEEMILYYSMAEERPVNIEKNKLYAAKIENHWYR
+VIIKGILRNGFLSVYELDYGKHELVSIEKVQPLLDKFRKLPFQAIRAQLAGVKSQQWSEE
+ASIMFRNRVEKKPLVAQIQAINESTNSWDRKIVTYLVDTSLPDIDTWIHDFVSQSLAELS
+KAD
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-05-29" modified="2015-12-09" version="9">
+<accession>M7B955</accession>
+<name>M7B955_CHEMY</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Tudor domain-containing protein 5</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">UY3_08320</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Chelonia mydas</name>
+<name type="common">Green sea-turtle</name>
+<name type="synonym">Chelonia agassizi</name>
+<dbReference type="NCBI Taxonomy" id="8469"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Archelosauria</taxon>
+<taxon>Testudines</taxon>
+<taxon>Cryptodira</taxon>
+<taxon>Durocryptodira</taxon>
+<taxon>Americhelydia</taxon>
+<taxon>Chelonioidea</taxon>
+<taxon>Cheloniidae</taxon>
+<taxon>Chelonia</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="4">
+<citation type="journal article" date="2013" name="Nat. Genet." volume="45" first="701" last="706">
+<title>The draft genomes of soft-shell turtle and green sea turtle yield insights into the development and evolution of the turtle-specific body plan.</title>
+<authorList>
+<person name="Wang Z."/>
+<person name="Pascual-Anaya J."/>
+<person name="Zadissa A."/>
+<person name="Li W."/>
+<person name="Niimura Y."/>
+<person name="Huang Z."/>
+<person name="Li C."/>
+<person name="White S."/>
+<person name="Xiong Z."/>
+<person name="Fang D."/>
+<person name="Wang B."/>
+<person name="Ming Y."/>
+<person name="Chen Y."/>
+<person name="Zheng Y."/>
+<person name="Kuraku S."/>
+<person name="Pignatelli M."/>
+<person name="Herrero J."/>
+<person name="Beal K."/>
+<person name="Nozawa M."/>
+<person name="Li Q."/>
+<person name="Wang J."/>
+<person name="Zhang H."/>
+<person name="Yu L."/>
+<person name="Shigenobu S."/>
+<person name="Wang J."/>
+<person name="Liu J."/>
+<person name="Flicek P."/>
+<person name="Searle S."/>
+<person name="Wang J."/>
+<person name="Kuratani S."/>
+<person name="Yin Y."/>
+<person name="Aken B."/>
+<person name="Zhang G."/>
+<person name="Irie N."/>
+</authorList>
+<dbReference type="PubMed" id="23624526"/>
+<dbReference type="DOI" id="10.1038/ng.2615"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<dbReference type="EMBL" id="KB532022">
+<property type="protein sequence ID" value="EMP34491.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000031443">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="7"/>
+<end position="80"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="121"/>
+<end position="196"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="286"/>
+<end position="360"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="519"/>
+<end position="578"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EMP34491.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000031443"/>
+</source>
+</evidence>
+<sequence length="931" mass="104861" checksum="6D0B046EBA81A2FA" modified="2013-05-29" version="1">
+MSDQECLMDLLRKEVRSLLMAVKEGLTPVQLEQEYLSMIGKPLPLHTLGYRSTMELVKDM
+PDVINICSSRDGYVILKAIADEATRGMASLVARQRSSSKVRNVMRRTNAFSRPSLPRQGR
+TPPILPAMVKSELKDLLSLSPVLLSDFDKAFARRFGRTFQYMRYGFFSMIEVLSAASDII
+AIEQTRAGSLLTLKKSPSVKQQQENLSQGEKVIQPKKAEQAKSDSLPAPAVKTPPPGSVL
+CTESLETPKWGSEPVEAEVGNCGERLKQLEKDIKMMLAQKGAGGTVSSELKEKIRVVAAQ
+YPEGLLASKLPSEFEAHFKEKLSVKELGFLNVMEFVGALNDILHVERKEGEQDWLVFDLE
+SKCLADAHLIPLVEQSKDEICQSDSLTSSLGAVELKVSSWDFCSENSEDLDLKKSRAFNV
+VKEMVKPYLDVEELQLAREIAEPEIPPDAIQDRSLYCLPALDSSMLVGVFVEYIISPNQF
+YIRICSRETSEMLEDMMIEMRRCYSNKNVSDRYVMPEILVQPGHLCCVRISEDKWWYRVI
+IHQVLSEQEVEVFFPDFGNLRTVQKSCLRFLKCCYSKLPAQAIPCSLAWVKPIGGHWTTN
+AILQFWKLCNLKPLVGVVDEYVNGVLHLFLCDTTSDEDIYIHQVLRAEGHAVICRENILS
+KGFIELNPSVLYLQPSPKQENDESSGPDLPLQEQESFYEASRAVNPELNESEPYAQRSRV
+DEKDAMCLEPEGRVQEHACSVNSSLTSWDSQGKDYKNYQESPNGEPRKPELEMQESPHLE
+MPHLELVSVISDIWDENWLPLQTLKKQTGIGHDTLQLDTVVSSSQTSSHEGRNQNLQSKE
+QLQQVTWEVIPEKVKNEDLWRTQVITLSSSNSCTNRGAEDKNSLILAAELQVSEKLYIPR
+SSPTAALGAAARLATSSGLFHWFAVLRKLET
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

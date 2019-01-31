@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-11-11" modified="2016-05-11" version="5">
+<accession>A0A0L0BW13</accession>
+<name>A0A0L0BW13_LUCCU</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">FF38_00769</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Lucilia cuprina</name>
+<name type="common">Green bottle fly</name>
+<name type="synonym">Australian sheep blowfly</name>
+<dbReference type="NCBI Taxonomy" id="7375"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Diptera</taxon>
+<taxon>Brachycera</taxon>
+<taxon>Muscomorpha</taxon>
+<taxon>Oestroidea</taxon>
+<taxon>Calliphoridae</taxon>
+<taxon>Luciliinae</taxon>
+<taxon>Lucilia</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="journal article" date="2015" name="Nat. Commun." volume="6" first="7344" last="7344">
+<title>Lucilia cuprina genome unlocks parasitic fly biology to underpin future interventions.</title>
+<authorList>
+<person name="Anstead C.A."/>
+<person name="Korhonen P.K."/>
+<person name="Young N.D."/>
+<person name="Hall R.S."/>
+<person name="Jex A.R."/>
+<person name="Murali S.C."/>
+<person name="Hughes D.S."/>
+<person name="Lee S.F."/>
+<person name="Perry T."/>
+<person name="Stroehlein A.J."/>
+<person name="Ansell B.R."/>
+<person name="Breugelmans B."/>
+<person name="Hofmann A."/>
+<person name="Qu J."/>
+<person name="Dugan S."/>
+<person name="Lee S.L."/>
+<person name="Chao H."/>
+<person name="Dinh H."/>
+<person name="Han Y."/>
+<person name="Doddapaneni H.V."/>
+<person name="Worley K.C."/>
+<person name="Muzny D.M."/>
+<person name="Ioannidis P."/>
+<person name="Waterhouse R.M."/>
+<person name="Zdobnov E.M."/>
+<person name="James P.J."/>
+<person name="Bagnall N.H."/>
+<person name="Kotze A.C."/>
+<person name="Gibbs R.A."/>
+<person name="Richards S."/>
+<person name="Batterham P."/>
+<person name="Gasser R.B."/>
+</authorList>
+<dbReference type="PubMed" id="26108605"/>
+<dbReference type="DOI" id="10.1038/ncomms8344"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2 3">LS</strain>
+<tissue evidence="2">Full body</tissue>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="JRES01001352">
+<property type="protein sequence ID" value="KNC23404.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EnsemblMetazoa" id="KNC23404">
+<property type="protein sequence ID" value="KNC23404"/>
+<property type="gene ID" value="FF38_00769"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000037069">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="12"/>
+<end position="84"/>
+</location>
+</feature>
+<feature type="non-terminal residue" evidence="2">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KNC23404.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000037069"/>
+</source>
+</evidence>
+<sequence length="1257" mass="141574" checksum="1DE89054023E8583" modified="2015-11-11" version="1" fragment="single">
+FTMSNNSTKQQELKHIGSIVRALVTSRKPPCYLRDILREYPEVESKPLPFKSMGYKTAQE
+LLEDTGEFIFNSYGNGDVIITAKYSKNSAHITSMVRGQKSSKSTRIAPVKAMKQPSRMPS
+RSNGFGDRNNNNYTNNRTTGSSSSTQQQRNYNNQPQNQTQSLQRQKSMGSTSNNPPAKDL
+REMLNSKKNLKTNLQQSKPNTTAQQSPLASKVIQPQQGKVQQQQQQKQSAGGPRPILGAA
+KQQQQQQPQNRESQNAADHKKTEVKSQPQQKPTNGPSTANNKKVENSSSASTLKPQQRLN
+AIQNNQQQQTQQQTKTNPAAAVVQQPQTLAVKTANVAASSSTQKPLTYNNVQGNSSFKAM
+EQMKSNAAGIQNRLKVHVKPEYQTQPITYNHQFSNAPPKIDYNAFPHHQFSNQPPKMDAI
+ASIIQYCRSKNYPAPRFNVLKDKFSRGTYSCSVHINDIIFSTYPHEYETEYLAKEACAKR
+ALEKTKMLEKKRPLPTCALTDTELLDKLYTELLNHPHGIFAKNLPETFETTFQQQLPDNW
+WALVQTSSLFTTETNLGKVIIFANKDADKDTLALCTGEATKTIQIDPIRLPWSDEYWNVF
+ITHCTSTVEVWGRLFGQEYNVRFSALVNDIEAYMATKKERPVSIARKNIYLVHINECWHR
+VRVDELDKSKGSALCFFIDFGDADWLAVDQLHICETHFLRLPAQAVPFSLYGLEDFEGNP
+YARKCLDDLLPTKSLVGRIFTKESEFYDTNSKSHGKIQLVLFDTSTQEDLNLNHQLLNTI
+CSETMVPEIKQSTVTNVIVTHITDQGDIYLQVNNAELKYVQKLLQQIVESKLNSDQHKIS
+FEDLKRSNLFLICDDEDATNIKWYRAALTDSNIQPGSDSYEMYYVDNGRTKLTNISKIFL
+LDSLSMALSKFPAQAIKVRLHNIPDITANIVGRIRGLLPSDCEALVRLSVPGSTPPLVTI
+YTRLEGPGTLCTINDVIRIEHELEGCSDLLQGCALDETNTTNKSNQDVGKKLSHSTSGSS
+LASPTTPTSNPFIDVTRGLTLTKIPGSPQKSSDLPKLQNYAAIPKINEYFEVRITMSANP
+SNFTIQPYKDYPNLRGLMKELQEFCENSDEFIPTDMVEIGEAYAAKNPDGFFHRVTVVKK
+YGDMMHVSFCDFGDIATLDSSQLKTLPLKFRQLPKMAIQAKLYGIKAVNGDWTLDDCLFF
+RKLTVGKTFVSVIKDIKYDKDCTPATPILELELIDVTTDDDILIHELLLNEKRAINE
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

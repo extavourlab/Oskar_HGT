@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-04-16" modified="2016-05-11" version="5">
+<accession>W5UAS6</accession>
+<name>W5UAS6_ICTPU</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Tudor domain-containing protein 7B</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3">tdrd7b</name>
+</gene>
+<organism evidence="3">
+<name type="scientific">Ictalurus punctatus</name>
+<name type="common">Channel catfish</name>
+<name type="synonym">Silurus punctatus</name>
+<dbReference type="NCBI Taxonomy" id="7998"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Actinopterygii</taxon>
+<taxon>Neopterygii</taxon>
+<taxon>Teleostei</taxon>
+<taxon>Ostariophysi</taxon>
+<taxon>Siluriformes</taxon>
+<taxon>Ictaluridae</taxon>
+<taxon>Ictalurus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="journal article" date="2012" name="BMC Genomics" volume="13" first="595" last="595">
+<title>Efficient assembly and annotation of the transcriptome of catfish by RNA-Seq analysis of a doubled haploid homozygote.</title>
+<authorList>
+<person name="Liu S."/>
+<person name="Zhang Y."/>
+<person name="Zhou Z."/>
+<person name="Waldbieser G."/>
+<person name="Sun F."/>
+<person name="Lu J."/>
+<person name="Zhang J."/>
+<person name="Jiang Y."/>
+<person name="Zhang H."/>
+<person name="Wang X."/>
+<person name="Rajendran K."/>
+<person name="Khoo L."/>
+<person name="Kucuktas H."/>
+<person name="Peatman E."/>
+<person name="Liu Z."/>
+</authorList>
+<dbReference type="PubMed" id="23127152"/>
+<dbReference type="DOI" id="10.1186/1471-2164-13-595"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<tissue evidence="3">Mixed</tissue>
+</source>
+</reference>
+<dbReference type="EMBL" id="JT410623">
+<property type="protein sequence ID" value="AHH39136.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="2"/>
+<end position="75"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="224"/>
+<end position="294"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="342"/>
+<end position="412"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="500"/>
+<end position="558"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AHH39136.1"/>
+</source>
+</evidence>
+<sequence length="1100" mass="123810" checksum="CDF2EF20E888023B" modified="2014-04-16" version="1">
+MVDEEAVKKILRTVLQSRSSISLSCLQAEYKELTGETIPHKQLGHTTVDALLHSMPSLVQ
+LDRNRSGEVMCYAAVGNEKANITKLVARQHAAKKTGRPPTVNCQMRVKPISPLALNAKPR
+TSLRQPEYRSRQGRGSSRTVSMRETQPDGRGSKVHNTPPNMPSRRGSLPSDKYDRSDKRM
+TLPSRFQKEVHTHLSRNPQQSHTPSNLNESTPPSKPRTQISLYSPKLVQSRLKEVLSKHS
+NGFWVSKLPQLYRELYKQELPSEALKDLEQWTHICTVEKPCSSKSQELLLYPAKDVSQST
+NTYSLEMTHFPDMHFPSPPKPQKVSRKPKNNTSSQLASPKALPEDLKQNLAELLLKYSSG
+LWAHALPKLYQDTYKTNLPEYVLDNLPLLSDICTIDYPVPDNPKRAILYVKVLEDENCNQ
+TDSADLKAREEAGRRLSSQSVPPLLIPREEYPSVLVVEASSTNSVVLRYIGEAYSKAQEK
+LEDDMKEFYRQDNTRKPLISLSSGQLTAAIAEEEEEILRAQVCEVKSDKVKVYYVDHGFS
+DVISKSKLLELHEKFFKLPFQATKCKLAGLEAFAQEPAVLKKFDSMASGKILLAEILERE
+DIPLMVLYDTSQEDDININASCLKALQEKSFESPLQINSAYMNVSVTSVCSDGMFYCQLP
+SSGLTKLSEILEKTESYFCNQVTSESLVSRPFCGKGCLARYKGKWSRVEITNLHGSRVLD
+ILFVDVGVQASVEVIELREIPHPFLRDLISIPPQAVKCCLTDLPVSVGCWTPDAVQWLKD
+TAIHCSDCSLKIVKVEESKRLAHVYLFTNKNFQDLNHSLNRQLANSDLWKHQDDVFLSSQ
+GSLKSSTRTTSSNTPTTAPTTIPTPSTGTSSPRTNRACKAPHTPKRLAPHLGSSSILSGS
+LTLPPVLELPQMGQNMDIYVSVACHPGHFVLQPWQDMYKLVVLMEEMILYYNKTDEKPLT
+VEKNQVYAAKVENNWHRVLVKGVLSNGLVSVYELDYGKHELVSCTVLRPLIQEFRQLPFQ
+GITAQLAGVKSRQWSEEASIVFRNHVEKKAMVAQVESVQEAEQPWDRKLTVYLVDTSQED
+SDIWVHDLMAEFTDELTKAA
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2010-06-15" modified="2016-05-11" version="33">
+<accession>D5BIC6</accession>
+<name>D5BIC6_ZUNPS</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Putative acylhydrolase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="2">ZPR_3223</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Zunongwangia profunda (strain DSM 18752 / CCTCC AB 206139 / SM-A87)</name>
+<dbReference type="NCBI Taxonomy" id="655815"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Bacteroidetes</taxon>
+<taxon>Flavobacteriia</taxon>
+<taxon>Flavobacteriales</taxon>
+<taxon>Flavobacteriaceae</taxon>
+<taxon>Zunongwangia</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="journal article" date="2010" name="BMC Genomics" volume="11" first="247" last="247">
+<title>The complete genome of Zunongwangia profunda SM-A87 reveals its adaptation to the deep-sea environment and ecological role in sedimentary organic nitrogen degradation.</title>
+<authorList>
+<person name="Qin Q.L."/>
+<person name="Zhang X.Y."/>
+<person name="Wang X.M."/>
+<person name="Liu G.M."/>
+<person name="Chen X.L."/>
+<person name="Xie B.B."/>
+<person name="Dang H.Y."/>
+<person name="Zhou B.C."/>
+<person name="Yu J."/>
+<person name="Zhang Y.Z."/>
+</authorList>
+<dbReference type="PubMed" id="20398413"/>
+<dbReference type="DOI" id="10.1186/1471-2164-11-247"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3">DSM 18752 / CCTCC AB 206139 / SM-A87</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="CP001650">
+<property type="protein sequence ID" value="ADF53539.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_013072636.1">
+<property type="nucleotide sequence ID" value="NC_014041.1"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="D5BIC6"/>
+<dbReference type="STRING" id="655815.ZPR_3223"/>
+<dbReference type="EnsemblBacteria" id="ADF53539">
+<property type="protein sequence ID" value="ADF53539"/>
+<property type="gene ID" value="ZPR_3223"/>
+</dbReference>
+<dbReference type="KEGG" id="zpr:ZPR_3223"/>
+<dbReference type="PATRIC" id="37235788">
+<property type="gene designation" value="VBIZunPro130839_3104"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4105VS5">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG2755">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000252481"/>
+<dbReference type="OMA" id="EKRVVFM"/>
+<dbReference type="BioCyc" id="ZPRO655815:GI6J-3218-MONOMER"/>
+<dbReference type="Proteomes" id="UP000001654">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016787">
+<property type="term" value="F:hydrolase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-0378" evidence="2">Hydrolase</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="57"/>
+<end position="219"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="ADF53539.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000001654"/>
+</source>
+</evidence>
+<sequence length="235" mass="26754" checksum="D2C075FFDBCEEB96" modified="2010-06-15" version="1">
+MKLKHLFYLGFLFFSGLIFSQNEQYKELMSQDWPNLKRYREANEQVKQQDKAVTAVFMGN
+SITQGWYDQHPDFFMENNYIGRGISGQTTPQMLIRFTPEVIDLQPKVVVILAGTNDIAGN
+TGFSSVKMITDNIKAMAQLATANNIKVVLSSILPVYDYPWRPGLEPVAKIAEVNNWLKTY
+AEQNDHVYLDYFPALANEQQGMKKEYASDGVHPTDAGYKVMEPLVKEAIEKALKQ
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

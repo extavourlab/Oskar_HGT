@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-12-09" modified="2016-05-11" version="5">
+<accession>A0A0M9YVT1</accession>
+<name>A0A0M9YVT1_9ACTN</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Aromatic ring-opening dioxygenase LigA</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">ADK57_15570</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Streptomyces sp. MMG1533</name>
+<dbReference type="NCBI Taxonomy" id="1415546"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Streptomycetales</taxon>
+<taxon>Streptomycetaceae</taxon>
+<taxon>Streptomyces</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="submission" date="2015-07" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Noorani M."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3 4">MMG1533</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="3">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="LGDG01000134">
+<property type="protein sequence ID" value="KOU68061.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_053750131.1">
+<property type="nucleotide sequence ID" value="NZ_LGDG01000134.1"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="KOU68061">
+<property type="protein sequence ID" value="KOU68061"/>
+<property type="gene ID" value="ADK57_15570"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000037741">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051213">
+<property type="term" value="F:dioxygenase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-0223" evidence="3">Dioxygenase</keyword>
+<keyword id="KW-0560" evidence="3">Oxidoreductase</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<keyword id="KW-0732" evidence="1">Signal</keyword>
+<feature type="signal peptide" evidence="1">
+<location>
+<begin position="1"/>
+<end position="24"/>
+</location>
+</feature>
+<feature type="chain" id="PRO_5005841905" evidence="1">
+<location>
+<begin position="25"/>
+<end position="648"/>
+</location>
+</feature>
+<feature type="domain" description="SGNH_hydro" evidence="2">
+<location>
+<begin position="145"/>
+<end position="315"/>
+</location>
+</feature>
+<feature type="domain" description="SGNH_hydro" evidence="2">
+<location>
+<begin position="462"/>
+<end position="633"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="SignalP"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KOU68061.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000037741"/>
+</source>
+</evidence>
+<sequence length="648" mass="68312" checksum="B762B93FA0F7DE2E" modified="2015-12-09" version="1">
+MAAALTAVLIACLLSLTGAPRAHAAPGDGSVSDPNIAYVGRWDTGSGTTAVANWTGAYVQ
+TSFTGTTVKVKTRDAVNFYASVDGKPDVFYAGVRGTVNLTPQPLSSGTHTLRINYRSGDT
+AFQGLVLDSGARTVAPAASAGLIEFVGDSITAGALTDRLALDSYAWKTGEQLGMRHTQVA
+RSGYCLVAQSGCTGLSSQFFRLASTGGTDWDFSRYQASAVVINLGTNDIGHGVTGAAFQS
+AYTAFLRDIRAKYPNAVLFAVQTLKKRYVTETKAAVSARNSAGDAKVRYVDTTGWLTDGT
+DYEDGNGHPNEAGHTKFANRLAPVISGATTLSARAAAPGQPGDPNIKFVGRWDTTSSATA
+YTPYWAGAYYRVGFTGTTVRLKQRNTIDFWARIDDGPVKFYDDVKGTVNLTPAALPAGRH
+TLQVNYQVVAGSYRGDAVFQGLVLDSGATTFAPAAPGKLIEFVGDSITVGTTTSQNARTA
+YGWLIGERLGTEHTQIAQGGACLVAAADGCVGLEQQFTKLNPNATTPDWDLSRYRADAVV
+INLGTNDVGHGVSSTQFQAAYTSLLRKVRAAYPQAWIFALETFRGRYVPQTQAAVGAAVQ
+GGDSRVSFVDTTGWLGSGDLTDSVHPNDQGHRVIADRLAPVIAARIGA
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

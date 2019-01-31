@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-07-24" modified="2016-05-11" version="11">
+<accession>R7UFP5</accession>
+<name>R7UFP5_CAPTE</name>
+<protein>
+<submittedName>
+<fullName evidence="4 5">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="4">CAPTEDRAFT_217767</name>
+</gene>
+<organism evidence="4">
+<name type="scientific">Capitella teleta</name>
+<name type="common">Polychaete worm</name>
+<dbReference type="NCBI Taxonomy" id="283909"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Lophotrochozoa</taxon>
+<taxon>Annelida</taxon>
+<taxon>Polychaeta</taxon>
+<taxon>Scolecida</taxon>
+<taxon>Capitellida</taxon>
+<taxon>Capitellidae</taxon>
+<taxon>Capitella</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="5">
+<citation type="submission" date="2012-12" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Hellsten U."/>
+<person name="Grimwood J."/>
+<person name="Chapman J.A."/>
+<person name="Shapiro H."/>
+<person name="Aerts A."/>
+<person name="Otillar R.P."/>
+<person name="Terry A.Y."/>
+<person name="Boore J.L."/>
+<person name="Simakov O."/>
+<person name="Marletaz F."/>
+<person name="Cho S.-J."/>
+<person name="Edsinger-Gonzales E."/>
+<person name="Havlak P."/>
+<person name="Kuo D.-H."/>
+<person name="Larsson T."/>
+<person name="Lv J."/>
+<person name="Arendt D."/>
+<person name="Savage R."/>
+<person name="Osoegawa K."/>
+<person name="de Jong P."/>
+<person name="Lindberg D.R."/>
+<person name="Seaver E.C."/>
+<person name="Weisblat D.A."/>
+<person name="Putnam N.H."/>
+<person name="Grigoriev I.V."/>
+<person name="Rokhsar D.S."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<reference key="2" evidence="4 5">
+<citation type="journal article" date="2013" name="Nature" volume="493" first="526" last="531">
+<title>Insights into bilaterian evolution from three spiralian genomes.</title>
+<authorList>
+<person name="Simakov O."/>
+<person name="Marletaz F."/>
+<person name="Cho S.J."/>
+<person name="Edsinger-Gonzales E."/>
+<person name="Havlak P."/>
+<person name="Hellsten U."/>
+<person name="Kuo D.H."/>
+<person name="Larsson T."/>
+<person name="Lv J."/>
+<person name="Arendt D."/>
+<person name="Savage R."/>
+<person name="Osoegawa K."/>
+<person name="de Jong P."/>
+<person name="Grimwood J."/>
+<person name="Chapman J.A."/>
+<person name="Shapiro H."/>
+<person name="Aerts A."/>
+<person name="Otillar R.P."/>
+<person name="Terry A.Y."/>
+<person name="Boore J.L."/>
+<person name="Grigoriev I.V."/>
+<person name="Lindberg D.R."/>
+<person name="Seaver E.C."/>
+<person name="Weisblat D.A."/>
+<person name="Putnam N.H."/>
+<person name="Rokhsar D.S."/>
+</authorList>
+<dbReference type="PubMed" id="23254933"/>
+<dbReference type="DOI" id="10.1038/nature11696"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="4">I ESC-2004</strain>
+</source>
+</reference>
+<reference key="3" evidence="5">
+<citation type="submission" date="2015-06" db="UniProtKB">
+<authorList>
+<consortium name="EnsemblMetazoa"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<dbReference type="EMBL" id="AMQN01008733">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="KB303858">
+<property type="protein sequence ID" value="ELU02613.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EnsemblMetazoa" id="CapteT217767">
+<property type="protein sequence ID" value="CapteP217767"/>
+<property type="gene ID" value="CapteG217767"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003676">
+<property type="term" value="F:nucleic acid binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000166">
+<property type="term" value="F:nucleotide binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.70.330">
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR012677">
+<property type="entry name" value="Nucleotide-bd_a/b_plait"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000504">
+<property type="entry name" value="RRM_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00076">
+<property type="entry name" value="RRM_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00360">
+<property type="entry name" value="RRM"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF54928">
+<property type="entry name" value="SSF54928"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50102">
+<property type="entry name" value="RRM"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<feature type="domain" description="HTH OST-type" evidence="3">
+<location>
+<begin position="4"/>
+<end position="77"/>
+</location>
+</feature>
+<feature type="domain" description="RRM (RNA recognition motif)" evidence="1">
+<location>
+<begin position="231"/>
+<end position="302"/>
+</location>
+</feature>
+<feature type="domain" description="RRM (RNA recognition motif)" evidence="1">
+<location>
+<begin position="372"/>
+<end position="446"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="2">
+<location>
+<begin position="739"/>
+<end position="797"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50102"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="ELU02613.1"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="EnsemblMetazoa" id="CapteP217767"/>
+</source>
+</evidence>
+<sequence length="830" mass="92046" checksum="62A8288A4855B197" modified="2013-07-24" version="1">
+MTRVPDDLKVEIRSVLLSTIGGIKTNFFLKEFKDLTQYELNYRKYGFSSLSEFLASMPDV
+CRLDFNKQGQPAVFGILTNEMHENPTARKAKFKQPNSSQQNQSSPPIVNNTSSADYKHWE
+SIIQRGTNGLFSLCIFKKGSPEEVTVNNEMLKDFARYGEIVGQSSTKHNFFIRYDNKKSA
+VEAAVALESKYKIKEALDRNSRKTAETQEQPKQASQPAKPQPSTQIQPKNSTVFIHNLPD
+NTKKDDLMRLFAKHKPQNIHISKKVGHASVVLSTVEAVPEMIKEYNGYYWRDHKLHLEPS
+KVQYGYSDRSSDSSASEMTENFSKVKIGNSTCAENGREEFFAQRFGQKASSGSAVSDDRG
+SASSSSTSDDLYDLHIKNFPSHITNHDLLEIYQQYRAMRARVIRKGMHTQYAFVSFPTWE
+LAERAFLETDGMQLEDRQLMVSFGTRTICEDAIVKHKLGLSITVEKKGGRKVLSKETPAH
+LAMKTRKLPHAPPILESIYGGPPPLERTQPLHPRRHSALHHPRPRRLGGPPPLEHISGGP
+PPLERAAGGPPPLERAAGGPPPLERAVGGPPPLERVAGGPSPLEGAAGGPSPLERAAGGP
+PPLEGAAGGPPPLEGAAGGPSPLVHNGGGPALLEHTPHSEKRSHKSSLSDESWVTVLSED
+ENESLPPMMQRGMLERFSQEVFSCPCVFPMAGKHSLLLFIEPTEIVDDHFFYAHIEDEER
+DDEMDFASLCALVSEVAPSLPYTKTKMAAAQFDGGWWRVWVYGLQGSRAEVYYMDWGNTD
+CVSISDLRSLPDEYCEVAPFAIPFKSIDGCANQLSLLETIRGFIVPVRFY
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

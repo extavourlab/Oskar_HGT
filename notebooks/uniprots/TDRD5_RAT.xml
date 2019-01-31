@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2011-05-03" modified="2016-06-08" version="46">
+<accession>B4F7C4</accession>
+<name>TDRD5_RAT</name>
+<protein>
+<recommendedName>
+<fullName>Tudor domain-containing protein 5</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">Tdrd5</name>
+</gene>
+<organism>
+<name type="scientific">Rattus norvegicus</name>
+<name type="common">Rat</name>
+<dbReference type="NCBI Taxonomy" id="10116"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Sciurognathi</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+<taxon>Rattus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+<title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+<authorList>
+<consortium name="The MGC Project Team"/>
+</authorList>
+<dbReference type="PubMed" id="15489334"/>
+<dbReference type="DOI" id="10.1101/gr.2596504"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+<source>
+<tissue>Brain</tissue>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Required during spermiogenesis to participate in the repression transposable elements and prevent their mobilization, which is essential for the germline integrity. Probably acts via the piRNA metabolic process, which mediates the repression of transposable elements during meiosis by forming complexes composed of piRNAs and Piwi proteins and govern the methylation and subsequent repression of transposons. Required for chromatoid body (CB) assembly (By similarity).</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Cytoplasm</location>
+</subcellularLocation>
+<text evidence="1">Localizes to chromatoid body (CB) and pi-body (also called intermitochondrial cementin), 2 cytoplasmic ribonucleoprotein granules involved in RNA processing for spermatogenesis.</text>
+</comment>
+<comment type="similarity">
+<text evidence="5">Belongs to the TDRD5 family.</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Contains 3 HTH OST-type domains.</text>
+</comment>
+<comment type="similarity">
+<text evidence="3">Contains 1 Tudor domain.</text>
+</comment>
+<dbReference type="EMBL" id="BC168218">
+<property type="protein sequence ID" value="AAI68218.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_001128212.1">
+<property type="nucleotide sequence ID" value="NM_001134740.1"/>
+</dbReference>
+<dbReference type="UniGene" id="Rn.108460"/>
+<dbReference type="STRING" id="10116.ENSRNOP00000005353"/>
+<dbReference type="PaxDb" id="B4F7C4"/>
+<dbReference type="GeneID" id="289129"/>
+<dbReference type="KEGG" id="rno:289129"/>
+<dbReference type="UCSC" id="RGD:1307078">
+<property type="organism name" value="rat"/>
+</dbReference>
+<dbReference type="CTD" id="163589"/>
+<dbReference type="RGD" id="1307078">
+<property type="gene designation" value="Tdrd5"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410IPQZ">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4111HJ1">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000070453"/>
+<dbReference type="HOVERGEN" id="HBG104306"/>
+<dbReference type="InParanoid" id="B4F7C4"/>
+<dbReference type="KO" id="K18407"/>
+<dbReference type="OMA" id="QKLYIPR"/>
+<dbReference type="OrthoDB" id="EOG7W6WKS"/>
+<dbReference type="PhylomeDB" id="B4F7C4"/>
+<dbReference type="TreeFam" id="TF342664"/>
+<dbReference type="PRO" id="PR:B4F7C4"/>
+<dbReference type="Proteomes" id="UP000002494">
+<property type="component" value="Unplaced"/>
+</dbReference>
+<dbReference type="GO" id="GO:0033391">
+<property type="term" value="C:chromatoid body"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0071546">
+<property type="term" value="C:pi-body"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043046">
+<property type="term" value="P:DNA methylation involved in gamete generation"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030719">
+<property type="term" value="P:P granule organization"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007286">
+<property type="term" value="P:spermatid development"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0217">Developmental protein</keyword>
+<keyword id="KW-0221">Differentiation</keyword>
+<keyword id="KW-0597">Phosphoprotein</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0677">Repeat</keyword>
+<keyword id="KW-0744">Spermatogenesis</keyword>
+<feature type="chain" description="Tudor domain-containing protein 5" id="PRO_0000408348">
+<location>
+<begin position="1"/>
+<end position="995"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type 1" evidence="4">
+<location>
+<begin position="7"/>
+<end position="80"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type 2" evidence="4">
+<location>
+<begin position="122"/>
+<end position="197"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type 3" evidence="4">
+<location>
+<begin position="291"/>
+<end position="365"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="3">
+<location>
+<begin position="533"/>
+<end position="592"/>
+</location>
+</feature>
+<feature type="modified residue" description="Phosphoserine" evidence="2">
+<location>
+<position position="946"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q5VCS6"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00211"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00975"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000305"/>
+<sequence length="995" mass="111327" checksum="D802E761DDD5E1F4" modified="2008-09-23" version="1">
+MSEQERIQDCLRKEIRSLLISTKDGLTPQQLEKEYLLMVGNHLPLRILGYRSTMELVLDM
+PDVVSVCPCGDGTVILKAIPDESTKGIASLVAKQRRSHKVRNSMQKGRSSVCSGRVPYRG
+RVPPILPAVVKSELKDLLALSPVLLSDFEKAFARRFGRSFQYMQYGFLSMFEVLSAASDV
+ICVEQTRAGSLLTLKKSASEEKQREWPAGKIFTQPFRMKQQGSYSTGFPVTKTRFSQPIS
+NMEPPKQVLSMEKIPMFNTVEASRLSHTEKLNQLESTFKSVIAQIGPGGTVDPDLKHKIK
+FVVSKFPQGLFISKLLGEFELVFKEQLSPKQLGFLNVTELVGALSDILRVEFSEEKQDLL
+VFDADLRPLLPAGPLSSVRNSCLVQPDKRIEANAWASSPSRNSLSTVAVKKTTWDCPLKN
+HKEAEQKAYKKPNLVVKPLQLQVETNKSQLSLSMANHDIPPDAVRAKKLCRLPPLDTSTL
+VGVFVEYIISPSQFYVRIYSRDSSELLEDMMIEMRRCYSNQLVSDRYVMPEYFIQPGHLC
+CVRISEDKWWYRVIIHRILGKKEVEVFYPDFGNIGTVQKSSLRFLKCCYTKLPAQAIPCS
+LAWVRPAEEHWTSKAILHFQKLCGLKPLVGVVDEYIDGILNIFLCDTSSNEDVYFHHVLR
+TEGHAIVCRENAPSKGFRDFNPPALYTNSSAAPGDMVLTELGHPAQQHYLNEDGEILQQP
+QQDINDEKSISHLKSVSEELLKDSKLGPLKTRESCEEEPQWSILKPKDPKEENEDEVPTG
+MPCLESVTIGDDIWDENWLPLQAKMGKAGGPASHLFTSSLVGKKQYQTRGETTRKDWCFS
+TSKDIWDDSWQPLGLANDVKGRTHTPEGPIAQEKNIGTTRIRKQPDLQYPLDSSTLPKLE
+EFYISLIKSQQSAEGSQSEPASIQTPLKPGQASSTAPSSTPAAGDSPENHSGSAPDFSEA
+LHSSKYSHGCLGSSCAVSHVQEPPALVPQCERREA
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

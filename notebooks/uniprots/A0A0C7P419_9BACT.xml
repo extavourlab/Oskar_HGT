@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-04-29" modified="2016-06-08" version="11">
+<accession>A0A0C7P419</accession>
+<name>A0A0C7P419_9BACT</name>
+<protein>
+<submittedName>
+<fullName evidence="2">SGNH hydrolase subfamily protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">DTL3_1325</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Defluviitoga tunisiensis</name>
+<dbReference type="NCBI Taxonomy" id="1006576"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Thermotogae</taxon>
+<taxon>Petrotogales</taxon>
+<taxon>Petrotogaceae</taxon>
+<taxon>Defluviitoga</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2">
+<citation type="submission" date="2014-11" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Wibberg Daniel"/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="2">L3</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="LN824141">
+<property type="protein sequence ID" value="CEP78619.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="CEP78619">
+<property type="protein sequence ID" value="CEP78619"/>
+<property type="gene ID" value="DTL3_1325"/>
+</dbReference>
+<dbReference type="KEGG" id="dtn:DTL3_1325"/>
+<dbReference type="Proteomes" id="UP000032809">
+<property type="component" value="Chromosome I"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016787">
+<property type="term" value="F:hydrolase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-0378" evidence="2">Hydrolase</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="145"/>
+<end position="334"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="CEP78619.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000032809"/>
+</source>
+</evidence>
+<sequence length="350" mass="39900" checksum="31F210F74FE1DB9A" modified="2015-04-29" version="1">
+MNGDQIRILFSNLHGKEPIHFERVNISKSRNASNSVSYSFVPVFFNNKQDLILNPQESIY
+SDVVEFKVNEGEFIIVEISSSNLPSTLSGTFFFKDQPITSIFELSESTQNQFKTQLLSDL
+ESVYLYGIFQIEVNTKEDVKTIVTFGDSITHDSKWAAPLAQNLYSKYPAKVSLINYGISG
+NRLLFDSEPNYFFGDAGIKRFEKDVFENNNKVDLVIVLEGTNDIVHPLTGTAPLSEKISS
+QNIIDGLKVLIEQAHNHSTKIILGTITPFYNYQSCWTKTEEKKRNTINEWIRNSSEPDGY
+IDFDKILRDPKDPKRLYYEYDKGDNLHLSKKGGQKLSDSVDLEWLLGLCN
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

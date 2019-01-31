@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2010-04-20" modified="2016-06-08" version="24">
+<accession>D3LPX3</accession>
+<name>D3LPX3_MICLU</name>
+<protein>
+<submittedName>
+<fullName evidence="2">GDSL-like protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">HMPREF0569_1147</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Micrococcus luteus SK58</name>
+<dbReference type="NCBI Taxonomy" id="596312"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Micrococcales</taxon>
+<taxon>Micrococcaceae</taxon>
+<taxon>Micrococcus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="submission" date="2009-11" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Madupu R."/>
+<person name="Durkin A.S."/>
+<person name="Torralba M."/>
+<person name="Methe B."/>
+<person name="Sutton G.G."/>
+<person name="Strausberg R.L."/>
+<person name="Nelson K.E."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2 3">SK58</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="ADCD01000067">
+<property type="protein sequence ID" value="EFD50466.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_002856808.1">
+<property type="nucleotide sequence ID" value="NZ_ADCD01000067.1"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="D3LPX3"/>
+<dbReference type="EnsemblBacteria" id="EFD50466">
+<property type="protein sequence ID" value="EFD50466"/>
+<property type="gene ID" value="HMPREF0569_1147"/>
+</dbReference>
+<dbReference type="PATRIC" id="36260928">
+<property type="gene designation" value="VBIMicLut15202_1498"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000002933">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="71"/>
+<end position="201"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EFD50466.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000002933"/>
+</source>
+</evidence>
+<sequence length="214" mass="22017" checksum="37162446E7EAF01C" modified="2010-04-20" version="1">
+MWDMSKTVRAVLAVSLLLNLVLLAAAGVWVSKRVWPAPPERPNYSGMAQEFMTGLPGAEV
+ALVGDSHIAGGAWSEVLGMPVAARGQSGARIAELDGAVDALPHDARGVVVWAGTNDVIAG
+HDVAQVEADMEAMLAKVEAVAPAASVIVLSVPPLNGWDEGPANDALRRAADDAGAVYMET
+APALDAHMASDGVHVRGPGYTALADRLRGALTTG
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

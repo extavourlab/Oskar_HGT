@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-09-16" modified="2016-06-08" version="8">
+<accession>A0A0H2LPN2</accession>
+<name>A0A0H2LPN2_PRORE</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Acyl-CoA thioesterase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">AAY77_02995</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Providencia rettgeri</name>
+<dbReference type="NCBI Taxonomy" id="587"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacteriales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Providencia</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="submission" date="2015-05" db="EMBL/GenBank/DDBJ databases">
+<title>Genome of Providencia rettgeri MR4.</title>
+<authorList>
+<person name="Bhadhaniya R.A."/>
+<person name="Golakiya B.A."/>
+<person name="Akbari D.L."/>
+<person name="Parakhia M.V."/>
+<person name="Tomar R.S."/>
+<person name="Thakkar J.R."/>
+<person name="Rathod V.M."/>
+<person name="Padhiyar S.M."/>
+<person name="Thummar V.D."/>
+<person name="Kheni J.R."/>
+<person name="Kothari V."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2 3">MR4</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="LCVM01000109">
+<property type="protein sequence ID" value="KLN47203.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="KLN47203">
+<property type="protein sequence ID" value="KLN47203"/>
+<property type="gene ID" value="AAY77_02995"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000054201">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016298">
+<property type="term" value="F:lipase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006629">
+<property type="term" value="P:lipid metabolic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008265">
+<property type="entry name" value="Lipase_GDSL_AS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01098">
+<property type="entry name" value="LIPASE_GDSL_SER"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="34"/>
+<end position="191"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KLN47203.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000054201"/>
+</source>
+</evidence>
+<sequence length="213" mass="23641" checksum="4DA7213D66DB57E7" modified="2015-09-16" version="1">
+MMNFKNIIRRHILVFLLLLTASGHALASSKLLILGDSLSAGYRLPAEQAWASLLAERWQK
+LSPPVAIVNGSISGNTSAQALERLSVLLEQNKPNWVLIELGANDGLQGLPVEQLETNLQQ
+IIDQIVQSGAKPLLMQIRIPPNYGKRYTTSFEKVYPTLADSNQIPLLPFYMETVITKPEW
+IQQDGIHPTVEAQPSIADFMEKQLFASILPSSK
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

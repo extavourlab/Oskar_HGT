@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-10-14" modified="2015-12-09" version="3">
+<accession>A0A0J9RH61</accession>
+<name>A0A0J9RH61_DROSI</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Uncharacterized protein, isoform D</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="2">Dsim\GD11509</name>
+<name type="ORF" evidence="2">Dsimw501_GD11509</name>
+</gene>
+<organism evidence="2">
+<name type="scientific">Drosophila simulans</name>
+<name type="common">Fruit fly</name>
+<dbReference type="NCBI Taxonomy" id="7240"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Diptera</taxon>
+<taxon>Brachycera</taxon>
+<taxon>Muscomorpha</taxon>
+<taxon>Ephydroidea</taxon>
+<taxon>Drosophilidae</taxon>
+<taxon>Drosophila</taxon>
+<taxon>Sophophora</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2">
+<citation type="journal article" date="2013" name="Genome Res." volume="23" first="89" last="98">
+<title>A second-generation assembly of the Drosophila simulans genome provides new insights into patterns of lineage-specific divergence.</title>
+<authorList>
+<person name="Hu T.T."/>
+<person name="Eisen M.B."/>
+<person name="Thornton K.R."/>
+<person name="Andolfatto P."/>
+</authorList>
+<dbReference type="PubMed" id="22936249"/>
+<dbReference type="DOI" id="10.1101/gr.141689.112"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="2">W501</strain>
+</source>
+</reference>
+<reference key="2" evidence="2">
+<citation type="submission" date="2014-06" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Hu T."/>
+<person name="Eisen M.B."/>
+<person name="Thornton K.R."/>
+<person name="Andolfatto P."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="2">W501</strain>
+</source>
+</reference>
+<reference key="3" evidence="2">
+<citation type="submission" date="2015-04" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<consortium name="FlyBase"/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="2">W501</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="CM002911">
+<property type="protein sequence ID" value="KMY95251.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="6"/>
+<end position="77"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="470"/>
+<end position="536"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KMY95251.1"/>
+</source>
+</evidence>
+<sequence length="1225" mass="138869" checksum="BE41A3DF1033EEEB" modified="2015-10-14" version="1">
+MEKQEVLGHVAKVVRALITSAKPPVELRSIVKDYMDVEGEPIPFHRLGYSNEQELLRATN
+QFKFHHYGNQVFIKATYNASTAHIVRMVREQRTSTSKSLSKPPPIAQNPIYGKRYHKQEQ
+NTQWNHQKQDHRYCPTAYWQPDYWQQQQQNRQRDQEIRKAAKRENQANAKHKQDLTDTTF
+QELLDNNDNIQEQFSESLQTEEQDHLYLGQIPKVVAREKQKRVVKETRDRAIKVTMRAAK
+LDQETISVTIENKKAPAMNGHGPSHVTANGQDKGNDGKPPLRAILGNSASQRQQDTSTVY
+HSPESSFRRPRHPRVMFPGPQRTTGVSVNHRLKVTPQSDAPTPAGAPITPPASPEYAQTT
+SAAKTTYKEDIGNVVTNPKVKVPLKYDPSFDPVSTLNLYCEANDFEKPAYNVFNKLRHLH
+CSVQIAGDVYSSYPQEFTDKETAYQCTAKIAIQRILHAQSHQKRSACTFSDAEFIDGLYE
+ELLKHPHGILGHKLEDWYGSTFRQHLPSHWYDLILNSNKIRVEHGIDPRIILFANDPGSL
+KPDRASITTLPQMVLPWQASEGGSHDWNMFISFCDSTKLVWARMIDQIANFEELTKQIGR
+QMESPHFRQKVSKLYAQEVYLVEMADGWNRVRAISVDEETRSCRCHFIDFGDVGMFHLED
+LFQCPPQFLVLPAQAVCLSMYALDKFEDHPHAHKVLTKELDGQTVVAHVLTTEKQFLELG
+GSAQGVVENGKRRACLVATLYDTSTAEDIHLNDLVASRITKCTPAPSLSDGKTTPILVSH
+INDDGDLMVLLRNDDLKFVERSIAQTVADLGEQDRVSYSDLLHDRHIFVCDETVDGVKQW
+FRGRLVTRPLNPEEETFDVYYVDDGRQRKTHISNIYRLEANNRALATFPPQALPVRLHDV
+PEIGGHMLHRLRGLIPWRTEALLKFVAKDSGKPLVNVFIREDPESMYMCVNIGLRLEFEM
+ASSIHPDYTLLSSNVQLPRRGSFSSVFSNQSSNSDLVATTPPVTPEKKPSARAGASTFSS
+LMLKDYEAIPAVGAYFEVRVALSVNPGHFAVQPYKCYNQLQTLMKNLQEHCQKPTAKAVQ
+PSQLAIGEAYAAPDSAGVYHRVSIHKIYDEIIHVRFVDVGDDGVIACDQLKTLNPELRKL
+PKMALPAQLYGIQLTDVVWSKENCVRFRELSLGQKFIGIVRRMTKQRDGGRAMCLELVDT
+STPKDIKLHEILINEKHAQPATKEV
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

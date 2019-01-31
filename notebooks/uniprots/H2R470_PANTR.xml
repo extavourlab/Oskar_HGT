@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2012-03-21" modified="2016-05-11" version="25">
+<accession>H2R470</accession>
+<name>H2R470_PANTR</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Tudor domain containing 7</fullName>
+</submittedName>
+<submittedName>
+<fullName evidence="6">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3 6">TDRD7</name>
+</gene>
+<organism evidence="6 7">
+<name type="scientific">Pan troglodytes</name>
+<name type="common">Chimpanzee</name>
+<dbReference type="NCBI Taxonomy" id="9598"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+<taxon>Pan</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="6 7">
+<citation type="journal article" date="2005" name="Nature" volume="437" first="69" last="87">
+<title>Initial sequence of the chimpanzee genome and comparison with the human genome.</title>
+<authorList>
+<consortium name="Chimpanzee sequencing and analysis consortium"/>
+</authorList>
+<dbReference type="PubMed" id="16136131"/>
+<dbReference type="DOI" id="10.1038/nature04072"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<reference key="2" evidence="7">
+<citation type="journal article" date="2005" name="Nature" volume="437" first="100" last="103">
+<title>Conservation of Y-linked genes during human evolution revealed by comparative sequencing in chimpanzee.</title>
+<authorList>
+<person name="Hughes J.F."/>
+<person name="Skaletsky H."/>
+<person name="Pyntikova T."/>
+<person name="Minx P.J."/>
+<person name="Graves T."/>
+<person name="Rozen S."/>
+<person name="Wilson R.K."/>
+<person name="Page D.C."/>
+</authorList>
+<dbReference type="PubMed" id="16136134"/>
+<dbReference type="DOI" id="10.1038/nature04101"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<reference key="3" evidence="6">
+<citation type="submission" date="2012-02" db="UniProtKB">
+<authorList>
+<consortium name="Ensembl"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<reference key="4" evidence="3">
+<citation type="submission" date="2012-10" db="EMBL/GenBank/DDBJ databases">
+<title>De novo assembly of the reference chimpanzee transcriptome from NextGen mRNA sequences.</title>
+<authorList>
+<person name="Maudhoo M.D."/>
+<person name="Meehan D.T."/>
+<person name="Norgren R.B.Jr."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<tissue evidence="3">Adipose stromal</tissue>
+<tissue evidence="5">Skeletal muscle</tissue>
+<tissue evidence="4">Skin</tissue>
+</source>
+</reference>
+<dbReference type="EMBL" id="AACZ03069079">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AACZ03069080">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="GABC01009384">
+<property type="protein sequence ID" value="JAA01954.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="GABD01001194">
+<property type="protein sequence ID" value="JAA31906.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="GABE01006095">
+<property type="protein sequence ID" value="JAA38644.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_520135.1">
+<property type="nucleotide sequence ID" value="XM_520135.5"/>
+</dbReference>
+<dbReference type="STRING" id="9598.ENSPTRP00000046673"/>
+<dbReference type="PaxDb" id="H2R470"/>
+<dbReference type="Ensembl" id="ENSPTRT00000045324">
+<property type="protein sequence ID" value="ENSPTRP00000046673"/>
+<property type="gene ID" value="ENSPTRG00000022912"/>
+</dbReference>
+<dbReference type="GeneID" id="464598"/>
+<dbReference type="CTD" id="23424"/>
+<dbReference type="eggNOG" id="ENOG410IPR1">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410XST4">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00830000128334"/>
+<dbReference type="OMA" id="VISTEEN"/>
+<dbReference type="OrthoDB" id="EOG7BW0HQ"/>
+<dbReference type="Proteomes" id="UP000002277">
+<property type="component" value="Chromosome 9"/>
+</dbReference>
+<dbReference type="GO" id="GO:0035770">
+<property type="term" value="C:ribonucleoprotein granule"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003729">
+<property type="term" value="F:mRNA binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0070306">
+<property type="term" value="P:lens fiber cell differentiation"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0002089">
+<property type="term" value="P:lens morphogenesis in camera-type eye"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010608">
+<property type="term" value="P:posttranscriptional regulation of gene expression"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-0181" evidence="7">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="7">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="3"/>
+<end position="76"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="233"/>
+<end position="302"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="337"/>
+<end position="406"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="513"/>
+<end position="570"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="703"/>
+<end position="760"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="JAA01954.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="JAA31906.1"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="JAA38644.1"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000313">
+<source>
+<dbReference type="Ensembl" id="ENSPTRP00000046673"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000002277"/>
+</source>
+</evidence>
+<sequence length="1098" mass="123563" checksum="2BA8B5F4B7B0068C" modified="2012-03-21" version="1">
+MLEGDLVSKMLRAVLQSHKNGVALPRLQGEYRSLTGDWIPFKQLGFPTLEAYLRSVPAVV
+RIETSRSGEITCYAMACTETARIAQLVARQRSSKRKTGRQVNCQMRVKKTMPFFLEGKPK
+ATLRQPGFASNFSVGKKPNPAPLRDKGNSAGVKPDAEMSPYMLHTTLGNEAFKDIPVQRH
+VTMSTNNRFSPKASLQPPLQMHLSRTSTKEMSDNLNQTVEKPNVMPPASYTYKMDEVQNR
+IKEILNKHNNGIWISKLPHFYKELYKEDLNQGILQQFEHWPHICTVEKPCSGGQDLLLYP
+AKRKQLLRSELDTEKVPLSPLPGPKQTPPLKGYPTVMAGDFKEKVADLLVKYTSGLWASA
+LPKAFEEMYKVKFPEDALKNLASLSDVCSIDYISGNPQKAILYAKLPLPTDKIQKDAGQA
+HGDNDIKAMVEQEYLQVEESIAESANTFMEDITVPPLMIPTEASPSVLVVELSNTNEVVI
+RYVGKDYSAAQELMEDEMKEYYSKNPKITPVQAVNVGQLLAVNAEEDAWLRAQVISTEEN
+KIKVCYVDYGFSENVEKSKAYKLNPKFCSLSFQATKCKLAGLEVLSDDPDLVKVVESLTC
+GKIFAVEILDKADIPLVVLYDTSGEDDININATCLKAICDKSLEVHLQVDAMYTNVKVTN
+ICSDGTLYCQVPCKGLNKLSDLLRKIEDYFHCKHMTSECFVSLPFCGKICLFHCKGKWLR
+VEITNVHSSRALDVQFLDSGTVTSVKVSELREIPPRFLQEMIAIPPQAIKCCLADLPQSI
+GMWTPDAVLWLRDSVLNCSDCSIKVTKVDETRGIAHVYLFTPKNFPDPHRSINRQITNAD
+LWKHQKDVFLSAISSGAGSPNSKNGNMPMSGNTGENFRKNLTDVIKKSMVDHTSAFSTEE
+LPPPVHLSKPGEHMDVYVPVACHPGYFVIQPWQEIHKLEVLMEEMILYYSVSEERHIAVE
+KDQVYAAKVENKWHRVLLKGILTNGLVSVYELDYGKHELVNIRKVQPLVDMFRKLPFQAV
+TAQLAGVKCNQWSEEASMVFRNHVEKKPLVALVQTVIENANPWDRKVVVYLVDTSLPDTD
+TWIHDFMSEYLIELSKVN
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

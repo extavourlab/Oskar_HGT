@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2011-10-19" modified="2016-05-11" version="22">
+<accession>G0S9F4</accession>
+<name>G0S9F4_CHATD</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Putative uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">CTHT_0045680</name>
+</gene>
+<organism evidence="4">
+<name type="scientific">Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)</name>
+<dbReference type="NCBI Taxonomy" id="759272"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Pezizomycotina</taxon>
+<taxon>Sordariomycetes</taxon>
+<taxon>Sordariomycetidae</taxon>
+<taxon>Sordariales</taxon>
+<taxon>Chaetomiaceae</taxon>
+<taxon>Chaetomium</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="journal article" date="2011" name="Cell" volume="146" first="277" last="289">
+<title>Insight into structure and assembly of the nuclear pore complex by utilizing the genome of a eukaryotic thermophile.</title>
+<authorList>
+<person name="Amlacher S."/>
+<person name="Sarges P."/>
+<person name="Flemming D."/>
+<person name="van Noort V."/>
+<person name="Kunze R."/>
+<person name="Devos D.P."/>
+<person name="Arumugam M."/>
+<person name="Bork P."/>
+<person name="Hurt E."/>
+</authorList>
+<dbReference type="PubMed" id="21784248"/>
+<dbReference type="DOI" id="10.1016/j.cell.2011.06.039"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="4">DSM 1495 / CBS 144.50 / IMI 039719</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="GL988043">
+<property type="protein sequence ID" value="EGS20065.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_006694950.1">
+<property type="nucleotide sequence ID" value="XM_006694887.1"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="G0S9F4"/>
+<dbReference type="EnsemblFungi" id="EGS20065">
+<property type="protein sequence ID" value="EGS20065"/>
+<property type="gene ID" value="CTHT_0045680"/>
+</dbReference>
+<dbReference type="GeneID" id="18258606"/>
+<dbReference type="KEGG" id="cthr:CTHT_0045680"/>
+<dbReference type="OrthoDB" id="EOG7VQJQN"/>
+<dbReference type="Proteomes" id="UP000008066">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<keyword id="KW-0732" evidence="1">Signal</keyword>
+<feature type="signal peptide" evidence="1">
+<location>
+<begin position="1"/>
+<end position="17"/>
+</location>
+</feature>
+<feature type="chain" id="PRO_5003409048" evidence="1">
+<location>
+<begin position="18"/>
+<end position="238"/>
+</location>
+</feature>
+<feature type="domain" description="SGNH_hydro" evidence="2">
+<location>
+<begin position="37"/>
+<end position="217"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="SignalP"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EGS20065.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000008066"/>
+</source>
+</evidence>
+<sequence length="238" mass="26557" checksum="0B1FE98C6A044C48" modified="2011-10-19" version="1">
+MQLINLFCLALAGLVAASPVQKELAERQNQKIRIMPLGDSITEITCWRAFVWDQLADAGL
+ADKVDYVGSQYSNPQNCQPKTFNWDQSHEGHSGWLAIDIANSYLEGWLRNTPADIVMFML
+GTNDVFRGRSTNDIIAAYTKMVNIMRAANPKMKIIVDLVIPLSFGNQGIEQLNARIPEWA
+RSMNSTESPIVIADCYTGFNAWSDLRDGVHPSLSGDRIIADRVGPLLLEYVRQALDGR
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

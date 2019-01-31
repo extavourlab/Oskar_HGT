@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-11-26" modified="2016-06-08" version="11">
+<accession>A0A095ZDI3</accession>
+<name>A0A095ZDI3_9FIRM</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">HMPREF1634_08565</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Tissierellia bacterium S7-1-4</name>
+<dbReference type="NCBI Taxonomy" id="1284708"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Tissierellia</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="submission" date="2014-07" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="McCorrison J."/>
+<person name="Sanka R."/>
+<person name="Torralba M."/>
+<person name="Gillis M."/>
+<person name="Haft D.H."/>
+<person name="Methe B."/>
+<person name="Sutton G."/>
+<person name="Nelson K.E."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2 3">S7-1-4</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="JRMY01000057">
+<property type="protein sequence ID" value="KGF06579.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_034548298.1">
+<property type="nucleotide sequence ID" value="NZ_JRMY01000057.1"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="KGF06579">
+<property type="protein sequence ID" value="KGF06579"/>
+<property type="gene ID" value="HMPREF1634_08565"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000029539">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="108"/>
+<end position="260"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KGF06579.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000029539"/>
+</source>
+</evidence>
+<sequence length="272" mass="31375" checksum="8153305438FAA7A5" modified="2014-11-26" version="1">
+MKKIISLVSLLCIFLFVGVFLHIDNAHFNKRALARAEELNGVISGDKYYEDILIAKGQSY
+LKEQKQVLLNKKKNDIVKAKDQDKKPTYEVNPNDGTNFKEVFKNAVFIGDSISNALSYYK
+HLEAKNVVAKLGQNIRTTKKEIKNIKAKNPTHIYIMLGMNDSMFVKDAAKFKKSYKELVT
+ELQKSLPNAKIYFQSILPADVNNKKAMARVSNDKIKSFNDALVELAGEMKLEFIDLRPFI
+NSHPNFYEPDGIHLNKNFHRYWLKFIQVNYFN
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

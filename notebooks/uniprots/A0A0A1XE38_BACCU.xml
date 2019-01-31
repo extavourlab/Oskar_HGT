@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-02-04" modified="2015-12-09" version="5">
+<accession>A0A0A1XE38</accession>
+<name>A0A0A1XE38_BACCU</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Tudor domain-containing protein 5</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3">Tdrd5</name>
+<name type="ORF" evidence="3">g.31700</name>
+</gene>
+<organism evidence="3">
+<name type="scientific">Bactrocera cucurbitae</name>
+<name type="common">Melon fruit fly</name>
+<name type="synonym">Dacus cucurbitae</name>
+<dbReference type="NCBI Taxonomy" id="28588"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Diptera</taxon>
+<taxon>Brachycera</taxon>
+<taxon>Muscomorpha</taxon>
+<taxon>Tephritoidea</taxon>
+<taxon>Tephritidae</taxon>
+<taxon>Bactrocera</taxon>
+<taxon>Zeugodacus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="submission" date="2014-11" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Geib S."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<reference key="2" evidence="3">
+<citation type="journal article" date="2015" name="Gigascience" volume="4" first="14" last="14">
+<title>Reconstructing a comprehensive transcriptome assembly of a white-pupal translocated strain of the pest fruit fly Bactrocera cucurbitae.</title>
+<authorList>
+<person name="Sim S.B."/>
+<person name="Calla B."/>
+<person name="Hall B."/>
+<person name="DeRego T."/>
+<person name="Geib S.M."/>
+</authorList>
+<dbReference type="PubMed" id="25830018"/>
+<dbReference type="DOI" id="10.1186/s13742-015-0053-x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<dbReference type="EMBL" id="GBXI01005564">
+<property type="protein sequence ID" value="JAD08728.1"/>
+<property type="molecule type" value="Transcribed_RNA"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="5"/>
+<end position="81"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="404"/>
+<end position="461"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="JAD08728.1"/>
+</source>
+</evidence>
+<sequence length="552" mass="62843" checksum="6115B2A6EBAF059E" modified="2015-02-04" version="1">
+MEIGYLQEIKAVIKSLVVSCPNAITIDELNRDYRSTEGQQIPYQKLGFQTLESFLRSIPD
+TVNVYGSGPIASVGIVLNQKSAHIHHMVCEQKKTRNRPKSAKHKIIPVRAFHSDKSHSTS
+RNVQLAYPKVSSDTLPSSNIRFSHFVSRCGPRNTVIKCQAIDVPSKLALKKFDKKPIEHI
+NKLHITPQPLIKPVNKMPDQKVAVDEKENNKAIHKTHETIPVCHVKQTNAERTQSPQIKQ
+DDVLMKIFGMCEVSEKGNPNISKNRTLENGETKDTVDNSTSKIEGDELSIHCDLKSLTLN
+NSPKRNHIDDIEEAVPAYAANNLVFRMDFPENTMTFGKKIASYKIPDNIRQGAIIGIFIS
+EIHSPYKFWFHIFKKHHELDELMLQIERFYTSLETETFCIPSVCINPGQVCAARYKGLWH
+RAEILAPVIEDKAKVFFVDYGTVSNVPISKIKFLLNSFARLPMQAIRGSLSHICPKNYHW
+SPESIQYFLSLSSELMLYGQISEIDEKKRMLHMVLCDTNGTEVLQINRELVEKGYAFYDE
+QWLKSDKVNSSP
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

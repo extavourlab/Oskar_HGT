@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-03-04" modified="2016-04-13" version="6">
+<accession>A0A0B1PND1</accession>
+<name>A0A0B1PND1_9BILA</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Tudor domain protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">D918_08565</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Trichuris suis</name>
+<name type="common">pig whipworm</name>
+<dbReference type="NCBI Taxonomy" id="68888"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Nematoda</taxon>
+<taxon>Enoplea</taxon>
+<taxon>Dorylaimia</taxon>
+<taxon>Trichocephalida</taxon>
+<taxon>Trichuridae</taxon>
+<taxon>Trichuris</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="submission" date="2014-01" db="EMBL/GenBank/DDBJ databases">
+<title>Draft genome of Trichuris suis.</title>
+<authorList>
+<person name="Mitreva M."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<dbReference type="EMBL" id="KN538418">
+<property type="protein sequence ID" value="KHJ41335.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000053709">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="2"/>
+<end position="75"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KHJ41335.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000053709"/>
+</source>
+</evidence>
+<sequence length="639" mass="70115" checksum="A25E461EC3858D93" modified="2015-03-04" version="1">
+MERDNLQSDLHSVLITFKNGATGHDFVKAYQDCLGRPLDLAKLGYKNVDALMASFPNLVE
+RYKSSSGVVVYKAKTHAATKALENLIANQKDSSKNKNKFGVLRPLESRPVLQNAPARTPT
+MSPAPKVCRPAIKPLIDVRAQAIKPLIDVRASFPNPYPTNNGSISAREKAGAPVIKQSAS
+TSYLVANRGATSANLVPTYQKPDAKTNVPPVQRQALLWNTTAFPGDVAPAYWTCPGRYRW
+KAPVAIATVAERQPQQSCAAAAAVDENGPYKKISNQPRQSDKTAPLSNSSSINRTTNLSV
+SEAVSCVCPLDERTTFAVLQQATKTLLTAEQKRVEYAAEGKAERCQKSGPTSSISQESEK
+NGFVTCDAGNGRVTQCVISEEHMNNVVNGNFSSGDEDGNGVSRRSLSALSNYEDAVNPCV
+GVEEPDLENSIKIEVVKFLDANLVTFVRTDSESTSQFKTLFNEMRFAYGGHTSKPLESPK
+IGEHIAVKCEKHWLRAIVCAVFDFDSALVFYSDVGELQRVQFSKLYPLFPRFSEVPQMAF
+VGKLLGVPSNLWNGSIESLNDWFEKMTRNNELVAVASDHNWSLRVGVEPVNLYLHMKQSG
+INVNLNSMVKDKCMEMVGSTTITFSLLKRIGKALEDDFK
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

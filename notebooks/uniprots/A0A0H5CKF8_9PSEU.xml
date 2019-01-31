@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-10-14" modified="2015-12-09" version="3">
+<accession>A0A0H5CKF8</accession>
+<name>A0A0H5CKF8_9PSEU</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Putative large secreted protein</fullName>
+</submittedName>
+</protein>
+<organism evidence="3">
+<name type="scientific">Alloactinosynnema sp. L-07</name>
+<dbReference type="NCBI Taxonomy" id="1653480"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Pseudonocardiales</taxon>
+<taxon>Pseudonocardiaceae</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="submission" date="2015-05" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Ramaraj Thiru"/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="3">L-07</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="LN850107">
+<property type="protein sequence ID" value="CRK58192.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.60.120.200">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013320">
+<property type="entry name" value="ConA-like_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006558">
+<property type="entry name" value="LamG-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="SMART" id="SM00560">
+<property type="entry name" value="LamGL"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF49899">
+<property type="entry name" value="SSF49899"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0732" evidence="1">Signal</keyword>
+<feature type="signal peptide" evidence="1">
+<location>
+<begin position="1"/>
+<end position="48"/>
+</location>
+</feature>
+<feature type="chain" id="PRO_5005217699" evidence="1">
+<location>
+<begin position="49"/>
+<end position="1956"/>
+</location>
+</feature>
+<feature type="domain" description="LamGL" evidence="2">
+<location>
+<begin position="1642"/>
+<end position="1781"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="SignalP"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="SMART" id="SM00560"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="CRK58192.1"/>
+</source>
+</evidence>
+<sequence length="1956" mass="204088" checksum="EDDA01BC822FF42A" modified="2015-10-14" version="1">
+MIMKRRGLLSRALGTATQIHVRTLVTGVSVLTLTAGLVAVGAATSASAQPATGGPVVTET
+DALRAAKETGKPVEIPSQTTETQQVLANPTGTFTLKSHAKPVRVKKSGAWHAVDTTLRAN
+PDGSLTPTASAQAVSFSGGGNQPLITVRNGDKAVAFSWSTPLPKPVVTGNTATYPEVFPG
+ADLQVAANADSYSQVLIVKDAAAASNPALRSVTLRATGTGVKVTTLADGRLSATDAAGAE
+VFRGPRAVMWDSRVDAQVGPTPTATERGSGRVSSLAVSADAVSDGGTTTITDLTLRVDQA
+RLTGADVVYPVYLDPSLSVRKQHWTNVTDNGWHYYDDPNQHAQVGYCSGWIGCGSPAWRA
+RSYFNLDSSPLLPRNGKTATVWRANFFVHQIWSADHNCQGGQPTVIWESGLIDANTRWPG
+PASVGVDTRYSNAGGPCPSSDVMFDVKYTAQRAANFGWGTVGFGLLAQNENDRMQWKKFL
+NDPLFEVDFSFPPNPATDLAVSNEIKCDGKVVTPDAKPTLSAIATDNNNPPLNPALWFHV
+WAADDSRQASGGGGVRIASGTRGSWPEPDDLGNDNWKFRVYVDNNPGSTQNLNAGYSPWY
+HFTTLSKPIRQAPTVNSFDYPNNYWGAPTDVPGAITFNANGGEHIAGFTYSFTGSGSQVV
+PSATDCFYNRTFGSTGAQGWVSNNNGNGVLPLPQGLAPGRHTLYVRSFDAAHKLSPETAY
+TIYVGPSSGGAYQRIEAESTALSAPSGQSVQPGTYACCDFSGGSQAVLWGTAVGQSFTMR
+TNVAATTDYEVAFQMTKSSHYGRVAFKIDGQSVGTEFDAYSSQVLPTAAHNLGRVRLTAG
+AHDFTITVTGTNPASQGYRYITGVDVIILRGLTEYEAEDSTQVALSQPAGQSVPVSTQAN
+CCSAFTVEAEATTRSVPSGQSLQPTTYACCAFSGGSQVVLWNDTQGREFSMSTSVPTTGD
+YEILMQMTQSPHYGKVGFSVDGQPVGAEFDSYYAYGTTTPHSLGIVRLTAGTHTITAKST
+GTNPATQGARYIIGVDHITFRPMPAWSNTGQINFPATSAGKSLSMTFTVPIEADHALGVA
+LTTGPQQGEVRFDLNRAGDEKAPLNNTDTTPVNTNAGVLGTKFVPLGGAHLSAGTYTLTA
+TTVDTNADNKFQIGVDFFTVTRLNNMTTTDFTAAMNNDGIGSDNTVAANIDLTTQSAISA
+QTLAAAGFAPQSKVRVNGAEYTMPAPRADGTDNVIALGQTIPLSAAQQVKASALGLLVAS
+TCGATPVTRGSVGYTDGTVDRLDVPAVPDWITGSAAGAAVTLPYRNSGVNPELTSPTVKL
+FSVFMATNPTKTIKNVTLPNYGSSLLPGVCKPALHVLAIAPRTADTGWVGTWAAPADVAI
+APPGGTGFANQTLRTVVRPSVTGTKVRIRVANPDTSTAVTIGAASIAAQTGTGAATLATP
+TQVRFGGSTQVTLPAGSEMLSDELTYPATISGSGNLMVSLHIPTAVALAPTHYSPGTQTW
+SAAGNQTTSTSDSGFTTALNGSRYLVGVDTNSSESVDGTVVVLGDQLSANAPGFEQNWVD
+LLPGRVDPPLPGGLVNGTLAGASESGRWRLNETSGGTAADTAGGANASITGGSVAWSTER
+GGSATFTTGVLATSGPVIDTRRGYTLSAWVKLTTTNSYRTVISQSGTNTPGIALQYRQDT
+GKWTYVATHTDQANPTITKIDGTAAALNTWTHLTATYDAETKTIALYVDGSHFGTASYTS
+AWAASGPLAIGGTKLTGGTLANQFNGMISDVRVFPRAATADEVKVFHKGGPITGAEPGLG
+ALSAANSSKTIQQTVLANPAVRTVMISLGANDILAGQSHFQVRQDIAALADEIRKYKRTD
+GSELKVLLTTIAPLGLASNDPREAVRLAVNADINTDFGGFNAHGKVDITNAVSDPNNQGA
+VRPNYLTNNQPNASYHSAIADAVATAASTWPPEIEF
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-10-14" modified="2016-06-08" version="9">
+<accession>A0A0H4XFX1</accession>
+<name>A0A0H4XFX1_9DELT</name>
+<protein>
+<submittedName>
+<fullName evidence="2">GDSL-like lipase/acylhydrolase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">A176_004014</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Myxococcus hansupus</name>
+<dbReference type="NCBI Taxonomy" id="1297742"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Deltaproteobacteria</taxon>
+<taxon>Myxococcales</taxon>
+<taxon>Cystobacterineae</taxon>
+<taxon>Myxococcaceae</taxon>
+<taxon>Myxococcus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="submission" date="2015-06" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Subramanian S."/>
+<person name="Sharma G."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3">contaminant ex DSM 436</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="CP012109">
+<property type="protein sequence ID" value="AKQ67102.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_002639746.1">
+<property type="nucleotide sequence ID" value="NZ_CP012109.1"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="AKQ67102">
+<property type="protein sequence ID" value="AKQ67102"/>
+<property type="gene ID" value="A176_004014"/>
+</dbReference>
+<dbReference type="KEGG" id="mym:A176_004014"/>
+<dbReference type="Proteomes" id="UP000009026">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016787">
+<property type="term" value="F:hydrolase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-0378" evidence="2">Hydrolase</keyword>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="7"/>
+<end position="179"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AKQ67102.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000009026"/>
+</source>
+</evidence>
+<sequence length="196" mass="20854" checksum="7C3375413AC2202A" modified="2015-10-14" version="1">
+MSVNYVALGDSTAVGVGASRGGYPDRLASRLRAAGLAVGLTNLGQSGARIRDVFTGQVKR
+AVASQPTLVTLGIGTNDVWRGTPLEDFQDDLDRIARRLKQTGAPLVVVNLVDLALAPVAK
+MVPAALYEGRIEPFNAAIAEVAHAHGLHLVDLFTASKAMIPHSPHFFSSDGFHPSDEGYS
+EWAELMLPLVQSLVSR
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

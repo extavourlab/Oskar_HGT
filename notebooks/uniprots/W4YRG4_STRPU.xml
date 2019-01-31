@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-03-19" modified="2016-05-11" version="14">
+<accession>W4YRG4</accession>
+<name>W4YRG4_STRPU</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="2">Sp-Lkap</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Strongylocentrotus purpuratus</name>
+<name type="common">Purple sea urchin</name>
+<dbReference type="NCBI Taxonomy" id="7668"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Echinodermata</taxon>
+<taxon>Eleutherozoa</taxon>
+<taxon>Echinozoa</taxon>
+<taxon>Echinoidea</taxon>
+<taxon>Euechinoidea</taxon>
+<taxon>Echinacea</taxon>
+<taxon>Echinoida</taxon>
+<taxon>Strongylocentrotidae</taxon>
+<taxon>Strongylocentrotus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2">
+<citation type="submission" date="2015-06" db="UniProtKB">
+<authorList>
+<consortium name="EnsemblMetazoa"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<dbReference type="EMBL" id="AAGJ04157922">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AAGJ04157923">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="STRING" id="7668.SPU_018397tr"/>
+<dbReference type="EnsemblMetazoa" id="SPU_018397-tr">
+<property type="protein sequence ID" value="SPU_018397-tr"/>
+<property type="gene ID" value="SPU_018397"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410IF58">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410XQFX">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000007110">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005777">
+<property type="term" value="C:peroxisome"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010468">
+<property type="term" value="P:regulation of gene expression"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024768">
+<property type="entry name" value="Marf1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR14379">
+<property type="entry name" value="PTHR14379"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="4"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="5"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="102"/>
+<end position="177"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="178"/>
+<end position="253"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="262"/>
+<end position="337"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="338"/>
+<end position="413"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="414"/>
+<end position="488"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EnsemblMetazoa" id="SPU_018397-tr"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000007110"/>
+</source>
+</evidence>
+<sequence length="768" mass="86067" checksum="2CF4170A209E4136" modified="2014-03-19" version="1">
+MVAYQTFTAQVTTLLNLHSGSLSLLSFPLCYKAEFNDLDEDFEKGIPLEHLLNSVPGVRV
+AFCREGFKVICWSQQKEEVITDDGQQIFPPLLGRTTPLLPPALFQFSKEVVELLKHSTKC
+RLPFTRFVPAYHHHFGRQVRVADYGYLKLIELFEAISHVLEILGATENKTLTLTHRAQVK
+RFGQDLLKVLKSQASKKVVINDFAPAFQRCLGRPWETADYGICDIQDLLFDLPENWVTIE
+WDGDNTVISIPKREQTEEECIRTKKFTREIVDLLSRQHRSRITFSKFIPAYHHHFGRQCR
+VGEYGFNKLAELLGALPEVVQIEEYGDERSVQLTEPERLAVMARRISQLVPRNRQHSLAL
+HALLPAYCKVFGHPVCLEDYDVHDLESLVRRFCHIVEIVTEDDDKRLRSVEREHLSDLTQ
+RILVVLLEQPRGSASVEKVVELHKKLWGEELVATEYGYSSVTLLLKAVHHVVMVKDEWSD
+DPCAELTPTYQFARSAREVLISVPNQTLTLQAFMSRYQVVHRCELLPHDFGQTTVSSLIS
+SVPRVLTLVGRGAQRAITLNPCCIAPSSTTSEKESGKTSSSTSTSESDGVKGSSPRAESA
+PCDLMSGGAAPSSDQAPFLEPTHAEAPPPLLPPKDLISFNSPMFSPHKESQSASGDQEKI
+EHIDLRSLLHLLPNQTRFSVGQLPHDLCNPLPGHALQSGPASLPHSASTSFCVDQGGDDG
+ELLPHHLQQRQACSLPSSAASSPRRDILRGRTRFRLAANFSLGFQEVP
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

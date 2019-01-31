@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2016-04-13" modified="2016-06-08" version="3">
+<accession>A0A109CXL6</accession>
+<name>A0A109CXL6_9BACT</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Sialate O-acetylesterase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">ASN18_0030</name>
+</gene>
+<organism evidence="2">
+<name type="scientific">Nitrospirae bacterium HCH-1</name>
+<dbReference type="NCBI Taxonomy" id="1748249"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Nitrospirae</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="submission" date="2015-11" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Zhang Y."/>
+<person name="Guo Z."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2 3">HCH-1</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="LNQR01000001">
+<property type="protein sequence ID" value="KWT95102.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000060487">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="47"/>
+<end position="209"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KWT95102.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000060487"/>
+</source>
+</evidence>
+<sequence length="221" mass="24902" checksum="CEDB4063F0F69301" modified="2016-04-13" version="1">
+MRARCKSPLPDFISLNVKIMFKQAVIAFFIIIIMGVASGSSNEKIVFLGDSLTAYADWNE
+LFPSDNIINRGISGNTTQDIYNRLGAVIKDAPKKIFIMVGINDIIRGKSVDDLTLTYNKI
+LKVLINRLPNADIYVISVLPVNFSGDLYNLYVNTTVIAANERIKQSVKKHTKKDKVKFLD
+IYGTFTKSGTSGLIPMYTYDGIHLTHQGYLNWKQQIRPYVN
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

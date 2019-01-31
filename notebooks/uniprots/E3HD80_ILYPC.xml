@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2011-01-11" modified="2016-06-08" version="29">
+<accession>E3HD80</accession>
+<name>E3HD80_ILYPC</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Lipolytic protein G-D-S-L family</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="2">Ilyop_2320</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Ilyobacter polytropus (strain DSM 2926 / CuHBu1)</name>
+<dbReference type="NCBI Taxonomy" id="572544"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Fusobacteria</taxon>
+<taxon>Fusobacteriales</taxon>
+<taxon>Fusobacteriaceae</taxon>
+<taxon>Ilyobacter</taxon>
+</lineage>
+</organism>
+<geneLocation type="plasmid" evidence="2 3">
+<name>pILYOP01</name>
+</geneLocation>
+<reference key="1" evidence="2 3">
+<citation type="journal article" date="2010" name="Stand. Genomic Sci." volume="3" first="304" last="314">
+<title>Complete genome sequence of Ilyobacter polytropus type strain (CuHbu1).</title>
+<authorList>
+<person name="Sikorski J."/>
+<person name="Chertkov O."/>
+<person name="Lapidus A."/>
+<person name="Nolan M."/>
+<person name="Lucas S."/>
+<person name="Del Rio T.G."/>
+<person name="Tice H."/>
+<person name="Cheng J.F."/>
+<person name="Tapia R."/>
+<person name="Han C."/>
+<person name="Goodwin L."/>
+<person name="Pitluck S."/>
+<person name="Liolios K."/>
+<person name="Ivanova N."/>
+<person name="Mavromatis K."/>
+<person name="Mikhailova N."/>
+<person name="Pati A."/>
+<person name="Chen A."/>
+<person name="Palaniappan K."/>
+<person name="Land M."/>
+<person name="Hauser L."/>
+<person name="Chang Y.J."/>
+<person name="Jeffries C.D."/>
+<person name="Brambilla E."/>
+<person name="Yasawong M."/>
+<person name="Rohde M."/>
+<person name="Pukall R."/>
+<person name="Spring S."/>
+<person name="Goker M."/>
+<person name="Woyke T."/>
+<person name="Bristow J."/>
+<person name="Eisen J.A."/>
+<person name="Markowitz V."/>
+<person name="Hugenholtz P."/>
+<person name="Kyrpides N.C."/>
+<person name="Klenk H.P."/>
+</authorList>
+<dbReference type="PubMed" id="21304735"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3">DSM 2926 / CuHBu1</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="CP002282">
+<property type="protein sequence ID" value="ADO84080.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_013388739.1">
+<property type="nucleotide sequence ID" value="NC_014633.1"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="E3HD80"/>
+<dbReference type="EnsemblBacteria" id="ADO84080">
+<property type="protein sequence ID" value="ADO84080"/>
+<property type="gene ID" value="Ilyop_2320"/>
+</dbReference>
+<dbReference type="KEGG" id="ipo:Ilyop_2320"/>
+<dbReference type="PATRIC" id="42648563">
+<property type="gene designation" value="VBIIlyPol34265_2403"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000094444"/>
+<dbReference type="BioCyc" id="IPOL572544:GJ9I-2409-MONOMER"/>
+<dbReference type="Proteomes" id="UP000006875">
+<property type="component" value="Plasmid pILYOP01"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-0614" evidence="2">Plasmid</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="16"/>
+<end position="154"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="ADO84080.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000006875"/>
+</source>
+</evidence>
+<sequence length="163" mass="18602" checksum="280FA5F8AE064FD2" modified="2011-01-11" version="1">
+MKKTILLGDSITEWNPLKDNNIINMGVAGDTTRDIFWRIDEVKSIEAEKVIFMAGINDIL
+MNFPFEKTCDFYNKIMSSLKENFDEIILMGILPAVGDGKLSINILQINRFIEDLAKENNL
+IFLDISELFFDEEGSLNLSLYTDGLHLSSMGYQLLNNELLKNI
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

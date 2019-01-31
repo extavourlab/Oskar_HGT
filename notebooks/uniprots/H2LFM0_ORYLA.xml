@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2012-03-21" modified="2016-05-11" version="22">
+<accession>H2LFM0</accession>
+<name>H2LFM0_ORYLA</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3">TDRD7 (1 to many)</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Oryzias latipes</name>
+<name type="common">Japanese rice fish</name>
+<name type="synonym">Japanese killifish</name>
+<dbReference type="NCBI Taxonomy" id="8090"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Actinopterygii</taxon>
+<taxon>Neopterygii</taxon>
+<taxon>Teleostei</taxon>
+<taxon>Neoteleostei</taxon>
+<taxon>Acanthomorphata</taxon>
+<taxon>Ovalentaria</taxon>
+<taxon>Atherinomorphae</taxon>
+<taxon>Beloniformes</taxon>
+<taxon>Adrianichthyidae</taxon>
+<taxon>Oryziinae</taxon>
+<taxon>Oryzias</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="journal article" date="2007" name="Nature" volume="447" first="714" last="719">
+<title>The medaka draft genome and insights into vertebrate genome evolution.</title>
+<authorList>
+<person name="Kasahara M."/>
+<person name="Naruse K."/>
+<person name="Sasaki S."/>
+<person name="Nakatani Y."/>
+<person name="Qu W."/>
+<person name="Ahsan B."/>
+<person name="Yamada T."/>
+<person name="Nagayasu Y."/>
+<person name="Doi K."/>
+<person name="Kasai Y."/>
+<person name="Jindo T."/>
+<person name="Kobayashi D."/>
+<person name="Shimada A."/>
+<person name="Toyoda A."/>
+<person name="Kuroki Y."/>
+<person name="Fujiyama A."/>
+<person name="Sasaki T."/>
+<person name="Shimizu A."/>
+<person name="Asakawa S."/>
+<person name="Shimizu N."/>
+<person name="Hashimoto S."/>
+<person name="Yang J."/>
+<person name="Lee Y."/>
+<person name="Matsushima K."/>
+<person name="Sugano S."/>
+<person name="Sakaizumi M."/>
+<person name="Narita T."/>
+<person name="Ohishi K."/>
+<person name="Haga S."/>
+<person name="Ohta F."/>
+<person name="Nomoto H."/>
+<person name="Nogata K."/>
+<person name="Morishita T."/>
+<person name="Endo T."/>
+<person name="Shin-I T."/>
+<person name="Takeda H."/>
+<person name="Morishita S."/>
+<person name="Kohara Y."/>
+</authorList>
+<dbReference type="PubMed" id="17554307"/>
+<dbReference type="DOI" id="10.1038/nature05846"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3 4">Hd-rR</strain>
+</source>
+</reference>
+<reference key="2" evidence="3">
+<citation type="submission" date="2012-02" db="UniProtKB">
+<authorList>
+<consortium name="Ensembl"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+<source>
+<strain evidence="3">Hd-rR</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="3">The sequence shown here is derived from an Ensembl automatic analysis pipeline and should be considered as preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="BAAF04059541">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BAAF04059542">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BAAF04059543">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BAAF04059544">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="STRING" id="8090.ENSORLP00000004759"/>
+<dbReference type="Ensembl" id="ENSORLT00000004760">
+<property type="protein sequence ID" value="ENSORLP00000004759"/>
+<property type="gene ID" value="ENSORLG00000003824"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410IPR1">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410XST4">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00830000128334"/>
+<dbReference type="InParanoid" id="H2LFM0"/>
+<dbReference type="OMA" id="KCSQWSE"/>
+<dbReference type="OrthoDB" id="EOG7BW0HQ"/>
+<dbReference type="Proteomes" id="UP000001038">
+<property type="component" value="Chromosome 18"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="1"/>
+<end position="67"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="218"/>
+<end position="288"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="329"/>
+<end position="399"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="496"/>
+<end position="554"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="935"/>
+<end position="994"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Ensembl" id="ENSORLP00000004759"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000001038"/>
+</source>
+</evidence>
+<sequence length="1077" mass="120883" checksum="A2FAE7DB6CF2CC47" modified="2012-03-21" version="1">
+MLQGILHSNKAGVSLSRLQSEYKEATGEQIPHKQMGHNHLDTLLVSMPSVVRVERGRSGE
+ACYFASGASETTHTAKVMARERGSRRTSRPHLVNTQMRAKPAPPLILNGRSSFIQRKPKF
+LKPTEMLFKKPAGTSPLEHELGRITSSGSRLQAYIPSSLPCSPKSPHLKFLSRPDKRMAL
+PSRYQKEVNAHLSRNVQQTSPPMNLNDSFGSGRGKSYNRQQVQSRIREILGKYSNGFWVS
+KLPQIYRELYKQDLPSEAIGDLESWTHICTVEKTCSSNPNELLLYPGKDQSAPCSPPPLS
+NSTCSPAPPTTSSHTPPDQPPQPLAQPRPPQDLRQKLEELLVKYSSGLWAHALPKLFQDA
+YKTKLPAFVLENLHLLDDICTVDYPMADNPKRAILYRRSSVGGAEDENCNRRGSSISEEE
+LRMRRDAGRRLSNQAVPPLQIPKEEYPSVLVIEATNTNGVVLRYVGEGYSQAQEAMEDRM
+KEFYGVKGSNRTPLSAPTSGQLVAVRAEEEEEILRGQICEVLEDKIKVFYVDHGFFETVS
+RTKVFDLDERFFKLPFQATKCKLAGLEPFCQEAAVLKKFETMASGRILLAEILVRAQTPL
+VVLYDTSQDDDVNINAACRRALHDKALASPLQVNGAYMNVTVSSICSDGTFYCQLPSRGL
+HKMKQLLESIETHFHSQVTSEFLVSRPFCGKLCLARYKGKWSRVEITNLHGSRVLDILFV
+DVGVQASVEVFELREIPPMFLRDFVAVPPQAVKCCLADLAVSVGSWTPEAVQWLRKKVLN
+VSDCSMKVAKTDETKCCTLVYLFSDKNCHEPTRSLNHQMVRSDLFKQKPDVFLTSHSNKD
+SANGNPTSVAAGLHPKRAPSAPRGGSGSPDKSPPSSLAQLPPLLELPPAGSNLDVYVSVA
+CHPGHFVLQPWRDMYKLVVLMGEMILYYNKTEEKPLRIEKNQIYVAKVENNWYRVLVKGV
+LTNGMVSVYELDYGKHELVSCSNLRPLIKEFKQFPFQAITAQLAGVKPRQWSEEASIVFR
+NHVEKKPLVAQLESLQDSKNPWDRKLTVFLVDTSQEERDVWMHDLMAEFADERSNEL
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

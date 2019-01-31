@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-05-27" modified="2016-05-11" version="7">
+<accession>A0A0E1TXK8</accession>
+<name>A0A0E1TXK8_BURPE</name>
+<protein>
+<submittedName>
+<fullName evidence="4">Putative galactose oxidase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="4">BUC_2131</name>
+</gene>
+<organism evidence="4 5">
+<name type="scientific">Burkholderia pseudomallei 576</name>
+<dbReference type="NCBI Taxonomy" id="557724"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Burkholderiales</taxon>
+<taxon>Burkholderiaceae</taxon>
+<taxon>Burkholderia</taxon>
+<taxon>pseudomallei group</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="4 5">
+<citation type="submission" date="2010-02" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Brinkac L.M."/>
+<person name="Harkins D.M."/>
+<person name="Shrivastava S."/>
+<person name="Durkin A.S."/>
+<person name="Sutton G."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="4 5">576</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="4">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="ACCE01000004">
+<property type="protein sequence ID" value="EEC35328.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="A0A0E1TXK8"/>
+<dbReference type="EnsemblBacteria" id="EEC35328">
+<property type="protein sequence ID" value="EEC35328"/>
+<property type="gene ID" value="BUC_2131"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000004875">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.130.10.80">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.60.40.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR015202">
+<property type="entry name" value="DUF1929"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011043">
+<property type="entry name" value="Gal_Oxase/kelch_b-propeller"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR015916">
+<property type="entry name" value="Gal_Oxidase_b-propeller"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR009880">
+<property type="entry name" value="Glyoxal_oxidase_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013783">
+<property type="entry name" value="Ig-like_fold"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR014756">
+<property type="entry name" value="Ig_E-set"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006652">
+<property type="entry name" value="Kelch_1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF09118">
+<property type="entry name" value="DUF1929"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF07250">
+<property type="entry name" value="Glyoxal_oxid_N"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01344">
+<property type="entry name" value="Kelch_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF50965">
+<property type="entry name" value="SSF50965"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF81296">
+<property type="entry name" value="SSF81296"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="5">Complete proteome</keyword>
+<feature type="domain" description="Glyoxal_oxid_N" evidence="1">
+<location>
+<begin position="88"/>
+<end position="245"/>
+</location>
+</feature>
+<feature type="domain" description="DUF1929" evidence="2">
+<location>
+<begin position="424"/>
+<end position="518"/>
+</location>
+</feature>
+<feature type="domain" description="SGNH_hydro" evidence="3">
+<location>
+<begin position="537"/>
+<end position="721"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF07250"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF09118"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EEC35328.1"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000004875"/>
+</source>
+</evidence>
+<sequence length="744" mass="79349" checksum="9C973E79ED16F796" modified="2015-05-27" version="1">
+MFKMAKGSTDGGTLSQSVGMIIPEKGDPVRGIFSPVVDWPFIPIHAILMKDGRILTYGST
+KQGFQSGMFFYDVWSPFLGGSPSAHQTLPNTTRVDLFCSSQLNLADGTVGIFGGDVTVGS
+SDSTGYSINAFTNSSITIYNPEASDASQQLAKQANQMLLPRWYSTATVLPNNEIYLQGGT
+GGNTYPEIRGVPDGVHRLLNGVYTGVYDDWYPRNFVGPNGKIFGKTGASLFEVDTKGNGS
+VRTLNSTAPYNPFAAGSRGEAVVMFAPGKILVVGTGGDARTASVIDINKMETSGSGASST
+PSVIPLVTATSRLNRPRTWGHATVLPNGQVFVNGGSMGYNELATSSYTAELYDPATNTWA
+DGAVAAHSRMYHAISLLLPDGTVLTGGGGASTPTYPGPEFPVNANAEVYYPPYLFNADGT
+RASRPVIDSAPAAITANRIFTLTSPDAGSIGRMTMVKTGSTTHSFNMEQRFVELNFTRQG
+AQLSATLTNDRHQFTPGMYMLFVINVNGVPSVASLVRVDPDPVLAATATRTLRIMPMGDA
+ITYGYINLPGTKYSGYRAPLQDLLAQANLNYQFVGSMYAGNGVYGIDTHHEGHPGMLIAD
+MTANAASWVTAAKPDVVMLQMGFTDMLNNYLVDTAPSRLRKLIDTIRAAAPGAKIILSTL
+APTPDAATQARINQFNAQVVSLANDEAAQFKDVFLVDSSTLIPKVGVDYYDMLYPNDNGH
+TKIAKVWRDGIVRALGSPFTSKSA
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

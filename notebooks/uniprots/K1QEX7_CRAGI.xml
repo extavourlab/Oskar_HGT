@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2012-11-28" modified="2016-01-20" version="14">
+<accession>K1QEX7</accession>
+<name>K1QEX7_CRAGI</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Limkain-b1</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">CGI_10007033</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Crassostrea gigas</name>
+<name type="common">Pacific oyster</name>
+<name type="synonym">Crassostrea angulata</name>
+<dbReference type="NCBI Taxonomy" id="29159"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Lophotrochozoa</taxon>
+<taxon>Mollusca</taxon>
+<taxon>Bivalvia</taxon>
+<taxon>Pteriomorphia</taxon>
+<taxon>Ostreoida</taxon>
+<taxon>Ostreoidea</taxon>
+<taxon>Ostreidae</taxon>
+<taxon>Crassostrea</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="journal article" date="2012" name="Nature" volume="490" first="49" last="54">
+<title>The oyster genome reveals stress adaptation and complexity of shell formation.</title>
+<authorList>
+<person name="Zhang G."/>
+<person name="Fang X."/>
+<person name="Guo X."/>
+<person name="Li L."/>
+<person name="Luo R."/>
+<person name="Xu F."/>
+<person name="Yang P."/>
+<person name="Zhang L."/>
+<person name="Wang X."/>
+<person name="Qi H."/>
+<person name="Xiong Z."/>
+<person name="Que H."/>
+<person name="Xie Y."/>
+<person name="Holland P.W.H."/>
+<person name="Paps J."/>
+<person name="Zhu Y."/>
+<person name="Wu F."/>
+<person name="Chen Y."/>
+<person name="Wang J."/>
+<person name="Peng C."/>
+<person name="Meng J."/>
+<person name="Yang L."/>
+<person name="Liu J."/>
+<person name="Wen B."/>
+<person name="Zhang N."/>
+<person name="Huang Z."/>
+<person name="Zhu Q."/>
+<person name="Feng Y."/>
+<person name="Mount A."/>
+<person name="Hedgecock D."/>
+<person name="Xu Z."/>
+<person name="Liu Y."/>
+<person name="Domazet-Loso T."/>
+<person name="Du Y."/>
+<person name="Sun X."/>
+<person name="Zhang S."/>
+<person name="Liu B."/>
+<person name="Cheng P."/>
+<person name="Jiang X."/>
+<person name="Li J."/>
+<person name="Fan D."/>
+<person name="Wang W."/>
+<person name="Fu W."/>
+<person name="Wang T."/>
+<person name="Wang B."/>
+<person name="Zhang J."/>
+<person name="Peng Z."/>
+<person name="Li Y."/>
+<person name="Li N."/>
+<person name="Wang J."/>
+<person name="Chen M."/>
+<person name="He Y."/>
+<person name="Tan F."/>
+<person name="Song X."/>
+<person name="Zheng Q."/>
+<person name="Huang R."/>
+<person name="Yang H."/>
+<person name="Du X."/>
+<person name="Chen L."/>
+<person name="Yang M."/>
+<person name="Gaffney P.M."/>
+<person name="Wang S."/>
+<person name="Luo L."/>
+<person name="She Z."/>
+<person name="Ming Y."/>
+<person name="Huang W."/>
+<person name="Zhang S."/>
+<person name="Huang B."/>
+<person name="Zhang Y."/>
+<person name="Qu T."/>
+<person name="Ni P."/>
+<person name="Miao G."/>
+<person name="Wang J."/>
+<person name="Wang Q."/>
+<person name="Steinberg C.E.W."/>
+<person name="Wang H."/>
+<person name="Li N."/>
+<person name="Qian L."/>
+<person name="Zhang G."/>
+<person name="Li Y."/>
+<person name="Yang H."/>
+<person name="Liu X."/>
+<person name="Wang J."/>
+<person name="Yin Y."/>
+<person name="Wang J."/>
+</authorList>
+<dbReference type="PubMed" id="22992520"/>
+<dbReference type="DOI" id="10.1038/nature11413"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2">05x7-T-G4-1.051#20</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="JH818884">
+<property type="protein sequence ID" value="EKC20046.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_011416545.1">
+<property type="nucleotide sequence ID" value="XM_011418243.1"/>
+</dbReference>
+<dbReference type="EnsemblMetazoa" id="EKC20046">
+<property type="protein sequence ID" value="EKC20046"/>
+<property type="gene ID" value="CGI_10007033"/>
+</dbReference>
+<dbReference type="GeneID" id="105320332"/>
+<dbReference type="KEGG" id="crg:105320332"/>
+<dbReference type="InParanoid" id="K1QEX7"/>
+<dbReference type="KO" id="K17573"/>
+<dbReference type="OMA" id="YREAEFL"/>
+<dbReference type="Proteomes" id="UP000005408">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005777">
+<property type="term" value="C:peroxisome"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000166">
+<property type="term" value="F:nucleotide binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010468">
+<property type="term" value="P:regulation of gene expression"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.70.330">
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024582">
+<property type="entry name" value="Limkain_b1_cons_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024768">
+<property type="entry name" value="Marf1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR012677">
+<property type="entry name" value="Nucleotide-bd_a/b_plait"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR021139">
+<property type="entry name" value="NYN_limkain-b1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR14379">
+<property type="entry name" value="PTHR14379"/>
+<property type="match status" value="4"/>
+</dbReference>
+<dbReference type="Pfam" id="PF11608">
+<property type="entry name" value="Limkain-b1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01936">
+<property type="entry name" value="NYN"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="5"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF54928">
+<property type="entry name" value="SSF54928"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="6"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="698"/>
+<end position="769"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="791"/>
+<end position="866"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="867"/>
+<end position="942"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="951"/>
+<end position="1026"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="1027"/>
+<end position="1102"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="1165"/>
+<end position="1240"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EKC20046.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000005408"/>
+</source>
+</evidence>
+<sequence length="1534" mass="172905" checksum="C8198C4A590AE163" modified="2012-11-28" version="1">
+MSNSLPPIGVFWDIENCSVPRWKSALSVVQIIRDTLFVDHREVEFMCVCDTSKESKDIIQ
+ELNAAQVNVVHITATSKNAADDKIRQSLRRFSDTHSPPATVVLVSSDVNFAADLSDLRHR
+KKYDVVLIHSRRVSEALTICATKSILYEELVKDLPTRQAEVVDEGGLDLEVTNLPGGVYE
+KKIQSRLKKLSENCGGRVVSVCKDVAVLRFKCHNDASKARTRMEGEDVYGNKIKVDFPQA
+SQTNSNISNGTNSSKVPSPTSQSGSKNTRSKNNPKSRSDEKKTLAESGKDTKMKSESRDL
+VYSNDKDVASSAKIQNVVDKFSKDNKGSRHVLMLQQQLYQEEQWQSEDHTPPEPFYSHYN
+YYHGYQNRHNYPNHHHHQDDYNNYHGYNVSNSFYHYGSQHNRSFTSYSSYRSLYESNSQN
+YRRNNQHNGYQNEYMHPTYDHRNRENYGNYPSDRDYNDKSGYTFQPITSPSPCPSSTSSS
+SIEIDQGDWDSLTGPVELMVSNLDYNISAKEWRKILFTTFHPHVRVLNVHVKTQPDNTSL
+GMVKVPSIEEARFAISQFHRKKIGYKRIHVTLKNEETQRPASSTRMEAVALLSEAKGNVL
+PLFKFIELFDKRYHRTISVSELYKMRDTIEIREQGGAGRMVYLANSYPPTSTTPTSDPGD
+GDVNEILEQPACPKHCPEGSVTYAEAVNRCMLPLVRVRLKTFAADVHTLLLTHEGNMPLM
+SFPACYGAEFSPIPDAMDGGVPLEHLISCVPGIQIQVSSSGVKKIQWAENKPPSQIAEQS
+RTCTSPLLSQQLSQISREMVDLLKQSPQCRMPFSKFIPSYHHFFGRQCRVADYGYNRLKD
+LFEAIPHVVQVLGTGDRKMLTLSHKAQLRRFTSDLTKILKTQPGKQLTVSAIPEAFTLAF
+NKRFDVSEYGMADLDDLLSELPATSIVISNEGRDGIVTLPRKDQSPEEIERTKQFALEVV
+DLLKHNPQCRMPFNKFIPAYHHHFGRQCRVSDYGFSKLLDLFESIPHVVDIEEEGEERLI
+HLTEPELRKILAEQIVGLLKVQKNECVPLHHLMSAFTCHYGFNIPLHDFGVDSEEELLNK
+LKHVVKVEMINRCKYVMLTDRSTIPPLAKQVLQLLMDQSGGSLPLMELCSRYLSMHGTEC
+NINHIKEELLDYVQVTGDDESGVISLTALQTFARDTRILLHKHSQINVSHFASAFKENFG
+IEIKPALYGYPTIESLLQAIPHIVDFGGKGQRKYVLLAEEFSGSMSPIPGIVRLSPSAES
+DTQSSDSGVTDTHPEVEDIMKHSSSRSSVDLLGAPVPSAIPSPDLHPIAKQLDLMKFENI
+ADLTERMWMISEEEKKGQKTPLCRTPTSELLQLAAQCLISRPPSTEPGSKEEKKSASQEL
+LDLIKGSGWWKINENEMDQFKKNLSEDVKGAKESSQQRAVEGFKSRQENVDGSGRTTQGY
+QSSTPLQELAAKQILQALHLPSKNPGGGKRLEHSCAAADEMSYDDMFRQELPLETSSTKS
+DSSTLSDKSESPRKSPRKPRIAAKFTVPMDIGNQ
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

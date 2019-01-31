@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-10-16" modified="2016-06-08" version="7">
+<accession>S9YEB6</accession>
+<name>S9YEB6_CAMFR</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Tudor domain-containing protein 5 isoform 1</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">CB1_000644004</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Camelus ferus</name>
+<name type="common">Wild bactrian camel</name>
+<name type="synonym">Camelus bactrianus ferus</name>
+<dbReference type="NCBI Taxonomy" id="419612"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Laurasiatheria</taxon>
+<taxon>Cetartiodactyla</taxon>
+<taxon>Tylopoda</taxon>
+<taxon>Camelidae</taxon>
+<taxon>Camelus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="journal article" date="2012" name="Nat. Commun." volume="3" first="1202" last="1202">
+<title>Genome sequences of wild and domestic bactrian camels.</title>
+<authorList>
+<consortium name="Bactrian Camels Genome Sequencing and Analysis Consortium"/>
+<person name="Jirimutu null"/>
+<person name="Wang Z."/>
+<person name="Ding G."/>
+<person name="Chen G."/>
+<person name="Sun Y."/>
+<person name="Sun Z."/>
+<person name="Zhang H."/>
+<person name="Wang L."/>
+<person name="Hasi S."/>
+<person name="Zhang Y."/>
+<person name="Li J."/>
+<person name="Shi Y."/>
+<person name="Xu Z."/>
+<person name="He C."/>
+<person name="Yu S."/>
+<person name="Li S."/>
+<person name="Zhang W."/>
+<person name="Batmunkh M."/>
+<person name="Ts B."/>
+<person name="Narenbatu null"/>
+<person name="Unierhu null"/>
+<person name="Bat-Ireedui S."/>
+<person name="Gao H."/>
+<person name="Baysgalan B."/>
+<person name="Li Q."/>
+<person name="Jia Z."/>
+<person name="Turigenbayila null"/>
+<person name="Subudenggerile null"/>
+<person name="Narenmanduhu null"/>
+<person name="Wang Z."/>
+<person name="Wang J."/>
+<person name="Pan L."/>
+<person name="Chen Y."/>
+<person name="Ganerdene Y."/>
+<person name="Dabxilt null"/>
+<person name="Erdemt null"/>
+<person name="Altansha null"/>
+<person name="Altansukh null"/>
+<person name="Liu T."/>
+<person name="Cao M."/>
+<person name="Aruuntsever null"/>
+<person name="Bayart null"/>
+<person name="Hosblig null"/>
+<person name="He F."/>
+<person name="Zha-ti A."/>
+<person name="Zheng G."/>
+<person name="Qiu F."/>
+<person name="Sun Z."/>
+<person name="Zhao L."/>
+<person name="Zhao W."/>
+<person name="Liu B."/>
+<person name="Li C."/>
+<person name="Chen Y."/>
+<person name="Tang X."/>
+<person name="Guo C."/>
+<person name="Liu W."/>
+<person name="Ming L."/>
+<person name="Temuulen null"/>
+<person name="Cui A."/>
+<person name="Li Y."/>
+<person name="Gao J."/>
+<person name="Li J."/>
+<person name="Wurentaodi null"/>
+<person name="Niu S."/>
+<person name="Sun T."/>
+<person name="Zhai Z."/>
+<person name="Zhang M."/>
+<person name="Chen C."/>
+<person name="Baldan T."/>
+<person name="Bayaer T."/>
+<person name="Li Y."/>
+<person name="Meng H."/>
+</authorList>
+<dbReference type="PubMed" id="23149746"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="4">bactrian camel</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="KB016913">
+<property type="protein sequence ID" value="EPY82545.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000030684">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="1"/>
+<end position="72"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="119"/>
+<end position="194"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="205"/>
+<end position="281"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="449"/>
+<end position="508"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EPY82545.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000030684"/>
+</source>
+</evidence>
+<sequence length="708" mass="79225" checksum="D6BC2A63933C6C23" modified="2013-10-16" version="1">
+MWLERFSCRGLISCLPSTSKEQLEKEYLLMVGNHLPLRILGYRSTMELVLDMPDVVCVCP
+CGDGTVILKAIPDESTKGIASLVAKQRSSHKFRNSMQKGRASVCCGPSSRRGVPYRGRVP
+PILPAVVKSELKDLLALSPVLLSDFEKAFVRRFGRSFQYMQYGFLSMFEVLNAASDVISV
+EQTRAGSLLTLKKSVSEGRQRGWPAGKHLENTFKSVIAQIGPGGTIDPELKHKIKFVTFK
+EQLSPKKLGFLNVTELVGALSDILRVEFREGEQDLLVFDADMKPLPPDGAISSVRNSCLV
+QSDEKTEAKAGVSSPPRSSPSTADIKETTWGCLSKSRKELEQKICRKPNLVVKPLQLQEE
+MNKSQLSLAVADPDFPPDAVRDRKLCRLPPLDTSTLVGVFVEYIISPSQFYIRIYSRDSS
+ELLEDMMIEMRRCYSNQLVSDRYTMPEHFIHPGHLCCVRISEDKWWYRVVIHRVLGKQEV
+EVFYPDFGNIGTVQKSSLRFLKCCYTKLPAQAIPCSLAWVRPVEGFRDLNPLALYTKSSA
+GPEDIVLTELGCPSQQHYFNEDREISPPSKESELHTLQDINDGKAFSHLKSVTSKEPLKD
+SEFCSLKTQDKSCEDDPKWSVPELKGVKEENEQPDLKSPPESSMLPKLEEFCVSLFQSQQ
+SAEGGQFEPSSLQTRPKQVQLSPAALRSASAVGDSPQKHSDSGRLTYS
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

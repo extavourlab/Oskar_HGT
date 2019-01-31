@@ -1,0 +1,1967 @@
+LOCUS       LOTUS_-_NT_033777_-_osk_mRNA_-_osk_CDS_extraction         372 bp    DNA     linear   UNA 10-JUN-2016
+DEFINITION  Drosophila melanogaster chromosome 3R.
+ACCESSION   urn.local...1a5-65tm019
+VERSION     urn.local...1a5-65tm019
+KEYWORDS    .
+SOURCE      Drosophila melanogaster (fruit fly)
+  ORGANISM  Drosophila melanogaster
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Endopterygota; Diptera; Brachycera;
+            Muscomorpha; Ephydroidea; Drosophilidae; Drosophila; Sophophora.
+FEATURES             Location/Qualifiers
+     source          order(<1..>121,<122..>372)
+                     /organism="Drosophila melanogaster"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:7227"
+                     /chromosome="3R"
+                     /genotype="y[1]; Gr22b[1] Gr22d[1] cn[1] CG33964[R4.2]
+                     bw[1] sp[1]; LysC[1] MstProx[1] GstD5[1] Rh6[1]"
+                     /label="source Drosophila melanogaster"
+     gene            order(<1..>121,<122..>372)
+                     /gene="osk"
+                     /locus_tag="Dmel_CG10901"
+                     /gene_synonym="CG10901; Dm-osk; Dmel\CG10901; norka; Osk;
+                     OSK; Oskar"
+                     /note="oskar"
+                     /map="85B7-85B7"
+                     /db_xref="FLYBASE:FBgn0003015"
+                     /db_xref="GeneID:41066"
+                     /label="osk gene"
+     mRNA            join(<1..121,122..>372)
+                     /gene="osk"
+                     /locus_tag="Dmel_CG10901"
+                     /gene_synonym="CG10901; Dm-osk; Dmel\CG10901; norka; Osk;
+                     OSK; Oskar"
+                     /product="oskar, transcript variant C"
+                     /note="osk-RC; Dmel\osk-RC; CG10901-RC; Dmel\CG10901-RC"
+                     /transcript_id="NM_206464.3"
+                     /db_xref="GI:442618101"
+                     /db_xref="FLYBASE:FBtr0081956"
+                     /db_xref="FLYBASE:FBgn0003015"
+                     /db_xref="GeneID:41066"
+                     /label="osk mRNA"
+     mRNA            join(<1..121,122..>372)
+                     /gene="osk"
+                     /locus_tag="Dmel_CG10901"
+                     /gene_synonym="CG10901; Dm-osk; Dmel\CG10901; norka; Osk;
+                     OSK; Oskar"
+                     /product="oskar, transcript variant A"
+                     /note="osk-RA; Dmel\osk-RA; CG10901-RA; Dmel\CG10901-RA"
+                     /transcript_id="NM_169248.4"
+                     /db_xref="GI:442618102"
+                     /db_xref="FLYBASE:FBtr0081954"
+                     /db_xref="FLYBASE:FBgn0003015"
+                     /db_xref="GeneID:41066"
+                     /label="osk mRNA"
+     CDS             join(<1..121,122..>372)
+                     /gene="osk"
+                     /locus_tag="Dmel_CG10901"
+                     /gene_synonym="CG10901; Dm-osk; Dmel\CG10901; norka; Osk;
+                     OSK; Oskar"
+                     /note="CG10901 gene product from transcript CG10901-RA;
+                     CG10901-PA; osk-PA; dmoskar; oskar"
+                     /codon_start=1
+                     /product="oskar, isoform A"
+                     /protein_id="NP_731295.1"
+                     /db_xref="GI:24645205"
+                     /db_xref="FLYBASE:FBpp0081435"
+                     /db_xref="FLYBASE:FBgn0003015"
+                     /db_xref="GeneID:41066"
+                     /translation="MAAVTSEFPSKPISYTSTNTSAKTYYLKSVKKRVTTCFQQLRDK
+                     LQSSGSFRKSSSSCLNQIFVRSDFSACGERFRKIFKSARKTELPELWKVPLVAHELTS
+                     RQSSQQLQVVARLFSSTQISTKEITYNSNSNTSENNMTIIESNYISVREEYPDIDSEV
+                     RAILLSHAQNGITISSIKSEYRKLTGNPFPLHDNVTDFLLTIPNVTAECSESGKRIFN
+                     LKASLKNGHLLDMVLNQKERTSDYSSGAPSLENIPRAPPRYWKNPFKRRALSQLNTSP
+                     RTVPKITDEKTKDIATRPVSLHQMANEAAESNWCYQDNWKHLNNFYQQASVNAPKMPV
+                     PINIYSPDAPEEPINLAPPGHQPSCRTQSQKTEPTENRHLGIFVHPFNGMNIMKRRHE
+                     MTPTPTILTSGTYNDSLLTINSDYDAYLLDFPLMGDDFMLYLARMELKCRFRRHERVL
+                     QSGLCVSGLTINGARNRLKRVQLPEGTQIIVNIGSVDIMRGKPLVQIEHDFRLLIKEM
+                     HNMRLVPILTNLAPLGNYCHDKVLCDKIYRFNKFIRSECCHLKVIDIHSCLINERGVV
+                     RFDCFQASPRQVTGSKEPYLFWNKIGRQRVLQVIETSLEY"
+                     /label="osk CDS"
+     CDS             join(1..121,122..>372)
+                     /gene="osk"
+                     /locus_tag="Dmel_CG10901"
+                     /gene_synonym="CG10901; Dm-osk; Dmel\CG10901; norka; Osk;
+                     OSK; Oskar"
+                     /note="CG10901 gene product from transcript CG10901-RC;
+                     CG10901-PC; osk-PC; dmoskar; oskar"
+                     /codon_start=1
+                     /product="oskar, isoform C"
+                     /protein_id="NP_996186.1"
+                     /db_xref="GI:45553317"
+                     /db_xref="FLYBASE:FBpp0089372"
+                     /db_xref="FLYBASE:FBgn0003015"
+                     /db_xref="GeneID:41066"
+                     /translation="MTIIESNYISVREEYPDIDSEVRAILLSHAQNGITISSIKSEYR
+                     KLTGNPFPLHDNVTDFLLTIPNVTAECSESGKRIFNLKASLKNGHLLDMVLNQKERTS
+                     DYSSGAPSLENIPRAPPRYWKNPFKRRALSQLNTSPRTVPKITDEKTKDIATRPVSLH
+                     QMANEAAESNWCYQDNWKHLNNFYQQASVNAPKMPVPINIYSPDAPEEPINLAPPGHQ
+                     PSCRTQSQKTEPTENRHLGIFVHPFNGMNIMKRRHEMTPTPTILTSGTYNDSLLTINS
+                     DYDAYLLDFPLMGDDFMLYLARMELKCRFRRHERVLQSGLCVSGLTINGARNRLKRVQ
+                     LPEGTQIIVNIGSVDIMRGKPLVQIEHDFRLLIKEMHNMRLVPILTNLAPLGNYCHDK
+                     VLCDKIYRFNKFIRSECCHLKVIDIHSCLINERGVVRFDCFQASPRQVTGSKEPYLFW
+                     NKIGRQRVLQVIETSLEY"
+                     /label="osk CDS"
+     mRNA            122..>372
+                     /gene="osk"
+                     /locus_tag="Dmel_CG10901"
+                     /gene_synonym="CG10901; Dm-osk; Dmel\CG10901; norka; Osk;
+                     OSK; Oskar"
+                     /product="oskar, transcript variant D"
+                     /note="osk-RD; Dmel\osk-RD; CG10901-RD; Dmel\CG10901-RD"
+                     /transcript_id="NM_001316539.1"
+                     /db_xref="GI:939620382"
+                     /db_xref="FLYBASE:FBtr0392898"
+                     /db_xref="FLYBASE:FBgn0003015"
+                     /db_xref="GeneID:41066"
+                     /label="osk mRNA"
+     misc_feature    
+                     /Original_Bases="CCCTTCAAACGGAGGGCTCTGTCCCAGCTGAACACCAGCCC
+                     GAGGACCGTGCCCAAGATAACGGATGAAAAGACCAAGGATATCGCCACCAGGCCGGTT
+                     TCGCTGCATCAAATGGCCAATGAGGCAGCGGAGTCGAACTGGTGCTACCAGGATAATT
+                     GGAAGCATC"
+                     /label="CCCTTCAAACGGAGGGCTCTGTCCCAGCTGAACACCAGCCCGAGGACCGT
+                     GCCCAAGATAACGGATGAAAAGACCAAGGATATCGCCACCAGGCCGGTTTCGCTGCAT
+                     CAAATGGCCAATGAGGCAGCGGAGTCGAACTGGTGCTACCAGGATAATTGGAAGCATC
+                     "
+                     /note="Geneious type: Editing History Deletion"
+ORIGIN      
+        1 atgaccatca tcgagagcaa ctatatatcc gtgcgcgagg aatatcccga tatagatagt
+       61 gaggtgcgcg ccatattgct gagccacgcc cagaatggaa tcacgatatc gagcatcaag
+      121 agtgaatatc gaaaactgac gggcaatcca tttccactgc acgacaacgt gacggatttc
+      181 ctgctgacca ttcccaatgt gaccgctgag tgcagcgagt ccggtaagcg gatcttcaac
+      241 ctgaaagcga gcctgaagaa cggtcacctc ctggatatgg tgctcaacca gaaagagcgc
+      301 accagcgact acagcagcgg agctccgtcc ctggagaaca taccacgagc acctccacgc
+      361 tactggaaga at
+//
+LOCUS       LOTUS_-_NW_001817681_-_oskar_mRNA_-_oskar_CDS_extraction         396 bp    DNA     linear   UNA 10-JUN-2016
+DEFINITION  Nasonia vitripennis strain AsymCX chromosome 3 unlocalized genomic
+            scaffold, Nvit_2.1 Chr3_random040, whole genome shotgun sequence.
+ACCESSION   urn.local...49-65ta6qp
+VERSION     urn.local...49-65ta6qp
+KEYWORDS    .
+SOURCE      Nasonia vitripennis (jewel wasp)
+  ORGANISM  Nasonia vitripennis
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Endopterygota; Hymenoptera; Apocrita;
+            Chalcidoidea; Pteromalidae; Pteromalinae; Nasonia.
+FEATURES             Location/Qualifiers
+     source          order(<1..>21,<22..>124,<125..>330,<331..>396)
+                     /organism="Nasonia vitripennis"
+                     /mol_type="genomic DNA"
+                     /strain="AsymCX"
+                     /db_xref="taxon:7425"
+                     /chromosome=3
+                     /map="unlocalized"
+                     /label="source Nasonia vitripennis"
+     gene            order(complement(<22..122),complement(<1..>21))
+                     /gene="LOC100120509"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /db_xref="GeneID:100120509"
+                     /db_xref="NASONIABASE:NV16311"
+                     /label="LOC100120509 gene"
+     gene            order(<1..>21,<22..>124,<125..>330,<331..>396)
+                     /gene="oskar"
+                     /note="maternal effect protein oskar; Derived by
+                     automatedcomputational analysis using gene prediction
+                     method:BestRefSeq."
+                     /db_xref="GeneID:100500744"
+                     /label="oskar gene"
+     mRNA            join(<1..21,22..124,125..330,331..>396)
+                     /gene="oskar"
+                     /product="maternal effect protein oskar"
+                     /inference="similar to RNA sequence, mRNA (same
+                     species):RefSeq:NM_001247955.1"
+                     /exception="annotated by transcript or proteomic data"
+                     /note="The RefSeq transcript has 2 substitutions, 1
+                     non-frameshifting indel compared to this genomic sequence;
+                     Derived by automated computational analysis using gene
+                     prediction method: BestRefSeq."
+                     /transcript_id="NM_001247955.1"
+                     /db_xref="GI:350535808"
+                     /db_xref="GeneID:100500744"
+                     /label="oskar mRNA"
+     CDS             join(1..21,22..124,125..330,331..>396)
+                     /gene="oskar"
+                     /inference="similar to AA sequence (same
+                     species):RefSeq:NP_001234884.1"
+                     /exception="annotated by transcript or proteomic data"
+                     /note="The RefSeq protein has 1 substitution compared to
+                     this genomic sequence; Derived by automated computational
+                     analysis using gene prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="maternal effect protein oskar"
+                     /protein_id="NP_001234884.1"
+                     /db_xref="GI:350535809"
+                     /db_xref="GeneID:100500744"
+                     /translation="MKFDYSPKRPVATEQEVNEVRLLVKSCILTRKGGMPISDLRDEY
+                     KNLTDEEIPFYRLGYNSLFHFLRDFQDVRSDRNEEGAHVLVVKENQQNKHLMELIKKQ
+                     KDPKTNSRQPSFRKRPRRNDSYRRSERQKILDDRRRKPVEEEKEETNNWRLVEPPVDE
+                     NLERPTIYTYYYFEDDLAICTEPIIGKTQLIGDDYXLQLCIKYMQYDLLRKTLKSPIS
+                     CGTVQSGLTIRKACKRLDKIESMSSKLVINLGTVDIYNRNTDEEMANDMMGLLKKLNT
+                     KYGYSSQQITLCTLPPMGNISMFGERDKYLNMHSYNNWIRRFAAKNNYQLLDLYDCFT
+                     DDNGCIDYQYFQQDARMVSGTSHPHVLFNYFGRQQIMRLILNLK"
+                     /label="oskar CDS"
+     CDS             complement(<22..104)
+                     /gene="LOC100120509"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="intraflagellar transport protein 88 homolog
+                     isoform X1"
+                     /protein_id="XP_008209002.1"
+                     /db_xref="GI:645027133"
+                     /db_xref="GeneID:100120509"
+                     /db_xref="NASONIABASE:NV16311"
+                     /translation="MPPFLVSMQDFTKSRTSLTSCSVATGRFYKLSHNNRNDIYSGYH
+                     DFSNTYSTADLDQEEFFREVLKTGYGARPIATPKYPGTGMRLGTSSGFHRGSTASGRP
+                     GTGALRPMTAVRGAGYTSASRQAFDPLNMSSALRNFPLEAEKEDTPEEKIKQAERRIM
+                     TLIEESAKAACEKNMKVALERAREASSRERALIRLQEQAGLSDSHNIDLTFAVIFNLA
+                     CQYSNNELYTEAIATYQAITRNRNFTNSARLKMNIGNIYVKMGQLSQAIKMYQMALDQ
+                     TTTAQKYLRIKIMHNIGMLFVQMGRLEEAANSFEWVMREKPDLKAGMHAILCHFALSH
+                     EDKMKKAFLELLDVPLYIDHDDKYSINTDDIAANILNETVKNDDLSKLERELKSNAEK
+                     TILNAANLIAPVIEETLAGGFAWCVDAIKSSAYSPLAANLEINKAMVFLHNREVRMAI
+                     DSLKVFENQDTKINSSASTVLSFIHFLVSRTRFDRGEYDQAEKYSEAAKNADSRNAAA
+                     YVNLSACAIMKNELDNAKEYLASALENDAAHVQALYNLGLLYKKKNMLDEALEYFLKL
+                     TNIVRYDPLTLYQIGHIYQLSNDVEQAADWYNQLLGIIPSDPGVLQKLGEMFDSMGDK
+                     QQAYQYYSDSYRFYPANFDVIDWLGSYFAQQSGLPEKALTYFQEAVVLAPEEPKWRLC
+                     VASCLRKTGQFHKALAEYQDINRRFPDNIECLKFLVRLSNDLGLKEAQTYAIELRRAE
+                     KAKETKERHGSGRPGSRRSNSGTSSRGGSGMSTLSEQRASPTLHNGDIVRSNHRIRRA
+                     DSSEFNLDSSSHDLNYADPVGPLPTRPMTAAGKRDDDFGDEELGEDLLPE"
+                     /label="LOC100120509 CDS"
+     CDS             complement(<22..104)
+                     /gene="LOC100120509"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="intraflagellar transport protein 88 homolog
+                     isoform X3"
+                     /protein_id="XP_008209004.1"
+                     /db_xref="GI:645027137"
+                     /db_xref="GeneID:100120509"
+                     /db_xref="NASONIABASE:NV16311"
+                     /translation="MPPFLVSMQDFTKSRTSLTSCSVATGRFYKLSHNKFFREVLKTG
+                     YGARPIATPKYPGTGMRLGTSSGFHRGSTASGRPGTGALRPMTAVRGAGYTSASRQAF
+                     DPLNMSSALRNFPLEAEKEDTPEEKIKQAERRIMTLIEESAKAACEKNMKVALERARE
+                     ASSRERALIRLQEQAGLSDSHNIDLTFAVIFNLACQYSNNELYTEAIATYQAITRNRN
+                     FTNSARLKMNIGNIYVKMGQLSQAIKMYQMALDQTTTAQKYLRIKIMHNIGMLFVQMG
+                     RLEEAANSFEWVMREKPDLKAGMHAILCHFALSHEDKMKKAFLELLDVPLYIDHDDKY
+                     SINTDDIAANILNETVKNDDLSKLERELKSNAEKTILNAANLIAPVIEETLAGGFAWC
+                     VDAIKSSAYSPLAANLEINKAMVFLHNREVRMAIDSLKVFENQDTKINSSASTVLSFI
+                     HFLVSRTRFDRGEYDQAEKYSEAAKNADSRNAAAYVNLSACAIMKNELDNAKEYLASA
+                     LENDAAHVQALYNLGLLYKKKNMLDEALEYFLKLTNIVRYDPLTLYQIGHIYQLSNDV
+                     EQAADWYNQLLGIIPSDPGVLQKLGEMFDSMGDKQQAYQYYSDSYRFYPANFDVIDWL
+                     GSYFAQQSGLPEKALTYFQEAVVLAPEEPKWRLCVASCLRKTGQFHKALAEYQDINRR
+                     FPDNIECLKFLVRLSNDLGLKEAQTYAIELRRAEKAKETKERHGSGRPGSRRSNSGTS
+                     SRGGSGMSTLSEQRASPTLHNGDIVRSNHRIRRADSSEFNLDSSSHDLNYADPVGPLP
+                     TRPMTAAGKRDDDFGDEELGEDLLPE"
+                     /label="LOC100120509 CDS"
+     CDS             complement(<22..104)
+                     /gene="LOC100120509"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="intraflagellar transport protein 88 homolog
+                     isoform X2"
+                     /protein_id="XP_008209003.1"
+                     /db_xref="GI:645027135"
+                     /db_xref="GeneID:100120509"
+                     /db_xref="NASONIABASE:NV16311"
+                     /translation="MPPFLVSMQDFTKSRTSLTSCSVATGRFYKLSHNNRNDIYSGYH
+                     DFSNTYSTADLDQEEFFREVLKTGYGARPIATPKYPGTGMRLGTSSGFHRGSTASGRP
+                     GTGALRPMTAVRGAGYTSASRQAFDPLNMSSALRNFPLEAEKEDTPEEKIKQAERRIM
+                     TLIEESAKAACEKNMKVALERAREASSRERALIRLQEQAGLSDSHNIDLTFAVIFNLA
+                     CQYSNNELYTEAIATYQAITRNRNFTNSARLKMNIGNIYVKMGQLSQAIKMYQMALDQ
+                     TTTAQKYLRIKIMHNIGMLFVQMGRLEEAANSFEWVMREKPDLKAGMHAILCHFALSH
+                     EDKMKKAFLELLDVPLYIDHDDKYSINTDDIAANILNETVKNDDLSKLERELKSNAEK
+                     TILNAANLIAPVIEETLAGGFAWCVDAIKSSAYSPLAANLEINKAMVFLHNREVRMAI
+                     DSLKVFENQDTKINSSASTVLSFIHFLRGEYDQAEKYSEAAKNADSRNAAAYVNLSAC
+                     AIMKNELDNAKEYLASALENDAAHVQALYNLGLLYKKKNMLDEALEYFLKLTNIVRYD
+                     PLTLYQIGHIYQLSNDVEQAADWYNQLLGIIPSDPGVLQKLGEMFDSMGDKQQAYQYY
+                     SDSYRFYPANFDVIDWLGSYFAQQSGLPEKALTYFQEAVVLAPEEPKWRLCVASCLRK
+                     TGQFHKALAEYQDINRRFPDNIECLKFLVRLSNDLGLKEAQTYAIELRRAEKAKETKE
+                     RHGSGRPGSRRSNSGTSSRGGSGMSTLSEQRASPTLHNGDIVRSNHRIRRADSSEFNL
+                     DSSSHDLNYADPVGPLPTRPMTAAGKRDDDFGDEELGEDLLPE"
+                     /label="LOC100120509 CDS"
+     mRNA            complement(<22..122)
+                     /gene="LOC100120509"
+                     /product="intraflagellar transport protein 88 homolog,
+                     transcript variant X1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 ESTs, 1 Protein, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 2 samples with support for all
+                     annotated introns"
+                     /transcript_id="XM_008210780.1"
+                     /db_xref="GI:645027132"
+                     /db_xref="GeneID:100120509"
+                     /db_xref="NASONIABASE:NV16311"
+                     /label="LOC100120509 mRNA"
+     mRNA            complement(<22..122)
+                     /gene="LOC100120509"
+                     /product="intraflagellar transport protein 88 homolog,
+                     transcript variant X3"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 ESTs, 1 Protein, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 2 samples with support for all
+                     annotated introns"
+                     /transcript_id="XM_008210782.1"
+                     /db_xref="GI:645027136"
+                     /db_xref="GeneID:100120509"
+                     /db_xref="NASONIABASE:NV16311"
+                     /label="LOC100120509 mRNA"
+     mRNA            complement(<22..122)
+                     /gene="LOC100120509"
+                     /product="intraflagellar transport protein 88 homolog,
+                     transcript variant X2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 ESTs, 2 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 2 samples with support for all
+                     annotated introns"
+                     /transcript_id="XM_008210781.1"
+                     /db_xref="GI:645027134"
+                     /db_xref="GeneID:100120509"
+                     /db_xref="NASONIABASE:NV16311"
+                     /label="LOC100120509 mRNA"
+     misc_feature    
+                     /Original_Bases="CTGGACGATAGGAGAAGGAAACCAGTGGAGGAGGAAAAAGA
+                     AGAGACAAACAACTGGCGGCTGGTAGAACCACCTGTCGATGAGAATTTGGAGCGGCCG
+                     ACCATTTATACATACTACTATTTCGAAGATGATTTG"
+                     /label="CTGGACGATAGGAGAAGGAAACCAGTGGAGGAGGAAAAAGAAGAGACAAA
+                     CAACTGGCGGCTGGTAGAACCACCTGTCGATGAGAATTTGGAGCGGCCGACCATTTAT
+                     ACATACTACTATTTCGAAGATGATTTG"
+                     /note="Geneious type: Editing History Deletion"
+ORIGIN      
+        1 atgaagtttg actactctcc taaacgtccc gtcgccaccg agcaagaagt caacgaagtg
+       61 cgacttttgg tgaaatcctg catactgaca agaaagggcg gcatgcctat ctccgacctc
+      121 cgcgacgaat ataaaaactt aaccgatgaa gaaataccgt tttacaggct aggctacaat
+      181 agcctgtttc attttttacg tgacttccag gacgtaaggt ccgaccgaaa tgaagaagga
+      241 gcccatgttc tggtggtaaa agaaaaccaa cagaacaagc acctaatgga gctcattaag
+      301 aagcaaaagg acccgaagac taacagtagg cagccatcgt ttagaaaacg tccacggagg
+      361 aacgatagct ataggcgaag cgagcgacag aaaatt
+//
+LOCUS       LOTUS_-_NW_001886841_-_oskar_mRNA_-_oskar_CDS_extraction         480 bp    DNA     linear   UNA 10-JUN-2016
+DEFINITION  Culex pipiens quinquefasciatus supercont3.141 genomic scaffold,
+            whole genome shotgun sequence.
+ACCESSION   urn.local...5p-65tah9m
+VERSION     urn.local...5p-65tah9m
+KEYWORDS    .
+SOURCE      Culex quinquefasciatus (southern house mosquito)
+  ORGANISM  Culex quinquefasciatus
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Endopterygota; Diptera; Nematocera;
+            Culicoidea; Culicidae; Culicinae; Culicini; Culex; Culex.
+FEATURES             Location/Qualifiers
+     source          order(<1..>154,<155..>480)
+                     /organism="Culex quinquefasciatus"
+                     /mol_type="genomic DNA"
+                     /strain="JHB"
+                     /db_xref="taxon:7176"
+                     /label="source Culex quinquefasciatus"
+     gene            order(<1..>154,<155..>480)
+                     /locus_tag="CpipJ_CPIJ007471"
+                     /db_xref="GeneID:6038950"
+                     /db_xref="VectorBase:CPIJ007471"
+                     /label="gene"
+     mRNA            join(<1..154,155..>480)
+                     /locus_tag="CpipJ_CPIJ007471"
+                     /product="oskar"
+                     /transcript_id="XM_001848589.1"
+                     /db_xref="GI:170041805"
+                     /db_xref="VectorBase:CPIJ007471-RA"
+                     /db_xref="GeneID:6038950"
+                     /db_xref="VectorBase:CPIJ007471"
+                     /label="oskar mRNA"
+     CDS             join(1..154,155..>480)
+                     /locus_tag="CpipJ_CPIJ007471"
+                     /codon_start=1
+                     /product="oskar"
+                     /protein_id="XP_001848641.1"
+                     /db_xref="GI:170041806"
+                     /db_xref="VectorBase:CPIJ007471-PA"
+                     /db_xref="GeneID:6038950"
+                     /db_xref="VectorBase:CPIJ007471"
+                     /translation="MVNVEIDSAQDVSMQSEKLNPMQIDSEEINSILRAIIIARTKEG
+                     ATLDEIIEDFKEKNDECLLTMFGDRETIVNYLRGLEGVWTSFHEPHGPLLWYCNTSKT
+                     QHLSNMIKNQKSPRGNKKYPWRNQPARMIYTSSSNVVTGSSSTMMAGTNGSGQREKFF
+                     DDNINFVPKRNAWNRVQLQQRTPAYHPYMPPQRRQVQPAMPKTQRGYYSSMQNIVPNF
+                     CGWQMIGDDFFLSLARWELGYSFDPGHTIQQSGLCISGLTIAEAVDRVTKATVLNDRV
+                     ILHIGVVDLLHGHEYVDMQMDLLRLMRVFEERGVRVILTTLSPIANSSHMPGVVNRYS
+                     QFNSLIRNSNWRYIDLYRCFVNERHNTLYECYQPGPRHVSGSNQPHVLWNKLGRQRII
+                     KFLKTQLARFI"
+                     /label="oskar CDS"
+     misc_feature    
+                     /Original_Bases="GATGATAACATCAATTTCGTCCCGAAACGGAACGCGTGGAA
+                     CCGTGTCCAGCTGCAGCAGCGAACCCCGGCCTACCATCCCTACATGCCACCCCAGAGA
+                     CGGCAGGTGCAGCCGGCAATGCCGAAGACGCAGCGCGGATACTATTCCAGCATG"
+                     /label="GATGATAACATCAATTTCGTCCCGAAACGGAACGCGTGGAACCGTGTCCA
+                     GCTGCAGCAGCGAACCCCGGCCTACCATCCCTACATGCCACCCCAGAGACGGCAGGTG
+                     CAGCCGGCAATGCCGAAGACGCAGCGCGGATACTATTCCAGCATG"
+                     /note="Geneious type: Editing History Deletion"
+ORIGIN      
+        1 atggtgaacg ttgaaatcga ctcggcccag gatgtctcca tgcagtcgga gaagctcaat
+       61 ccgatgcaga ttgattcgga ggagattaat tccatcctga gagctatcat catcgcgcgg
+      121 accaaggaag gagctacatt ggacgaaata attgaggact tcaaggaaaa aaacgatgag
+      181 tgtctgttaa caatgttcgg ggatcgggag accattgtga actatttgcg gggtctcgag
+      241 ggcgtttgga cttctttcca tgagccacat ggaccgctac tatggtactg caacacgtcg
+      301 aaaacgcaac atctgtccaa tatgatcaag aatcagaaat cgccacgtgg gaacaagaag
+      361 tatccatggc gtaatcaacc ggctcggatg atctacacat ccagtagcaa tgtcgtcacc
+      421 ggcagcagca gcacgatgat ggccggcacc aacggctctg gtcagcggga gaaattcttc
+//
+LOCUS       LOTUS_-_NW_002014424_-_Dvir\osk_mRNA_-_Dvir\osk_CDS_extraction         372 bp    DNA     linear   UNA 10-JUN-2016
+DEFINITION  Drosophila virilis strain TSC#15010-1051.87 scaffold_13047 genomic
+            scaffold, whole genome shotgun sequence.
+ACCESSION   urn.local...75-65tao19
+VERSION     urn.local...75-65tao19
+KEYWORDS    .
+SOURCE      Drosophila virilis
+  ORGANISM  Drosophila virilis
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Endopterygota; Diptera; Brachycera;
+            Muscomorpha; Ephydroidea; Drosophilidae; Drosophila.
+FEATURES             Location/Qualifiers
+     source          order(<1..>142,<143..>372)
+                     /organism="Drosophila virilis"
+                     /mol_type="genomic DNA"
+                     /strain="TSC#15010-1051.87"
+                     /db_xref="taxon:7244"
+                     /chromosome="Unknown"
+                     /label="source Drosophila virilis"
+     gene            order(<1..>142,<143..>372)
+                     /gene="Dvir\osk"
+                     /locus_tag="Dvir_GJ23790"
+                     /gene_synonym="Dvir\GJ23790; dvir_GLEANR_9119; GJ23790;
+                     osk; virosk"
+                     /note="oskar"
+                     /db_xref="FLYBASE:FBgn0013134"
+                     /db_xref="GeneID:6629353"
+                     /label="Dvir\osk gene"
+     mRNA            join(<1..142,143..>372)
+                     /gene="Dvir\osk"
+                     /locus_tag="Dvir_GJ23790"
+                     /gene_synonym="Dvir\GJ23790; dvir_GLEANR_9119; GJ23790;
+                     osk; virosk"
+                     /product="oskar"
+                     /note="osk-RA; Dvir\osk-RA; GJ23790-RA; Dvir\GJ23790-RA"
+                     /transcript_id="XM_002053233.2"
+                     /db_xref="GI:968104010"
+                     /db_xref="FLYBASE:FBtr0239715"
+                     /db_xref="FLYBASE:FBgn0013134"
+                     /db_xref="GeneID:6629353"
+                     /label="Dvir\osk mRNA"
+     CDS             join(<1..142,143..>372)
+                     /gene="Dvir\osk"
+                     /locus_tag="Dvir_GJ23790"
+                     /gene_synonym="Dvir\GJ23790; dvir_GLEANR_9119; GJ23790;
+                     osk; virosk"
+                     /note="GJ23790 gene product from transcript GJ23790-RA;
+                     Dvir\GJ23790-PA; Dvir\osk-PA"
+                     /codon_start=1
+                     /product="oskar"
+                     /protein_id="XP_002053269.1"
+                     /db_xref="GI:195389208"
+                     /db_xref="FLYBASE:FBpp0238207"
+                     /db_xref="FLYBASE:FBgn0013134"
+                     /db_xref="GeneID:6629353"
+                     /translation="MATFRSEFNSVPNTYNQRLTALKKKLTTCFQQWRQQLLKLHQQQ
+                     QQPKQQQQQQQHQSQHQHQQQQQKQKQRGSEHFYNIFVRADCSILSEKVTYLRKFKRI
+                     FTARQNLASARTAATAASAKQPVLGRCIGQEEQQLQIVASLFSSTLISKHSSSASITS
+                     SSMTIMDNTYIGVRDEYPDIDTEIRSILLANAQNGITISSIKKEYRQLTGTAFPLHDN
+                     ITDFLLTIPHVTAECCESGKRIFNIKPTEHTRHLHEMILQQRQRDSVSNPIQAQEPPR
+                     LWRAQYKRRIPQHFNFNLNTSEKPPAVKISKLQPLATAAAMSNDVYQDNWKHLNNQYQ
+                     LPQLNAAKNNIHSIASNPAQLQAALPAEHHPSKHVEEYAHKRRHEYTPTPTTLSCPST
+                     QHDSMFTINSDYDAYLLDFPLLGDDFFLYLARMELKCRFKKFEKVLQSGLCISGQTIN
+                     AARQRLRLVELPEMTQIIVNIGSEDIMRGRSLVQIEHDFRLLVKEMHNRRFVPVLTTL
+                     APLANCRHDKQTCDKVSRFNKFIRSEGRHLKVIDIHSCLINENGIVRFDCFQNGPRSV
+                     TGSSEPYVFWNKIGRQRVLHMIEENLEYY"
+                     /label="Dvir\osk CDS"
+     misc_feature    
+                     /Original_Bases="ATGGCGACATTCAGAAGTGAATTCAACAGCGTGCCGAACAC
+                     TTACAACCAGCGCCTGACGGCATTGAAGAAAAAGCTGACCACGTGTTTTCAGCAGTGG
+                     CGACAGCAGCTGCTCAAACTTCACCAACAGCAGCAGCAGCCCAAGCAACAGCAACAGC
+                     AACAGCAACATCAATCCCAACACCAACACCAACAGCAACAGCAGAAGCAGAAGCAACG
+                     TGGCAGTGAACATTTCTACAACATTTTTGTGCGCGCGGACTGCTCTATTTTGAGCGAA
+                     AAAGTTACCTATTTGCGCAAGTTCAAGAGGATTTTCACAGCGCGCCAGAATTTGGCGA
+                     GTGCTCGGACAGCAGCAACAGCGGCATCAGCCAAACAGCCAGTGCTTGGCAGGTGCAT
+                     TGGCCAGGAGGAGCAGCAACTGCAAATAGTGGCAAGCCTCTTCTCATCAACATTGATA
+                     TCGAAGCACAGCTCCAGT"
+                     /label="ATGGCGACATTCAGAAGTGAATTCAACAGCGTGCCGAACACTTACAACCA
+                     GCGCCTGACGGCATTGAAGAAAAAGCTGACCACGTGTTTTCAGCAGTGGCGACAGCAG
+                     CTGCTCAAACTTCACCAACAGCAGCAGCAGCCCAAGCAACAGCAACAGCAACAGCAAC
+                     ATCAATCCCAACACCAACACCAACAGCAACAGCAGAAGCAGAAGCAACGTGGCAGTGA
+                     ACATTTCTACAACATTTTTGTGCGCGCGGACTGCTCTATTTTGAGCGAAAAAGTTACC
+                     TATTTGCGCAAGTTCAAGAGGATTTTCACAGCGCGCCAGAATTTGGCGAGTGCTCGGA
+                     CAGCAGCAACAGCGGCATCAGCCAAACAGCCAGTGCTTGGCAGGTGCATTGGCCAGGA
+                     GGAGCAGCAACTGCAAATAGTGGCAAGCCTCTTCTCATCAACATTGATATCGAAGCAC
+                     AGCTCCAGT"
+                     /note="Geneious type: Editing History Deletion"
+     misc_feature    
+                     /Original_Bases="GCCCAGTACAAGCGGCGAATCCCACAGCACTTCAACTTCAA
+                     TCTAAATACAAGTGAGAAGCCTCCAGCCGTCAAGATATCCAAACTGCAGCCCCTGGCC
+                     ACGGCTGCAGCGATGTCTAACGATGTCTATCAGGACAACTGGAAACATCT"
+                     /label="GCCCAGTACAAGCGGCGAATCCCACAGCACTTCAACTTCAATCTAAATAC
+                     AAGTGAGAAGCCTCCAGCCGTCAAGATATCCAAACTGCAGCCCCTGGCCACGGCTGCA
+                     GCGATGTCTAACGATGTCTATCAGGACAACTGGAAACATCT"
+                     /note="Geneious type: Editing History Deletion"
+ORIGIN      
+        1 gcaagtatca ccagctccag catgaccatc atggacaaca cctatattgg ggtgcgcgac
+       61 gagtaccccg atattgatac tgaaatacgc tccatactgc tggctaatgc ccagaatggt
+      121 atcacgatat cgagcatcaa aaaggaatat cgacaattga cgggcacggc atttccgctg
+      181 cacgacaaca tcacggactt tctgcttacc ataccgcatg tcacggcaga gtgctgcgag
+      241 tctgggaagc gcatctttaa catcaagccc accgagcata cccgccatct gcacgagatg
+      301 atactgcagc agcgacaacg cgacagtgtg agcaacccaa tccaagcaca ggagccgcca
+      361 cgcttgtggc gc
+//
+LOCUS       LOTUS_-_NW_004523902_-_LOC101450245_mRNA_-_LOC101450245_CDS_extraction         477 bp    DNA     linear   UNA 10-JUN-2016
+DEFINITION  Ceratitis capitata unplaced genomic scaffold, Ccap_1.0 Scaffold39,
+            whole genome shotgun sequence.
+ACCESSION   urn.local...ix-65tckvu
+VERSION     urn.local...ix-65tckvu
+KEYWORDS    .
+SOURCE      Ceratitis capitata (Mediterranean fruit fly)
+  ORGANISM  Ceratitis capitata
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Endopterygota; Diptera; Brachycera;
+            Muscomorpha; Tephritoidea; Tephritidae; Ceratitis; Ceratitis.
+FEATURES             Location/Qualifiers
+     source          order(<1..>193,<194..>477)
+                     /organism="Ceratitis capitata"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:7213"
+                     /chromosome="Unknown"
+                     /label="source Ceratitis capitata"
+     gene            order(<1..>193,<194..>477)
+                     /gene="LOC101450245"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /db_xref="GeneID:101450245"
+                     /label="LOC101450245 gene"
+     mRNA            join(<1..193,194..>477)
+                     /gene="LOC101450245"
+                     /product="maternal effect protein oskar, transcript
+                     variant X1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 EST, 7 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 3 samples with support for all
+                     annotated introns"
+                     /transcript_id="XM_004529105.2"
+                     /db_xref="GI:807032380"
+                     /db_xref="GeneID:101450245"
+                     /label="LOC101450245 mRNA"
+     mRNA            join(<1..193,194..>477)
+                     /gene="LOC101450245"
+                     /product="maternal effect protein oskar, transcript
+                     variant X3"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 EST, 6 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 3 samples with support for all
+                     annotated introns"
+                     /transcript_id="XM_004529107.2"
+                     /db_xref="GI:807032382"
+                     /db_xref="GeneID:101450245"
+                     /label="LOC101450245 mRNA"
+     CDS             join(1..193,194..>477)
+                     /gene="LOC101450245"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="maternal effect protein oskar isoform X3"
+                     /protein_id="XP_004529164.1"
+                     /db_xref="GI:498979667"
+                     /db_xref="GeneID:101450245"
+                     /translation="MITIAASTADCETYDSDSKYHPTIMTIMSEAFLELRNEYPDLDV
+                     VIRSILMARSQEGATISDIKDDYRKNTGNVFPIFQSITEFLLSIPLVTAFCNEDGKLI
+                     FNVRPTDRTKHIFDMVQQQKPQQYQPQQHQPQQQQHQTHKQQDVQYNRQRGVEPRLNN
+                     ISKDKNNIDNNKEQLPININVVQANPNIDKSKIQPISGNKIFGNYVAEANNSNYYQDN
+                     CNHLFNRLYNQSKAVAQNFGNNIIGSSQSNLNNGVSKYQPNQAKSIIYPTQTRSNQQQ
+                     NYCNTNKLEKQFPTFNHPILKSSGPNTNRASSPSCTRSSRDNNSIYTSDSDYEAHLLD
+                     FPLLGDDFFLFLARMELRCKFKKYGKVLQSGLCVSGQTICAAIRRVHQLDDQHRSIIV
+                     NIGSVDIMKGRSLVQIEHDFRELINVIFKKGFTPILTTLAPLANYAHDKQVKTKLERF
+                     NHFIKNEGKFLVVMDIWACLVNEKGQILFDCFQNEPRMVSGTSEPYVFWNKIGRQRVL
+                     QLIESQLEY"
+                     /label="LOC101450245 CDS"
+     CDS             join(1..193,194..>477)
+                     /gene="LOC101450245"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="maternal effect protein oskar isoform X1"
+                     /protein_id="XP_004529162.1"
+                     /db_xref="GI:498979659"
+                     /db_xref="GeneID:101450245"
+                     /translation="MITIAASTADCETYDSDSKYHPTIMTIMSEAFLELRNEYPDLDV
+                     VIRSILMARSQEGATISDIKDDYRKNTGNVFPIFQSITEFLLSIPLVTAFCNEDGKLI
+                     FNVRPTDRTKHIFDMVQQQKPQQYQPQQHQPQQQQHQTHKQQDVQYNRQRGVEPRLNN
+                     ISKGTTGYDQSWYHNNKQNDYQSNLKFIDKNNIDNNKEQLPININVVQANPNIDKSKI
+                     QPISGNKIFGNYVAEANNSNYYQDNCNHLFNRLYNQSKAVAQNFGNNIIGSSQSNLNN
+                     GVSKYQPNQAKSIIYPTQTRSNQQQNYCNTNKLEKQFPTFNHPILKSSGPNTNRASSP
+                     SCTRSSRDNNSIYTSDSDYEAHLLDFPLLGDDFFLFLARMELRCKFKKYGKVLQSGLC
+                     VSGQTICAAIRRVHQLDDQHRSIIVNIGSVDIMKGRSLVQIEHDFRELINVIFKKGFT
+                     PILTTLAPLANYAHDKQVKTKLERFNHFIKNEGKFLVVMDIWACLVNEKGQILFDCFQ
+                     NEPRMVSGTSEPYVFWNKIGRQRVLQLIESQLEY"
+                     /label="LOC101450245 CDS"
+     mRNA            join(48..193,194..>477)
+                     /gene="LOC101450245"
+                     /product="maternal effect protein oskar, transcript
+                     variant X2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 EST, 7 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 3 samples with support for all
+                     annotated introns"
+                     /transcript_id="XM_004529106.2"
+                     /db_xref="GI:807032381"
+                     /db_xref="GeneID:101450245"
+                     /label="LOC101450245 mRNA"
+     CDS             join(73..193,194..>477)
+                     /gene="LOC101450245"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="maternal effect protein oskar isoform X2"
+                     /protein_id="XP_004529163.1"
+                     /db_xref="GI:498979663"
+                     /db_xref="GeneID:101450245"
+                     /translation="MTIMSEAFLELRNEYPDLDVVIRSILMARSQEGATISDIKDDYR
+                     KNTGNVFPIFQSITEFLLSIPLVTAFCNEDGKLIFNVRPTDRTKHIFDMVQQQKPQQY
+                     QPQQHQPQQQQHQTHKQQDVQYNRQRGVEPRLNNISKGTTGYDQSWYHNNKQNDYQSN
+                     LKFIDKNNIDNNKEQLPININVVQANPNIDKSKIQPISGNKIFGNYVAEANNSNYYQD
+                     NCNHLFNRLYNQSKAVAQNFGNNIIGSSQSNLNNGVSKYQPNQAKSIIYPTQTRSNQQ
+                     QNYCNTNKLEKQFPTFNHPILKSSGPNTNRASSPSCTRSSRDNNSIYTSDSDYEAHLL
+                     DFPLLGDDFFLFLARMELRCKFKKYGKVLQSGLCVSGQTICAAIRRVHQLDDQHRSII
+                     VNIGSVDIMKGRSLVQIEHDFRELINVIFKKGFTPILTTLAPLANYAHDKQVKTKLER
+                     FNHFIKNEGKFLVVMDIWACLVNEKGQILFDCFQNEPRMVSGTSEPYVFWNKIGRQRV
+                     LQLIESQLEY"
+                     /label="LOC101450245 CDS"
+     misc_feature    
+                     /Original_Bases="AACATTTCAAAGGGTACAACTGGTTATGATCAATCTTGGTA
+                     TCACAATAACAAACAAAATGATTATCAAAGTAATTTAAAATTTATAG"
+                     /label="AACATTTCAAAGGGTACAACTGGTTATGATCAATCTTGGTATCACAATAA
+                     CAAACAAAATGATTATCAAAGTAATTTAAAATTTATAG"
+                     /note="Geneious type: Editing History Deletion"
+ORIGIN      
+        1 atgataacaa ttgccgcatc gacggccgat tgcgaaactt acgacagcga ctctaaatac
+       61 catccaacta ttatgacaat catgagtgaa gcttttttag aattgcgaaa tgaatatccc
+      121 gatttggatg tagtgatccg cagcatacta atggcccgtt cgcaggaagg agcaacaatt
+      181 tccgatatca aagacgatta ccgaaaaaat acggggaacg tgtttccaat ttttcaaagc
+      241 atcaccgaat ttttactctc catcccgttg gtaacagcat tttgtaatga agatggtaaa
+      301 ctcattttca atgtccgccc cacggataga acaaaacaca tcttcgatat ggttcaacaa
+      361 caaaagccgc aacaatatca accccaacaa catcaacctc aacagcaaca acatcagact
+      421 cataaacagc aagatgttca gtacaaccga caaagaggag tggaacctcg tctcaat
+//
+LOCUS       LOTUS_-_NW_004761175_-_LOC101890691_mRNA_-_LOC101890691_CDS_extraction         438 bp    DNA     linear   UNA 10-JUN-2016
+DEFINITION  Musca domestica strain aabys unplaced genomic scaffold,
+            Musca_domestica-2.0.2 Scaffold1561, whole genome shotgun sequence.
+ACCESSION   urn.local...ko-65tcvel
+VERSION     urn.local...ko-65tcvel
+KEYWORDS    .
+SOURCE      Musca domestica (house fly)
+  ORGANISM  Musca domestica
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Endopterygota; Diptera; Brachycera;
+            Muscomorpha; Muscoidea; Muscidae; Musca.
+FEATURES             Location/Qualifiers
+     source          order(<1..>184,<185..>438)
+                     /organism="Musca domestica"
+                     /mol_type="genomic DNA"
+                     /strain="aabys"
+                     /db_xref="taxon:7370"
+                     /chromosome="Unknown"
+                     /label="source Musca domestica"
+     gene            order(<1..>184,<185..>438)
+                     /gene="LOC101890691"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /db_xref="GeneID:101890691"
+                     /label="LOC101890691 gene"
+     mRNA            join(<1..184,185..>438)
+                     /gene="LOC101890691"
+                     /product="maternal effect protein oskar"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 8 samples with support for all annotated
+                     introns"
+                     /transcript_id="XM_005175592.2"
+                     /db_xref="GI:755851702"
+                     /db_xref="GeneID:101890691"
+                     /label="LOC101890691 mRNA"
+     CDS             join(<1..184,185..>438)
+                     /gene="LOC101890691"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="maternal effect protein oskar"
+                     /protein_id="XP_005175649.2"
+                     /db_xref="GI:755851703"
+                     /db_xref="GeneID:101890691"
+                     /translation="MATVKSTNTMKAKTTSEPHHMEETTIKSNSNSVSNGCDFRSTFK
+                     RHLTTCLQRWRQKHSSNNKSSKKSPITSNEHQQQEQQLSEEECHHQCPCQQNSDKWFK
+                     RYTRKEFLRFHTHYSASPTSGVGSSFMQRTTVYCKTLNTKLYKILIPKELRQRRRTTI
+                     STKATTPVSTIADERREEEGPHPQDDRKVEIVAKLLSSTLVRTSNISTSTSSHLGSYF
+                     TEQENYCSQRRRNSVDSAYHSVEESFEIFQSSITSSTTTLARDDNDEQHQQVVEEENA
+                     NDMVVSELTFLEIRDEYPDLDSEIRSILTARAQDGATISDIRDDYRKLTGLTFPIYES
+                     VTEFLLTIPYVSAYCNENGTRIFNIRPMEKTKHIHNMVMEQKPHQETTNKPSSFNHRR
+                     YREHQRNTNYYPNNYRRNYQNQQPQQPHQHHFYEPIQIKSDGPQQQQQHVVPSSNQIL
+                     SQNAVVTENLMLKSANTDKLVVQDNSEGFVEDNWIYNDNCNYLLNRIHSQDPVATNIY
+                     ANQMMIPSSDMYIAADDQQHQNLQQFFNGIPTGGQSNFNMQTNIAMPSCENNMNYLNN
+                     LFQNQELPINTHNNMILGGENPGGGGDGGVGATATNPRRSSYGTQKSLMPRSSRSSSP
+                     TTKSCYTNDSLYADSDYEAHLLDFLLLGDDFFLYMARMELRCKFKKRQKVLQSGLCVS
+                     GQTIGAAIKRVIGLQDNGRSIILNIGSVNIMQGRQLIQIEHEYRELLTIMLKKGIQPI
+                     LTTLAPLANYTHDMEMKRTLERFNKFIKSEAERNNLIVIDIWKCLVNDKGVVRFDCYQ
+                     NEPRNVTGASEPYVFWNNIGRQRVLRLIESQLEY"
+                     /label="LOC101890691 CDS"
+     misc_feature    
+                     /Original_Bases="ATGGCCACGGTCAAGTCAACGAATACGATGAAAGCAAAAAC
+                     AACTTCTGAACCCCATCATATGGAGGAGACCACGATCAAATCCAATTCAAACAGCGTT
+                     TCGAACGGTTGTGATTTTCGTTCAACGTTCAAACGACATCTAACCACGTGTCTACAAC
+                     GTTGGCGGCAAAAGCATTCTTCCAACAATAAGTCAAGCAAGAAATCGCCAATAACTTC
+                     AAATGAACACCAGCAGCAAGAACAGCAATTAAGTGAAGAAGAATGCCATCATCAATGC
+                     CCGTGCCAACAAAACAGTGATAAATGGTTTAAAAGATATACACGCAAGGAGTTTTTAA
+                     GATTTCACACCCACTACAGTGCATCACCAACATCTGGAGTGGGTTCATCTTTTATGCA
+                     GCGTACGACGGTGTATTGTAAAACGCTGAATACAAAACTATATAAAATTCTAATACCA
+                     AAAGAGCTGCGCCAGCGTCGTCGTACCACAATTTCAACAAAAGCAACAACACCAGTAT
+                     CAACGATCGCCGACGAGAGAAGAGAAGAAGAGGGCCCTCATCCACAAGACGATCGTAA
+                     AGTTGAAATTGTGGCCAAGCTGTTATCATCAACTTTGGTAAGAACCAGCAACATTTCA
+                     ACTTCAACCTCCTCCCACCTTGGCAGTTATTTCACAGAACAGGAAAATTATTGCAGTC
+                     AACGTCGTCGTAACTCAGTCGATAGTGCCTATCATAGTGTTGAAGAAAGTTTCGAGAT
+                     CTTTCAAAGCTCGATAACCTCTTCGACAACAACA"
+                     /label="ATGGCCACGGTCAAGTCAACGAATACGATGAAAGCAAAAACAACTTCTGA
+                     ACCCCATCATATGGAGGAGACCACGATCAAATCCAATTCAAACAGCGTTTCGAACGGT
+                     TGTGATTTTCGTTCAACGTTCAAACGACATCTAACCACGTGTCTACAACGTTGGCGGC
+                     AAAAGCATTCTTCCAACAATAAGTCAAGCAAGAAATCGCCAATAACTTCAAATGAACA
+                     CCAGCAGCAAGAACAGCAATTAAGTGAAGAAGAATGCCATCATCAATGCCCGTGCCAA
+                     CAAAACAGTGATAAATGGTTTAAAAGATATACACGCAAGGAGTTTTTAAGATTTCACA
+                     CCCACTACAGTGCATCACCAACATCTGGAGTGGGTTCATCTTTTATGCAGCGTACGAC
+                     GGTGTATTGTAAAACGCTGAATACAAAACTATATAAAATTCTAATACCAAAAGAGCTG
+                     CGCCAGCGTCGTCGTACCACAATTTCAACAAAAGCAACAACACCAGTATCAACGATCG
+                     CCGACGAGAGAAGAGAAGAAGAGGGCCCTCATCCACAAGACGATCGTAAAGTTGAAAT
+                     TGTGGCCAAGCTGTTATCATCAACTTTGGTAAGAACCAGCAACATTTCAACTTCAACC
+                     TCCTCCCACCTTGGCAGTTATTTCACAGAACAGGAAAATTATTGCAGTCAACGTCGTC
+                     GTAACTCAGTCGATAGTGCCTATCATAGTGTTGAAGAAAGTTTCGAGATCTTTCAAAG
+                     CTCGATAACCTCTTCGACAACAACA"
+                     /note="Geneious type: Editing History Deletion"
+     misc_feature    
+                     /Original_Bases="CCAAATAATTACAGACGTAATTATCAAAATCAGCAACCTCA
+                     ACAGCCGCATCAGCATCATTTCTATGAACCAATTCAGATAAAATCCGATGGGCCACAA
+                     CAACAGCAACAACATGTGGTGCCATCTTCGAATCAAATATTATCTCAAAATGCTGTTG
+                     TCACCGAAAATCTGATGCTGAAAAGTGCCAATACCGATAAACTGGTGGTGCAAGATAA
+                     TTCCGAAGGTTTCGTGGAGGACAATTGGATCTATAATGATAATTGTAATTATTT"
+                     /label="CCAAATAATTACAGACGTAATTATCAAAATCAGCAACCTCAACAGCCGCA
+                     TCAGCATCATTTCTATGAACCAATTCAGATAAAATCCGATGGGCCACAACAACAGCAA
+                     CAACATGTGGTGCCATCTTCGAATCAAATATTATCTCAAAATGCTGTTGTCACCGAAA
+                     ATCTGATGCTGAAAAGTGCCAATACCGATAAACTGGTGGTGCAAGATAATTCCGAAGG
+                     TTTCGTGGAGGACAATTGGATCTATAATGATAATTGTAATTATTT"
+                     /note="Geneious type: Editing History Deletion"
+ORIGIN      
+        1 ctagcaaggg acgacaacga cgagcagcat cagcaggtgg tggaagagga gaacgctaac
+       61 gatatggttg tttcggagtt aacttttttg gaaatacgtg atgagtatcc cgatttggat
+      121 tccgaaattc gcagtattct gacagcacgt gctcaggatg gtgctaccat atcggatata
+      181 agagatgatt atcgcaaatt aaccggcctc acatttccaa tttatgagtc ggttacggaa
+      241 tttcttctca ccataccata tgtctcggcc tattgcaatg agaatggtac acgtatcttc
+      301 aatatacgac ccatggagaa aaccaaacat attcataata tggttatgga acagaaacct
+      361 catcaggaga ccacgaacaa accgtcgtct tttaatcatc gacgttatcg tgagcaccaa
+      421 aggaatacaa attactat
+//
+LOCUS       LOTUS_-_NW_011627193_-_LOC105147973_mRNA_-_LOC105147973_CDS_extraction         279 bp    DNA     linear   UNA 24-MAY-2016
+DEFINITION  Acromyrmex echinatior unplaced genomic scaffold, Aech_3.9
+            scaffold379, whole genome shotgun sequence.
+ACCESSION   urn.local...ne-65tfanu
+VERSION     urn.local...ne-65tfanu
+KEYWORDS    .
+SOURCE      Acromyrmex echinatior (Panamanian leafcutter ant)
+  ORGANISM  Acromyrmex echinatior
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Endopterygota; Hymenoptera; Apocrita;
+            Aculeata; Vespoidea; Formicidae; Myrmicinae; Acromyrmex.
+FEATURES             Location/Qualifiers
+     source          order(<1..>76,<77..>279)
+                     /organism="Acromyrmex echinatior"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:103372"
+                     /chromosome="Unknown"
+                     /sex="male"
+                     /country="Panama"
+                     /note="colony Ae372"
+                     /label="colony Ae372 source Acromyrmex echinatior"
+     gene            order(<1..>76,<77..>279)
+                     /gene="LOC105147973"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /db_xref="GeneID:105147973"
+                     /label="LOC105147973 gene"
+     mRNA            join(<1..76,77..279)
+                     /gene="LOC105147973"
+                     /product="maternal effect protein oskar, transcript
+                     variant X1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 9 samples with support for all annotated
+                     introns"
+                     /transcript_id="XM_011059366.1"
+                     /db_xref="GI:746854078"
+                     /db_xref="GeneID:105147973"
+                     /label="LOC105147973 mRNA"
+     mRNA            join(<1..76,77..279)
+                     /gene="LOC105147973"
+                     /product="maternal effect protein oskar, transcript
+                     variant X2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 6 samples with support for all annotated
+                     introns"
+                     /transcript_id="XM_011059367.1"
+                     /db_xref="GI:746854080"
+                     /db_xref="GeneID:105147973"
+                     /label="LOC105147973 mRNA"
+     mRNA            join(<1..76,77..279)
+                     /gene="LOC105147973"
+                     /product="maternal effect protein oskar, transcript
+                     variant X3"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 Protein, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 4 samples with support for all annotated
+                     introns"
+                     /transcript_id="XM_011059368.1"
+                     /db_xref="GI:746854082"
+                     /db_xref="GeneID:105147973"
+                     /label="LOC105147973 mRNA"
+     CDS             join(1..76,77..279)
+                     /gene="LOC105147973"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="uncharacterized protein LOC105147973 isoform X1"
+                     /protein_id="XP_011057668.1"
+                     /db_xref="GI:746854079"
+                     /db_xref="GeneID:105147973"
+                     /translation="MEETVALIKSCIISKKGGVPITDLNDEFQILVGESIPYRRLGFA
+                     SLRAFLQTIDGLETSWNNFGEQTLRINDSKISHIDKLIRKQKMDYSKTRNKYYKQFMR
+                     NGNLRHDDRRQKNRLIYNVDRINRRNQNFAQRRDLNLFGTNGIYKNKDFLCMEEENHH
+                     PIVIETNQVKKHDSVYEPVANGQQLLGDDFFLQLAIRNLHLPIWRYKDSLALHCGLCI
+                     SGQTISDCTRALRNINTISNRVVILLGSVDVYNNATCEEMVYDMTELLQVLRSKFHLS
+                     NTAITICTLPPLANLSIYAHKKQSMALLSFNNWIRSLTDDPSKRDPSFINYLVIDLYE
+                     KFCFNETYVTNYDWYQTQARRVSGTKHSYVLWNMKGRKRAMSLICEEENTDQSRSPSS
+                     LPLQ"
+                     /label="LOC105147973 CDS"
+     CDS             join(1..76,77..279)
+                     /gene="LOC105147973"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="maternal effect protein oskar isoform X2"
+                     /protein_id="XP_011057669.1"
+                     /db_xref="GI:746854081"
+                     /db_xref="GeneID:105147973"
+                     /translation="MEETVALIKSCIISKKGGVPITDLNDEFQILVGESIPYRRLGFA
+                     SLRAFLQTIDGLETSWNNFGEQTLRINDSKISHIDKLIRKQKMDYSKTRNKYYKQFMR
+                     NGNLRHDDRRQKNRLIYNVDRINRRNQNFAQRRDLNLFGTKENHHPIVIETNQVKKHD
+                     SVYEPVANGQQLLGDDFFLQLAIRNLHLPIWRYKDSLALHCGLCISGQTISDCTRALR
+                     NINTISNRVVILLGSVDVYNNATCEEMVYDMTELLQVLRSKFHLSNTAITICTLPPLA
+                     NLSIYAHKKQSMALLSFNNWIRSLTDDPSKRDPSFINYLVIDLYEKFCFNETYVTNYD
+                     WYQTQARRVSGTKHSYVLWNMKGRKRAMSLICEEENTDQSRSPSSLPLQ"
+                     /label="LOC105147973 CDS"
+     CDS             join(1..76,77..279)
+                     /gene="LOC105147973"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="uncharacterized protein LOC105147973 isoform X3"
+                     /protein_id="XP_011057670.1"
+                     /db_xref="GI:746854083"
+                     /db_xref="GeneID:105147973"
+                     /translation="MEETVALIKSCIISKKGGVPITDLNDEFQILVGESIPYRRLGFA
+                     SLRAFLQTIDGLETSWNNFGEQTLRINDSKISHIDKLIRKQKMDYSKTRNKYYKQFMR
+                     NGNLRHDDRRQKNRLIYNVDRINRRNQNFAQRRDLNLFGTNSLALHCGLCISGQTISD
+                     CTRALRNINTISNRVVILLGSVDVYNNATCEEMVYDMTELLQVLRSKFHLSNTAITIC
+                     TLPPLANLSIYAHKKQSMALLSFNNWIRSLTDDPSKRDPSFINYLVIDLYEKFCFNET
+                     YVTNYDWYQTQARRVSGTKHSYVLWNMKGRKRAMSLICEEENTDQSRSPSSLPLQ"
+                     /label="LOC105147973 CDS"
+ORIGIN      
+        1 atggaagaaa cggtggcatt gattaaatca tgcataattt cgaagaaagg cggtgtacca
+       61 attacagatc taaatgatga atttcaaatt ctcgtcggag aatctattcc gtatcgcaga
+      121 ttaggatttg cgagtctccg tgcattttta caaactatag atggtttgga gacaagttgg
+      181 aataattttg gtgaacaaac attaagaata aatgattcta aaatatctca tatcgacaaa
+      241 cttatacgca agcaaaaaat ggattattca aaaacgaga
+//
+LOCUS       LOTUS_-_NW_011652635_-_LOC105187957_mRNA_-_LOC105187957_CDS_extraction         375 bp    DNA     linear   UNA 10-JUN-2016
+DEFINITION  Harpegnathos saltator strain R22 G/1 unplaced genomic scaffold,
+            HarSal_1.0 scaffold331, whole genome shotgun sequence.
+ACCESSION   urn.local...or-65tfsbi
+VERSION     urn.local...or-65tfsbi
+KEYWORDS    .
+SOURCE      Harpegnathos saltator (Jerdon's jumping ant)
+  ORGANISM  Harpegnathos saltator
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Endopterygota; Hymenoptera; Apocrita;
+            Aculeata; Vespoidea; Formicidae; Ponerinae; Ponerini; Harpegnathos.
+FEATURES             Location/Qualifiers
+     source          order(<1..>82,<83..>285,<286..>375)
+                     /organism="Harpegnathos saltator"
+                     /mol_type="genomic DNA"
+                     /strain="R22 G/1"
+                     /db_xref="taxon:610380"
+                     /chromosome="Unknown"
+                     /note="colony 49"
+                     /label="colony 49 source Harpegnathos saltator"
+     gene            order(<1..>82,<83..>285,<286..>375)
+                     /gene="LOC105187957"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /db_xref="GeneID:105187957"
+                     /label="LOC105187957 gene"
+     mRNA            join(<1..82,83..285,286..>375)
+                     /gene="LOC105187957"
+                     /product="maternal effect protein oskar"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 5 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 4 samples with support for all annotated
+                     introns"
+                     /transcript_id="XM_011149126.1"
+                     /db_xref="GI:749787868"
+                     /db_xref="GeneID:105187957"
+                     /label="LOC105187957 mRNA"
+     CDS             join(1..82,83..285,286..>375)
+                     /gene="LOC105187957"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="maternal effect protein oskar"
+                     /protein_id="XP_011147428.1"
+                     /db_xref="GI:749787869"
+                     /db_xref="GeneID:105187957"
+                     /translation="MKMDETVALIKSCIISKKGGIPIEDLNDEFQNLVGESIPYRRLG
+                     FSNLRTFLRTIDGLETTWNKFGEQTLRINDSKISHIEKLICKQKRDYSKTKNKYYKQF
+                     TRQKSSFDHDDERKYKIKKVYSNSNNRVNKRMLSFNHRDPTYFNSGDRNISFDEEEEN
+                     HHPVVIETNELKTITNIYEPVANGQQLIGDDFFLQLAIRNLHLPIWRYKDSLSLHCGL
+                     CVSGQTISDCTRALRNISTISNRVIILLGSVDIYNGATCDEMIDDMSELLQVLQSKFH
+                     LSNSAITICTIPPLANIAIHAYKYKSLALFCFNNWIRSLVDDMSRRDSFSKGYRILDL
+                     FENCSNEMYATEFDWFQTQARRVSGTKHSYVLWNNKGRKLAMNLICGEKNMEPSENPD
+                     LLPTP"
+                     /label="LOC105187957 CDS"
+     misc_feature    
+                     /Original_Bases="AGCAACAACCGCGTAAATAAAAGAATGTTGAGTTTCAATCA
+                     TCGCGACCCAACCTACTTCAATAGCGGCGACAGAAACATCTCGTTCGATGAGGAAGAA
+                     GAGAATCATCATCCGGTAGTAATAGAAACGAACGAGCTTAAGACTATT"
+                     /label="AGCAACAACCGCGTAAATAAAAGAATGTTGAGTTTCAATCATCGCGACCC
+                     AACCTACTTCAATAGCGGCGACAGAAACATCTCGTTCGATGAGGAAGAAGAGAATCAT
+                     CATCCGGTAGTAATAGAAACGAACGAGCTTAAGACTATT"
+                     /note="Geneious type: Editing History Deletion"
+ORIGIN      
+        1 atgaaaatgg acgagacagt ggcattaatt aaatcgtgta tcatttcgaa gaaaggaggc
+       61 ataccaatcg aggatttaaa tgatgaattt caaaatctcg tcggagagtc gattccgtat
+      121 cgtagattgg gattttcgaa tctccgcaca ttcttacgca ctatagacgg tttggaaaca
+      181 acttggaata aatttggtga gcaaacacta agaataaacg actcgaagat ttcacacatc
+      241 gaaaaactaa tatgcaagca aaagagagat tactcaaaga caaagaataa gtactacaag
+      301 caatttacac ggcagaagag cagttttgat cacgacgatg agcgcaaata taaaatcaag
+      361 aaggtgtaca gcaac
+//
+LOCUS       LOTUS_-_NW_011876055_-_LOC105232054_mRNA_-_LOC105232054_CDS_extraction         375 bp    DNA     linear   UNA 10-JUN-2016
+DEFINITION  Bactrocera dorsalis strain Punador unplaced genomic scaffold,
+            ASM78921v2, whole genome shotgun sequence.
+ACCESSION   urn.local...th-65tgrbx
+VERSION     urn.local...th-65tgrbx
+KEYWORDS    .
+SOURCE      Bactrocera dorsalis (oriental fruit fly)
+  ORGANISM  Bactrocera dorsalis
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Endopterygota; Diptera; Brachycera;
+            Muscomorpha; Tephritoidea; Tephritidae; Bactrocera; Bactrocera.
+FEATURES             Location/Qualifiers
+     gene            order(<1..>121,<122..>375)
+                     /gene="LOC105232054"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /db_xref="GeneID:105232054"
+                     /label="LOC105232054 gene"
+     source          order(<1..>121,<122..>375)
+                     /organism="Bactrocera dorsalis"
+                     /mol_type="genomic DNA"
+                     /strain="Punador"
+                     /db_xref="taxon:27457"
+                     /chromosome="Unknown"
+                     /dev_stage="larvae"
+                     /country="USA: Hawai'i"
+                     /label="source Bactrocera dorsalis"
+     mRNA            join(<1..121,122..>375)
+                     /gene="LOC105232054"
+                     /product="maternal effect protein oskar, transcript
+                     variant X1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 2 samples with support for all annotated
+                     introns"
+                     /transcript_id="XM_011213635.1"
+                     /db_xref="GI:751772640"
+                     /db_xref="GeneID:105232054"
+                     /label="LOC105232054 mRNA"
+     mRNA            join(<1..121,122..>375)
+                     /gene="LOC105232054"
+                     /product="maternal effect protein oskar, transcript
+                     variant X2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 2 samples with support for all annotated
+                     introns"
+                     /transcript_id="XM_011213644.1"
+                     /db_xref="GI:751772642"
+                     /db_xref="GeneID:105232054"
+                     /label="LOC105232054 mRNA"
+     mRNA            join(<1..121,122..>375)
+                     /gene="LOC105232054"
+                     /product="maternal effect protein oskar, transcript
+                     variant X3"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 1 sample with support for all annotated introns"
+                     /transcript_id="XM_011213652.1"
+                     /db_xref="GI:751772644"
+                     /db_xref="GeneID:105232054"
+                     /label="LOC105232054 mRNA"
+     CDS             join(1..121,122..>375)
+                     /gene="LOC105232054"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="maternal effect protein oskar"
+                     /protein_id="XP_011211937.1"
+                     /db_xref="GI:751772641"
+                     /db_xref="GeneID:105232054"
+                     /translation="MTIMHEAFLELRSAFPDLDAEVRSILLTRSQDGATISDIKDDYR
+                     KNTGIVFPIFQNITEFLLSIPFVTAFCNENGKLIFNVQPSARTKHIYDLVQQQKPQHQ
+                     LQTQKHQQFVQYNDQNRFEPFVNNISSKKNERDEFWYRNNKQTDCQKNNEYINKKNID
+                     NNEFSESANIDVVKTKVGLENLTSLQTNAHKGVFNYTEETGRNNYYQDNCNHLFNRLC
+                     NQPKMASQNLGHNFNNIHYSNQNNRITKQQSTYSQAKTISQTSQFRSIQQQNYLNTNK
+                     LEKQPNPYKESMAKYIPPSTSRPISPSCTKSSRYNDSIYTTDSDYEAHLLDFPLLGDD
+                     FFLFLARMELRCKFKKYDKILQSGLCVSGQTICGAIKRVRQLEDQCKSIIVNIGSVDI
+                     MKGRPLVQIEHDFRELINLMFKKGFTPILTTLAPLANFAHDEITKTKLERFNNFIKKE
+                     GEFLLVMDIWACLVNERGHILFDCFQNEPRIVTGTSEPYVFWNKIGRQRVLQLIESQL
+                     EY"
+                     /label="LOC105232054 CDS"
+     CDS             join(1..121,122..>375)
+                     /gene="LOC105232054"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="maternal effect protein oskar"
+                     /protein_id="XP_011211946.1"
+                     /db_xref="GI:751772643"
+                     /db_xref="GeneID:105232054"
+                     /translation="MTIMHEAFLELRSAFPDLDAEVRSILLTRSQDGATISDIKDDYR
+                     KNTGIVFPIFQNITEFLLSIPFVTAFCNENGKLIFNVQPSARTKHIYDLVQQQKPQHQ
+                     LQTQKHQQFVQYNDQNRFEPFVNNISSKKNERDEFWYRNNKQTDCQKNNEYINKKNID
+                     NNEFSESANIDVVKTKVGLENLTSLQTNAHKGVFNYTEETGRNNYYQDNCNHLFNRLC
+                     NQPKMASQNLGHNFNNIHYSNQNNRITKQQSTYSQAKTISQTSQFRSIQQQNYLNTNK
+                     LEKQPNPYKESMAKYIPPSTSRPISPSCTKSSRYNDSIYTTDSDYEAHLLDFPLLGDD
+                     FFLFLARMELRCKFKKYDKILQSGLCVSGQTICGAIKRVRQLEDQCKSIIVNIGSVDI
+                     MKGRPLVQIEHDFRELINLMFKKGFTPILTTLAPLANFAHDEITKTKLERFNNFIKKE
+                     GEFLLVMDIWACLVNERGHILFDCFQNEPRIVTGTSEPYVFWNKIGRQRVLQLIESQL
+                     EY"
+                     /label="LOC105232054 CDS"
+     CDS             join(1..121,122..>375)
+                     /gene="LOC105232054"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="maternal effect protein oskar"
+                     /protein_id="XP_011211954.1"
+                     /db_xref="GI:751772645"
+                     /db_xref="GeneID:105232054"
+                     /translation="MTIMHEAFLELRSAFPDLDAEVRSILLTRSQDGATISDIKDDYR
+                     KNTGIVFPIFQNITEFLLSIPFVTAFCNENGKLIFNVQPSARTKHIYDLVQQQKPQHQ
+                     LQTQKHQQFVQYNDQNRFEPFVNNISSKKNERDEFWYRNNKQTDCQKNNEYINKKNID
+                     NNEFSESANIDVVKTKVGLENLTSLQTNAHKGVFNYTEETGRNNYYQDNCNHLFNRLC
+                     NQPKMASQNLGHNFNNIHYSNQNNRITKQQSTYSQAKTISQTSQFRSIQQQNYLNTNK
+                     LEKQPNPYKESMAKYIPPSTSRPISPSCTKSSRYNDSIYTTDSDYEAHLLDFPLLGDD
+                     FFLFLARMELRCKFKKYDKILQSGLCVSGQTICGAIKRVRQLEDQCKSIIVNIGSVDI
+                     MKGRPLVQIEHDFRELINLMFKKGFTPILTTLAPLANFAHDEITKTKLERFNNFIKKE
+                     GEFLLVMDIWACLVNERGHILFDCFQNEPRIVTGTSEPYVFWNKIGRQRVLQLIESQL
+                     EY"
+                     /label="LOC105232054 CDS"
+     misc_feature    
+                     /Original_Bases="AATATTTCATCTAAGAAAAACGAACGTGATGAATTTTGGTA
+                     CCGCAACAATAAACAGACTGATTGCCAAAAAAATAACGAATATATTAATAAGAAAAAC
+                     ATTGATAATAATGAATTCAGCGAATCGGCAAATATTGATGTAGTAAAAACAAAGGTGG
+                     GTCTTGAGAATTTAACATCGTTGCAAACTAACGCTCATAAAGGTGTTTTTAATTACAC
+                     TGAGGAAACGGGAAGGAATAATTATTATCAAGACAACTGTAATCATCT"
+                     /label="AATATTTCATCTAAGAAAAACGAACGTGATGAATTTTGGTACCGCAACAA
+                     TAAACAGACTGATTGCCAAAAAAATAACGAATATATTAATAAGAAAAACATTGATAAT
+                     AATGAATTCAGCGAATCGGCAAATATTGATGTAGTAAAAACAAAGGTGGGTCTTGAGA
+                     ATTTAACATCGTTGCAAACTAACGCTCATAAAGGTGTTTTTAATTACACTGAGGAAAC
+                     GGGAAGGAATAATTATTATCAAGACAACTGTAATCATCT"
+                     /note="Geneious type: Editing History Deletion"
+ORIGIN      
+        1 atgacaatta tgcatgaagc tttcctagaa ttgcgaagcg cgtttcctga tttggacgca
+       61 gaggtgcgga gcatattgct tacgcgctct caggatgggg caactatctc cgatataaag
+      121 gatgattata ggaaaaatac tggtatagtg ttcccaatat ttcaaaacat taccgagttc
+      181 cttctctcaa taccgtttgt taccgcattt tgtaatgaaa atggaaagct catttttaat
+      241 gtccaacctt cagctagaac aaagcacatc tatgatttag tacaacagca aaaacctcaa
+      301 catcaacttc aaactcaaaa acaccaacaa tttgttcaat ataacgacca aaaccgattc
+      361 gaaccttttg taaac
+//
+LOCUS       LOTUS_-_NW_011887791_-_LOC105267990_mRNA_-_LOC105267990_CDS_extraction         303 bp    DNA     linear   UNA 24-MAY-2016
+DEFINITION  Fopius arisanus strain USDA-PBARC FA_bdor unplaced genomic
+            scaffold, ASM80636v1 scaffold00052, whole genome shotgun sequence.
+ACCESSION   urn.local...wr-65ti09z
+VERSION     urn.local...wr-65ti09z
+KEYWORDS    .
+SOURCE      Fopius arisanus
+  ORGANISM  Fopius arisanus
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Endopterygota; Hymenoptera; Apocrita;
+            Ichneumonoidea; Braconidae; Opiinae; Fopius.
+FEATURES             Location/Qualifiers
+     source          order(<1..>100,<101..>303)
+                     /organism="Fopius arisanus"
+                     /mol_type="genomic DNA"
+                     /strain="USDA-PBARC FA_bdor"
+                     /isolation_source="library from a single individual (USDA
+                     ID 24.2), library from a pool of individuals that are full
+                     siblings of the first individual (USDA ID 24pool), library
+                     from a pool of individual that are half siblings of the
+                     first individual (USDA ID 12pool)"
+                     /db_xref="taxon:64838"
+                     /chromosome="Unknown"
+                     /sex="male"
+                     /tissue_type="whole organism"
+                     /label="source Fopius arisanus"
+     gene            order(<1..>100,<101..>303)
+                     /gene="LOC105267990"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /db_xref="GeneID:105267990"
+                     /label="LOC105267990 gene"
+     mRNA            join(<1..100,101..303)
+                     /gene="LOC105267990"
+                     /product="uncharacterized LOC105267990"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 1 sample with support for all annotated introns"
+                     /transcript_id="XM_011307204.1"
+                     /db_xref="GI:755966464"
+                     /db_xref="GeneID:105267990"
+                     /label="LOC105267990 mRNA"
+     CDS             join(1..100,101..303)
+                     /gene="LOC105267990"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="uncharacterized protein LOC105267990"
+                     /protein_id="XP_011305506.1"
+                     /db_xref="GI:755966465"
+                     /db_xref="GeneID:105267990"
+                     /translation="MVRPVMYMRGETEKKIKSFIAAHKWGVRAANISAEFELLEGAPL
+                     DLPRGVGSIREFIESIKEVKTKWHNGVMYYYVQDDPKISHLTEMISKQKSSSRKSAKD
+                     WRAIAREIGNENRREKRQKFYEQNRELNSSNESSKKSSGASSKDSRGRVIKPITNPPP
+                     ANRRVVHTPLVSNGQLIGDDFFLQLAIRELKEPIWREWRNGPLHAGLCVSGQTVRDCI
+                     KALREVNIMSNKLVIMLGAEDIYQGREAAFIQEDYEELLELLSNKFAYSVGGITLCTI
+                     PPLGNISWLNQPTQFTALRAINYFIVNHALVNGYQLADFFSHFSNVRGTPKYDLFQVE
+                     PRRVSGTSYSYLLFSEQGRRLAMTLLRHTIDCSLHDDV"
+                     /label="LOC105267990 CDS"
+ORIGIN      
+        1 atggttcgtc ctgtgatgta tatgcgagga gaaacggaga aaaaaattaa gagttttatc
+       61 gcagcacata agtggggtgt acgtgcggct aatataagtg ctgaatttga gctcctggaa
+      121 ggagcacctc tggatcttcc tcggggtgtt ggttccattc gtgaatttat tgagagtatc
+      181 aaagaggtga aaacaaagtg gcataatgga gtcatgtact attacgtcca ggacgatcca
+      241 aaaatatcac acctaacaga aatgatatcc aaacagaagt catcatctcg aaagagcgca
+      301 aaa
+//
+LOCUS       LOTUS_-_NW_012162412_-_LOC105692731_mRNA_-_LOC105692731_CDS_extraction         399 bp    DNA     linear   UNA 10-JUN-2016
+DEFINITION  Athalia rosae unplaced genomic scaffold, Aros_1.0 Scaffold9, whole
+            genome shotgun sequence.
+ACCESSION   urn.local...y8-65tibtd
+VERSION     urn.local...y8-65tibtd
+KEYWORDS    .
+SOURCE      Athalia rosae (coleseed sawfly)
+  ORGANISM  Athalia rosae
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Endopterygota; Hymenoptera; Tenthredinoidea;
+            Tenthredinidae; Allantinae; Athalia.
+FEATURES             Location/Qualifiers
+     source          order(<1..>82,<83..>291,<292..>399)
+                     /organism="Athalia rosae"
+                     /mol_type="genomic DNA"
+                     /isolation_source="whole body haploid adult males from a
+                     single mother"
+                     /db_xref="taxon:37344"
+                     /chromosome="Unknown"
+                     /sex="male"
+                     /dev_stage="adult"
+                     /country="Japan"
+                     /collection_date="Sep-2011"
+                     /note="Sample from a laboratory stock maintained as wild
+                     type. Originally frozen and stored Sep-2011. DNA was
+                     extracted Mar-2012."
+                     /label="source Athalia rosae"
+     gene            order(<1..>82,<83..>291,<292..>399)
+                     /gene="LOC105692731"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /db_xref="GeneID:105692731"
+                     /label="LOC105692731 gene"
+     mRNA            join(<1..82,83..291,292..>399)
+                     /gene="LOC105692731"
+                     /product="maternal effect protein oskar-like"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 2 samples with support for all annotated
+                     introns"
+                     /transcript_id="XM_012412138.1"
+                     /db_xref="GI:817089398"
+                     /db_xref="GeneID:105692731"
+                     /label="LOC105692731 mRNA"
+     CDS             join(1..82,83..291,292..>399)
+                     /gene="LOC105692731"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="maternal effect protein oskar-like"
+                     /protein_id="XP_012267561.1"
+                     /db_xref="GI:817089399"
+                     /db_xref="GeneID:105692731"
+                     /translation="MKKETVNNMIKACIVSRKGGVLLKDIEREYESLVGERIPYIALG
+                     YKTLLDYITSIDCVDLKQNFVGDQVLSVCDPKIAHIDSLVKKQKNPSNRGPPKKKGFG
+                     RKNRSPVPYYKSSRYGKKSPDHRPHYNESRNTAEFGPKKFKNNTRMEYAQSKWYSDRN
+                     CFRSKDYWTKEKKESRQINRLDKFNAGRPGMQYYDDDYNDNFVKNHSSRDSSKNNSWN
+                     SKSTSISNIEIESTYNPVRYRESEQNSNWRFRIQVADGGSTMDVTLQPLVNGHQLIGD
+                     DFFLQLAKKNLGAETWRAEARSAIKCGLCISGQTIDECRQRLEKTQYLSGSVVILLGA
+                     VDIFRGNSLDRMVTDMKRLLEVCRKRFNMSEVILCTIPPLANYSVKCDMRKLSVFYSF
+                     NNWIRLQGDFVSQYRYKIIDLFEIFTTANHRTLYDYFQSDATTVSGCPYPHVLWNISG
+                     RRVVISLLQRL"
+                     /label="LOC105692731 CDS"
+     misc_feature    
+                     /Original_Bases="ACCGCAGAATTCGGACCCAAAAAATTTAAGAACAACACAAG
+                     GATGGAGTACGCTCAATCGAAGTGGTATTCCGATAGAAACTGTTTTAGATCTAAGGAT
+                     TATTGGACTAAGGAGAAAAAAGAGAGCAGGCAGATAAATCGGTTGGATAAGTTCAATG
+                     CTGGGAGACCAGGAATGCAGTATTACGACGATGACTATAACGATAACTTTGTCAAAAA
+                     CCATTCTTCTAGGGATAGTTCGAAAAATAATTCCTGGAACTCCAAGTCGACGTCAATC
+                     AGTAATATCGAAATTGAATCTACGTACAATCCTGTAAGATACCGTGAATCTGAGCAAA
+                     ATTCAAACTGGCGATTCCGGATTCAGGTGGCTGATGGTGGTTCAACAATG"
+                     /label="ACCGCAGAATTCGGACCCAAAAAATTTAAGAACAACACAAGGATGGAGTA
+                     CGCTCAATCGAAGTGGTATTCCGATAGAAACTGTTTTAGATCTAAGGATTATTGGACT
+                     AAGGAGAAAAAAGAGAGCAGGCAGATAAATCGGTTGGATAAGTTCAATGCTGGGAGAC
+                     CAGGAATGCAGTATTACGACGATGACTATAACGATAACTTTGTCAAAAACCATTCTTC
+                     TAGGGATAGTTCGAAAAATAATTCCTGGAACTCCAAGTCGACGTCAATCAGTAATATC
+                     GAAATTGAATCTACGTACAATCCTGTAAGATACCGTGAATCTGAGCAAAATTCAAACT
+                     GGCGATTCCGGATTCAGGTGGCTGATGGTGGTTCAACAATG"
+                     /note="Geneious type: Editing History Deletion"
+ORIGIN      
+        1 atgaagaaag aaacagtaaa caatatgata aaggcttgca tcgtatcgcg taagggtggc
+       61 gttcttctga aagacattga gagggagtac gaaagtttag taggcgaacg tataccgtac
+      121 attgcgttgg gatacaaaac tttgttggat tacataactt caatcgactg cgttgatttg
+      181 aaacagaatt ttgttgggga ccaagtgctt tccgtatgtg atccgaaaat cgctcatatc
+      241 gacagtcttg ttaaaaagca aaagaatcct tcgaatcgtg gaccgcccaa gaagaaaggt
+      301 tttgggagaa aaaatcgttc cccggtacct tattacaagt ctagcagata cggtaaaaaa
+      361 tcaccagatc atcgtccgca ttacaacgaa tcccgaaat
+//
+LOCUS       LOTUS_-_NW_012191686_-_LOC105696794_mRNA_-_LOC105696794_CDS_-_LOC105696794_CDS         438 bp    DNA     linear   UNA 10-JUN-2016
+DEFINITION  Orussus abietinus isolate OABI.00-Male unplaced genomic scaffold,
+            Oabi_1.0 Scaffold42, whole genome shotgun sequence.
+ACCESSION   urn.local...zw-65tiq39
+VERSION     urn.local...zw-65tiq39
+KEYWORDS    .
+SOURCE      Orussus abietinus
+  ORGANISM  Orussus abietinus
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Endopterygota; Hymenoptera; Orussoidea;
+            Orussidae; Orussus.
+FEATURES             Location/Qualifiers
+     gene            order(<1..>82,<83..>294,<295..>438)
+                     /gene="LOC105696794"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /db_xref="GeneID:105696794"
+                     /label="LOC105696794 gene"
+     mRNA            join(<1..82,83..294,295..>438)
+                     /gene="LOC105696794"
+                     /product="maternal effect protein oskar-like"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 1 sample with support for all annotated introns"
+                     /transcript_id="XM_012419523.1"
+                     /db_xref="GI:817198589"
+                     /db_xref="GeneID:105696794"
+                     /label="LOC105696794 mRNA"
+     source          order(<1..>82,<83..>294,<295..>438)
+                     /organism="Orussus abietinus"
+                     /mol_type="genomic DNA"
+                     /isolate="OABI.00-Male"
+                     /isolation_source="haploid male collected from an old
+                     treein a forest"
+                     /db_xref="taxon:222816"
+                     /chromosome="Unknown"
+                     /sex="male"
+                     /tissue_type="whole organism"
+                     /dev_stage="adult"
+                     /country="Germany: Gross-Gerau, Hessen"
+                     /lat_lon="49.960617 N 8.542233 E"
+                     /altitude="103 m"
+                     /collection_date="2011-04-23"
+                     /label="source Orussus abietinus"
+     CDS             join(1..82,83..294,295..>438)
+                     /gene="LOC105696794"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="maternal effect protein oskar-like"
+                     /protein_id="XP_012274946.1"
+                     /db_xref="GI:817198590"
+                     /db_xref="GeneID:105696794"
+                     /translation="MSFEDTVASLKACIISRKGGVPLEEINSEYEKLVGRSIPYMKLG
+                     FTSLFDLLRNIPDIYTKRNEKDEHFFQVVDSATAHIQHLVNKQRSAESVRFAQEAGRK
+                     KSGNKKRDEFLSSRWRNSSEDRNSQRRRKTRDVNNEIRSQNRMRSLGRRRNYEKEFGD
+                     FNSLWDSEQSELQSYEHGESLIDYEIDVYECSYPVVIAEKILDLNRIFEPVVYGQQLI
+                     GDDFFLQLTIRNIPDAQIIREDNRSPIHSGLCISGQTIAGCIEKLKKVKSLTNRITIL
+                     LGAVDIYMKRSREQLISDMESLLELCIDRFGFSKSTITLCTIPPLANISLMCHPNQFN
+                     TLLGFNSWIKSISCRSTFKEMKSAYRLIDFFTAFTGKNMSTDYKLFQMEARMVSGCSS
+                     AHVLWSKTGRKKAINLLRLNTIRMLKSEDNPNPYETEE"
+                     /label="LOC105696794 CDS"
+     misc_feature    
+                     /Original_Bases="AGCCTAGGACGCCGACGAAATTATGAGAAAGAGTTTGGTGA
+                     TTTCAATTCTTTATGGGATTCAGAGCAGTCCGAGTTGCAAAGCTATGAACATGGCGAG
+                     AGTTTGATAGATTATGAAATCGATGTTTACGAATGCAGCTATCCGGTTGTGATCGCTG
+                     AAAAAATCCTCGATTTGAATCGGATTTTCGAACCTGTTGTTTACGGCCAACAATTAAT
+                     TGGCGATGACTTCTTCCTGCAATTAACAATTCGAAATATTCCAGATGCCCAAATAATA
+                     AGAGAAGATAATCGATCTCCGATTCATAGCGGTCTCTGTATATCTGGACAAACAATTG
+                     CAGGATGTATTGAAAAATTGAAGAAAGTGAAATCCTTAACAAATAGAATAACTATTCT
+                     TCTCGGAGCTGTTGATATTTACATGAAACGCAGCAGGGAACAACTGATATCCGACATG
+                     GAATCGTTATTGGAACTTTGTATTGATAGATTCGGCTTCTCTAAGTCGACCATCACCC
+                     TTTGTACGATTCCGCCATTAGCAAATATTTCATTAATGTGTCATCCTAATCAGTTCAA
+                     CACTTTGCTTGGATTTAACAGCTGGATAAAAAGCATAAGTTGCAGGTCAACTTTCAAG
+                     GAAATGAAGAGCGCTTATAGATTGATTGACTTTTTCACGGCATTCACTGGCAAAAATA
+                     TGAGCACGGACTACAAATTATTTCAAATGGAAGCTCGAATGGTTTCCGGATGTTCGTC
+                     CGCCCACGTGCTTTGGAGCAAAACTGGTCGCAAAAAAGCGATAAATTTATTGCGACTA
+                     AATACAATTCGAATGTTGAAATCGGAAGATAATCCAAATCCTTACGAAACCGAAGAAT
+                     AA"
+                     /label="AGCCTAGGACGCCGACGAAATTATGAGAAAGAGTTTGGTGATTTCAATTC
+                     TTTATGGGATTCAGAGCAGTCCGAGTTGCAAAGCTATGAACATGGCGAGAGTTTGATA
+                     GATTATGAAATCGATGTTTACGAATGCAGCTATCCGGTTGTGATCGCTGAAAAAATCC
+                     TCGATTTGAATCGGATTTTCGAACCTGTTGTTTACGGCCAACAATTAATTGGCGATGA
+                     CTTCTTCCTGCAATTAACAATTCGAAATATTCCAGATGCCCAAATAATAAGAGAAGAT
+                     AATCGATCTCCGATTCATAGCGGTCTCTGTATATCTGGACAAACAATTGCAGGATGTA
+                     TTGAAAAATTGAAGAAAGTGAAATCCTTAACAAATAGAATAACTATTCTTCTCGGAGC
+                     TGTTGATATTTACATGAAACGCAGCAGGGAACAACTGATATCCGACATGGAATCGTTA
+                     TTGGAACTTTGTATTGATAGATTCGGCTTCTCTAAGTCGACCATCACCCTTTGTACGA
+                     TTCCGCCATTAGCAAATATTTCATTAATGTGTCATCCTAATCAGTTCAACACTTTGCT
+                     TGGATTTAACAGCTGGATAAAAAGCATAAGTTGCAGGTCAACTTTCAAGGAAATGAAG
+                     AGCGCTTATAGATTGATTGACTTTTTCACGGCATTCACTGGCAAAAATATGAGCACGG
+                     ACTACAAATTATTTCAAATGGAAGCTCGAATGGTTTCCGGATGTTCGTCCGCCCACGT
+                     GCTTTGGAGCAAAACTGGTCGCAAAAAAGCGATAAATTTATTGCGACTAAATACAATT
+                     CGAATGTTGAAATCGGAAGATAATCCAAATCCTTACGAAACCGAAGAATAA"
+                     /note="Geneious type: Editing History Deletion"
+ORIGIN      
+        1 atgtcgttcg aagacacggt ggcgtctttg aaagcatgca ttatttccag aaaaggagga
+       61 gtacccttag aagaaataaa tagtgaatat gaaaaacttg ttggacgatc aataccgtac
+      121 atgaaacttg gatttacttc tctgttcgac ctgctgcgaa atattccgga catttacacg
+      181 aaacgcaatg aaaaagacga gcatttcttt caagtcgtgg attcggctac ggcacatatt
+      241 caacatcttg ttaataaaca aaggagtgcg gagagcgttc gatttgcgca agaggccgga
+      301 agaaagaaaa gcggaaataa aaaaagagat gaatttttaa gctcgaggtg gcgcaattct
+      361 agcgaagacc gaaattctca acggcgaaga aagacaagag acgtgaacaa tgaaatcaga
+      421 agtcaaaaca gaatgaga
+//
+LOCUS       LOTUS_-_NW_013172248_-_LOC106086381_mRNA_-_LOC106086381_CDS_extraction         378 bp    DNA     linear   UNA 10-JUN-2016
+DEFINITION  Stomoxys calcitrans breed 8C7A2A5H3J4 unplaced genomic scaffold,
+            Stomoxys_calcitrans-1.0.1 Scaffold379, whole genome shotgun
+            sequence.
+ACCESSION   urn.local...11w-65tjoot
+VERSION     urn.local...11w-65tjoot
+KEYWORDS    .
+SOURCE      Stomoxys calcitrans (stable fly)
+  ORGANISM  Stomoxys calcitrans
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Endopterygota; Diptera; Brachycera;
+            Muscomorpha; Muscoidea; Muscidae; Stomoxys.
+FEATURES             Location/Qualifiers
+     source          order(<1..>145,<146..>378)
+                     /organism="Stomoxys calcitrans"
+                     /mol_type="genomic DNA"
+                     /isolation_source="pooled sample from approximately 10
+                     individuals of F7 generation from inbred line"
+                     /db_xref="taxon:35570"
+                     /chromosome="Unknown"
+                     /sex="male"
+                     /collected_by="Pia Olafson"
+                     /breed="8C7A2A5H3J4"
+                     /label="source Stomoxys calcitrans"
+     gene            order(<1..>145,<146..>378)
+                     /gene="LOC106086381"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /db_xref="GeneID:106086381"
+                     /label="LOC106086381 gene"
+     mRNA            join(<1..145,146..>378)
+                     /gene="LOC106086381"
+                     /product="maternal effect protein oskar"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 9 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 2 samples with support for all annotated
+                     introns"
+                     /transcript_id="XM_013251037.1"
+                     /db_xref="GI:907682258"
+                     /db_xref="GeneID:106086381"
+                     /label="LOC106086381 mRNA"
+     CDS             join(<1..145,146..>378)
+                     /gene="LOC106086381"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="maternal effect protein oskar"
+                     /protein_id="XP_013106491.1"
+                     /db_xref="GI:907682259"
+                     /db_xref="GeneID:106086381"
+                     /translation="MIDTKPTTKCCSKKAEEETNTLKPDLNSVSNGRKNFLALKRHIT
+                     TCIQRWRQKDPSKRLNKKCKLLAEHHQQNRQQQQQKEEYQCSCQQRNSGNKWFRKYTC
+                     KEFFASSSLSNSFTQRCTFNATNINKVPFAYQEKWFNSTNHDCIEGPRKYGRKVEIVA
+                     KLLSSTLIGRDADKPKPPPKPTAEKSFESYRSQRRDSGDSAYHSVQDRLEIYHNFVTS
+                     TTVGATDINKMTIPDLAFLQIRDEFPDLNSEIRSILLARAQEGATISQIRDDYRKLTG
+                     LTFPVYEWITDFLLSIPYVSAYCNEQGTLIFGVKPTEKTKHIHDLVMEQKNPNEQIPN
+                     VNHRRYRERQRNPNYQPNTYRRRSYYQPSGGQRKSLRSQCLVANVCNDANVSQDNSEG
+                     FVEDNWFYNDNCNYLLNRIHNQENILPPTCPAEICIPSLIYAASGDHQQQEQQVVQPL
+                     IETVAVAPNVNEDLHQFNANNLNINSAVPTYENNINHLNSLFQMARDSQHNTNHNKNM
+                     AVVNPPRSSSYIPCKNSMPRSSRSSSPTGKSCYTNDSMFTDTDYDAHLLDFLLMGDDF
+                     FLFMARMELRCKFKKHHRILQSGLCVSGQTINAAIKRINALHDNGRSIIVNIGSVNIM
+                     QRRQLVQIEHDFRELIKAMLKKGINPILTTLAPLANYNHENDVKNNLERFNEFIKREG
+                     EKRNLVVIDIWKCLANEKGHILFDCYQNQPRLVSGAAESYVFWNKIGRQRVLQLIESK
+                     LEY"
+                     /label="LOC106086381 CDS"
+     misc_feature    
+                     /Original_Bases="ATGATCGATACAAAGCCAACAACAAAGTGCTGCTCTAAAAA
+                     GGCAGAGGAAGAAACTAATACACTCAAACCTGATTTAAACAGCGTTTCAAACGGTCGC
+                     AAAAATTTCTTGGCGTTGAAGCGGCACATTACCACGTGTATTCAACGTTGGCGGCAAA
+                     AAGATCCTTCCAAAAGACTTAATAAAAAATGCAAATTATTAGCTGAACACCACCAACA
+                     AAACCGGCAGCAGCAGCAGCAAAAGGAAGAATATCAGTGTTCATGCCAACAGAGAAAC
+                     AGTGGGAATAAATGGTTTAGAAAATATACATGTAAGGAGTTTTTTGCATCCAGCTCAT
+                     TGTCCAACAGTTTTACACAACGTTGTACGTTTAATGCTACCAACATTAATAAGGTTCC
+                     ATTTGCGTACCAAGAAAAATGGTTCAATTCGACTAACCACGATTGTATTGAGGGCCCT
+                     CGCAAATACGGTCGTAAAGTTGAAATTGTAGCAAAGCTTTTATCTTCGACTTTGATTG
+                     GTAGAGACGCCGATAAGCCCAAACCTCCACCCAAGCCAACAGCGGAAAAGTCGTTTGA
+                     AAGCTATCGTAGTCAGCGTCGTGATTCGGGTGATAGTGCTTATCACAGTGTACAGGAT
+                     CGTTTGGAAATATACCATAATTTTGTAACATCGACCACA"
+                     /label="ATGATCGATACAAAGCCAACAACAAAGTGCTGCTCTAAAAAGGCAGAGGA
+                     AGAAACTAATACACTCAAACCTGATTTAAACAGCGTTTCAAACGGTCGCAAAAATTTC
+                     TTGGCGTTGAAGCGGCACATTACCACGTGTATTCAACGTTGGCGGCAAAAAGATCCTT
+                     CCAAAAGACTTAATAAAAAATGCAAATTATTAGCTGAACACCACCAACAAAACCGGCA
+                     GCAGCAGCAGCAAAAGGAAGAATATCAGTGTTCATGCCAACAGAGAAACAGTGGGAAT
+                     AAATGGTTTAGAAAATATACATGTAAGGAGTTTTTTGCATCCAGCTCATTGTCCAACA
+                     GTTTTACACAACGTTGTACGTTTAATGCTACCAACATTAATAAGGTTCCATTTGCGTA
+                     CCAAGAAAAATGGTTCAATTCGACTAACCACGATTGTATTGAGGGCCCTCGCAAATAC
+                     GGTCGTAAAGTTGAAATTGTAGCAAAGCTTTTATCTTCGACTTTGATTGGTAGAGACG
+                     CCGATAAGCCCAAACCTCCACCCAAGCCAACAGCGGAAAAGTCGTTTGAAAGCTATCG
+                     TAGTCAGCGTCGTGATTCGGGTGATAGTGCTTATCACAGTGTACAGGATCGTTTGGAA
+                     ATATACCATAATTTTGTAACATCGACCACA"
+                     /note="Geneious type: Editing History Deletion"
+     misc_feature    
+                     /Original_Bases="CCTAACTATCAACCAAACACTTATAGACGCAGATCGTATTA
+                     TCAGCCATCTGGTGGTCAAAGAAAATCTTTACGCTCGCAATGCCTTGTGGCAAATGTT
+                     TGCAACGATGCCAATGTGTCACAGGATAATTCTGAGGGTTTTGTAGAGGACAACTGGT
+                     TCTATAATGATAATTGTAACTATCT"
+                     /label="CCTAACTATCAACCAAACACTTATAGACGCAGATCGTATTATCAGCCATC
+                     TGGTGGTCAAAGAAAATCTTTACGCTCGCAATGCCTTGTGGCAAATGTTTGCAACGAT
+                     GCCAATGTGTCACAGGATAATTCTGAGGGTTTTGTAGAGGACAACTGGTTCTATAATG
+                     ATAATTGTAACTATCT"
+                     /note="Geneious type: Editing History Deletion"
+ORIGIN      
+        1 gttggggcaa cagatatcaa taaaatgacc ataccggatt tagcgtttct gcaaatacgt
+       61 gatgagtttc cagatttgaa ttcggaaatt cgtagcatat tgctagcacg tgctcaggag
+      121 ggagctacta tttcgcaaat tcgtgatgac tatcgtaaac ttaccggact cacatttccc
+      181 gtctatgaat ggatcacaga ctttcttcta tccattccat atgtttcggc ctattgcaat
+      241 gagcaaggaa cacttatatt tggtgttaag ccaacggaaa agaccaaaca cattcatgac
+      301 ttagtaatgg aacagaagaa cccaaacgaa caaataccaa atgtcaatca tcggcgttat
+      361 agggaacgtc aaaggaac
+//
+LOCUS       LOTUS_-_NW_013581214_-_LOC106622417_mRNA_-_LOC106622417_CDS_extraction         375 bp    DNA     linear   UNA 10-JUN-2016
+DEFINITION  Bactrocera oleae isolate Demokritus unplaced genomic scaffold,
+            gapfilled_joined_lt9474.gt500.covgt10 scaffold13, whole genome
+            shotgun sequence.
+ACCESSION   urn.local...14b-65tl387
+VERSION     urn.local...14b-65tl387
+KEYWORDS    .
+SOURCE      Bactrocera oleae (olive fruit fly)
+  ORGANISM  Bactrocera oleae
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Endopterygota; Diptera; Brachycera;
+            Muscomorpha; Tephritoidea; Tephritidae; Bactrocera; Daculus.
+FEATURES             Location/Qualifiers
+     source          order(<1..>121,<122..>375)
+                     /organism="Bactrocera oleae"
+                     /mol_type="genomic DNA"
+                     /isolate="Demokritus"
+                     /host="Olea europaea"
+                     /db_xref="taxon:104688"
+                     /chromosome="Unknown"
+                     /sex="pooled male and female"
+                     /tissue_type="whole insect"
+                     /germline
+                     /country="Greece"
+                     /collection_date=1975
+                     /label="source Bactrocera oleae"
+     gene            order(<1..>121,<122..>375)
+                     /gene="LOC106622417"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /db_xref="GeneID:106622417"
+                     /label="LOC106622417 gene"
+     mRNA            join(<1..121,122..>375)
+                     /gene="LOC106622417"
+                     /product="maternal effect protein oskar, transcript
+                     variant X5"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 11 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 2 samples with support for all annotated
+                     introns"
+                     /transcript_id="XM_014241613.1"
+                     /db_xref="GI:929347917"
+                     /db_xref="GeneID:106622417"
+                     /label="LOC106622417 mRNA"
+     mRNA            join(<1..121,122..>375)
+                     /gene="LOC106622417"
+                     /product="maternal effect protein oskar, transcript
+                     variant X1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 9 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 2 samples with support for all annotated
+                     introns"
+                     /transcript_id="XM_014241588.1"
+                     /db_xref="GI:929347909"
+                     /db_xref="GeneID:106622417"
+                     /label="LOC106622417 mRNA"
+     mRNA            join(<1..121,122..>375)
+                     /gene="LOC106622417"
+                     /product="maternal effect protein oskar, transcript
+                     variant X3"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 9 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 2 samples with support for all annotated
+                     introns"
+                     /transcript_id="XM_014241603.1"
+                     /db_xref="GI:929347913"
+                     /db_xref="GeneID:106622417"
+                     /label="LOC106622417 mRNA"
+     mRNA            join(<1..121,122..223,281..>375)
+                     /gene="LOC106622417"
+                     /product="maternal effect protein oskar, transcript
+                     variant X2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 8 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 1 sample with support for all annotated introns"
+                     /transcript_id="XM_014241595.1"
+                     /db_xref="GI:929347911"
+                     /db_xref="GeneID:106622417"
+                     /label="LOC106622417 mRNA"
+     CDS             join(1..121,122..>375)
+                     /gene="LOC106622417"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="maternal effect protein oskar isoform X5"
+                     /protein_id="XP_014097088.1"
+                     /db_xref="GI:929347918"
+                     /db_xref="GeneID:106622417"
+                     /translation="MTVMHEAFLELRSAFPDLDAEVRSILLARSQEGATISDLKDDYR
+                     KNTGIVFPIFQNITEFLLSIPFVTAFCNENGKLIFNVQPSAKTKHIYDLVQQQKPQQQ
+                     IHTQKQQQFVHYNDQNRFEPFVNNISSKKNKRDEFWYRHNKQIDYRNNNEYINKNNID
+                     NNKISESVKTDALKTKVGLDNLASLQTNAQKGVSNYTEETGSNNYYQDNCNHLFNRLC
+                     NQPKMASQNLGHNFNNIHYSNLNSRLTKPQPTHLQAKAINQTFQFRSIQQQNYLNMNI
+                     REKQPNPFKQPMAKYILPSTSRPTSPSCTKSSRYNDSIYTTDSDYEAHLLDFPLLGDD
+                     FFLFLARMELRCKFKKYDKVLQSGLCVSGQTICGAIRRVRQLEDQCKSVIVNIGSVDI
+                     MKGRPLVQIEHDFRELINLMFKKGFTPILTTLAPLANFAHDEITKTKLERFNNFIKKE
+                     GEFLLVMDIWACLVNERGHILFDCFQNEPRIVTGTSEPYVFWNKIGRQRVLQLIESQL
+                     EY"
+                     /label="LOC106622417 CDS"
+     CDS             join(1..121,122..>375)
+                     /gene="LOC106622417"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="maternal effect protein oskar isoform X1"
+                     /protein_id="XP_014097063.1"
+                     /db_xref="GI:929347910"
+                     /db_xref="GeneID:106622417"
+                     /translation="MTVMHEAFLELRSAFPDLDAEVRSILLARSQEGATISDLKDDYR
+                     KNTGIVFPIFQNITEFLLSIPFVTAFCNENGKLIFNVQPSAKTKHIYDLVQQQKPQQQ
+                     IHTQKQQQFVHYNDQNRFEPFVNNISSKKNKRDEFWYRHNKQIDYRNNNEYINKNNID
+                     NNKISESVKTDALKTKVGLDNLASLQTNAQKGVSNYTEETGSNNYYQDNCNHLLCNQP
+                     KMASQNLGHNFNNIHYSNLNSRLTKPQPTHLQAKAINQTFQFRSIQQQNYLNMNIREK
+                     QPNPFKQPMAKYILPSTSRPTSPSCTKSSRYNDSIYTTDSDYEAHLLDFPLLGDDFFL
+                     FLARMELRCKFKKYDKVLQSGLCVSGQTICGAIRRVRQLEDQCKSVIVNIGSVDIMKG
+                     RPLVQIEHDFRELINLMFKKGFTPILTTLAPLANFAHDEITKTKLERFNNFIKKEGEF
+                     LLVMDIWACLVNERGHILFDCFQNEPRIVTGTSEPYVFWNKIGRQRVLQLIESQLEY"
+                     /label="LOC106622417 CDS"
+     CDS             join(1..121,122..>375)
+                     /gene="LOC106622417"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="maternal effect protein oskar isoform X3"
+                     /protein_id="XP_014097078.1"
+                     /db_xref="GI:929347914"
+                     /db_xref="GeneID:106622417"
+                     /translation="MTVMHEAFLELRSAFPDLDAEVRSILLARSQEGATISDLKDDYR
+                     KNTGIVFPIFQNITEFLLSIPFVTAFCNENGKLIFNVQPSAKTKHIYDLVQQQKPQQQ
+                     IHTQKQQQFVHYNDQNRFEPFVNNISSKKNKRDEFWYRHNKQIDYRNNNEYINKNNID
+                     NNKISESVKTDALKTKVGLDNLASLQTNAQKGVSNYTEETGSNNYYQDNCNHLSIQQQ
+                     NYLNMNIREKQPNPFKQPMAKYILPSTSRPTSPSCTKSSRYNDSIYTTDSDYEAHLLD
+                     FPLLGDDFFLFLARMELRCKFKKYDKVLQSGLCVSGQTICGAIRRVRQLEDQCKSVIV
+                     NIGSVDIMKGRPLVQIEHDFRELINLMFKKGFTPILTTLAPLANFAHDEITKTKLERF
+                     NNFIKKEGEFLLVMDIWACLVNERGHILFDCFQNEPRIVTGTSEPYVFWNKIGRQRVL
+                     QLIESQLEY"
+                     /label="LOC106622417 CDS"
+     CDS             join(1..121,122..223,281..>375)
+                     /gene="LOC106622417"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="maternal effect protein oskar isoform X2"
+                     /protein_id="XP_014097070.1"
+                     /db_xref="GI:929347912"
+                     /db_xref="GeneID:106622417"
+                     /translation="MTVMHEAFLELRSAFPDLDAEVRSILLARSQEGATISDLKDDYR
+                     KNTGIVFPIFQNITEFLLSIPFVTAFCNENVQQQKPQQQIHTQKQQQFVHYNDQNRFE
+                     PFVNNISSKKNKRDEFWYRHNKQIDYRNNNEYINKNNIDNNKISESVKTDALKTKVGL
+                     DNLASLQTNAQKGVSNYTEETGSNNYYQDNCNHLFNRLCNQPKMASQNLGHNFNNIHY
+                     SNLNSRLTKPQPTHLQAKAINQTFQFRSIQQQNYLNMNIREKQPNPFKQPMAKYILPS
+                     TSRPTSPSCTKSSRYNDSIYTTDSDYEAHLLDFPLLGDDFFLFLARMELRCKFKKYDK
+                     VLQSGLCVSGQTICGAIRRVRQLEDQCKSVIVNIGSVDIMKGRPLVQIEHDFRELINL
+                     MFKKGFTPILTTLAPLANFAHDEITKTKLERFNNFIKKEGEFLLVMDIWACLVNERGH
+                     ILFDCFQNEPRIVTGTSEPYVFWNKIGRQRVLQLIESQLEY"
+                     /label="LOC106622417 CDS"
+     mRNA            join(152..223,286..>375)
+                     /gene="LOC106622417"
+                     /product="maternal effect protein oskar, transcript
+                     variant X4"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 2 samples with support for all annotated
+                     introns"
+                     /transcript_id="XM_014241608.1"
+                     /db_xref="GI:929347915"
+                     /db_xref="GeneID:106622417"
+                     /label="LOC106622417 mRNA"
+     CDS             join(215..223,286..>375)
+                     /gene="LOC106622417"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="maternal effect protein oskar isoform X4"
+                     /protein_id="XP_014097083.1"
+                     /db_xref="GI:929347916"
+                     /db_xref="GeneID:106622417"
+                     /translation="MKMQQKPQQQIHTQKQQQFVHYNDQNRFEPFVNNISSKKNKRDE
+                     FWYRHNKQIDYRNNNEYINKNNIDNNKISESVKTDALKTKVGLDNLASLQTNAQKGVS
+                     NYTEETGSNNYYQDNCNHLFNRLCNQPKMASQNLGHNFNNIHYSNLNSRLTKPQPTHL
+                     QAKAINQTFQFRSIQQQNYLNMNIREKQPNPFKQPMAKYILPSTSRPTSPSCTKSSRY
+                     NDSIYTTDSDYEAHLLDFPLLGDDFFLFLARMELRCKFKKYDKVLQSGLCVSGQTICG
+                     AIRRVRQLEDQCKSVIVNIGSVDIMKGRPLVQIEHDFRELINLMFKKGFTPILTTLAP
+                     LANFAHDEITKTKLERFNNFIKKEGEFLLVMDIWACLVNERGHILFDCFQNEPRIVTG
+                     TSEPYVFWNKIGRQRVLQLIESQLEY"
+                     /label="LOC106622417 CDS"
+     misc_feature    
+                     /Original_Bases="AATATTTCATCTAAGAAAAACAAACGTGATGAATTTTGGTA
+                     CCGCCACAATAAACAGATTGATTACCGAAATAATAATGAATATATTAATAAGAACAAC
+                     ATTGATAATAATAAAATCAGCGAATCGGTAAAAACTGATGCATTAAAAACTAAGGTGG
+                     GTCTGGACAATTTAGCATCATTGCAAACTAACGCTCAAAAAGGTGTTTCTAATTACAC
+                     TGAGGAAACGGGAAGCAATAATTATTATCAAGACAACTGTAACCATCT"
+                     /label="AATATTTCATCTAAGAAAAACAAACGTGATGAATTTTGGTACCGCCACAA
+                     TAAACAGATTGATTACCGAAATAATAATGAATATATTAATAAGAACAACATTGATAAT
+                     AATAAAATCAGCGAATCGGTAAAAACTGATGCATTAAAAACTAAGGTGGGTCTGGACA
+                     ATTTAGCATCATTGCAAACTAACGCTCAAAAAGGTGTTTCTAATTACACTGAGGAAAC
+                     GGGAAGCAATAATTATTATCAAGACAACTGTAACCATCT"
+                     /note="Geneious type: Editing History Deletion"
+ORIGIN      
+        1 atgacagtta tgcatgaagc tttcctagaa ttgcgaagcg cgtttcctga tttagacgct
+       61 gaggtgagga gcatactgct tgcgcgttct caggaaggag caactatctc cgacctcaag
+      121 gatgattatc ggaaaaatac aggtatcgtg tttccaatat ttcaaaacat caccgagttc
+      181 cttctctcaa taccatttgt gaccgcattt tgtaatgaaa atggtaagct catttttaat
+      241 gttcaacctt ctgcaaaaac aaagcacatc tatgatttag tacagcagca aaaacctcaa
+      301 cagcaaattc atactcaaaa acaacagcaa tttgttcact ataacgacca aaaccgattc
+      361 gaaccattcg taaac
+//
+LOCUS       LOTUS_-_NW_014327462_-_LOC106642594_mRNA_-_LOC106642594_CDS_extraction         447 bp    DNA     linear   UNA 10-JUN-2016
+DEFINITION  Copidosoma floridanum isolate CFLO.00-Male unplaced genomic
+            scaffold, Cflo_1.0 Scaffold269, whole genome shotgun sequence.
+ACCESSION   urn.local...15t-65tldag
+VERSION     urn.local...15t-65tldag
+KEYWORDS    .
+SOURCE      Copidosoma floridanum
+  ORGANISM  Copidosoma floridanum
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Endopterygota; Hymenoptera; Apocrita;
+            Chalcidoidea; Encyrtidae; Encyrtinae; Copidosoma.
+FEATURES             Location/Qualifiers
+     source          order(<1..>75,<76..>181,<182..>384,<385..>447)
+                     /organism="Copidosoma floridanum"
+                     /mol_type="genomic DNA"
+                     /isolate="CFLO.00-Male"
+                     /isolation_source="Michael Strand lab raised"
+                     /db_xref="taxon:29053"
+                     /chromosome="Unknown"
+                     /sex="male"
+                     /country="USA: South Carolina"
+                     /collection_date="Sep-1985"
+                     /label="source Copidosoma floridanum"
+     gene            order(<1..>75,<76..>181,<182..>384,<385..>447)
+                     /gene="LOC106642594"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /db_xref="GeneID:106642594"
+                     /label="LOC106642594 gene"
+     mRNA            join(<1..75,76..181,182..384,385..>447)
+                     /gene="LOC106642594"
+                     /product="maternal effect protein oskar"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 Protein, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 1 sample with support for all annotated introns"
+                     /transcript_id="XM_014357424.1"
+                     /db_xref="GI:936598738"
+                     /db_xref="GeneID:106642594"
+                     /label="LOC106642594 mRNA"
+     CDS             join(1..75,76..181,182..384,385..>447)
+                     /gene="LOC106642594"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="maternal effect protein oskar"
+                     /protein_id="XP_014212910.1"
+                     /db_xref="GI:936598739"
+                     /db_xref="GeneID:106642594"
+                     /translation="MFSVVLSNTMKYIDPQSNNMVNIPPKPVSLEENAKREDVKSAIR
+                     ACILTRKNGMPISEIRDEYRKIIGEEIPYLRIGYNSIFHLMRDIPEVKSIKNDTGAHV
+                     LIVEPNKKTEHLHRLIAKQKDPRTYTTINNKAMQRKERSYREKVSRQVVHDKRRVVFS
+                     SFGSSTTEKTRQPPLDEMPRPSIITTPNVDHPICTEPIVGTSQLMGDDYFLQLCIKYL
+                     PVKLERINQKSALTVGTVQSGMTIKKAADRLDNIKIITNKLVINLGTVDIYNRRTCNQ
+                     MIKEYKNLLEKLRRNYGLSPAKIILCTIPPLGNISFYGQIEQYMALMSFNNWLRDFST
+                     QGNYRLLDLFESFTTEKMTLNYDLFQQDARMVSGTPHPHLLWNFFGRQKAMKLLLNV"
+                     /label="LOC106642594 CDS"
+     misc_feature    
+                     /Original_Bases="GTAGTGCATGACAAAAGAAGGGTTGTATTTTCGTCATTCGG
+                     CAGTAGTACCACGGAGAAGACTAGACAGCCTCCACTTGATGAAATGCCGCGACCCTCA
+                     ATCATCACTACGCCCAATGTCGATCAC"
+                     /label="GTAGTGCATGACAAAAGAAGGGTTGTATTTTCGTCATTCGGCAGTAGTAC
+                     CACGGAGAAGACTAGACAGCCTCCACTTGATGAAATGCCGCGACCCTCAATCATCACT
+                     ACGCCCAATGTCGATCAC"
+                     /note="Geneious type: Editing History Deletion"
+ORIGIN      
+        1 atgttctctg tggtgctctc taacacgatg aagtacattg acccccaatc caacaacatg
+       61 gttaatatac cacccaagcc agtcagtttg gaagaaaatg cgaagcgaga ggacgtcaag
+      121 agtgcgatca gagcctgcat cctcacccgc aagaatggca tgcctatcag cgaaatcagg
+      181 gacgagtaca gaaagatcat tggtgaggaa ataccttatt tgagaattgg ctataacagc
+      241 atatttcacc tgatgcggga cataccagag gtcaaatcca ttaaaaatga cactggcgcg
+      301 cacgtactca tcgttgagcc caacaaaaag acggaacact tacaccgact aatcgcgaag
+      361 cagaaggacc cgagaaccta cacgacgatc aacaacaaag ccatgcagag aaaagaaaga
+      421 tcttaccggg aaaaagtcag ccgccag
+//
+LOCUS       LOTUS_-_NW_014569554_-_LOC106790143_mRNA_-_LOC106790143_CDS_extraction         351 bp    DNA     linear   UNA 10-JUN-2016
+DEFINITION  Polistes canadensis isolate GaletaPanama2010 unplaced genomic
+            scaffold, ASM131383v1 scaffold_7, whole genome shotgun sequence.
+ACCESSION   urn.local...179-65tlm6z
+VERSION     urn.local...179-65tlm6z
+KEYWORDS    .
+SOURCE      Polistes canadensis
+  ORGANISM  Polistes canadensis
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Endopterygota; Hymenoptera; Apocrita;
+            Aculeata; Vespoidea; Vespidae; Polistinae; Polistini; Polistes.
+FEATURES             Location/Qualifiers
+     gene            order(<1..>76,<77..>279,<280..>351)
+                     /gene="LOC106790143"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /db_xref="GeneID:106790143"
+                     /label="LOC106790143 gene"
+     mRNA            join(<1..76,77..279,280..>351)
+                     /gene="LOC106790143"
+                     /product="maternal effect protein oskar"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 1 sample with support for all annotated introns"
+                     /transcript_id="XM_014754875.1"
+                     /db_xref="GI:954544104"
+                     /db_xref="GeneID:106790143"
+                     /label="LOC106790143 mRNA"
+     source          order(<1..>76,<77..>279,<280..>351)
+                     /organism="Polistes canadensis"
+                     /mol_type="genomic DNA"
+                     /isolate="GaletaPanama2010"
+                     /isolation_source="air"
+                     /db_xref="taxon:91411"
+                     /chromosome="Unknown"
+                     /sex="male"
+                     /country="Panama"
+                     /lat_lon="9.21 N 79.54 W"
+                     /collection_date=2010
+                     /label="source Polistes canadensis"
+     CDS             join(1..76,77..279,280..>351)
+                     /gene="LOC106790143"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="maternal effect protein oskar"
+                     /protein_id="XP_014610361.1"
+                     /db_xref="GI:954544105"
+                     /db_xref="GeneID:106790143"
+                     /translation="MEETIALIKSCIISQKGGIPIKYLNYEFEKIVGEPIPYIRLGFS
+                     SLQDLLDKVDGLKTIKRADGVETLLVNDPKIRHIVDLIQKQKENYKANKSKHYKRFIP
+                     FDSKNFNNITRNNGNSNNKIEYKDKKKVWFNDNAIYNKRRDVTINGNQNLTALYSFNS
+                     EDGNCNKYWLSTKRNNEYKNIVVIEACKTIKEKTIYEPIILSHQLIGDDFFLQLVIRY
+                     LGLPVWRQAGNMALHCGLCISGQTIIDCIKRLNKVECISNKIVIMLGAVDIYNGDTSY
+                     DLIKNMRNLLKVLKYKFAFSNSAIKICTIPPLANLSLHGHVNKVSTLYSFNNWIRCLN
+                     CSENKSLDNVDDNHYQIIDLFQYFTDENFTTQYQWFQLNARMVSGCKHPYVLWNKNGR
+                     KRAMEALTAKL"
+                     /label="LOC106790143 CDS"
+     misc_feature    
+                     /Original_Bases="TCGAATAATAAAATAGAATATAAAGATAAAAAGAAAGTTTG
+                     GTTCAACGATAATGCGATATATAACAAACGACGGGATGTTACGATAAACGGAAATCAG
+                     AATTTAACTGCTTTGTATTCGTTTAATTCAGAGGATGGAAATTGTAATAAATATTGGC
+                     TCTCTACAAAACGTAATAACGAATACAAGAATATTGTGGTTATCGAAGCATGTAAAAC
+                     AATAAAAGAG"
+                     /label="TCGAATAATAAAATAGAATATAAAGATAAAAAGAAAGTTTGGTTCAACGA
+                     TAATGCGATATATAACAAACGACGGGATGTTACGATAAACGGAAATCAGAATTTAACT
+                     GCTTTGTATTCGTTTAATTCAGAGGATGGAAATTGTAATAAATATTGGCTCTCTACAA
+                     AACGTAATAACGAATACAAGAATATTGTGGTTATCGAAGCATGTAAAACAATAAAAGA
+                     G"
+                     /note="Geneious type: Editing History Deletion"
+ORIGIN      
+        1 atggaagaaa ctatcgcact aataaagtct tgcataattt ctcaaaaagg aggcatacca
+       61 ataaaatatt taaattatga atttgaaaag atagtcgggg aaccaatacc ttacataaga
+      121 ttaggatttt ctagtttaca agatttatta gacaaagtag acggattgaa gactattaaa
+      181 agagccgatg gggtggaaac gttgctagta aatgatccca aaattagaca tatagttgat
+      241 ttaattcaaa aacaaaaaga aaattacaag gccaataagt caaagcatta caaacgtttt
+      301 ataccgtttg attcaaaaaa cttcaataat attactcgta ataatggtaa c
+//
+LOCUS       LOTUS_-_NW_015384928_-_LOC107223453_mRNA_-_LOC107223453_CDS_extraction         378 bp    DNA     linear   UNA 10-JUN-2016
+DEFINITION  Neodiprion lecontei isolate Nlec_01 unplaced genomic scaffold,
+            Nlec1.0, whole genome shotgun sequence.
+ACCESSION   urn.local...18w-65tlst3
+VERSION     urn.local...18w-65tlst3
+KEYWORDS    .
+SOURCE      Neodiprion lecontei (redheaded pine sawfly)
+  ORGANISM  Neodiprion lecontei
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Endopterygota; Hymenoptera; Tenthredinoidea;
+            Diprionidae; Diprioninae; Neodiprion.
+FEATURES             Location/Qualifiers
+     source          order(<1..>85,<86..>288,<289..>378)
+                     /organism="Neodiprion lecontei"
+                     /mol_type="genomic DNA"
+                     /isolate="Nlec_01"
+                     /isolation_source="haploid male siblings derived from a
+                     single diploid female originally collected from a bush on
+                     private property"
+                     /host="Pinus mugo"
+                     /db_xref="taxon:441921"
+                     /chromosome="Unknown"
+                     /sex="male"
+                     /tissue_type="whole body"
+                     /dev_stage="larva"
+                     /country="USA: KY, Lexington"
+                     /collection_date="22-Aug-2011"
+                     /collected_by="J. Larson"
+                     /label="source Neodiprion lecontei"
+     gene            order(<1..>85,<86..>288,<289..>378)
+                     /gene="LOC107223453"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /db_xref="GeneID:107223453"
+                     /label="LOC107223453 gene"
+     mRNA            join(<1..85,86..288,289..>378)
+                     /gene="LOC107223453"
+                     /product="maternal effect protein oskar-like"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 1 sample with support for all annotated introns"
+                     /transcript_id="XM_015663132.1"
+                     /db_xref="GI:998515741"
+                     /db_xref="GeneID:107223453"
+                     /label="LOC107223453 mRNA"
+     CDS             join(1..85,86..288,289..>378)
+                     /gene="LOC107223453"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="maternal effect protein oskar-like"
+                     /protein_id="XP_015518618.1"
+                     /db_xref="GI:998515742"
+                     /db_xref="GeneID:107223453"
+                     /translation="MTSQEAVKKMVKSCIVSRKGGVPFPEIEDDYRALVGESIPYAQL
+                     GYTSLQSFVKSIDFVDVRTNHFGDSVLFVSDPKVAHIDSLVRKQKNPSNQRKRNRRPK
+                     KLAATTPRSERFTRNTKIAYTKSKWYTSSSRTKKNYWVEKNNERRDMDRFNNFNTGRT
+                     GIQNCSSSPNFHSYNDRSWSTKAPASLSSIDDNMYNYNSECEKRYAEGYRSWRFNIRV
+                     ADNKDAEEVLLEPLVNGHQLIGDDFFLQLAIKNFGAQPWKPEARAGIECGLCISGQTI
+                     DDCRRRLEKTQFLSGKITILLGAVDVFRGHSLEKMVRDMKNLLDVCRDRFNLNEVTLC
+                     TIPPLANYSVRCNLSKLSVLYSFNNWIKLHSQYSPDDSYIHHYNVIDVFSKFTDGNYR
+                     TLYDYFQIDARMVSGCRYPHVLWNTKGRRLAISMLEKQ"
+                     /label="LOC107223453 CDS"
+     misc_feature    
+                     /Original_Bases="TGGTACACCTCCTCAAGCAGGACGAAAAAGAACTACTGGGT
+                     AGAAAAAAATAACGAACGTAGAGACATGGATCGGTTTAACAACTTCAACACTGGACGG
+                     ACGGGGATCCAAAATTGTAGTAGTAGTCCAAATTTTCACAGCTACAACGATCGTTCAT
+                     GGAGCACAAAAGCCCCGGCATCTTTGAGCAGCATCGACGACAACATGTACAACTACAA
+                     TTCAGAATGTGAAAAAAGATATGCCGAGGGCTATCGAAGCTGGAGATTCAATATTCGC
+                     GTCGCCGACAACAAAGATGCAGAG"
+                     /label="TGGTACACCTCCTCAAGCAGGACGAAAAAGAACTACTGGGTAGAAAAAAA
+                     TAACGAACGTAGAGACATGGATCGGTTTAACAACTTCAACACTGGACGGACGGGGATC
+                     CAAAATTGTAGTAGTAGTCCAAATTTTCACAGCTACAACGATCGTTCATGGAGCACAA
+                     AAGCCCCGGCATCTTTGAGCAGCATCGACGACAACATGTACAACTACAATTCAGAATG
+                     TGAAAAAAGATATGCCGAGGGCTATCGAAGCTGGAGATTCAATATTCGCGTCGCCGAC
+                     AACAAAGATGCAGAG"
+                     /note="Geneious type: Editing History Deletion"
+ORIGIN      
+        1 atgacgtcgc aggaggcggt aaaaaaaatg gttaaatctt gtattgtctc acgcaagggc
+       61 ggcgtacctt ttcctgaaat cgaggatgat tacagggcct tagtaggcga aagtataccg
+      121 tatgcccaac tgggttacac aagtcttcag agttttgtaa aaagcatcga tttcgttgac
+      181 gtgagaacta atcatttcgg tgactcggtg cttttcgtgt ctgatccaaa agtcgcccat
+      241 atcgacagtc ttgtaagaaa gcagaaaaat ccatccaacc agaggaagag aaaccgaagg
+      301 ccgaaaaaac ttgccgcaac tactccccgg tcggaaagat ttaccagaaa cacgaagatc
+      361 gcgtatacta agtcaaaa
+//

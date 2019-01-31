@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2009-02-10" modified="2015-12-09" version="27">
+<accession>B7QJM2</accession>
+<name>B7QJM2_IXOSC</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Putative uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">IscW_ISCW023428</name>
+</gene>
+<organism evidence="3">
+<name type="scientific">Ixodes scapularis</name>
+<name type="common">Black-legged tick</name>
+<name type="synonym">Deer tick</name>
+<dbReference type="NCBI Taxonomy" id="6945"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Chelicerata</taxon>
+<taxon>Arachnida</taxon>
+<taxon>Acari</taxon>
+<taxon>Parasitiformes</taxon>
+<taxon>Ixodida</taxon>
+<taxon>Ixodoidea</taxon>
+<taxon>Ixodidae</taxon>
+<taxon>Ixodinae</taxon>
+<taxon>Ixodes</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="submission" date="2008-03" db="EMBL/GenBank/DDBJ databases">
+<title>Annotation of Ixodes scapularis.</title>
+<authorList>
+<consortium name="Ixodes scapularis Genome Project Consortium"/>
+<person name="Caler E."/>
+<person name="Hannick L.I."/>
+<person name="Bidwell S."/>
+<person name="Joardar V."/>
+<person name="Thiagarajan M."/>
+<person name="Amedeo P."/>
+<person name="Galinsky K.J."/>
+<person name="Schobel S."/>
+<person name="Inman J."/>
+<person name="Hostetler J."/>
+<person name="Miller J."/>
+<person name="Hammond M."/>
+<person name="Megy K."/>
+<person name="Lawson D."/>
+<person name="Kodira C."/>
+<person name="Sutton G."/>
+<person name="Meyer J."/>
+<person name="Hill C.A."/>
+<person name="Birren B."/>
+<person name="Nene V."/>
+<person name="Collins F."/>
+<person name="Alarcon-Chaidez F."/>
+<person name="Wikel S."/>
+<person name="Strausberg R."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3">Wikel</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="DS953309">
+<property type="protein sequence ID" value="EEC19044.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_002415379.1">
+<property type="nucleotide sequence ID" value="XM_002415334.1"/>
+</dbReference>
+<dbReference type="STRING" id="6945.ISCW023428-PA"/>
+<dbReference type="EnsemblMetazoa" id="ISCW023428-RA">
+<property type="protein sequence ID" value="ISCW023428-PA"/>
+<property type="gene ID" value="ISCW023428"/>
+</dbReference>
+<dbReference type="GeneID" id="8042236"/>
+<dbReference type="KEGG" id="isc:IscW_ISCW023428"/>
+<dbReference type="VectorBase" id="ISCW023428">
+<property type="organism name" value="Ixodes scapularis"/>
+</dbReference>
+<dbReference type="CTD" id="8042236"/>
+<dbReference type="eggNOG" id="ENOG410JQYN">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410ZUSK">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="InParanoid" id="B7QJM2"/>
+<dbReference type="KO" id="K18407"/>
+<dbReference type="OrthoDB" id="EOG7KQ22D"/>
+<dbReference type="PhylomeDB" id="B7QJM2"/>
+<dbReference type="Proteomes" id="UP000001555">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="4"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="4"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="7"/>
+<end position="79"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="89"/>
+<end position="168"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="212"/>
+<end position="286"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="293"/>
+<end position="368"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EEC19044.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000001555"/>
+</source>
+</evidence>
+<sequence length="538" mass="59578" checksum="8C895FACA846FCFC" modified="2009-02-10" version="1">
+MSSRQEELETVKAIIRALLIADKRTFTVRQFINEYRSSEGQNFPYAKFGHSDPLNFLRSL
+TDTVQVYQFGSEFYVKPNVTQDVQHVQKLLMRVKSNIKELLSTCVDGITLGQLEEMYARK
+HSTGINYTLFGHVSLESFVFSIPKNPGPPELPLTEDWTPKRTMPAVPAASRPPPACADLK
+LRSIGTRSSSLSSSSSSSVIVGGATGGGDLPLNPKVVSGFKRMFSNHPDGIWLKDFAEVY
+ESETGQELRVGELGFSTLLQLLENCAGTLEVKRPVQGGDFMVCQVDRQRQPILEPRVLST
+LESALRASDSRGLSLDELLQAYQDLSGVPLSPSDHGFTRQAFVLFLTGQLPVVYEPLGKG
+QFVLKWSDTGREDSGLVEAPPVARAPVASPPLLAYGPFRVQEGLVDREYCPVYVSQVFSI
+HNFYVQLKGNDTSLQLEVLMNELETVYEGHSSDTQVVDERHIRPGFPCAAPYTYSDGSSD
+WHRGMVVSVGQDPLSCKVVSPQSVVPTEWARLVISLQVLYVDYGTMAEVKKTMLRTLK
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

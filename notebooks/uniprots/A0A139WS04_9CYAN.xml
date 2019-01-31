@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2016-05-11" modified="2016-06-08" version="2">
+<accession>A0A139WS04</accession>
+<name>A0A139WS04_9CYAN</name>
+<protein>
+<submittedName>
+<fullName evidence="2">G-D-S-L family lipolytic protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">WA1_08615</name>
+</gene>
+<organism evidence="2">
+<name type="scientific">Scytonema hofmanni PCC 7110</name>
+<dbReference type="NCBI Taxonomy" id="128403"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Cyanobacteria</taxon>
+<taxon>Nostocales</taxon>
+<taxon>Scytonemataceae</taxon>
+<taxon>Scytonema</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2">
+<citation type="journal article" date="2013" name="Genome Biol. Evol." volume="5" first="31" last="44">
+<title>Genomes of Stigonematalean cyanobacteria (subsection V) and the evolution of oxygenic photosynthesis from prokaryotes to plastids.</title>
+<authorList>
+<person name="Dagan T."/>
+<person name="Roettger M."/>
+<person name="Stucken K."/>
+<person name="Landan G."/>
+<person name="Koch R."/>
+<person name="Major P."/>
+<person name="Gould S.B."/>
+<person name="Goremykin V.V."/>
+<person name="Rippka R."/>
+<person name="Tandeau de Marsac N."/>
+<person name="Gugger M."/>
+<person name="Lockhart P.J."/>
+<person name="Allen J.F."/>
+<person name="Brune I."/>
+<person name="Maus I."/>
+<person name="Puhler A."/>
+<person name="Martin W.F."/>
+</authorList>
+<dbReference type="PubMed" id="23221676"/>
+<dbReference type="DOI" id="10.1093/gbe/evs117"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="2">PCC 7110</strain>
+</source>
+</reference>
+<reference key="2" evidence="2">
+<citation type="submission" date="2016-02" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Wen L."/>
+<person name="He K."/>
+<person name="Yang H."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="2">PCC 7110</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="ANNX02000052">
+<property type="protein sequence ID" value="KYC35210.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_017745472.1">
+<property type="nucleotide sequence ID" value="NZ_ANNX01000099.1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0472" evidence="1">Membrane</keyword>
+<keyword id="KW-0812" evidence="1">Transmembrane</keyword>
+<keyword id="KW-1133" evidence="1">Transmembrane helix</keyword>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="12"/>
+<end position="31"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Phobius"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KYC35210.1"/>
+</source>
+</evidence>
+<sequence length="290" mass="32560" checksum="705C6D18512C1809" modified="2016-05-11" version="1">
+MNTPAKTFPTWVFLSLATNVILIFAIALLIARQQELAAFFGLIPNPTTINPESQSKAQAA
+TLPVVPKLGPRHQLSYWEWVDILKQEAKVAAKKNLQHLTILAGDSLSLWFPSELLPKDRN
+WLNQGISGEKTTGLLKRLNLFNATNPETIFVMIGINDLIRGVSDETILENQQQIMRSLRK
+SHPTAQIVVQSILPHGVEQVTWESKEKLLAIPNSRIRQLNQQLEGIAKKEGVKYLDLYPL
+FANSQGNLRSELSTDGLHLSQKGYLVWSSAIQLYGAIELHNTKKMAQQIR
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

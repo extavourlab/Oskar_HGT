@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2008-09-23" modified="2016-06-08" version="31">
+<accession>B4VLS6</accession>
+<name>B4VLS6_9CYAN</name>
+<protein>
+<submittedName>
+<fullName evidence="3">GDSL-like lipase/acylhydrolase domain protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">MC7420_272</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Coleofasciculus chthonoplastes PCC 7420</name>
+<dbReference type="NCBI Taxonomy" id="118168"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Cyanobacteria</taxon>
+<taxon>Oscillatoriophycideae</taxon>
+<taxon>Oscillatoriales</taxon>
+<taxon>Coleofasciculus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="submission" date="2008-07" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Tandeau de Marsac N."/>
+<person name="Ferriera S."/>
+<person name="Johnson J."/>
+<person name="Kravitz S."/>
+<person name="Beeson K."/>
+<person name="Sutton G."/>
+<person name="Rogers Y.-H."/>
+<person name="Friedman R."/>
+<person name="Frazier M."/>
+<person name="Venter J.C."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3 4">PCC 7420</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="DS989844">
+<property type="protein sequence ID" value="EDX77135.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_006099247.1">
+<property type="nucleotide sequence ID" value="NZ_DS989844.1"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="B4VLS6"/>
+<dbReference type="STRING" id="118168.MC7420_272"/>
+<dbReference type="EnsemblBacteria" id="EDX77135">
+<property type="protein sequence ID" value="EDX77135"/>
+<property type="gene ID" value="MC7420_272"/>
+</dbReference>
+<dbReference type="PATRIC" id="26244789">
+<property type="gene designation" value="VBIMicCht100541_1257"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4105VS5">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG2755">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000003835">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016787">
+<property type="term" value="F:hydrolase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-0378" evidence="3">Hydrolase</keyword>
+<keyword id="KW-0472" evidence="1">Membrane</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<keyword id="KW-0812" evidence="1">Transmembrane</keyword>
+<keyword id="KW-1133" evidence="1">Transmembrane helix</keyword>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="6"/>
+<end position="28"/>
+</location>
+</feature>
+<feature type="domain" description="SGNH_hydro" evidence="2">
+<location>
+<begin position="83"/>
+<end position="240"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Phobius"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EDX77135.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000003835"/>
+</source>
+</evidence>
+<sequence length="253" mass="29252" checksum="9CC4F97274B36639" modified="2008-09-23" version="1">
+MTTKNSLILWTSLSLNLLFILLFSILIIRRGGIPYLISKLPFHQQVEQTVKIARRRNTYQ
+STYHQMRKQMFEQMPNSETEIIFIGDSLTDQGEWAELLGNANIRNRGISGDTTDGVLNRL
+NEITASQPQKLFLMIGANDLWNEKKPASEIAANYRLILEQIQRQTPETQVFIQSLLPMNT
+IQYPIKVNNSDIISVNRHLQDLANEFSYTYIDLHQHFTNDQKQLDPVYTIDGVHLNGKGY
+LNWAKIVNLYVNQ
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

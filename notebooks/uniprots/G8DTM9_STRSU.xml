@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2012-01-25" modified="2016-06-08" version="23">
+<accession>G8DTM9</accession>
+<name>G8DTM9_STRSU</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Acylneuraminate cytidylyltransferase</fullName>
+</submittedName>
+<submittedName>
+<fullName evidence="2">Cps1/2T</fullName>
+</submittedName>
+<submittedName>
+<fullName evidence="4">N-acetylneuraminate cytidylyltransferase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="2">cps1/2T</name>
+<name type="synonym" evidence="4">2S</name>
+<name type="synonym" evidence="4">cps1</name>
+<name type="ORF" evidence="3">APQ97_09095</name>
+</gene>
+<organism evidence="2">
+<name type="scientific">Streptococcus suis</name>
+<dbReference type="NCBI Taxonomy" id="1307"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Bacilli</taxon>
+<taxon>Lactobacillales</taxon>
+<taxon>Streptococcaceae</taxon>
+<taxon>Streptococcus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2">
+<citation type="journal article" date="2011" name="FEMS Microbiol. Lett." volume="324" first="117" last="124">
+<title>Genetic analysis of the capsular polysaccharide synthesis locus in 15 Streptococcus suis serotypes.</title>
+<authorList>
+<person name="Wang K."/>
+<person name="Fan W."/>
+<person name="Cai L."/>
+<person name="Huang B."/>
+<person name="Lu C."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="2">2651</strain>
+</source>
+</reference>
+<reference key="2" evidence="4">
+<citation type="journal article" date="2013" name="Appl. Environ. Microbiol." volume="79" first="2796" last="2806">
+<title>Genetic analysis of capsular polysaccharide synthesis gene clusters from all serotypes of Streptococcus suis: potential mechanisms for generation of capsular variation.</title>
+<authorList>
+<person name="Okura M."/>
+<person name="Takamatsu D."/>
+<person name="Maruyama F."/>
+<person name="Nozawa T."/>
+<person name="Nakagawa I."/>
+<person name="Osaki M."/>
+<person name="Sekizaki T."/>
+<person name="Gottschalk M."/>
+<person name="Kumagai Y."/>
+<person name="Hamada S."/>
+</authorList>
+<dbReference type="PubMed" id="23416996"/>
+<dbReference type="DOI" id="10.1128/AEM.03742-12"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="4">2651</strain>
+</source>
+</reference>
+<reference key="3" evidence="5">
+<citation type="submission" date="2015-10" db="EMBL/GenBank/DDBJ databases">
+<title>Streptococcus suis Serotype 2 Sequence Type 25.</title>
+<authorList>
+<person name="Athey T.B.T."/>
+<person name="Teatero S."/>
+<person name="Wasserscheid J."/>
+<person name="Dewar K."/>
+<person name="Fittipaldi N."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="5">NSUI060</strain>
+</source>
+</reference>
+<reference key="4" evidence="3">
+<citation type="submission" date="2015-10" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Millard Andrew"/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="3">NSUI060</strain>
+</source>
+</reference>
+<reference key="5" evidence="3">
+<citation type="journal article" date="2016" name="PLoS ONE" volume="11" first="E0150908" last="E0150908">
+<title>Population Structure and Antimicrobial Resistance Profiles of Streptococcus suis Serotype 2 Sequence Type 25 Strains.</title>
+<authorList>
+<person name="Athey T.B."/>
+<person name="Teatero S."/>
+<person name="Takamatsu D."/>
+<person name="Wasserscheid J."/>
+<person name="Dewar K."/>
+<person name="Gottschalk M."/>
+<person name="Fittipaldi N."/>
+</authorList>
+<dbReference type="PubMed" id="26954687"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="3">NSUI060</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="JF273645">
+<property type="protein sequence ID" value="AEH57380.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="CP012911">
+<property type="protein sequence ID" value="AML47195.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AB737816">
+<property type="protein sequence ID" value="BAM94476.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_002936306.1">
+<property type="nucleotide sequence ID" value="NZ_LDON01000067.1"/>
+</dbReference>
+<dbReference type="STRING" id="391295.SSU05_0581"/>
+<dbReference type="eggNOG" id="ENOG4105F0R">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG1083">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000070276">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016779">
+<property type="term" value="F:nucleotidyltransferase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.90.550.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003329">
+<property type="entry name" value="Cytidylyl_trans"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029044">
+<property type="entry name" value="Nucleotide-diphossugar_trans"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02348">
+<property type="entry name" value="CTP_transf_3"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF53448">
+<property type="entry name" value="SSF53448"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="5">Complete proteome</keyword>
+<keyword id="KW-0548" evidence="3">Nucleotidyltransferase</keyword>
+<keyword id="KW-0808" evidence="3">Transferase</keyword>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="260"/>
+<end position="398"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AEH57380.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AML47195.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="BAM94476.1"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000070276"/>
+</source>
+</evidence>
+<sequence length="410" mass="46177" checksum="C788AB4477784BCE" modified="2012-01-25" version="1">
+MEPICLIPARSGSKGLPNKNMLFLDGVPMIFHTIRAAIESGCFKKENIYVSTDSEVYKEI
+CETTGVQVLMRPADLATDFTTSFQLNEHFLQDFSDDQVFVLLQVTSPLRSGKHVKEAMEL
+YGKGQADHVVSFTKVDKSPTLFSTLDENGFAKDIAGLGGSYRRQDEKTLYYPNGAIYISS
+KQAYLADKTYFSEKTAAYVMTKEDSIDVDDHFDFTGVIGRIYFDYQRREQQNKPFYKREL
+KRLCEQRVHDSLVIGDSRLLALSLDGFDNISIGGMTASTALENQGLFLATPIKKVLLSLG
+VNDLITDHPLHMIEDTIRQLMESLVSKAEQVFVTTIAYTLFRDSVSNEEIVQLNDVIVQS
+ASELGISVIDLNEVVEKEAMLDYQYTNDGLHFNQIGQERVNQLILTSLTR
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

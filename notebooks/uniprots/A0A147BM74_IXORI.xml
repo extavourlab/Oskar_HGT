@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2016-06-08" modified="2016-06-08" version="1">
+<accession>A0A147BM74</accession>
+<name>A0A147BM74_IXORI</name>
+<protein>
+<submittedName>
+<fullName evidence="1">Putative a kinase anchor protein</fullName>
+</submittedName>
+</protein>
+<organism evidence="1">
+<name type="scientific">Ixodes ricinus</name>
+<name type="common">Common tick</name>
+<dbReference type="NCBI Taxonomy" id="34613"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Chelicerata</taxon>
+<taxon>Arachnida</taxon>
+<taxon>Acari</taxon>
+<taxon>Parasitiformes</taxon>
+<taxon>Ixodida</taxon>
+<taxon>Ixodoidea</taxon>
+<taxon>Ixodidae</taxon>
+<taxon>Ixodinae</taxon>
+<taxon>Ixodes</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="1">
+<citation type="submission" date="2016-03" db="EMBL/GenBank/DDBJ databases">
+<title>Diversity in the quantum sialome of ticks revealed by RNAseq of single tick salivary glands.</title>
+<authorList>
+<person name="Ribeiro J.M."/>
+<person name="Perner J."/>
+<person name="Kopacek P."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="1">Siblings of single egg batch collected in Ceske Budejovice</strain>
+<tissue evidence="1">Salivary glands</tissue>
+</source>
+</reference>
+<dbReference type="EMBL" id="GEGO01003516">
+<property type="protein sequence ID" value="JAR91888.1"/>
+<property type="molecule type" value="Transcribed_RNA"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0418" evidence="1">Kinase</keyword>
+<keyword id="KW-0808" evidence="1">Transferase</keyword>
+<evidence key="1" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="JAR91888.1"/>
+</source>
+</evidence>
+<sequence length="740" mass="82398" checksum="AB94B820221556F5" modified="2016-06-08" version="1">
+MAGRLRDLETIKFVIRALLMVNNGPTPYGKFLQDYRRTEGHHVPYHKYGCTDCLDFLRTL
+TDTVHVKQQGSDVLLFPNLDDNAGESVRHVQELIKAQKVEPDREDQRKRPETVRPTRGTE
+LHLPDNVQRNLQSLVSKFMHGICVDALEDAYLREFGTTLNVKHFGFGSLKQALSTVKFFD
+LVDMPNDKMKVRLQSSNDRPAKMAARGKSPTTDVAKANGHAHSAKSPDVRATGTSLLRDN
+IQKVLERRTDGIFMSSFSQAYADEIGEPLSVGTMQLVQRWPDLFHIVRPDSSSDFILFPG
+TLGDLEDSSTEGRSSSSPDNTSDLKYSPVQLPADRTEEYFPVRVSYVGSPGRFAIQPVGA
+DGYDPLSALTREMSELYSSDAGQRYAVVGTRSAVLIGQAYAALYSSVDDNTTWYRARITG
+VSSLYNVEVELVDFGNHCTVHRSELRKLRDDFLELPVQCARAALAFLRPRGDDWCESAYK
+CFLQLSADRILMCKVESEEGDTLKVLLCDTNGDEEHFIHDVLVSKGFALCDLPHEQTNGV
+VEVEREHVTPATGKIDVRLVQLGDGSAIHVIGLRSQDYVASQELSSLVGWREDRVLEELG
+KKEISLGHLVVRGDQEPELFQKIGAFAPGDTVCLFRASNVADVVNLFNYPSAKVVAEIRR
+LFEPSKGAESLRGSKVRKRGAVELKQLKKQLAAANDERRQIYSSFGAGAMNLNHVDLLQG
+IEARITELQKQIDKLCNGSS
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-12-09" modified="2016-05-11" version="5">
+<accession>A0A0N1EIA5</accession>
+<name>A0A0N1EIA5_9SPHN</name>
+<protein>
+<submittedName>
+<fullName evidence="3">GDSL family lipase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">ADT71_17795</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Novosphingobium sp. ST904</name>
+<dbReference type="NCBI Taxonomy" id="1684385"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Alphaproteobacteria</taxon>
+<taxon>Sphingomonadales</taxon>
+<taxon>Sphingomonadaceae</taxon>
+<taxon>Novosphingobium</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="submission" date="2015-07" db="EMBL/GenBank/DDBJ databases">
+<title>Novosphingobium nitrophenolicus strain ST904 degrades p-nitrophenol and stimulates plant growth.</title>
+<authorList>
+<person name="Thijs S."/>
+<person name="Bottos E.M."/>
+<person name="Van Hamme J.D."/>
+<person name="Gkorezis P."/>
+<person name="Rineau F."/>
+<person name="Vangronsveld J."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3 4">ST904</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="3">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="LGJH01000154">
+<property type="protein sequence ID" value="KPH61225.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_054438986.1">
+<property type="nucleotide sequence ID" value="NZ_LGJH01000154.1"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="KPH61225">
+<property type="protein sequence ID" value="KPH61225"/>
+<property type="gene ID" value="ADT71_17795"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000037878">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<keyword id="KW-0732" evidence="1">Signal</keyword>
+<feature type="signal peptide" evidence="1">
+<location>
+<begin position="1"/>
+<end position="29"/>
+</location>
+</feature>
+<feature type="chain" id="PRO_5005870306" evidence="1">
+<location>
+<begin position="30"/>
+<end position="266"/>
+</location>
+</feature>
+<feature type="domain" description="SGNH_hydro" evidence="2">
+<location>
+<begin position="78"/>
+<end position="239"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="SignalP"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KPH61225.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000037878"/>
+</source>
+</evidence>
+<sequence length="266" mass="28570" checksum="30095617874CC4B1" modified="2015-12-09" version="1">
+MTLRLKILPAFALPSLALSSLALSAPVLAQTAPTAPAAPNAAQAADLRLRTDWAWTTRYR
+DANLADAATAARPRIVLMGDSITQGWYDLDRPFFTPGRIGRGIGGQTTSQMLLRFRQDVI
+DLKPQVVQIMAGTNDIAGNTGPMTDEQIQGNFRSMVELAQAHGIRVVIASIPPADLFPWR
+PGLDTGSRIQRINAWLKSYAAKTGAVYADYWTAMKGTGLGAREGLTSDHVHPTPAGYEVM
+NKVAEAAFKQALALPATRPLAAARVP
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

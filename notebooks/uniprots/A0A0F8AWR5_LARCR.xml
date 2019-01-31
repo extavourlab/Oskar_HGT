@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-07-22" modified="2016-06-08" version="7">
+<accession>A0A0F8AWR5</accession>
+<name>A0A0F8AWR5_LARCR</name>
+<protein>
+<submittedName>
+<fullName evidence="5">Tudor domain-containing protein 7A</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="5">EH28_10800</name>
+</gene>
+<organism evidence="5 6">
+<name type="scientific">Larimichthys crocea</name>
+<name type="common">Large yellow croaker</name>
+<name type="synonym">Pseudosciaena crocea</name>
+<dbReference type="NCBI Taxonomy" id="215358"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Actinopterygii</taxon>
+<taxon>Neopterygii</taxon>
+<taxon>Teleostei</taxon>
+<taxon>Neoteleostei</taxon>
+<taxon>Acanthomorphata</taxon>
+<taxon>Eupercaria</taxon>
+<taxon>Sciaenidae</taxon>
+<taxon>Larimichthys</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="5 6">
+<citation type="journal article" date="2015" name="PLoS Genet." volume="11" first="E1005118" last="E1005118">
+<title>Genome Sequencing of the Perciform Fish Larimichthys crocea Provides Insights into Molecular and Genetic Mechanisms of Stress Adaptation.</title>
+<authorList>
+<person name="Ao J."/>
+<person name="Mu Y."/>
+<person name="Xiang L.X."/>
+<person name="Fan D."/>
+<person name="Feng M."/>
+<person name="Zhang S."/>
+<person name="Shi Q."/>
+<person name="Zhu L.Y."/>
+<person name="Li T."/>
+<person name="Ding Y."/>
+<person name="Nie L."/>
+<person name="Li Q."/>
+<person name="Dong W.R."/>
+<person name="Jiang L."/>
+<person name="Sun B."/>
+<person name="Zhang X."/>
+<person name="Li M."/>
+<person name="Zhang H.Q."/>
+<person name="Xie S."/>
+<person name="Zhu Y."/>
+<person name="Jiang X."/>
+<person name="Wang X."/>
+<person name="Mu P."/>
+<person name="Chen W."/>
+<person name="Yue Z."/>
+<person name="Wang Z."/>
+<person name="Wang J."/>
+<person name="Shao J.Z."/>
+<person name="Chen X."/>
+</authorList>
+<dbReference type="PubMed" id="25835551"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="5">SSNF</strain>
+<tissue evidence="5">Blood</tissue>
+</source>
+</reference>
+<dbReference type="EMBL" id="KQ040834">
+<property type="protein sequence ID" value="KKF33914.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000054355">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="6">Complete proteome</keyword>
+<keyword id="KW-0472" evidence="1">Membrane</keyword>
+<keyword id="KW-1185" evidence="6">Reference proteome</keyword>
+<keyword id="KW-0732" evidence="2">Signal</keyword>
+<keyword id="KW-0812" evidence="1">Transmembrane</keyword>
+<keyword id="KW-1133" evidence="1">Transmembrane helix</keyword>
+<feature type="signal peptide" evidence="2">
+<location>
+<begin position="1"/>
+<end position="16"/>
+</location>
+</feature>
+<feature type="chain" id="PRO_5002527048" evidence="2">
+<location>
+<begin position="17"/>
+<end position="2164"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="54"/>
+<end position="71"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="83"/>
+<end position="103"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="115"/>
+<end position="135"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="156"/>
+<end position="174"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="231"/>
+<end position="252"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="363"/>
+<end position="385"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="397"/>
+<end position="425"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="455"/>
+<end position="481"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="580"/>
+<end position="605"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="625"/>
+<end position="645"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="657"/>
+<end position="674"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="694"/>
+<end position="713"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="829"/>
+<end position="850"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="856"/>
+<end position="875"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="896"/>
+<end position="920"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="4">
+<location>
+<begin position="1044"/>
+<end position="1116"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="4">
+<location>
+<begin position="1227"/>
+<end position="1297"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="4">
+<location>
+<begin position="1403"/>
+<end position="1473"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="3">
+<location>
+<begin position="1758"/>
+<end position="1815"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Phobius"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="SignalP"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KKF33914.1"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000054355"/>
+</source>
+</evidence>
+<sequence length="2164" mass="245282" checksum="205ED3280DA46A18" modified="2015-07-22" version="1">
+MYWFLVLQVFITGVLSFLQKRAKILGIDHKLPFLKRRFAIVVPLDTIGSISNRWSYGFAF
+GAVSSSVLLLFSENYKLFDVPPWATAILYLIGALEVGLVYFPFFACLSTPFRTTGAVLGI
+LYSLSWIIVTVWDVVTCPSGKILGSYEKIVSQWPRILSLIFLFGRFVYMLVKAVRIRLQL
+EQEDNEELIGEHQVQHVKSLLRKTPVHSKPLSWFQRKVYEWDPNFKFPNRIIGTSIITLI
+GLYTMTLADYSLSNVAFDRLESWKNTLNHLVISCNQTGALGPMIPQLEEFIYVARKAWLA
+TTIFANLNSVGYTFHVLACYRKHMKRLWRGQKGFLPEKFHNPRSALSVASITRYSGWQIA
+FTLWGYLIVHFVHFLFALLFVYLLVLPIQHGRIVSMLTNIGIILLPISLVISLVVLQVVL
+VQIFFLQEKMSPTDKEKPLALNNTKAFHCFNYFFFFYNVVMGIGNCILRLLCSMVVGTWL
+VSRIDRTIMQRGYESMDAGYSTWVGMIFADHYHNNPVMVCFCQLLVSKKFERQTASAYSS
+FDNTPSGQQCVLITGVFSFLQKRAERLGIDHRLPFLGRRFAIVVPLDTIGSISNCWSYGF
+AFGAVSYSVMELFYKNHIRLKVPPWATAIVYLISALEVGLVYFPFFACLSTPFRTTGAVL
+GILYSLSWIIVTVWDVFTCPSGKILGPYEKIIFQWPRILSLIFLFGRFVYMLVKAVRIRL
+QLEQEDHKEPIGEHQVQHVKSLLRKTSVHSKPMSWFQRKVYEWDPNFKFPNRIIGTSIIA
+LICLYRMTLTVNCKGNQYIDKVENFIFHSNQTTDELGWMDEFVYMARKAWLATTIFANLN
+SVGYTFHVLACYSLPISLVISLVVLQVVLVQIFFLQEKMSPTDKDKPLALNNRKAFHCFN
+YFFFFYNVVIGIGHCMLRLLCSMVVGTCLVSRIDRTIMQNGYESMDFGYRVWVGMIFADH
+YHNNPVMVCFCQLLVSNKFERQTVSAYSTLDNTPSESPVNSQARRRWMLFYTLLRNPHLI
+LLRKHHLSSSSSLQTSSRSPQMSDSESIKKMLRSVLQSSKEGVSMNSLQSEYRSLCGEGI
+PLKKLGFSTLEDYLRSIPSVVRLDYRMGELKCFAAVCEETAHIAELVARQKSSKKSGRSQ
+VVNCKMRFKPSNPYMLNVRPRSSLRQPSASGASNWIANRPRSHGGYRGCSASGDYRKEKS
+SANCQKPQEKPPEQVSRPNQSQSRLYAVELVQSRVTKLLEKYCSGLWMTKLSVVYSEMFN
+EKLHPQALIDLEKWTHICMVEKLSSNSRADSLIYPPLQPKPSTLHRRSTTPPTSTTNSST
+VTTPISSRPPTPEQLSSSCPTSPVPKPRLSPQSPLAKPTFIFPPQPGAVSSGKLLPSVRL
+RNPAHKPALAPQQPPCAKLAINANAEVRQRIKELLDKYSNGLWAHALPKLFMDTYKMTFP
+EHILQNLSLLLDICTVEYPVLNDKKKAILYNSSRADMEVTGSQENQQSRNHPLPSGLEVL
+APVVPPCLVLPSDQYPSVLISDAPSSNAVTLRYVGENYSNAQEAMEDAMHSFYSQRSAHP
+PLSDPVVGQLVAVRGEDGKEMARAQVMEVMAQNKVKVYYVDHGFSVETSGTNVLELHQHF
+ISLPFQATNVRLAGLEAFSSHPLVLSTLDKSAVGKILLMETLEPCEQNEMPMTVLYDTSQ
+DDDININSTCLKALQDDTMNNPLTVNAIYKDVCVTNVCADGIIYCQLPSRGTARLSKLLD
+ETEAIFTSQMTSESLVSRPFSGKFCLVRHKGRWSRVEITNMYGNRVMEILFIDLGVSATV
+EVTDLREIPPTFLKDFTVIPPQAIKCRLADVTVPEGDWSPEAVLWVKEAILGTEDCRMKI
+LKLDRHKGDLLVSMYLFIGTDGQELDKSINHQLSKSELWHKLTTQNNNNTITSNTLGVDT
+VKNVTPGSLVPNPILKASMRPLHGAKDSDMTTKTGIQPLPMPPALELPQPGQNMDVFVPV
+ACHPGYFVLQLWQDLHKLVVLMGEMILYYNRTWKTSAAIHIEKGEIYAARIDKNWHRVQV
+RGILSTGLVSVYELDYGKHELVRSTMLQPLVEEFRQLPFQAITAQLAGVIQQQWSEETSM
+VFRNHVEDRALVAQVERVQELSEVKGELWERRLTVYLVDTTLEKRDLWIHNLIADIGGEL
+TSAA
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

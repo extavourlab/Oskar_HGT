@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2012-05-16" modified="2016-03-16" version="17">
+<accession>H9J1T3</accession>
+<name>H9J1T3_BOMMO</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<organism evidence="3 4">
+<name type="scientific">Bombyx mori</name>
+<name type="common">Silk moth</name>
+<dbReference type="NCBI Taxonomy" id="7091"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Lepidoptera</taxon>
+<taxon>Glossata</taxon>
+<taxon>Ditrysia</taxon>
+<taxon>Bombycoidea</taxon>
+<taxon>Bombycidae</taxon>
+<taxon>Bombycinae</taxon>
+<taxon>Bombyx</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="journal article" date="2008" name="Insect Biochem. Mol. Biol." volume="38" first="1036" last="1045">
+<title>The genome of a lepidopteran model insect, the silkworm Bombyx mori.</title>
+<authorList>
+<consortium name="International Silkworm Genome Consortium"/>
+</authorList>
+<dbReference type="PubMed" id="19121390"/>
+<dbReference type="DOI" id="10.1016/j.ibmb.2008.11.004"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3">p50T</strain>
+</source>
+</reference>
+<reference key="2" evidence="3">
+<citation type="submission" date="2015-06" db="UniProtKB">
+<authorList>
+<consortium name="EnsemblMetazoa"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+<source>
+<strain evidence="3">p50T (Dazao)</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="BABH01008001">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BABH01008002">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BABH01008003">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BABH01008004">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="STRING" id="7091.BGIBMGA003470-TA"/>
+<dbReference type="EnsemblMetazoa" id="BGIBMGA003470-RA">
+<property type="protein sequence ID" value="BGIBMGA003470-TA"/>
+<property type="gene ID" value="BGIBMGA003470"/>
+</dbReference>
+<dbReference type="eggNOG" id="KOG2039">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG41104YI">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="InParanoid" id="H9J1T3"/>
+<dbReference type="OMA" id="STHEDIN"/>
+<dbReference type="OrthoDB" id="EOG7H4DSP"/>
+<dbReference type="Proteomes" id="UP000005204">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="3"/>
+<end position="74"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="811"/>
+<end position="870"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EnsemblMetazoa" id="BGIBMGA003470-TA"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000005204"/>
+</source>
+</evidence>
+<sequence length="973" mass="107429" checksum="13B01B5FA6DC55D8" modified="2012-05-16" version="1">
+MAEKEQVIQALRATLLSVKGALTLKQCNRDYKELQGEWIPFKKLGYPSLEKLFLDVSGFK
+VSQVNGEWYVDAIASQETQHIAAMVARQKPSKKSGSKVNYLNRLPKKQGIWRKPASNNTL
+NYGSQYSNQYYRAKSGAPLNNNSYNNYKHKQSARTGKDIENKSSGKVSASQRLSNLRDRL
+STVDLIPLQLPAANNEIVVGASYVAMSYPNSSPSEELAKEVAAVKLLELLESSETEGVPT
+SSPTKAMSSLVDLVSEHEAGLWASTVPFLYSIVFQTQGSLPLPVDTSVFDEAIESDLPPL
+QFPEDDFWNVFITVANSTLEIWLRIIGPQYSDAFETLLADMAKYYDSSGTAVDKSMIIRD
+AWYAVNLDDGGWQRAKIMDFDEETASVFLGDHGDDDVVALNKIRILDSKFRKLPPQAILC
+RLEGVEELAASAAAAELVRRRLPGEVLVAAPGARTDPTDPSIALVLYDTSTQRDLNLNKE
+IVHDFCISGAFSITQDILHTSDKSPESRLKDLPSDARMTFYPQKPCEVEVKCVTEEGRVW
+VSAAGGADTVRAALALLTAGPYRRQLPAAPFAPSPNAATLYIVRTLAGDWVRCTIISGLD
+GEGTVRTQLVDSGLILRAPLSSLVPLQTFSPALNAYPFQAMLVRLGHAERAAAAMVSRLR
+ELVLDQRVLCRALPGTGAASSAPHVELFVRTEPQNMLASVNNDIFMEHEYLNQDKVKEQK
+KDTPNPVEALNKKKERLYRTASGADERPERAALPPPTLPSPGQCFDVYVAMAANPWNFVV
+QPNSTRHMLQTMMSSLQIECPKLSQTDAPLKPANGELYTVYYAKDLSWYRVTVAGSVSSE
+IVSVYFCDYGDLALFEIQALRPVPPTVPLARTLPPQAIKARLYARTLPPQAIKARLYDVL
+PLHQDWAVEDCIRFQELCVDQQYVGICKDVGKDPLNTNEPLLTLELIDTSTDEDVYLNKQ
+LVSEGRARLASAT
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

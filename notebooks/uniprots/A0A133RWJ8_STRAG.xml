@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2016-06-08" modified="2016-06-08" version="1">
+<accession>A0A133RWJ8</accession>
+<name>A0A133RWJ8_STRAG</name>
+<protein>
+<submittedName>
+<fullName evidence="1">Cytidylyltransferase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="1">HMPREF1885_00550</name>
+</gene>
+<organism evidence="1 2">
+<name type="scientific">Streptococcus agalactiae</name>
+<dbReference type="NCBI Taxonomy" id="1311"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Bacilli</taxon>
+<taxon>Lactobacillales</taxon>
+<taxon>Streptococcaceae</taxon>
+<taxon>Streptococcus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="1 2">
+<citation type="submission" date="2016-01" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Oliw E.H."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="1 2">PSS_7722</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="1">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="LRQP01000017">
+<property type="protein sequence ID" value="KXA59642.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000070223">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="2">Complete proteome</keyword>
+<keyword id="KW-0548" evidence="1">Nucleotidyltransferase</keyword>
+<keyword id="KW-0808" evidence="1">Transferase</keyword>
+<evidence key="1" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KXA59642.1"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000070223"/>
+</source>
+</evidence>
+<sequence length="413" mass="47698" checksum="5CDBE13F2AB894C5" modified="2016-06-08" version="1">
+MKPICIIPARSGSKGLPDKNMLFLAGKPMIFHTIDVAIESGMFDKKDIFVSTDSELYREI
+CLERGISVVMRKPELSTDQATSYDMLKDFLSDYEDNQEFVLLQVTSPLRKSWHIKEAMEY
+YSSHDVDNVVSFSEVEKHPGLFTTLSDKGYAIDMVGADKGYRRQDLQPLYYPNGAIFISN
+KETYLREKSFFTSRTYAYQMAKEFSLDVDTRDDFIHVIGHLFFDYAIREKENKVFYKEGY
+SRLFNREASKIILGDSKTISISLENYHNYSQGGVTLATMLENLPNFLTANVTEAFVSIGV
+NDLITGYSVEEIFSNFQKLYSLLAENKIKMRFTTIAYTLFRETVNNADIEKINQWLTEFC
+YQNQIPLLDINRFLSKDGNLNYHLTSDGLHFTQEANDLLQSQYQLFVDEVKTL
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

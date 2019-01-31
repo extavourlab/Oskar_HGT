@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2009-02-10" modified="2016-03-16" version="35">
+<accession>B7PTU1</accession>
+<name>B7PTU1_IXOSC</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Putative uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">IscW_ISCW019360</name>
+</gene>
+<organism evidence="4">
+<name type="scientific">Ixodes scapularis</name>
+<name type="common">Black-legged tick</name>
+<name type="synonym">Deer tick</name>
+<dbReference type="NCBI Taxonomy" id="6945"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Chelicerata</taxon>
+<taxon>Arachnida</taxon>
+<taxon>Acari</taxon>
+<taxon>Parasitiformes</taxon>
+<taxon>Ixodida</taxon>
+<taxon>Ixodoidea</taxon>
+<taxon>Ixodidae</taxon>
+<taxon>Ixodinae</taxon>
+<taxon>Ixodes</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="submission" date="2008-03" db="EMBL/GenBank/DDBJ databases">
+<title>Annotation of Ixodes scapularis.</title>
+<authorList>
+<consortium name="Ixodes scapularis Genome Project Consortium"/>
+<person name="Caler E."/>
+<person name="Hannick L.I."/>
+<person name="Bidwell S."/>
+<person name="Joardar V."/>
+<person name="Thiagarajan M."/>
+<person name="Amedeo P."/>
+<person name="Galinsky K.J."/>
+<person name="Schobel S."/>
+<person name="Inman J."/>
+<person name="Hostetler J."/>
+<person name="Miller J."/>
+<person name="Hammond M."/>
+<person name="Megy K."/>
+<person name="Lawson D."/>
+<person name="Kodira C."/>
+<person name="Sutton G."/>
+<person name="Meyer J."/>
+<person name="Hill C.A."/>
+<person name="Birren B."/>
+<person name="Nene V."/>
+<person name="Collins F."/>
+<person name="Alarcon-Chaidez F."/>
+<person name="Wikel S."/>
+<person name="Strausberg R."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="4">Wikel</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="DS788192">
+<property type="protein sequence ID" value="EEC10013.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_002404898.1">
+<property type="nucleotide sequence ID" value="XM_002404854.1"/>
+</dbReference>
+<dbReference type="STRING" id="6945.ISCW019360-PA"/>
+<dbReference type="EnsemblMetazoa" id="ISCW019360-RA">
+<property type="protein sequence ID" value="ISCW019360-PA"/>
+<property type="gene ID" value="ISCW019360"/>
+</dbReference>
+<dbReference type="GeneID" id="8031263"/>
+<dbReference type="KEGG" id="isc:IscW_ISCW019360"/>
+<dbReference type="VectorBase" id="ISCW019360">
+<property type="organism name" value="Ixodes scapularis"/>
+</dbReference>
+<dbReference type="CTD" id="8031263"/>
+<dbReference type="eggNOG" id="ENOG410IPQW">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG41104YI">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="InParanoid" id="B7PTU1"/>
+<dbReference type="KO" id="K18405"/>
+<dbReference type="OrthoDB" id="EOG7H4DSP"/>
+<dbReference type="PhylomeDB" id="B7PTU1"/>
+<dbReference type="Proteomes" id="UP000001555">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR014720">
+<property type="entry name" value="dsRBD_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50137">
+<property type="entry name" value="DS_RBD"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="58"/>
+<end position="132"/>
+</location>
+</feature>
+<feature type="domain" description="DRBM (double-stranded RNA-binding)" evidence="1">
+<location>
+<begin position="274"/>
+<end position="345"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="361"/>
+<end position="427"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50137"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EEC10013.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000001555"/>
+</source>
+</evidence>
+<sequence length="951" mass="103944" checksum="916F4868B8860D16" modified="2009-02-10" version="1">
+MSLSPYVAGVRRFRPWKLRPRRAGAPRPRDKLAWGWFSSRFRRSCGPASLSVAVMDCSKE
+EVSTFLHSVLSCEKGGIPLSRLQEEYTVLIGSPIPYKKFGYDTLEAFIGSIPNAATIRKR
+SRDTVVEAVTKPSTAHMAHLVAGQKAAAKDKPLLRPGRHPAPRQAPSVRFASYQSLLDGQ
+AGSPVRPAGSAPLNPASRQPVVQRRHRGLPQLAKAWQPDGSSSPLPAALQRPAFPRAPDS
+RTGQDGAERVQGTPSPLPLPLPSPVAPVTPPGRSCRELVEELAERRGLKASFSVLSSRSS
+KQGPLTWLASVRLDGQTFQSYPEEFESREAALEEAARRALQGLGQGLKQSLPETPASSAQ
+QVECLLGRVKELVSQKPNGLWSIVIPDMYREQYHETLPKNWLDLVKSASVVSITQFGDGR
+CVLEPRWSGSPGCPVPGERGSQPEGRSSDSDTSSTSGTFSEPLPFPDGSYWDVFVTYATG
+TDNVFFRLVDQSESYDQLAAEMDAFYACQSLPVSELVESTVYATQVEGSWFRVQLVRAGR
+GKADCYFVDHGDIDAVDVLKLQELDPRFMSLPFQAVQCRLDDLLEFAGDERAGSLLADLV
+VGKCLVAEVVSRDDPITVILYDTTTEADVNLNALLWRQLLSPAFPDAGVIARARLTHVAP
+GGDLTVQLLGPGSRALERLMDSVGSYIGDAQPVASPSKSRLYVHRQMASGTFCRVALLSE
+PSSGQQRVHVRCVDLGTELWVEPGSLYDLEAFGDSVARLPHQSERRPPQALACRLGEVLP
+WTESATLRLTQLVPPDLELLVKVMSPAREDRPTLVAFFKRTEPHNELVSINASLAVSLQA
+DRLEDRAPKRVLPLARLSSQTSLERKVEGVEWRAEEEEDEGEAKLPPLVAPALPPVGDYL
+DVNVMVAANPLNFVCQPWLNGGQLSQLMAEMQVGTPPQYSLLLSTASWTSR
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-01-09" modified="2016-06-08" version="19">
+<accession>K7KLJ6</accession>
+<name>K7KLJ6_SOYBN</name>
+<protein>
+<submittedName>
+<fullName evidence="2 3">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">GLYMA_04G216400</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Glycine max</name>
+<name type="common">Soybean</name>
+<name type="synonym">Glycine hispida</name>
+<dbReference type="NCBI Taxonomy" id="3847"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>rosids</taxon>
+<taxon>fabids</taxon>
+<taxon>Fabales</taxon>
+<taxon>Fabaceae</taxon>
+<taxon>Papilionoideae</taxon>
+<taxon>Phaseoleae</taxon>
+<taxon>Glycine</taxon>
+<taxon>Soja</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="journal article" date="2010" name="Nature" volume="463" first="178" last="183">
+<title>Genome sequence of the palaeopolyploid soybean.</title>
+<authorList>
+<person name="Schmutz J."/>
+<person name="Cannon S.B."/>
+<person name="Schlueter J."/>
+<person name="Ma J."/>
+<person name="Mitros T."/>
+<person name="Nelson W."/>
+<person name="Hyten D.L."/>
+<person name="Song Q."/>
+<person name="Thelen J.J."/>
+<person name="Cheng J."/>
+<person name="Xu D."/>
+<person name="Hellsten U."/>
+<person name="May G.D."/>
+<person name="Yu Y."/>
+<person name="Sakurai T."/>
+<person name="Umezawa T."/>
+<person name="Bhattacharyya M.K."/>
+<person name="Sandhu D."/>
+<person name="Valliyodan B."/>
+<person name="Lindquist E."/>
+<person name="Peto M."/>
+<person name="Grant D."/>
+<person name="Shu S."/>
+<person name="Goodstein D."/>
+<person name="Barry K."/>
+<person name="Futrell-Griggs M."/>
+<person name="Abernathy B."/>
+<person name="Du J."/>
+<person name="Tian Z."/>
+<person name="Zhu L."/>
+<person name="Gill N."/>
+<person name="Joshi T."/>
+<person name="Libault M."/>
+<person name="Sethuraman A."/>
+<person name="Zhang X.-C."/>
+<person name="Shinozaki K."/>
+<person name="Nguyen H.T."/>
+<person name="Wing R.A."/>
+<person name="Cregan P."/>
+<person name="Specht J."/>
+<person name="Grimwood J."/>
+<person name="Rokhsar D."/>
+<person name="Stacey G."/>
+<person name="Shoemaker R.C."/>
+<person name="Jackson S.A."/>
+</authorList>
+<dbReference type="PubMed" id="20075913"/>
+<dbReference type="DOI" id="10.1038/nature08670"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3">cv. Williams 82</strain>
+<tissue evidence="2">Callus</tissue>
+</source>
+</reference>
+<reference key="2" evidence="3">
+<citation type="submission" date="2013-05" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<consortium name="EnsemblPlants"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+<source>
+<strain evidence="3">Williams 82</strain>
+</source>
+</reference>
+<reference key="3" evidence="2">
+<citation type="submission" date="2015-06" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Hoefler B.C."/>
+<person name="Straight P.D."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<tissue evidence="2">Callus</tissue>
+</source>
+</reference>
+<dbReference type="EMBL" id="CM000837">
+<property type="protein sequence ID" value="KRH64104.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_014630372.1">
+<property type="nucleotide sequence ID" value="XM_014774886.1"/>
+</dbReference>
+<dbReference type="EnsemblPlants" id="GLYMA04G39440.2">
+<property type="protein sequence ID" value="GLYMA04G39440.2"/>
+<property type="gene ID" value="GLYMA04G39440"/>
+</dbReference>
+<dbReference type="GeneID" id="102660946"/>
+<dbReference type="Gramene" id="GLYMA04G39440.2">
+<property type="protein sequence ID" value="GLYMA04G39440.2"/>
+<property type="gene ID" value="GLYMA04G39440"/>
+</dbReference>
+<dbReference type="KEGG" id="gmx:102660946"/>
+<dbReference type="eggNOG" id="ENOG410IK8Y">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410YBH2">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="InParanoid" id="K7KLJ6"/>
+<dbReference type="Proteomes" id="UP000008827">
+<property type="component" value="Chromosome 4"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005777">
+<property type="term" value="C:peroxisome"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010468">
+<property type="term" value="P:regulation of gene expression"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024768">
+<property type="entry name" value="Marf1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR021139">
+<property type="entry name" value="NYN_limkain-b1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR14379">
+<property type="entry name" value="PTHR14379"/>
+<property type="match status" value="4"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01936">
+<property type="entry name" value="NYN"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="4"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="4"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="246"/>
+<end position="317"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="735"/>
+<end position="809"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="870"/>
+<end position="941"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="1165"/>
+<end position="1239"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KRH64104.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EnsemblPlants" id="GLYMA04G39440.2"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000008827"/>
+</source>
+</evidence>
+<sequence length="1387" mass="155354" checksum="CB084D05AC6F28F0" modified="2013-01-09" version="1">
+MRALLPNHLLHLSRSQARTLLVRFQACELSSSSSSPPHNSRDVRVSVWWDFKSCAVPDDM
+DASKVAPAIAQAVRANGIKGPIHINAFGDVSSLSKRQLQALASTGIQFTHFPHGAINCFN
+ILVDIMFWVSQNPPPAHLFLISSDRDFDCLLHRLRMNNYNILLAGSRNAPGFLSTAATIM
+WQWYKLLKGENLMGKHVNHPPDGPYGSWYGNFRVPLENPSPATEHSTSLEDVEIYEPSLD
+LKLGEVPKSVVQKVKHILTSHSKGISITDLHADLAKCDVHLDQNLYGFQSVSCFLLSIPH
+VQLQPLGDGNFCVCLVPSGSPEPFDSSVVPSASSVVKNEERGYENETPSISTVHARSMND
+DSTSFQPVPPQVKTIGEYVNSKSSFPSLVERHEFQPQNELQKSSLASEKIVDVANAQLPE
+IQQPSKEIKFSKTKTSSFKSRSKKSSDNDNVKFEDASHTIVEKHTTSGNHHARNDHKTME
+NNGVANYELGNCKAKNNYESPTRKKADEVCCSPYSPPVDDLLVDKRLSGIAETYNKRPTF
+FSWTRSWWSFWKSNAKSDDLEAHQNKVASQLEDPKVSEVDQTVSHFEEPKLSELDQNVIC
+SGKVELISSGSFWKDLESFIFSPEGSLLVSQSKNREEMAHKLQNDGPLVLRSLSQKDIIQ
+LVELLIAERKLLVEIPSHGSKSNGLRSVFMSRASQSKLPNSSEHDMEKQNQSIPHTRVST
+TSTEMKYNERSRNDILEDLQQLVNEILRDHPKGYNICSFRRIFLLRYGYYLDIEKLGHQK
+LSSLLQVMPGVKSESNYIFPSVPAVSASDGETSILKTQITNATHAVLNSDNEISDSALKD
+DKMESLLEELGSVSVMNSNQSDLDLKLGTVPQSIIRQIRCILRSHPKGISITGLREELKK
+SNVCFYQSFYGYKTFSRFLSSIPHVQLQPLGHGKFCVHLVSLESPETFESNDVQSITSAA
+KIDESNAKSDDLAAHQNNVVSHLEDSMLSEVDQIVGDLEETKLSELDQNVICSGKPELFT
+SSSFWDDMESFIFTLKGSLIVSQSKNREDMAHKLQKDGPLVLRSLTQKDILQLVELLISE
+KKWLEESLSQTFPFRLIQPVQKNSLMGRSHGANGLSSLFLSRATQSNLQTSFEHDVEKHN
+QSIPRTRVSATATETKYTERSRNDVLEDCQKLVSEILREHPEGYKISSYPRLFVDRYGYH
+LDFQKLGYQKLAPLLQIMPEVKVESTYIFPSVPAVSASDGESFILQTQVNNASHAHHAVL
+NPDSELSDSALEDDNMESPWQKLGYNQSNMESKLSQKAEELDTPKLPDYEPIVSDYDSSE
+SEGDSQPEKQGKLKCNKHDISLWQALDLWHNKKEGENSVKKPDNVGHLNKTLVADILNSS
+AKSTRGT
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

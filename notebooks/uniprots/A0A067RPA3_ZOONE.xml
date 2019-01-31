@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-09-03" modified="2015-12-09" version="7">
+<accession>A0A067RPA3</accession>
+<name>A0A067RPA3_ZOONE</name>
+<protein>
+<submittedName>
+<fullName evidence="4">Tudor domain-containing protein 7</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="4">L798_01728</name>
+</gene>
+<organism evidence="4 5">
+<name type="scientific">Zootermopsis nevadensis</name>
+<name type="common">Dampwood termite</name>
+<dbReference type="NCBI Taxonomy" id="136037"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Orthopteroidea</taxon>
+<taxon>Dictyoptera</taxon>
+<taxon>Isoptera</taxon>
+<taxon>Termopsidae</taxon>
+<taxon>Zootermopsis</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="4 5">
+<citation type="journal article" date="2014" name="Nat. Commun." volume="5" first="3636" last="3636">
+<title>Molecular traces of alternative social organization in a termite genome.</title>
+<authorList>
+<person name="Terrapon N."/>
+<person name="Li C."/>
+<person name="Robertson H.M."/>
+<person name="Ji L."/>
+<person name="Meng X."/>
+<person name="Booth W."/>
+<person name="Chen Z."/>
+<person name="Childers C.P."/>
+<person name="Glastad K.M."/>
+<person name="Gokhale K."/>
+<person name="Gowin J."/>
+<person name="Gronenberg W."/>
+<person name="Hermansen R.A."/>
+<person name="Hu H."/>
+<person name="Hunt B.G."/>
+<person name="Huylmans A.K."/>
+<person name="Khalil S.M."/>
+<person name="Mitchell R.D."/>
+<person name="Munoz-Torres M.C."/>
+<person name="Mustard J.A."/>
+<person name="Pan H."/>
+<person name="Reese J.T."/>
+<person name="Scharf M.E."/>
+<person name="Sun F."/>
+<person name="Vogel H."/>
+<person name="Xiao J."/>
+<person name="Yang W."/>
+<person name="Yang Z."/>
+<person name="Yang Z."/>
+<person name="Zhou J."/>
+<person name="Zhu J."/>
+<person name="Brent C.S."/>
+<person name="Elsik C.G."/>
+<person name="Goodisman M.A."/>
+<person name="Liberles D.A."/>
+<person name="Roe R.M."/>
+<person name="Vargo E.L."/>
+<person name="Vilcinskas A."/>
+<person name="Wang J."/>
+<person name="Bornberg-Bauer E."/>
+<person name="Korb J."/>
+<person name="Zhang G."/>
+<person name="Liebig J."/>
+</authorList>
+<dbReference type="PubMed" id="24845553"/>
+<dbReference type="DOI" id="10.1038/ncomms4636"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<tissue evidence="4">Whole organism</tissue>
+</source>
+</reference>
+<dbReference type="EMBL" id="KK852549">
+<property type="protein sequence ID" value="KDR21574.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="OMA" id="LTIMERC"/>
+<dbReference type="Proteomes" id="UP000027135">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.160.20">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR014720">
+<property type="entry name" value="dsRBD_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50137">
+<property type="entry name" value="DS_RBD"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="5">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="5">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="3">
+<location>
+<begin position="5"/>
+<end position="77"/>
+</location>
+</feature>
+<feature type="domain" description="DRBM (double-stranded RNA-binding)" evidence="1">
+<location>
+<begin position="318"/>
+<end position="388"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="2">
+<location>
+<begin position="559"/>
+<end position="617"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="2">
+<location>
+<begin position="753"/>
+<end position="813"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50137"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KDR21574.1"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000027135"/>
+</source>
+</evidence>
+<sequence length="893" mass="100005" checksum="CA4A6BB382A07796" modified="2014-09-03" version="1">
+MVETDRDQVISTLRSCLLSVKGEISVGNLDRDYKMLVGSRIPYQKLGFENLELFLKSVPD
+VIISRGRGGEMIVNAIPNKNTEHLAALISKQKSTSKRHKDTLRYVPPRRTAASSWRPPKS
+DISVRTSKRCTRDSVQMPLCVTVNNHPDSVKFPLKKDSRVVSFAHSPSPEPQSTHQQPAS
+SSNGSSGCGGGKHSYSAFEKPPRFLRLSQPENIPYSKPVPYPAVSKSKSQDRLVQGILVT
+GNSAKNENMMLNLNRTEVTDSRAASNTYDVTSPRDHTKTSPLTPLHARLNVAEQKTPKVQ
+VMLPLNEQFTRVSLGGEDFIKQLDNFAQSKGMSTPTYKIIPRMSDGKQYYSSSVKIDGIS
+ISSYPDERSSPGEAMHLVAKQALEVLQSHIKESGSGGTQDENTVMTRISHIVGGNRFGMW
+STQIRIDYYERYNENLPDDWLTIMERCPLVSLDHVAQNRTIITPNLLASPTESARRSIEA
+PALSMEASLSQLSVSPIQPSVPESIAFPQEDAWDMYITCGNSTNKIWGRLIGEEYSVKYE
+NLATDMEIFYMGQTNVAANPEIGSFYAIKMDDCWHRVKLVEIEETRTEGRVFYIDHGDEE
+DVLLNQLHTLERRFSTLPAQAIRCFLWGLEDFADDPNVAHHITDTILGRTLVASIKSLPN
+PTKSGVGIVLFDTSTDEDLNMNTVLVENISKDAVAPHLPSEGNVEEVYISHVTDTGDVFL
+QFESYNYLHSLLCSVIESGIKQDRILKGSDAHSPDPSRLYLARYHEDGNWYRAAITKKLN
+GQREVEVMFVDFGNTEVMNPSELVLLETLKKSLAEFPHQAIKVHLYNVPCSSFSERMVLR
+VRELVPFDECVLVKTVSARTPNRIPMVEIFKRIKPDNLLVSINNTLALDPDLK
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

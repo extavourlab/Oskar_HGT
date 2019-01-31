@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-11-11" modified="2016-06-08" version="7">
+<accession>A0A0L8HUU9</accession>
+<name>A0A0L8HUU9_OCTBM</name>
+<protein>
+<submittedName>
+<fullName evidence="4">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="4">OCBIM_22005378mg</name>
+</gene>
+<organism evidence="4 5">
+<name type="scientific">Octopus bimaculoides</name>
+<name type="common">California two-spotted octopus</name>
+<dbReference type="NCBI Taxonomy" id="37653"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Lophotrochozoa</taxon>
+<taxon>Mollusca</taxon>
+<taxon>Cephalopoda</taxon>
+<taxon>Coleoidea</taxon>
+<taxon>Neocoleoidea</taxon>
+<taxon>Octopodiformes</taxon>
+<taxon>Octopoda</taxon>
+<taxon>Incirrata</taxon>
+<taxon>Octopodidae</taxon>
+<taxon>Octopus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="5">
+<citation type="submission" date="2015-07" db="EMBL/GenBank/DDBJ databases">
+<title>WGS assembly of Octopus bimaculoides.</title>
+<authorList>
+<person name="Albertin C.B."/>
+<person name="Simakov O."/>
+<person name="Mitros T."/>
+<person name="Wang Z.Y."/>
+<person name="Pungot J.R."/>
+<person name="Edsinger-Gonzalez E."/>
+<person name="Brenner S."/>
+<person name="Ragsdale C.W."/>
+<person name="Rokhsar D.S."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<dbReference type="EMBL" id="KQ417249">
+<property type="protein sequence ID" value="KOF92979.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_014769173.1">
+<property type="nucleotide sequence ID" value="XM_014913687.1"/>
+</dbReference>
+<dbReference type="EnsemblMetazoa" id="Ocbimv22005376m">
+<property type="protein sequence ID" value="Ocbimv22005376m.p"/>
+<property type="gene ID" value="Ocbimv22005378m.g"/>
+</dbReference>
+<dbReference type="GeneID" id="106868430"/>
+<dbReference type="Proteomes" id="UP000053454">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="4"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="4"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0175" evidence="1">Coiled coil</keyword>
+<keyword id="KW-0181" evidence="5">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="5">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="3">
+<location>
+<begin position="3"/>
+<end position="76"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="3">
+<location>
+<begin position="150"/>
+<end position="223"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="3">
+<location>
+<begin position="347"/>
+<end position="420"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="3">
+<location>
+<begin position="447"/>
+<end position="521"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="2">
+<location>
+<begin position="626"/>
+<end position="685"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="419"/>
+<end position="446"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KOF92979.1"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000053454"/>
+</source>
+</evidence>
+<sequence length="1258" mass="142495" checksum="1520A5BEC3C0BA7C" modified="2015-11-11" version="1">
+MSEKEDIKKKIRALLISSQSGVPLFNFLKDYYDIIGEPLKFRDLGYFDLEDFLLDMPDVV
+DVVKAADGQTVLKHVTADSTKHIEKLVARQKTVTKKPRASNNSYKTNGYFQSDCISPSHS
+SYIQKRSPVSPTFANRFRPNNSKQFRLPSLPNFIKIQIQQTLRSFSEPISVHSFDAAYKA
+RFGASLNYEKCGFCSLDAVLQSIPEMVMGILQRNGQYHYKLLKPPYNMDYRNGSPYSPQD
+NFISPSNTYHQPYSLKNLGFKTSIQRPVPLLQVSTSYSLMHSQPFYAAFGSPNSQSRHSY
+SNASTYDDKIHKDKKNYSPRRESYCSPAANLGKMNNSSECNDMFDPINPEITSNIMKILD
+RHPEGLYSSKLCSAYQKHHGSELDYRDMGFLSVIDLVSKLDTVHIVRPAGSGDWILYDTK
+KSKETAEKLANQLHSLELNKSKLTKEKEKQVRLSISKMMESFPNGLNLDCFMENYKATTG
+SEFQPSDVGYKSLESYILSLANNIIEISYSGNACLTIKSAKKHNSNENQQRIQQPVPKHS
+VNPPQSLSITSLPEDAVGPGVSYRLLDIPNNIHFVEVFVSNIENPGHFWLKFRGKAYSVA
+LENLMDELELLYYSSDADAYHVPDEYICVGLVAAAIYPEDQNWHRVYVTKVPNVSFVEVY
+FVDYGNTCTVSRNSLRLLRNHFLSLPMQAIEGRLANVKPINDEWSTKARNRMLSLCFNKP
+LIALVTQVKDRIMSVCLTDTSDNKIDIHINDVLVAEKYCIFYPDDNDPDTDRCSLPEGTN
+KRMPTNTNIGYQHEPVLPQQTPEWFPHAVYLQSLVALLFQNCPKPEISGISEENIFSEIT
+KDSLDQSVSPSQKQYDITMTLQQQIEHIKTSNCKVNGKMHSETTNINPGSLATGTCEDKI
+NKEPSRTESDNKLPPPVNKCSKSEVVVRPTSISTMPITNSICKVNMNPGNFLSNNLHTSD
+ISKEYPISQGNNLKPFVQRIELTPEIAIHLFNFNGTACISSCELSSFFWKIDIIRTMLRR
+VNLGISKVIICQEDYEELFKELENINFSGLKSGDDHKDWLTLFRLEDVPLVLETFCHPSA
+ELKAAVNKAIQEFEPDDNFWKNNSARSSLKKVSDSSTLNMVKCTSPVSIPTNKLSNQVQH
+LSVKNKGQLNLSKSASPPSLRSQWSSPSQEIKFKAGSLEAVPWLRHSSASGEDMKTINYN
+LTIFHKQRQRILNRLMKDPSDYENCVKELEDVEDKLQKLNELLIKLSPTVENRDPPGS
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

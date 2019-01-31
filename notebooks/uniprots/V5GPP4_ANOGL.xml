@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-01-22" modified="2015-12-09" version="5">
+<accession>V5GPP4</accession>
+<name>V5GPP4_ANOGL</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Tudor domain-containing protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="2">TDRD7</name>
+</gene>
+<organism evidence="2">
+<name type="scientific">Anoplophora glabripennis</name>
+<name type="common">Asian longhorn beetle</name>
+<name type="synonym">Anoplophora nobilis</name>
+<dbReference type="NCBI Taxonomy" id="217634"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Coleoptera</taxon>
+<taxon>Polyphaga</taxon>
+<taxon>Cucujiformia</taxon>
+<taxon>Chrysomeloidea</taxon>
+<taxon>Cerambycidae</taxon>
+<taxon>Lamiinae</taxon>
+<taxon>Lamiini</taxon>
+<taxon>Anoplophora</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2">
+<citation type="submission" date="2013-07" db="EMBL/GenBank/DDBJ databases">
+<title>Midgut Transcriptome Profiling of Anoplphora glabripennis, a Lignocellulose Degrading, Wood-Boring Cerambycid.</title>
+<authorList>
+<person name="Scully E.D."/>
+<person name="Hoover K."/>
+<person name="Carlson J.E."/>
+<person name="Tien M."/>
+<person name="Geib S.M."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<dbReference type="EMBL" id="GALX01002377">
+<property type="protein sequence ID" value="JAB66089.1"/>
+<property type="molecule type" value="Transcribed_RNA"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="1"/>
+<end position="77"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="246"/>
+<end position="282"/>
+</location>
+</feature>
+<feature type="non-terminal residue" evidence="2">
+<location>
+<position position="282"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="JAB66089.1"/>
+</source>
+</evidence>
+<sequence length="282" mass="31825" checksum="60A7B814606B84FC" modified="2014-01-22" version="1" fragment="single">
+METNVKKYITSLLTSTPLVVTIQQLSKDYKNTIGEPVPYQKLGYNSLEHFLRSIPDTVQV
+NGSGPIAQVIPVASAKSAHVNQLVTKQKIVKNKKSHFAVQKRTNIYPSGSSYFPNKIENV
+SQTSKKMYYPTNNYISSLPKYSSYPTPTYSGKHQSDNLLNNYEHSTSGKNNSSKCAPPKD
+NDVLKNQSNIVEAVKDSNKFEKKILEETPLSSSTSRTSSVAKWVSNSKRIVNDLEKISMG
+QLENSVPIQVRNNLRTLIRQCPEGIWCTEVPEKYRKMFRQDL
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2012-05-16" modified="2016-05-11" version="23">
+<accession>H8MR81</accession>
+<name>H8MR81_CORCM</name>
+<protein>
+<submittedName>
+<fullName evidence="2">GDSL-like lipase/acylhydrolase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="2">COCOR_05062</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Corallococcus coralloides (strain ATCC 25202 / DSM 2259 / NBRC 100086 / M2)</name>
+<name type="synonym">Myxococcus coralloides</name>
+<dbReference type="NCBI Taxonomy" id="1144275"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Deltaproteobacteria</taxon>
+<taxon>Myxococcales</taxon>
+<taxon>Cystobacterineae</taxon>
+<taxon>Myxococcaceae</taxon>
+<taxon>Corallococcus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="submission" date="2012-03" db="EMBL/GenBank/DDBJ databases">
+<title>Genome sequence of the fruiting myxobacterium Corallococcus coralloides DSM 2259.</title>
+<authorList>
+<person name="Huntley S."/>
+<person name="Zhang Y."/>
+<person name="Treuner-Lange A."/>
+<person name="Sensen C.W."/>
+<person name="Sogaard-Andersen L."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3">ATCC 25202 / DSM 2259 / NBRC 100086 / M2</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="CP003389">
+<property type="protein sequence ID" value="AFE06171.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_014397855.1">
+<property type="nucleotide sequence ID" value="NC_017030.1"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="H8MR81"/>
+<dbReference type="EnsemblBacteria" id="AFE06171">
+<property type="protein sequence ID" value="AFE06171"/>
+<property type="gene ID" value="COCOR_05062"/>
+</dbReference>
+<dbReference type="KEGG" id="ccx:COCOR_05062"/>
+<dbReference type="OMA" id="RVWASAF"/>
+<dbReference type="BioCyc" id="CCOR1144275:GLBO-5066-MONOMER"/>
+<dbReference type="Proteomes" id="UP000007587">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016787">
+<property type="term" value="F:hydrolase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-0378" evidence="2">Hydrolase</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="8"/>
+<end position="181"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AFE06171.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000007587"/>
+</source>
+</evidence>
+<sequence length="197" mass="21374" checksum="A3B084B57A430AF4" modified="2012-05-16" version="1">
+MSVNYVSLGDSTAVGVGASQGGGYPDRLASRLRKGGLPVGHTNLGQSGARVRDIVNNALK
+RVIALQPTLITLGVGTNDIWRGTEVAEFQDDLDRIARRLKQTGASMVVVNLADMALAPVA
+KMVPSALYEGRIEQFNDAIASVARSHGLHLVDLYTASREMIPRRPDFFCSDGFHPSAEGY
+EEWADLMLPVVRTLVRR
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

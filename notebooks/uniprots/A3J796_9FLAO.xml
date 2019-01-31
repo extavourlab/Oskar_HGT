@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2007-04-03" modified="2016-06-08" version="32">
+<accession>A3J796</accession>
+<name>A3J796_9FLAO</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Putative acylhydrolase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">FBBAL38_12015</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Flavobacteria bacterium BAL38</name>
+<dbReference type="NCBI Taxonomy" id="391598"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Bacteroidetes</taxon>
+<taxon>Flavobacteriia</taxon>
+<taxon>Flavobacteriales</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="submission" date="2007-03" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Hagstrom A."/>
+<person name="Ferriera S."/>
+<person name="Johnson J."/>
+<person name="Kravitz S."/>
+<person name="Beeson K."/>
+<person name="Sutton G."/>
+<person name="Rogers Y.-H."/>
+<person name="Friedman R."/>
+<person name="Frazier M."/>
+<person name="Venter J.C."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2 3">BAL38</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="AAXX01000008">
+<property type="protein sequence ID" value="EAZ94419.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_008258362.1">
+<property type="nucleotide sequence ID" value="NZ_AAXX01000008.1"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="A3J796"/>
+<dbReference type="STRING" id="391598.FBBAL38_12015"/>
+<dbReference type="EnsemblBacteria" id="EAZ94419">
+<property type="protein sequence ID" value="EAZ94419"/>
+<property type="gene ID" value="FBBAL38_12015"/>
+</dbReference>
+<dbReference type="PATRIC" id="27384691">
+<property type="gene designation" value="VBIFlaBac114234_2427"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4105VS5">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG2755">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000003784">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016787">
+<property type="term" value="F:hydrolase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-0378" evidence="2">Hydrolase</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="30"/>
+<end position="191"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EAZ94419.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000003784"/>
+</source>
+</evidence>
+<sequence length="203" mass="23366" checksum="503BCEBC46684E06" modified="2007-04-03" version="1">
+MQDDWAYLEKYALENEKLNLKVNSGNRIVFIGDSITEYWKQYDASFFSQNGYINRGISSQ
+TTTQISFRFENDALNLKPQKIVILAGINDIAENKGPISLDDVVINIQSMIERALEKKIEV
+LLCSLLPANIIPWNHKINPVDKVVELNNRLKKISEAHYIPYVDYFSEMADHTKGLPKKYS
+HDGVHPNEKGYLKMNVILENYLT
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

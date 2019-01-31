@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-07-09" modified="2016-06-08" version="8">
+<accession>A0A034WRF5</accession>
+<name>A0A034WRF5_BACDO</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Maternal effect protein oskar</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="2">OSKA</name>
+</gene>
+<organism evidence="2">
+<name type="scientific">Bactrocera dorsalis</name>
+<name type="common">Oriental fruit fly</name>
+<name type="synonym">Dacus dorsalis</name>
+<dbReference type="NCBI Taxonomy" id="27457"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Diptera</taxon>
+<taxon>Brachycera</taxon>
+<taxon>Muscomorpha</taxon>
+<taxon>Tephritoidea</taxon>
+<taxon>Tephritidae</taxon>
+<taxon>Bactrocera</taxon>
+<taxon>Bactrocera</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2">
+<citation type="journal article" date="2014" name="BMC Genomics" volume="15" first="942" last="942">
+<title>Characterizing the developmental transcriptome of the oriental fruit fly, Bactrocera dorsalis (Diptera: Tephritidae) through comparative genomic analysis with Drosophila melanogaster utilizing modENCODE datasets.</title>
+<authorList>
+<person name="Geib S.M."/>
+<person name="Calla B."/>
+<person name="Hall B."/>
+<person name="Hou S."/>
+<person name="Manoukis N.C."/>
+</authorList>
+<dbReference type="PubMed" id="25348373"/>
+<dbReference type="DOI" id="10.1186/1471-2164-15-942"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="2">Punador</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="GAKP01002609">
+<property type="protein sequence ID" value="JAC56343.1"/>
+<property type="molecule type" value="Transcribed_RNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_011211937.1">
+<property type="nucleotide sequence ID" value="XM_011213635.1"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_011211946.1">
+<property type="nucleotide sequence ID" value="XM_011213644.1"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_011211954.1">
+<property type="nucleotide sequence ID" value="XM_011213652.1"/>
+</dbReference>
+<dbReference type="GeneID" id="105232054"/>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR033447">
+<property type="entry name" value="OSK"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF17182">
+<property type="entry name" value="OSK"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<feature type="domain" description="OSK" evidence="1">
+<location>
+<begin position="311"/>
+<end position="509"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF17182"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="JAC56343.1"/>
+</source>
+</evidence>
+<sequence length="510" mass="59497" checksum="30B9EBAD080EDA05" modified="2014-07-09" version="1">
+MTIMHEAFLELRSAFPDLDAEVRSILLTRSQDGATISDIKDDYRKNTGIVFPIFQNITEF
+LLSIPFVTAFCNENGKLIFNVQPSARTKHIYDLVQQQKPQHQLQTQKHQQFVQYNDQNRF
+EPFVNNISSKKNERDEFWYRNNKQTDCQKNNEYINKKNIDNNEFSESANIDVVKTKVGLE
+NLTSLQTNAHKGVFNYTEETGRNNYYQDNCNHLFNRLCNQPKMASQNLGHNFNNIHYSNQ
+NNRITKQQSTYSQAKTISQTSQFRSIQQQNYLNTNKLEKQPNPYKESMAKYIPPSTSRPI
+SPSCTKSSRYNDSIYTTDSDYEAHLLDFPLLGDDFFLFLARMELRCKFKKYDKILQSGLC
+VSGQTICGAIKRVRQLEDQCKSIIVNIGSVDIMKGRPLVQIEHDFRELINLMFKKGFTPI
+LTTLAPLANFAHDEITKTKLERFNNFIKKEGEFLLVMDIWACLVNERGHILFDCFQNEPR
+IVTGTSEPYVFWNKIGRQRVLQLIESQLEY
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

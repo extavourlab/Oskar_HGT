@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-11-11" modified="2016-06-08" version="6">
+<accession>A0A0M1UPT0</accession>
+<name>A0A0M1UPT0_9PROT</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Lipolytic protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">ABED_1978</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Arcobacter butzleri ED-1</name>
+<dbReference type="NCBI Taxonomy" id="944546"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Epsilonproteobacteria</taxon>
+<taxon>Campylobacterales</taxon>
+<taxon>Campylobacteraceae</taxon>
+<taxon>Arcobacter</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="journal article" date="2011" name="J. Bacteriol." volume="193" first="6411" last="6412">
+<title>Complete Genome Sequences of Arcobacter butzleri ED-1 and Arcobacter sp. Strain L, Both Isolated from a Microbial Fuel Cell.</title>
+<authorList>
+<person name="Toh H."/>
+<person name="Sharma V.K."/>
+<person name="Oshima K."/>
+<person name="Kondo S."/>
+<person name="Hattori M."/>
+<person name="Ward F.B."/>
+<person name="Free A."/>
+<person name="Taylor T.D."/>
+</authorList>
+<dbReference type="PubMed" id="22038970"/>
+<dbReference type="DOI" id="10.1128/JB.06084-11"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3">ED-1</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="AP012047">
+<property type="protein sequence ID" value="BAK71695.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_014469436.1">
+<property type="nucleotide sequence ID" value="NC_017187.1"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAK71695">
+<property type="protein sequence ID" value="BAK71695"/>
+<property type="gene ID" value="ABED_1978"/>
+</dbReference>
+<dbReference type="KEGG" id="abt:ABED_1978"/>
+<dbReference type="Proteomes" id="UP000009194">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="60"/>
+<end position="210"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="BAK71695.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000009194"/>
+</source>
+</evidence>
+<sequence length="220" mass="25723" checksum="17E70A89EA650D5E" modified="2015-11-11" version="1">
+MKNKILIALCGLLFLNNYNLEAKEIQKVEEWKIQNDPYYKHKKSQFEVLMNNSKYTTMML
+GDSITDEGRWDELLNKNTVQNRGISGDTTSGVLDRLSTVSPSIKQVFIMIGVNDIMRGKS
+ENEVFENYKKIIKFFEEKNIKVHIQSTLYIGETRKQSFNPKIEKLNEKLKDFAQNNNIDF
+IDLNTIFAPNKVLKSEFTTDDLHLNGKAYTLWVKEIEKYF
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

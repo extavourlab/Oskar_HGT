@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-05-01" modified="2016-05-11" version="26">
+<accession>M3WIG6</accession>
+<name>M3WIG6_FELCA</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3">KIAA0430</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Felis catus</name>
+<name type="common">Cat</name>
+<name type="synonym">Felis silvestris catus</name>
+<dbReference type="NCBI Taxonomy" id="9685"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Laurasiatheria</taxon>
+<taxon>Carnivora</taxon>
+<taxon>Feliformia</taxon>
+<taxon>Felidae</taxon>
+<taxon>Felinae</taxon>
+<taxon>Felis</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="journal article" date="2007" name="Genome Res." volume="17" first="1675" last="1689">
+<title>Initial sequence and comparative analysis of SAA cat genome.</title>
+<authorList>
+<person name="Pontius J.U."/>
+<person name="Mullikin J.C."/>
+<person name="Smith D.R."/>
+<person name="Lindblad-Toh K."/>
+<person name="Gnerre S."/>
+<person name="Clamp M."/>
+<person name="Chang J."/>
+<person name="Stephens R."/>
+<person name="Neelam B."/>
+<person name="Volfovsky N."/>
+<person name="Schaffer A.A."/>
+<person name="Agarwala R."/>
+<person name="Narfstrom K."/>
+<person name="Murphy W.J."/>
+<person name="Giger U."/>
+<person name="Roca A.L."/>
+<person name="Antunes A."/>
+<person name="Menotti-Raymond M."/>
+<person name="Yuhki N."/>
+<person name="Pecon-Slattery J."/>
+<person name="Johnson W.E."/>
+<person name="Bourque G."/>
+<person name="Tesler G."/>
+<person name="O'Brien S.J."/>
+</authorList>
+<dbReference type="PubMed" id="17975172"/>
+<dbReference type="DOI" id="10.1101/gr.6380007"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3 4">Abyssinian</strain>
+</source>
+</reference>
+<reference key="2" evidence="3">
+<citation type="submission" date="2011-09" db="EMBL/GenBank/DDBJ databases">
+<title>Sequence assembly of the Felis catus genome version 6.2.</title>
+<authorList>
+<person name="Hillier L.W."/>
+<person name="Warren W."/>
+<person name="Obrien S."/>
+<person name="Wilson R.K."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3">Abyssinian</strain>
+</source>
+</reference>
+<reference key="3" evidence="3">
+<citation type="submission" date="2013-03" db="UniProtKB">
+<authorList>
+<consortium name="Ensembl"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+<source>
+<strain evidence="3">breed Abyssinian</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="3">The sequence shown here is derived from an Ensembl automatic analysis pipeline and should be considered as preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="AANG02010685">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AANG02010686">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="STRING" id="9685.ENSFCAP00000012268"/>
+<dbReference type="Ensembl" id="ENSFCAT00000013233">
+<property type="protein sequence ID" value="ENSFCAP00000012268"/>
+<property type="gene ID" value="ENSFCAG00000013229"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410IF58">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410XQFX">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00390000002393"/>
+<dbReference type="InParanoid" id="M3WIG6"/>
+<dbReference type="OMA" id="CCGKLHF"/>
+<dbReference type="OrthoDB" id="EOG7SXW2J"/>
+<dbReference type="Proteomes" id="UP000011712">
+<property type="component" value="Chromosome E3"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016020">
+<property type="term" value="C:membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005777">
+<property type="term" value="C:peroxisome"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003676">
+<property type="term" value="F:nucleic acid binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000166">
+<property type="term" value="F:nucleotide binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006302">
+<property type="term" value="P:double-strand break repair"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007143">
+<property type="term" value="P:female meiotic division"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010923">
+<property type="term" value="P:negative regulation of phosphatase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0048477">
+<property type="term" value="P:oogenesis"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010468">
+<property type="term" value="P:regulation of gene expression"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.70.330">
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1010">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024582">
+<property type="entry name" value="Limkain_b1_cons_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024768">
+<property type="entry name" value="Marf1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR012677">
+<property type="entry name" value="Nucleotide-bd_a/b_plait"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR021139">
+<property type="entry name" value="NYN_limkain-b1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029060">
+<property type="entry name" value="PIN_domain-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000504">
+<property type="entry name" value="RRM_dom"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR14379">
+<property type="entry name" value="PTHR14379"/>
+<property type="match status" value="4"/>
+</dbReference>
+<dbReference type="Pfam" id="PF11608">
+<property type="entry name" value="Limkain-b1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01936">
+<property type="entry name" value="NYN"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="5"/>
+</dbReference>
+<dbReference type="SMART" id="SM00360">
+<property type="entry name" value="RRM"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF54928">
+<property type="entry name" value="SSF54928"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="8"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50102">
+<property type="entry name" value="RRM"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="domain" description="RRM (RNA recognition motif)" evidence="1">
+<location>
+<begin position="783"/>
+<end position="862"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="867"/>
+<end position="941"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="995"/>
+<end position="1071"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="1091"/>
+<end position="1165"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="1167"/>
+<end position="1242"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="1251"/>
+<end position="1326"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="1327"/>
+<end position="1402"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="1403"/>
+<end position="1477"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="1478"/>
+<end position="1552"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50102"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Ensembl" id="ENSFCAP00000012268"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000011712"/>
+</source>
+</evidence>
+<sequence length="1734" mass="191029" checksum="E5A22BF0E98116EE" modified="2013-05-01" version="1">
+MMEGNGTEDPCSRTLGWLRQNNDAKPWLWKFSNCFSRPERTLPLSPHTKDYMENKKAAVE
+LKDVPSPLHAGSKLFPAVPLPDIHSLQQPKIQLSPVPKVSCCAHCPNEPSTSPMRFGGGG
+GGGGGGGSGSLIHPGALLDSQSTRTVTCQVGSGFAFQSASSLQNASARNNLAGLASDFPS
+MCLESNLSSCKHLPCCGKLHFQSCHGNVHKLHQFPALQGCASAGYFPCSDFTSGAPGHLE
+EHISQSELTPHLCTNSLHLNVVPPVCLKGSLYCEDCLNKPARNSIIDAAKVWPNIPPPNT
+QTAPVTIPLCNGCGTKGAGKETTLLLATSLGKAASKFGSPEVALAGQVLENLPPIGVFWD
+IENCSVPSGRSATAVVQRIREKFFKGHREAEFICVCDISKENKEVIQELNNCQVTVAHIN
+ATAKNAADDKLRQSLRRFANTHTAPATVVLVSTDVNFALELSDLRHRHGFHIILVHKNQA
+SEALLHHANELIRFEEFISDLPPRLPLKMPCHTLLYVYNLPANKDGKSITNRLRRLSDNC
+GGKVLSITGCSAILRFINQDSAERAQKRMENEDVFGNRIIVSFTPKNRELCETKSSNAIA
+DKVKSPKKLKNPKLCLIKDTSEQSSSAKATPGKGSQANSGSATKNTNVKSLQELCHMESK
+TGARSSDSQQGHLRLVAPPHRSLSAAAPAPKNSGTAEPAYKTNPKKENPCPRSVTSSPVE
+NKEKEETPFQVSYPSAFSKLITSRQVSPLLAAQSWSSRASPLAFNIANSSIGADSPDPFA
+NGADIQISNIDYRLSRKELQQLMQEAFSRHGKVKSVELSPHTDYQLKAVVQMENLQEAIS
+AVNSLHRYKIGSKKILVSLATGAANKSLSLLSAETMSILQDAPACCLPLFKFTDIYEKKF
+GHKLNVSDLYKLTDTVAIREQGNGRLVCLLPSSQARQSPLGSSQSHDGSSTNCSPIIFEE
+LEYHEPVCRQHCPDKDFSEHEFDPDSYKIPFVILSLKTFAPQVHSLLQTHEGTVPLLSFP
+DCYAAEFGELEIVQENQGGVPLEHLITCVPGVNIATAQNGVKVVKWIHNKPPPPNTDPWL
+LRSKSPVGNPQLIQFSREVIDLLKSQPSCVIPISNFIPSYHHHFAKQCRVSDYGYSKLIE
+LLEAVPHVLQILGMGSKRLLTLTHRAQVKRFTQDLLKLLKSQASKQVIVREFSQAYHWCF
+SKDWDVTEYGVCELIDIVSEIPDTTICLSQQDSETVICIPKRERTQDEIERTKQFSKDVV
+DLLRHQPHFRMPFNKFIPSYHHHFGRQCKLAYYGFTKLLELFEAIPDILQVLECGEEKIL
+TLTEVERFKALAAQFVKLLRSQKDNCLMMTDLLTEYAKTFGYTFRLQDYDVSSVSALTQK
+LCHVVKVADMASGKQIQLINRKSLRALTAQLLVLLMSWEGAAHLSVDELKRRYETTHSAP
+LNPCEYGFMTLTELLKSLPYLVEVFTNDKTEECVKLTSLYLFAKNVRSLLHTYHYQQLFL
+HEFSMAYTKYVGETLQPKTYGYSSVEELLGAIPQVVWIKGHGHKRIVVLKNDMKSRVSSL
+GLSPVSPEDQPSATEHIPAAPESCTAPELRLGAGSDGPHQAEQELLRLTNDSPVDLLCAP
+VPSCLPSPQLRPDPVILQSADLIQFEEHPQAPSEIMILNQEESIEIPVPVKNKNPASESS
+SPCVSAAAPVPPCPSSETSESLLGKDPVESPAKKQPKNRVKLAANFSFAPITKL
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

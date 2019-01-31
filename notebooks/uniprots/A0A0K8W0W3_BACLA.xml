@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-11-11" modified="2016-06-08" version="3">
+<accession>A0A0K8W0W3</accession>
+<name>A0A0K8W0W3_BACLA</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Maternal effect protein oskar</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3">osk_1</name>
+<name type="synonym" evidence="2">osk_0</name>
+<name type="ORF" evidence="3">c2_g1_i2</name>
+<name type="ORF" evidence="2">c2_g1_i4</name>
+</gene>
+<organism evidence="3">
+<name type="scientific">Bactrocera latifrons</name>
+<name type="common">Malaysian fruit fly</name>
+<name type="synonym">Chaetodacus latifrons</name>
+<dbReference type="NCBI Taxonomy" id="174628"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Diptera</taxon>
+<taxon>Brachycera</taxon>
+<taxon>Muscomorpha</taxon>
+<taxon>Tephritoidea</taxon>
+<taxon>Tephritidae</taxon>
+<taxon>Bactrocera</taxon>
+<taxon>Bactrocera</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="submission" date="2015-06" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Hoefler B.C."/>
+<person name="Straight P.D."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<dbReference type="EMBL" id="GDHF01018553">
+<property type="protein sequence ID" value="JAI33761.1"/>
+<property type="molecule type" value="Transcribed_RNA"/>
+</dbReference>
+<dbReference type="EMBL" id="GDHF01007522">
+<property type="protein sequence ID" value="JAI44792.1"/>
+<property type="molecule type" value="Transcribed_RNA"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR033447">
+<property type="entry name" value="OSK"/>
+</dbReference>
+<dbReference type="Pfam" id="PF17182">
+<property type="entry name" value="OSK"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<feature type="domain" description="OSK" evidence="1">
+<location>
+<begin position="311"/>
+<end position="350"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF17182"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="JAI33761.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="JAI44792.1"/>
+</source>
+</evidence>
+<sequence length="352" mass="41159" checksum="B5FB5527AA01E31D" modified="2015-11-11" version="1">
+MTIMHEAFLELRSAFPDLDAEVRSILLTRSQDGATISDIKDDYRKNTGIVFPIFQNITEF
+LLSIPFVTAFCNENGKLIFNVQPSARTKHIYDLVQQQKPQHQLQTQKHQQFVQYNDQNRF
+EPFVNNISSKKNERDESWYRNNKQIGCQKNNEYINKKNIDNNEISESANIDVVKRKVGLE
+NLTSLQTNAHNSVSNYTEETGRNNYYQDNCNHLFNRLCNQPKMASQNLGHNFNNIHYSNQ
+NNRITKQQSTYSQAKTLSQTSQFRSIQQQNYLNTNKLEKQHNSYKESMAKYIPPSTSRPI
+SPSCTKSSRHNDSIYTTDSDYEAHLLDFPLLGDDFFLFLARMELRCKFKKCR
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

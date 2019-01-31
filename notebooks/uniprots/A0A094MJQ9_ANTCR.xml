@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-11-26" modified="2016-06-08" version="8">
+<accession>A0A094MJQ9</accession>
+<name>A0A094MJQ9_ANTCR</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Tudor domain-containing protein 5</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">N321_02523</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Antrostomus carolinensis</name>
+<name type="common">Chuck-will's-widow</name>
+<name type="synonym">Caprimulgus carolinensis</name>
+<dbReference type="NCBI Taxonomy" id="279965"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Archelosauria</taxon>
+<taxon>Archosauria</taxon>
+<taxon>Dinosauria</taxon>
+<taxon>Saurischia</taxon>
+<taxon>Theropoda</taxon>
+<taxon>Coelurosauria</taxon>
+<taxon>Aves</taxon>
+<taxon>Neognathae</taxon>
+<taxon>Caprimulgiformes</taxon>
+<taxon>Caprimulgidae</taxon>
+<taxon>Caprimulginae</taxon>
+<taxon>Caprimulgus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="submission" date="2014-04" db="EMBL/GenBank/DDBJ databases">
+<title>Genome evolution of avian class.</title>
+<authorList>
+<person name="Zhang G."/>
+<person name="Li C."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2">BGI_N321</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="KL342508">
+<property type="protein sequence ID" value="KFZ53776.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000053620">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="1"/>
+<end position="43"/>
+</location>
+</feature>
+<feature type="non-terminal residue" evidence="2">
+<location>
+<position position="104"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KFZ53776.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000053620"/>
+</source>
+</evidence>
+<sequence length="104" mass="11341" checksum="9B156A9AE671E866" modified="2014-11-26" version="1" fragment="single">
+MIGKPLPLRDLGFQSTLELVADMPEVVRVCPYEKGTFILKAIADETTKAIAQLVARQKRS
+TRAQKGTAWKAGAASPKNSQSSPRRRRAPVLPATVKAELQDLLS
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

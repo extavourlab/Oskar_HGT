@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-10-16" modified="2016-06-08" version="11">
+<accession>S9YM83</accession>
+<name>S9YM83_CAMFR</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Limkain b1 isoform 1 isoform 1-like protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">CB1_000394017</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Camelus ferus</name>
+<name type="common">Wild bactrian camel</name>
+<name type="synonym">Camelus bactrianus ferus</name>
+<dbReference type="NCBI Taxonomy" id="419612"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Laurasiatheria</taxon>
+<taxon>Cetartiodactyla</taxon>
+<taxon>Tylopoda</taxon>
+<taxon>Camelidae</taxon>
+<taxon>Camelus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="journal article" date="2012" name="Nat. Commun." volume="3" first="1202" last="1202">
+<title>Genome sequences of wild and domestic bactrian camels.</title>
+<authorList>
+<consortium name="Bactrian Camels Genome Sequencing and Analysis Consortium"/>
+<person name="Jirimutu null"/>
+<person name="Wang Z."/>
+<person name="Ding G."/>
+<person name="Chen G."/>
+<person name="Sun Y."/>
+<person name="Sun Z."/>
+<person name="Zhang H."/>
+<person name="Wang L."/>
+<person name="Hasi S."/>
+<person name="Zhang Y."/>
+<person name="Li J."/>
+<person name="Shi Y."/>
+<person name="Xu Z."/>
+<person name="He C."/>
+<person name="Yu S."/>
+<person name="Li S."/>
+<person name="Zhang W."/>
+<person name="Batmunkh M."/>
+<person name="Ts B."/>
+<person name="Narenbatu null"/>
+<person name="Unierhu null"/>
+<person name="Bat-Ireedui S."/>
+<person name="Gao H."/>
+<person name="Baysgalan B."/>
+<person name="Li Q."/>
+<person name="Jia Z."/>
+<person name="Turigenbayila null"/>
+<person name="Subudenggerile null"/>
+<person name="Narenmanduhu null"/>
+<person name="Wang Z."/>
+<person name="Wang J."/>
+<person name="Pan L."/>
+<person name="Chen Y."/>
+<person name="Ganerdene Y."/>
+<person name="Dabxilt null"/>
+<person name="Erdemt null"/>
+<person name="Altansha null"/>
+<person name="Altansukh null"/>
+<person name="Liu T."/>
+<person name="Cao M."/>
+<person name="Aruuntsever null"/>
+<person name="Bayart null"/>
+<person name="Hosblig null"/>
+<person name="He F."/>
+<person name="Zha-ti A."/>
+<person name="Zheng G."/>
+<person name="Qiu F."/>
+<person name="Sun Z."/>
+<person name="Zhao L."/>
+<person name="Zhao W."/>
+<person name="Liu B."/>
+<person name="Li C."/>
+<person name="Chen Y."/>
+<person name="Tang X."/>
+<person name="Guo C."/>
+<person name="Liu W."/>
+<person name="Ming L."/>
+<person name="Temuulen null"/>
+<person name="Cui A."/>
+<person name="Li Y."/>
+<person name="Gao J."/>
+<person name="Li J."/>
+<person name="Wurentaodi null"/>
+<person name="Niu S."/>
+<person name="Sun T."/>
+<person name="Zhai Z."/>
+<person name="Zhang M."/>
+<person name="Chen C."/>
+<person name="Baldan T."/>
+<person name="Bayaer T."/>
+<person name="Li Y."/>
+<person name="Meng H."/>
+</authorList>
+<dbReference type="PubMed" id="23149746"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="4">bactrian camel</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="KB016683">
+<property type="protein sequence ID" value="EPY85135.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000030684">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005777">
+<property type="term" value="C:peroxisome"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003676">
+<property type="term" value="F:nucleic acid binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000166">
+<property type="term" value="F:nucleotide binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010468">
+<property type="term" value="P:regulation of gene expression"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.70.330">
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1010">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024582">
+<property type="entry name" value="Limkain_b1_cons_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024768">
+<property type="entry name" value="Marf1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR012677">
+<property type="entry name" value="Nucleotide-bd_a/b_plait"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR021139">
+<property type="entry name" value="NYN_limkain-b1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029060">
+<property type="entry name" value="PIN_domain-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000504">
+<property type="entry name" value="RRM_dom"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR14379">
+<property type="entry name" value="PTHR14379"/>
+<property type="match status" value="4"/>
+</dbReference>
+<dbReference type="Pfam" id="PF11608">
+<property type="entry name" value="Limkain-b1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01936">
+<property type="entry name" value="NYN"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="5"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00076">
+<property type="entry name" value="RRM_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00360">
+<property type="entry name" value="RRM"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF54928">
+<property type="entry name" value="SSF54928"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="7"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50102">
+<property type="entry name" value="RRM"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="domain" description="RRM (RNA recognition motif)" evidence="1">
+<location>
+<begin position="477"/>
+<end position="556"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="662"/>
+<end position="739"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="759"/>
+<end position="833"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="835"/>
+<end position="909"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="919"/>
+<end position="994"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="995"/>
+<end position="1070"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="1071"/>
+<end position="1145"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="1146"/>
+<end position="1220"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50102"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EPY85135.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000030684"/>
+</source>
+</evidence>
+<sequence length="1349" mass="150960" checksum="04AA82752BF23918" modified="2013-10-16" version="1">
+MQRRCYPVEVSGSLPTLVSLLPMRPSSYWVWSPEVALAGQVLENLPPIGVFWDIENCSVP
+SGRSATAVVQRIREKFFKGHREAEFICVCDISKENKEVIQELNNCQVTVAHINATAKNAA
+DDKLRQSLRRFANTHTAPATVVLVSTDVNFALELSDLRHRHGFHIILVHKNQASEALLHH
+ANELIRFEEFISDLPPRLPLKMPQCHTLLYVYNLPANKDGKSISNRLRRLSDNCGGKVLS
+ITGCSAILRFINQDSAARAQKRMENEDVFGNRIIVSFTPKSRELCETKSSNATADKVKSP
+KKLKNPKLCLIKDTSEPSSSAKAAPGKGSQANSGSATKNTHVKSLQELCRMESKTGTRNS
+EPQQGHPKPVAPPHRNSSAPVPTPKTSGAAESVYKTNLKRENLSARSVTSSPVEKKDKEE
+TMFQVSYPSAFSKLIASRQVNPLLTPQSWSSRASPLAFNVASSSVSADCPDPFANGADIQ
+ISNIDYRLSRKELQQLMQEAFSRHGKVKSVELSPHTDYQLKAVVQMENLQEAISAVNSLH
+RYKIGSKKILVSLATGAANKSLSLLRFGHRLNVSDLYKLTDTVAIREQGNGRLVCLLPSS
+QARQSPLGSSQSHDGSSTNCSPIIFEELEYHEPVCRQHCSNKDFSEHEFDPDSYRIPFVI
+LSLKTFAPQVHSLLQTHEGTVPLLSFPDCYAAEFGELEVVQESRGGGVPLEHLITCVPGV
+NIATAQNGVKVVKWIHNKPPPPNTDPWLLRSKSPVGNPQLIQFSREVIDLLKSQPSCVIP
+ISNFIPSYHHHFAKQCRVSDYGYSKLIELLEAVPHVLQILGMGSKRLLTLTHRAQVKRFT
+QDLLKLLKSQASKQVIVREFSQAYHWCFSKDWDVTEYGVCELIDIISEIPDTAICLSQQD
+NEMVICIPKRERTQDEIERTKQFSKDVVDLLRHQPHFRMPFNKFIPSYHHHFGRQCKLAY
+YGFTKLLELFEAIPDILQVLECGEEKILTLTEVERFKALAAQFVKLLRSQKDNCLMMTDL
+LTEYAKTFGYTFRLQDYDVSSVSALTQKLCHVVKVADMESGKQIQLVNRKSLRSLTAQLL
+VLLMSWEGTTHLSVDELKRHYETTHSTPLNPCEYGFMTLTELLKSLSYVVEVFTNDKTEE
+CVKLTSLYLFAKNVRSLLHTYHYQQLFLHEFSMAYTKYVGEALQPKTYGYSSVEELLGAI
+PQVVWIKGHGHKRIVVLKNDMKSRLSSLGLSPASDETQPSAPERILEVPESATASGLKPG
+ADGDGPCPAEQELLRLTNDSPVDLLCAPVPSCLPSPQLRPDPVILQSADLIQFEEHPPEP
+AGFLQNWVHSPRWLGEQKPGDERGAMQLG
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

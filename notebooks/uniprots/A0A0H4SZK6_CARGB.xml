@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-10-14" modified="2015-12-09" version="3">
+<accession>A0A0H4SZK6</accession>
+<name>A0A0H4SZK6_9TELE</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Tudor domain-containing 7</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3">Tdrd7</name>
+</gene>
+<organism evidence="3">
+<name type="scientific">Carassius gibelio</name>
+<name type="common">silver crucian carp</name>
+<dbReference type="NCBI Taxonomy" id="101364"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Actinopterygii</taxon>
+<taxon>Neopterygii</taxon>
+<taxon>Teleostei</taxon>
+<taxon>Ostariophysi</taxon>
+<taxon>Cypriniformes</taxon>
+<taxon>Cyprinidae</taxon>
+<taxon>Carassius</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="submission" date="2014-12" db="EMBL/GenBank/DDBJ databases">
+<title>Germ cells affect the balance of gonadal supporting cells in a gynogenetic fish, Carassius auratus gibelio.</title>
+<authorList>
+<person name="Wei L."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<tissue evidence="3">Gonads</tissue>
+</source>
+</reference>
+<dbReference type="EMBL" id="KP255973">
+<property type="protein sequence ID" value="AKP99419.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="3"/>
+<end position="76"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="202"/>
+<end position="267"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="360"/>
+<end position="428"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="513"/>
+<end position="570"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AKP99419.1"/>
+</source>
+</evidence>
+<sequence length="1073" mass="119965" checksum="5D9C2F559F574435" modified="2015-10-14" version="1">
+MSDVELVKKMLRAVLQSSKHGVAMARLQGDYRTLTGEMIPYRQFGHGSLESFLRSLPGVV
+RLERSSAGEVMCFAGVCEETAHIAQLVARQKNVKKSGCSKLLNFQMRAKSSSLFSHTVKP
+RLSLRQPGHMTHPARSSASKSSFYPNQRQIYSTDLPSSRVPTWQLNKKSPGFEEKTFATS
+KVNTGIKTSGTPAQQKPANSADVEVVQGRVKQLLEKYCSGVWLSKIPQLYRIMFQEELHM
+HKELATWTHICTVEKPGSNNIVDRLVYPVLEPAPKPSTVPAVAPCKQSPNAKQPTPAQQT
+TRILRTLAINIPPSAQKSQPPLSPTSPNSTKLDFSLPETPKAHPHSPITPPSTPPSHQPL
+TPEIKQKLRQLLNKYSQGLWAHALPKLFQEAFGCVFPQNVLEDLSLLADACMVEYPMPDN
+RKRAILYALPCQVQTPPRPRPPPLVLPYTSNPHVPPLTIPTTEFLSVLVMEVSSTDNIVL
+RFVGEGYSKALEGLEEAMLQFYNTVGAGLCLLSPKIGQLVAVAIEDDAVLRAQVHLVLED
+SVKVYCVDHGFFEVVSRKKILQLRDQFLTLPLQATTCQLAGLEPFSTDGVILKTLESLAV
+GRTLVVEIVEREDTPAIVLYDTSENEDVNVNAVCLKALQDKSMENPLQVNSVYTNVCVTN
+VCSDGSIYCQLPSRGQAKLKDIMDKIEAHFISQLTWELLVSKPFCGKVCLAKYKGKWARA
+EIIDLHGSQVLDILFLDLGLPASLEVSELREIPPIYLKELITIPPQAIKCILEELNADGS
+VWPPEAVLWLRETVLNKDPSCMKIVKLDETRTVHIYLFTCNGAQDLQSSVNRQLASCPFW
+QRDIYFSKITRISKPIRPEAGDSPYAAPALSNALTLPPQLDLPVVGQNMDVFVSVACHPG
+HFVLQLWQDLYKLVVLMGEMVLFYNKQEVTRINIQKNNVYAAKIDNNWHRVLVKGVLTNG
+LVSVYELDYGKYELINYSQLQPLIDEFRQLPFQGISAQLAGVKQGVWAEEASMVFRNHVE
+KKPLVAQIESFEEGDWPWERKISVYLVDTTQEDNDIWIHNIMVEFLDEINRAA
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

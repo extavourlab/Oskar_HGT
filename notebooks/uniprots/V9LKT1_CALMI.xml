@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-03-19" modified="2015-06-24" version="8">
+<accession>V9LKT1</accession>
+<name>V9LKT1_CALMI</name>
+<protein>
+<submittedName>
+<fullName evidence="1">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<organism evidence="1">
+<name type="scientific">Callorhinchus milii</name>
+<name type="common">Ghost shark</name>
+<dbReference type="NCBI Taxonomy" id="7868"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Chondrichthyes</taxon>
+<taxon>Holocephali</taxon>
+<taxon>Chimaeriformes</taxon>
+<taxon>Callorhinchidae</taxon>
+<taxon>Callorhinchus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="1">
+<citation type="journal article" date="2014" name="Nature" volume="505" first="174" last="179">
+<title>Elephant shark genome provides unique insights into gnathostome evolution.</title>
+<authorList>
+<person name="Venkatesh B."/>
+<person name="Lee A.P."/>
+<person name="Ravi V."/>
+<person name="Maurya A.K."/>
+<person name="Lian M.M."/>
+<person name="Swann J.B."/>
+<person name="Ohta Y."/>
+<person name="Flajnik M.F."/>
+<person name="Sutoh Y."/>
+<person name="Kasahara M."/>
+<person name="Hoon S."/>
+<person name="Gangu V."/>
+<person name="Roy S.W."/>
+<person name="Irimia M."/>
+<person name="Korzh V."/>
+<person name="Kondrychyn I."/>
+<person name="Lim Z.W."/>
+<person name="Tay B.-H."/>
+<person name="Tohari S."/>
+<person name="Kong K.W."/>
+<person name="Ho S."/>
+<person name="Lorente-Galdos B."/>
+<person name="Quilez J."/>
+<person name="Marques-Bonet T."/>
+<person name="Raney B.J."/>
+<person name="Ingham P.W."/>
+<person name="Tay A."/>
+<person name="Hillier L.W."/>
+<person name="Minx P."/>
+<person name="Boehm T."/>
+<person name="Wilson R.K."/>
+<person name="Brenner S."/>
+<person name="Warren W.C."/>
+</authorList>
+<dbReference type="PubMed" id="24402279"/>
+<dbReference type="DOI" id="10.1038/nature12826"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<tissue evidence="1">Muscle</tissue>
+</source>
+</reference>
+<dbReference type="EMBL" id="JW881360">
+<property type="protein sequence ID" value="AFP13877.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<feature type="non-terminal residue" evidence="1">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<feature type="non-terminal residue" evidence="1">
+<location>
+<position position="133"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AFP13877.1"/>
+</source>
+</evidence>
+<sequence length="133" mass="15166" checksum="1AE10F8FD5396ACC" modified="2014-03-19" version="1" fragment="single">
+DRGMNHTGNTVLIGDSTVRGTDRIFCHKNCEARMVCCLPGARVVDFTECMDKILRGEGEC
+PEVVVHVGTHDIGKKRAEMLQGEYQKLGSKLKSRTSKVFISGLLPVPRATRHHNERIRRM
+NDWLEKWSRKEGF
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

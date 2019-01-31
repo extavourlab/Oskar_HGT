@@ -1,0 +1,357 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-01-09" modified="2016-03-16" version="14">
+<accession>K7IRD8</accession>
+<name>K7IRD8_NASVI</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3">LOC100119737</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Nasonia vitripennis</name>
+<name type="common">Parasitic wasp</name>
+<dbReference type="NCBI Taxonomy" id="7425"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Hymenoptera</taxon>
+<taxon>Apocrita</taxon>
+<taxon>Chalcidoidea</taxon>
+<taxon>Pteromalidae</taxon>
+<taxon>Pteromalinae</taxon>
+<taxon>Nasonia</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="journal article" date="2010" name="Science" volume="327" first="343" last="348">
+<title>Functional and evolutionary insights from the genomes of three parasitoid Nasonia species.</title>
+<authorList>
+<consortium name="Nasonia Genome Working Group"/>
+<person name="Werren J.H."/>
+<person name="Richards S."/>
+<person name="Desjardins C.A."/>
+<person name="Niehuis O."/>
+<person name="Gadau J."/>
+<person name="Colbourne J.K."/>
+<person name="Werren J.H."/>
+<person name="Richards S."/>
+<person name="Desjardins C.A."/>
+<person name="Niehuis O."/>
+<person name="Gadau J."/>
+<person name="Colbourne J.K."/>
+<person name="Beukeboom L.W."/>
+<person name="Desplan C."/>
+<person name="Elsik C.G."/>
+<person name="Grimmelikhuijzen C.J."/>
+<person name="Kitts P."/>
+<person name="Lynch J.A."/>
+<person name="Murphy T."/>
+<person name="Oliveira D.C."/>
+<person name="Smith C.D."/>
+<person name="van de Zande L."/>
+<person name="Worley K.C."/>
+<person name="Zdobnov E.M."/>
+<person name="Aerts M."/>
+<person name="Albert S."/>
+<person name="Anaya V.H."/>
+<person name="Anzola J.M."/>
+<person name="Barchuk A.R."/>
+<person name="Behura S.K."/>
+<person name="Bera A.N."/>
+<person name="Berenbaum M.R."/>
+<person name="Bertossa R.C."/>
+<person name="Bitondi M.M."/>
+<person name="Bordenstein S.R."/>
+<person name="Bork P."/>
+<person name="Bornberg-Bauer E."/>
+<person name="Brunain M."/>
+<person name="Cazzamali G."/>
+<person name="Chaboub L."/>
+<person name="Chacko J."/>
+<person name="Chavez D."/>
+<person name="Childers C.P."/>
+<person name="Choi J.H."/>
+<person name="Clark M.E."/>
+<person name="Claudianos C."/>
+<person name="Clinton R.A."/>
+<person name="Cree A.G."/>
+<person name="Cristino A.S."/>
+<person name="Dang P.M."/>
+<person name="Darby A.C."/>
+<person name="de Graaf D.C."/>
+<person name="Devreese B."/>
+<person name="Dinh H.H."/>
+<person name="Edwards R."/>
+<person name="Elango N."/>
+<person name="Elhaik E."/>
+<person name="Ermolaeva O."/>
+<person name="Evans J.D."/>
+<person name="Foret S."/>
+<person name="Fowler G.R."/>
+<person name="Gerlach D."/>
+<person name="Gibson J.D."/>
+<person name="Gilbert D.G."/>
+<person name="Graur D."/>
+<person name="Grunder S."/>
+<person name="Hagen D.E."/>
+<person name="Han Y."/>
+<person name="Hauser F."/>
+<person name="Hultmark D."/>
+<person name="Hunter H.C. IV"/>
+<person name="Hurst G.D."/>
+<person name="Jhangian S.N."/>
+<person name="Jiang H."/>
+<person name="Johnson R.M."/>
+<person name="Jones A.K."/>
+<person name="Junier T."/>
+<person name="Kadowaki T."/>
+<person name="Kamping A."/>
+<person name="Kapustin Y."/>
+<person name="Kechavarzi B."/>
+<person name="Kim J."/>
+<person name="Kim J."/>
+<person name="Kiryutin B."/>
+<person name="Koevoets T."/>
+<person name="Kovar C.L."/>
+<person name="Kriventseva E.V."/>
+<person name="Kucharski R."/>
+<person name="Lee H."/>
+<person name="Lee S.L."/>
+<person name="Lees K."/>
+<person name="Lewis L.R."/>
+<person name="Loehlin D.W."/>
+<person name="Logsdon J.M. Jr."/>
+<person name="Lopez J.A."/>
+<person name="Lozado R.J."/>
+<person name="Maglott D."/>
+<person name="Maleszka R."/>
+<person name="Mayampurath A."/>
+<person name="Mazur D.J."/>
+<person name="McClure M.A."/>
+<person name="Moore A.D."/>
+<person name="Morgan M.B."/>
+<person name="Muller J."/>
+<person name="Munoz-Torres M.C."/>
+<person name="Muzny D.M."/>
+<person name="Nazareth L.V."/>
+<person name="Neupert S."/>
+<person name="Nguyen N.B."/>
+<person name="Nunes F.M."/>
+<person name="Oakeshott J.G."/>
+<person name="Okwuonu G.O."/>
+<person name="Pannebakker B.A."/>
+<person name="Pejaver V.R."/>
+<person name="Peng Z."/>
+<person name="Pratt S.C."/>
+<person name="Predel R."/>
+<person name="Pu L.L."/>
+<person name="Ranson H."/>
+<person name="Raychoudhury R."/>
+<person name="Rechtsteiner A."/>
+<person name="Reese J.T."/>
+<person name="Reid J.G."/>
+<person name="Riddle M."/>
+<person name="Robertson H.M."/>
+<person name="Romero-Severson J."/>
+<person name="Rosenberg M."/>
+<person name="Sackton T.B."/>
+<person name="Sattelle D.B."/>
+<person name="Schluns H."/>
+<person name="Schmitt T."/>
+<person name="Schneider M."/>
+<person name="Schuler A."/>
+<person name="Schurko A.M."/>
+<person name="Shuker D.M."/>
+<person name="Simoes Z.L."/>
+<person name="Sinha S."/>
+<person name="Smith Z."/>
+<person name="Solovyev V."/>
+<person name="Souvorov A."/>
+<person name="Springauf A."/>
+<person name="Stafflinger E."/>
+<person name="Stage D.E."/>
+<person name="Stanke M."/>
+<person name="Tanaka Y."/>
+<person name="Telschow A."/>
+<person name="Trent C."/>
+<person name="Vattathil S."/>
+<person name="Verhulst E.C."/>
+<person name="Viljakainen L."/>
+<person name="Wanner K.W."/>
+<person name="Waterhouse R.M."/>
+<person name="Whitfield J.B."/>
+<person name="Wilkes T.E."/>
+<person name="Williamson M."/>
+<person name="Willis J.H."/>
+<person name="Wolschin F."/>
+<person name="Wyder S."/>
+<person name="Yamada T."/>
+<person name="Yi S.V."/>
+<person name="Zecher C.N."/>
+<person name="Zhang L."/>
+<person name="Gibbs R.A."/>
+</authorList>
+<dbReference type="PubMed" id="20075255"/>
+<dbReference type="DOI" id="10.1126/science.1178028"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3">AsymCX</strain>
+</source>
+</reference>
+<reference key="2" evidence="3">
+<citation type="submission" date="2015-06" db="UniProtKB">
+<authorList>
+<consortium name="EnsemblMetazoa"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<dbReference type="STRING" id="7425.NV11634-PA"/>
+<dbReference type="EnsemblMetazoa" id="NV11634-RA">
+<property type="protein sequence ID" value="NV11634-PA"/>
+<property type="gene ID" value="NV11634"/>
+</dbReference>
+<dbReference type="eggNOG" id="KOG3739">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410XR57">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000002358">
+<property type="component" value="Chromosome 2"/>
+</dbReference>
+<dbReference type="GO" id="GO:0031932">
+<property type="term" value="C:TORC2 complex"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR031567">
+<property type="entry name" value="CRIM_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008828">
+<property type="entry name" value="Sin1/Avo1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR032679">
+<property type="entry name" value="Sin1_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR031313">
+<property type="entry name" value="Sin1_PH_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR13335">
+<property type="entry name" value="PTHR13335"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF16978">
+<property type="entry name" value="CRIM"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Pfam" id="PF05422">
+<property type="entry name" value="SIN1"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Pfam" id="PF16979">
+<property type="entry name" value="SIN1_PH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0175" evidence="1">Coiled coil</keyword>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="810"/>
+<end position="883"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="277"/>
+<end position="300"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EnsemblMetazoa" id="NV11634-PA"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000002358"/>
+</source>
+</evidence>
+<sequence length="1647" mass="189858" checksum="5036229B1DF5EA3F" modified="2013-01-09" version="1">
+MALYDNPHWLLSHIRDSFISTDDTGMCEMVMVRDDIPKDMQSSGTLYAYPGAEDSDEEDL
+DAMADSYDIQMDMEFSHRQRTNTAQRLEKLDLERKKASKVKHIKWENNPTSITLEQQKEL
+FKGKDFRNNRQNIQRKSLFAEQLEKCPELPQNPFVEYARFDGNSQIGAPVRKYRIFMCML
+PKDQRSYPLHVVVLANAKVQQVIGLICYKYISEHPDHHIHEDISKYGLYITEDDGEVDWD
+FPCLDPTEVIAKFEFSTLGLVEMKPSDKARHSTVKTITEQKKENEKLEKIQEEVAKDLAK
+MQGHTTAMEAPLYQLYRVYIINKVRAKTEIHLGISGEKIEIDPVITGKRASRFWHRQRAV
+SYHMDNVAWCELTENKGSKTTFTLVYTPHTSITLDGLNVSISHTQSLRRSASFKNHDFEA
+ESTTAEEIVRKINHILELRSSSSRKEYIAQKERKASRRKSFHFQQKKNAGQKRQARRDCY
+IPFRDLGFSNLVDFLKSIVDTVTLYTNYAGELCVRHVDTEKSAHITSLVSRQSKPKKPTA
+KKKASYRPPYNYSPNYKSSSYSYKPSTNAYRKPFVDYYSKPTNNYNGMYNKYKPSNNYST
+NTTSNYNSRSVNGYPTSTANNNNSKPMNHAASNSSNYNKPTNGISSMTAQSRRDPLNVLK
+MVLKGMKNAKITTGIRKVDVLTKVKFELCQAGRDPDDVYSMQHLNDHLDELWEEIELKED
+YIYFRDELAIIKEQQRRSLNEKRPPLTTNRYDESPMIYNRQQEKQKKSFVKETPVHETVE
+AMDTTSQFSRYCQEPKSTPMKAHSVSDDLINEKIRFRLQKLIEKHPEGIWCSELPNEYKK
+EYSIDLDYKDLGYTCIAEFVAKLPDIFEITKPLDNRLMVLNAKRPKHDFPNNFQKKTLAS
+MYNIEVAKEPEPVPLQLTSNTSKTFFPSGVMNLNETVEIISVLTLSTIEHIEVNVSEIFT
+PSFFWVTLRENKKKFKAMMTELDDFYKYQDLDLYRIPQVVLQAGLNIACIYAKIWHRGII
+KKIKPDGFVVILFYDYGTVSTYHPSDVYFLHTRFSILPAQAIASGLCNTKPIGSIEWPRK
+SYEAFYDKVWNIPMIAVVSSINEENNTMMITLTDTSDDENDLHINDWMVENNFAEWGKMI
+KEVPFHTLTAFDEINIKPRSNAYKETKISSTKSSNLTTSSSNLNDTGSFHTASSVATLVQ
+ETIGYVKQTHTITQAILLNTPLNKLDDVSNSNVQDLRNERIENKAFGNSGFVSLETFNTP
+ISSDSNDNLSTIKTHLSVKNNYSEIDSIRNEYRPTSQSSRNESDYELPVSHINQNGDARS
+VNRNSKNEVEQELPIRKAKENGYAESHHDTNVCIKRRPSIHSASSYTSEYSQSNNAELNG
+ADEYNDDKLKEGEDGTIFFERVIENGYKNPTINIKYPSNFAALHANKFENNADSTRVNSI
+ENIKPCDEIDEGYLTGSRRSRTNGSLSLTSNACDTTFVTSPMYIELQLSEKCDNKLIHIF
+HLENNGWVCMNEVVEAFTNYLDERVLMKLIQVLQLDIMFRDLTRKTDPYLFHQLDESRLK
+APRDEENKIVSDFVLTLITCKAMIQLLIDLDFIETKMVKEAIPLMRTLSNNTEDIIYKHF
+NNKILFDALNVTVQYGVFKRTQKISAK
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

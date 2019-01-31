@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-04-01" modified="2016-06-08" version="10">
+<accession>A0A0C3CJL8</accession>
+<name>A0A0C3CJL8_9PEZI</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Carbohydrate esterase family 3 protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">OIDMADRAFT_63052</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Oidiodendron maius Zn</name>
+<dbReference type="NCBI Taxonomy" id="913774"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Pezizomycotina</taxon>
+<taxon>Leotiomycetes</taxon>
+<taxon>Leotiomycetes incertae sedis</taxon>
+<taxon>Myxotrichaceae</taxon>
+<taxon>mitosporic Myxotrichaceae</taxon>
+<taxon>Oidiodendron</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="submission" date="2014-04" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<consortium name="DOE Joint Genome Institute"/>
+<person name="Kuo A."/>
+<person name="Martino E."/>
+<person name="Perotto S."/>
+<person name="Kohler A."/>
+<person name="Nagy L.G."/>
+<person name="Floudas D."/>
+<person name="Copeland A."/>
+<person name="Barry K.W."/>
+<person name="Cichocki N."/>
+<person name="Veneault-Fourrey C."/>
+<person name="LaButti K."/>
+<person name="Lindquist E.A."/>
+<person name="Lipzen A."/>
+<person name="Lundell T."/>
+<person name="Morin E."/>
+<person name="Murat C."/>
+<person name="Sun H."/>
+<person name="Tunlid A."/>
+<person name="Henrissat B."/>
+<person name="Grigoriev I.V."/>
+<person name="Hibbett D.S."/>
+<person name="Martin F."/>
+<person name="Nordberg H.P."/>
+<person name="Cantor M.N."/>
+<person name="Hua S.X."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2 3">Zn</strain>
+</source>
+</reference>
+<reference key="2" evidence="3">
+<citation type="submission" date="2015-01" db="EMBL/GenBank/DDBJ databases">
+<title>Evolutionary Origins and Diversification of the Mycorrhizal Mutualists.</title>
+<authorList>
+<consortium name="DOE Joint Genome Institute"/>
+<consortium name="Mycorrhizal Genomics Consortium"/>
+<person name="Kohler A."/>
+<person name="Kuo A."/>
+<person name="Nagy L.G."/>
+<person name="Floudas D."/>
+<person name="Copeland A."/>
+<person name="Barry K.W."/>
+<person name="Cichocki N."/>
+<person name="Veneault-Fourrey C."/>
+<person name="LaButti K."/>
+<person name="Lindquist E.A."/>
+<person name="Lipzen A."/>
+<person name="Lundell T."/>
+<person name="Morin E."/>
+<person name="Murat C."/>
+<person name="Riley R."/>
+<person name="Ohm R."/>
+<person name="Sun H."/>
+<person name="Tunlid A."/>
+<person name="Henrissat B."/>
+<person name="Grigoriev I.V."/>
+<person name="Hibbett D.S."/>
+<person name="Martin F."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3">Zn</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="KN832879">
+<property type="protein sequence ID" value="KIM99108.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EnsemblFungi" id="KIM99108">
+<property type="protein sequence ID" value="KIM99108"/>
+<property type="gene ID" value="OIDMADRAFT_63052"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000054321">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="6"/>
+<end position="185"/>
+</location>
+</feature>
+<feature type="non-terminal residue" evidence="2">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<feature type="non-terminal residue" evidence="2">
+<location>
+<position position="206"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KIM99108.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000054321"/>
+</source>
+</evidence>
+<sequence length="206" mass="21893" checksum="C82B92DFAF44907E" modified="2015-04-01" version="1" fragment="single">
+LRKVPLGDSITEITCWRTIVWDDLAAAGVTNEIQFVGSMTDNTQNCVGNTTWDMHHEGHS
+GYLAIDIANSYLTGWLAAANPDIVMFMLGTNDVVQGHSTSDIITAYTKMVQEMRASNANM
+KIIVDLVIPLGIGYTAQITALNAAIPAWVQSQSTSNSPISIADCNTGFPTSDLRDGIHPN
+AAGDAIIASRIYPVLLGVINSALGGS
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

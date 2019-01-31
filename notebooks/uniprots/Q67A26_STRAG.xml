@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2004-10-11" modified="2016-06-08" version="41">
+<accession>Q67A26</accession>
+<name>Q67A26_STRAG</name>
+<protein>
+<submittedName>
+<fullName evidence="2">NeuA</fullName>
+</submittedName>
+</protein>
+<organism evidence="2">
+<name type="scientific">Streptococcus agalactiae</name>
+<dbReference type="NCBI Taxonomy" id="1311"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Bacilli</taxon>
+<taxon>Lactobacillales</taxon>
+<taxon>Streptococcaceae</taxon>
+<taxon>Streptococcus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2">
+<citation type="journal article" date="2005" name="Infect. Immun." volume="73" first="3096" last="3103">
+<title>Structural and genetic diversity of group B streptococcus capsular polysaccharides.</title>
+<authorList>
+<person name="Cieslewicz M.J."/>
+<person name="Chaffin D."/>
+<person name="Glusman G."/>
+<person name="Kasper D."/>
+<person name="Madan A."/>
+<person name="Rodrigues S."/>
+<person name="Fahey J."/>
+<person name="Wessels M.R."/>
+<person name="Rubens C.E."/>
+</authorList>
+<dbReference type="PubMed" id="15845517"/>
+<dbReference type="DOI" id="10.1128/IAI.73.5.3096-3103.2005"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="2">7271</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="AY376403">
+<property type="protein sequence ID" value="AAR25959.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_000802348.1">
+<property type="nucleotide sequence ID" value="NZ_LDAN01000016.1"/>
+</dbReference>
+<dbReference type="STRING" id="211110.gbs1233"/>
+<dbReference type="eggNOG" id="ENOG4105F0R">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG1083">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.90.550.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003329">
+<property type="entry name" value="Cytidylyl_trans"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029044">
+<property type="entry name" value="Nucleotide-diphossugar_trans"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02348">
+<property type="entry name" value="CTP_transf_3"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF53448">
+<property type="entry name" value="SSF53448"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="267"/>
+<end position="396"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AAR25959.1"/>
+</source>
+</evidence>
+<sequence length="413" mass="47636" checksum="9084AD6A57DD12A8" modified="2004-10-11" version="1">
+MKPICIIPARSGSKGLPDKNMLFLAGKPMIFHTIDAAIESGMFDKKDIFVSTDSELYREI
+CLERGISVVMRKPELSTDQATSYDMLKDFLSDYEDNQEFVLLQVTSPLRKSWHIKEAMEY
+YSSHDVDNVVSFSEVEKHPGLFTTLSDKGYAIDMVGADKGYRRQDLQPLYYPNGAIFISN
+KETYLREKSFFTSRTYAYQMAKEFSLDVDTRDDFIHVIGHLFFDYAIREKENKVFYKEGY
+SRLFNREASKIILGDSKTISISLENYHNYSQGGVTLATMLENLPNFLTANVTEAFVSIGV
+NDLITGYSVEEIFSNFQKLYSLLAENKIKMRLTTIAYTLFRETVNNADIEKINQWLTEFC
+YQNQIPLLDINRFLSKDGNLNYHLTSDGLHFTQEANDLLQSQYQLFVDEVKTL
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

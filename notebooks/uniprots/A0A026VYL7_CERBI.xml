@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-07-09" modified="2016-06-08" version="7">
+<accession>A0A026VYL7</accession>
+<name>A0A026VYL7_CERBI</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Tudor domain-containing protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">X777_12940</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Cerapachys biroi</name>
+<name type="common">Ant</name>
+<dbReference type="NCBI Taxonomy" id="443821"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Hymenoptera</taxon>
+<taxon>Apocrita</taxon>
+<taxon>Aculeata</taxon>
+<taxon>Vespoidea</taxon>
+<taxon>Formicidae</taxon>
+<taxon>Cerapachyinae</taxon>
+<taxon>Cerapachyini</taxon>
+<taxon>Cerapachys</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="journal article" date="2014" name="Curr. Biol." volume="24" first="451" last="458">
+<title>The genome of the clonal raider ant Cerapachys biroi.</title>
+<authorList>
+<person name="Oxley P.R."/>
+<person name="Ji L."/>
+<person name="Fetter-Pruneda I."/>
+<person name="McKenzie S.K."/>
+<person name="Li C."/>
+<person name="Hu H."/>
+<person name="Zhang G."/>
+<person name="Kronauer D.J."/>
+</authorList>
+<dbReference type="PubMed" id="24508170"/>
+<dbReference type="DOI" id="10.1016/j.cub.2014.01.018"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<dbReference type="EMBL" id="KK107566">
+<property type="protein sequence ID" value="EZA48898.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_011347440.1">
+<property type="nucleotide sequence ID" value="XM_011349138.1"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_011347441.1">
+<property type="nucleotide sequence ID" value="XM_011349139.1"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_011347442.1">
+<property type="nucleotide sequence ID" value="XM_011349140.1"/>
+</dbReference>
+<dbReference type="GeneID" id="105285145"/>
+<dbReference type="Proteomes" id="UP000053097">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="8"/>
+<end position="81"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="315"/>
+<end position="389"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EZA48898.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000053097"/>
+</source>
+</evidence>
+<sequence length="1420" mass="162771" checksum="F53779284BD736DA" modified="2014-07-09" version="1">
+MMSSENSKTDEIRKIILSLLLSRKGLTPLAILDRDYYDMERKRIPWRKFGYNDLAAFLRS
+MPEHFEVEWHNGCHYVRGIASEKSKHVSSLVARQKSDLKTRNFRSRLYRPVSRYVPHMQR
+QRIMLPVEQLHLLVQYIRNYPDGVSMQTIMMVLQQQQPQVVLSVHDVRQQLRELSHQLTM
+DGEMVYPVLPNNVPQEAKKPPMPAPQTRPEYQDYQAGAICVAGDEDWVEEYNSDVYLLAG
+YESSNHAAQLQMTSERLAANFMQNMSHKQMCEQQNDYDNNRNADDYFTANIKHSNVVLPK
+DEAPSDRYSDISTLISDRAKSRLEQLIAKHPEGIPCAKLPDMYLSEYKVRLNYTELGFSS
+VREYVSYLPNIFYMTRVNATDDFVLYSANKKPTIPDQQTGSQTAESVGTRTNFAKRYEEQ
+VRIKCSDEAIPTDVSPSITSKFAPDDVMNHNDRIDFISVTDLQCNEHLEVYIAEVFTPSF
+FWIHLRESNKPLRLIMDNLQLFYESNSEAYAIPKVALSKGLNCACIFARRWHRAVIKSVK
+PDFRVTVMFYDYGTLKTYQSEEVYYLHKQFSHLPAQAIPCGLYNVKPCVGDRWKKSVTEQ
+FMDKVSDYLLDATVMSIDPMHNSMMVILTDTSEEEHVNINDWLVNQNLARQGKLGNAVDM
+TNLMKYVLNFTGQLPLYCYAEENLVADYCSKTTSTKQMHEVPLVSPGQTLLQCCNPEQQP
+TVKPPPGFLPLDLPNIYSLGNTSSFGKAETTTNPFLDDPLPDTIPTDGVKQIFAQTWKEN
+TQLQVKLSRFFYNLLECLSIKRDTFDSYIKQQRQVNSILKNMEKEFILAADDGFVSPRPM
+APTSNLVNEMTPRPISKTSFHPNDEFAAAAPSSLPNLFSGNSSTSQAALFNTAHYDVNNF
+AFKNWRQPVDEFNPRVQVPSQAAVNPMPAIPSNYGAATGSTFQKTDHENKHVPSMKPRRT
+NTVSSSSSSGFFSTKSDVYNDVPKETNPFRLSMIGEIQIPDTPSEQRVNNNYNPNTAYLS
+TINLQNYTTNVEPANVYPKTDAFLYACDVKNGNYTPRIVYEAGPVMYNVQKKEANANMTQ
+SAYCNNFDNSQVSSFLLKQCNEEFPSQLVTNMAALSLNSAHLDEGYVTRPSTTHNPQDSP
+SMINDEPKYYQTDVNSPSVLAQPWKKVEIPERWVNSQFENNAFTPTYNNNAIKVSTLVDV
+SSHQTYDNKKEPTPREHLDNINESCQDNDDEKLMDKYRYMERTSYDGSDVCTQENLSKTT
+ASDFFFKNCFVFQKIDTVENVTFIFHIEEQGWILTHEFVTTFTNYKFCSSLMAAISAINI
+TALFREINRAEYPAEFLQLDKYSLDVPRDEEGRITDINLISLQTALLLLHKLKIVSREEM
+DNAFKKTEFLDGSILPNMWSLILSYRQLRQRIEEYINSRV
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

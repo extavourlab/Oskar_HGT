@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2008-07-01" modified="2016-06-08" version="48">
+<accession>B2TJJ9</accession>
+<accession>U4P236</accession>
+<name>B2TJJ9_CLOBB</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Lipolytic enzyme, G-D-S-L</fullName>
+</submittedName>
+<submittedName>
+<fullName evidence="3">Putative esterase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="2">CLL_A0451</name>
+<name type="ORF" evidence="3">CB17B0398</name>
+</gene>
+<organism evidence="2 4">
+<name type="scientific">Clostridium botulinum (strain Eklund 17B / Type B)</name>
+<dbReference type="NCBI Taxonomy" id="935198"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Clostridia</taxon>
+<taxon>Clostridiales</taxon>
+<taxon>Clostridiaceae</taxon>
+<taxon>Clostridium</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="4">
+<citation type="submission" date="2008-04" db="EMBL/GenBank/DDBJ databases">
+<title>Complete sequence of Clostridium botulinum strain Eklund.</title>
+<authorList>
+<person name="Brinkac L.M."/>
+<person name="Brown J.L."/>
+<person name="Bruce D."/>
+<person name="Detter C."/>
+<person name="Munk C."/>
+<person name="Smith L.A."/>
+<person name="Smith T.J."/>
+<person name="Sutton G."/>
+<person name="Brettin T.S."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="4">Eklund 17B / Type B</strain>
+</source>
+</reference>
+<reference key="2" evidence="2">
+<citation type="submission" date="2009-06" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<consortium name="US DOE Joint Genome Institute (JGI-PGF)"/>
+<person name="Lucas S."/>
+<person name="Copeland A."/>
+<person name="Lapidus A."/>
+<person name="Glavina del Rio T."/>
+<person name="Dalin E."/>
+<person name="Tice H."/>
+<person name="Bruce D."/>
+<person name="Goodwin L."/>
+<person name="Pitluck S."/>
+<person name="Kyrpides N."/>
+<person name="Mavromatis K."/>
+<person name="Ivanova N."/>
+<person name="Saunders E."/>
+<person name="Brettin T."/>
+<person name="Detter J.C."/>
+<person name="Han C."/>
+<person name="Larimer F."/>
+<person name="Land M."/>
+<person name="Hauser L."/>
+<person name="Markowitz V."/>
+<person name="Cheng J.-F."/>
+<person name="Hugenholtz P."/>
+<person name="Woyke T."/>
+<person name="Wu D."/>
+<person name="Gronow S."/>
+<person name="Klenk H.-P."/>
+<person name="Eisen J.A."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="2">Eklund 17B</strain>
+</source>
+</reference>
+<reference key="3" evidence="2">
+<citation type="submission" date="2009-08" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Shrivastava S."/>
+<person name="Brinkac L.M."/>
+<person name="Dodson R.J."/>
+<person name="Harkins D.M."/>
+<person name="Durkin A.S."/>
+<person name="Sutton G."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="2">Eklund 17B</strain>
+</source>
+</reference>
+<reference key="4" evidence="3">
+<citation type="journal article" date="2013" name="BMC Genomics" volume="14" first="333" last="333">
+<title>Genomic and physiological variability within Group II (non-proteolytic) Clostridium botulinum.</title>
+<authorList>
+<person name="Stringer S.C."/>
+<person name="Carter A.T."/>
+<person name="Webb M.D."/>
+<person name="Wachnicka E."/>
+<person name="Crossman L.C."/>
+<person name="Sebaihia M."/>
+<person name="Peck M.W."/>
+</authorList>
+<dbReference type="PubMed" id="23679073"/>
+<dbReference type="DOI" id="10.1186/1471-2164-14-333"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="3">B str. Eklund 17B</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="CP001056">
+<property type="protein sequence ID" value="ACD24117.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="FR745875">
+<property type="protein sequence ID" value="CDH89389.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_012424896.1">
+<property type="nucleotide sequence ID" value="NC_010674.1"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="ACD24117">
+<property type="protein sequence ID" value="ACD24117"/>
+<property type="gene ID" value="CLL_A0451"/>
+</dbReference>
+<dbReference type="GeneID" id="19964920"/>
+<dbReference type="KEGG" id="cbk:CLL_A0451"/>
+<dbReference type="PATRIC" id="19393757">
+<property type="gene designation" value="VBICloBot123574_0399"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000094444"/>
+<dbReference type="OMA" id="INGDMIS"/>
+<dbReference type="OrthoDB" id="EOG6PGK4B"/>
+<dbReference type="BioCyc" id="CBOT508765:GJ4H-449-MONOMER"/>
+<dbReference type="Proteomes" id="UP000001195">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="9"/>
+<end position="177"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="ACD24117.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="CDH89389.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000001195"/>
+</source>
+</evidence>
+<sequence length="187" mass="21168" checksum="A8BC3B7E9E790C55" modified="2008-07-01" version="1">
+MNKHIDIIFLGDSLTFGYGVPKKDSWVYKIQNNLNLTSLNKGCNGDTSTGMLTRYYEDVI
+KYTPNKIFIMCGSNDLLLGRTVKSIIENIELMIKEALAINSNVIIGIPPSIIGNMANKLF
+SSSPLYIYAEENLTKLKEEIINLTINYNLSYIDFYSITLNNSDIYLDGIHLNSFGNDIMY
+KNAISYF
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

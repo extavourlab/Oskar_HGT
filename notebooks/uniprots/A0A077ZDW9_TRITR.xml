@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-10-29" modified="2016-05-11" version="7">
+<accession>A0A077ZDW9</accession>
+<name>A0A077ZDW9_TRITR</name>
+<protein>
+<submittedName>
+<fullName evidence="2">TUDOR domain containing protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">TTRE_0000688601</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Trichuris trichiura</name>
+<name type="common">Whipworm</name>
+<name type="synonym">Trichocephalus trichiurus</name>
+<dbReference type="NCBI Taxonomy" id="36087"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Nematoda</taxon>
+<taxon>Enoplea</taxon>
+<taxon>Dorylaimia</taxon>
+<taxon>Trichocephalida</taxon>
+<taxon>Trichuridae</taxon>
+<taxon>Trichuris</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="submission" date="2014-03" db="EMBL/GenBank/DDBJ databases">
+<title>The whipworm genome and dual-species transcriptomics of an intimate host-pathogen interaction.</title>
+<authorList>
+<person name="Foth B.J."/>
+<person name="Tsai I.J."/>
+<person name="Reid A.J."/>
+<person name="Bancroft A.J."/>
+<person name="Nichol S."/>
+<person name="Tracey A."/>
+<person name="Holroyd N."/>
+<person name="Cotton J.A."/>
+<person name="Stanley E.J."/>
+<person name="Zarowiecki M."/>
+<person name="Liu J.Z."/>
+<person name="Huckvale T."/>
+<person name="Cooper P.J."/>
+<person name="Grencis R.K."/>
+<person name="Berriman M."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<dbReference type="EMBL" id="HG806369">
+<property type="protein sequence ID" value="CDW58567.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000030665">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="2"/>
+<end position="78"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="CDW58567.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000030665"/>
+</source>
+</evidence>
+<sequence length="619" mass="68375" checksum="C1F895960A6DF816" modified="2014-10-29" version="1">
+MERDTLKKELHSVLITFKSGASGHDFVKAYQDCLGRPLDLARLGYKNIDALMASFPDVVE
+RYNGVFVYKAKTLAATKNLQNLIAHQKDSSKNKNKFGLLRPVEGRPVLLNAPARTPTMSP
+AAKVCRPVDRVPIMKPFNEAPASFPNRYPTSSGNISAREKTGAPMIKQSASTSYLVGSRA
+ATPANLVPTYRKPEAKANMASAPRPSLLWTTSAFPGDVAPAYWNCPGRYRWQAPVTTAVT
+AEVRPERNYAAGAAVDENESQKRINCQPKQNNITVPFANSSSANRSADVPFSKAQQATKA
+ERDDSIAAEEKHVRHMAKEKTELCENSTSSLSSVSPEPEEENSFVTCTADEICITHRVIS
+QQNMNNLVNENFSSGDEDGNKVSFRSLSALSNHEDVVNSCGVVEEPGFENGVIIEVVKFL
+DADEITFVRADSESISHFKTLFNEMRFAYGGDESKPLESLNVGEYVAVKCERHWLRGIVC
+AILELESALVFYSDVGELHKVAFTKIYPLLPRFAEVQQMAFVGKMLGVPRNLWNGSIESL
+GDWFKKMTLKRQVVAVAPEHDWSSRVGTDPVNLQLYMKERGINVNLNSMVKDKCMEMVGS
+TTITFAVLNRVGKALEDGK
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

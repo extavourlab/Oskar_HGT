@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2012-04-18" modified="2016-05-11" version="13">
+<accession>H3AA13</accession>
+<name>H3AA13_LATCH</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3">TDRD5</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Latimeria chalumnae</name>
+<name type="common">West Indian ocean coelacanth</name>
+<dbReference type="NCBI Taxonomy" id="7897"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Coelacanthiformes</taxon>
+<taxon>Coelacanthidae</taxon>
+<taxon>Latimeria</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="journal article" date="1997" name="Genetics" volume="146" first="995" last="1010">
+<title>The complete DNA sequence of the mitochondrial genome of a 'living fossil,' the coelacanth (Latimeria chalumnae).</title>
+<authorList>
+<person name="Zardoya R."/>
+<person name="Meyer A."/>
+</authorList>
+<dbReference type="PubMed" id="9215903"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<reference key="2" evidence="3">
+<citation type="submission" date="2012-02" db="UniProtKB">
+<authorList>
+<consortium name="Ensembl"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<comment type="caution">
+<text evidence="3">The sequence shown here is derived from an Ensembl automatic analysis pipeline and should be considered as preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="AFYH01138814">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AFYH01138815">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AFYH01138816">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENSLACT00000006537">
+<property type="protein sequence ID" value="ENSLACP00000006484"/>
+<property type="gene ID" value="ENSLACG00000005749"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00730000110295"/>
+<dbReference type="Proteomes" id="UP000008672">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="7"/>
+<end position="80"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="125"/>
+<end position="200"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="282"/>
+<end position="357"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="511"/>
+<end position="570"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Ensembl" id="ENSLACP00000006484"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000008672"/>
+</source>
+</evidence>
+<sequence length="643" mass="72140" checksum="384F8BC8AFA773EC" modified="2012-04-18" version="1">
+MSSQEKLLKSLKKDIRSLLTSAKEGLTPLQLQREYSSMIGSPLPLCTLGYRTIMELILDM
+PDVVNVQYCADGSVVLTAIADETTKGIAGLVARQKSNPKAKSAMRRARVEFVSSQPFLPR
+RGKVPPVLPASAKCELKELLSDSPVLLSNFERAFLKRFGRAFQFMRYGFYSMLEVLSTIS
+DIVEVQQTRAGSLLKLRTCLAPDKTKKVNLLKNFLLLSHSPKKTSAGPSLQTALVSAEPN
+EVSLTPNQPNLDASRDSAEPKLLKLEEEIKAKLVEKGVGGTLDPELKEKSLNKLAAQNPR
+GLLVSRLLTEFKAVFEEEVQLKELGFQSTVELVEALSDILWVLQPEGCQDCLVFDRETLQ
+KKNLEKGSPSWGFSSSPDLSIQNYYSGWDFPLQDYTAKTENPWEQINTELKVITKPLEQS
+LQVKELLLCPVTSESEIPPDAMREGFLCRVPEMEENTLVGVFVENVLSPIQFYVRFYSKD
+TSEMLEDLMIELRRCYSNEEVSERYLMPESYICPGQVCCVKAPGDVWWYRVIINQVLSKQ
+EVEVYYADFGDLGTVDQSCLKFLKCCYSKLPAQAVPSSLAYIKPVKGVWSTAAITWFQTL
+CGSKPLVGLVSEYVKGVLYLFLCDTSTDDDVYIHDILIKQEHA
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

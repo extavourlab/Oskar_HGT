@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-11-26" modified="2016-05-11" version="12">
+<accession>A0A096P139</accession>
+<name>A0A096P139_PAPAN</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3">TDRD7</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Papio anubis</name>
+<name type="common">Olive baboon</name>
+<dbReference type="NCBI Taxonomy" id="9555"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Cercopithecidae</taxon>
+<taxon>Cercopithecinae</taxon>
+<taxon>Papio</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="4">
+<citation type="submission" date="2012-03" db="EMBL/GenBank/DDBJ databases">
+<title>Whole Genome Assembly of Papio anubis.</title>
+<authorList>
+<person name="Liu Y.L."/>
+<person name="Abraham K.A."/>
+<person name="Akbar H.A."/>
+<person name="Ali S.A."/>
+<person name="Anosike U.A."/>
+<person name="Aqrawi P.A."/>
+<person name="Arias F.A."/>
+<person name="Attaway T.A."/>
+<person name="Awwad R.A."/>
+<person name="Babu C.B."/>
+<person name="Bandaranaike D.B."/>
+<person name="Battles P.B."/>
+<person name="Bell A.B."/>
+<person name="Beltran B.B."/>
+<person name="Berhane-Mersha D.B."/>
+<person name="Bess C.B."/>
+<person name="Bickham C.B."/>
+<person name="Bolden T.B."/>
+<person name="Carter K.C."/>
+<person name="Chau D.C."/>
+<person name="Chavez A.C."/>
+<person name="Clerc-Blankenburg K.C."/>
+<person name="Coyle M.C."/>
+<person name="Dao M.D."/>
+<person name="Davila M.L.D."/>
+<person name="Davy-Carroll L.D."/>
+<person name="Denson S.D."/>
+<person name="Dinh H.D."/>
+<person name="Fernandez S.F."/>
+<person name="Fernando P.F."/>
+<person name="Forbes L.F."/>
+<person name="Francis C.F."/>
+<person name="Francisco L.F."/>
+<person name="Fu Q.F."/>
+<person name="Garcia-Iii R.G."/>
+<person name="Garrett T.G."/>
+<person name="Gross S.G."/>
+<person name="Gubbala S.G."/>
+<person name="Hirani K.H."/>
+<person name="Hogues M.H."/>
+<person name="Hollins B.H."/>
+<person name="Jackson L.J."/>
+<person name="Javaid M.J."/>
+<person name="Jhangiani S.J."/>
+<person name="Johnson A.J."/>
+<person name="Johnson B.J."/>
+<person name="Jones J.J."/>
+<person name="Joshi V.J."/>
+<person name="Kalu J.K."/>
+<person name="Khan N.K."/>
+<person name="Korchina V.K."/>
+<person name="Kovar C.K."/>
+<person name="Lago L.L."/>
+<person name="Lara F.L."/>
+<person name="Le T.-K.L."/>
+<person name="Lee S.L."/>
+<person name="Legall-Iii F.L."/>
+<person name="Lemon S.L."/>
+<person name="Liu J.L."/>
+<person name="Liu Y.-S.L."/>
+<person name="Liyanage D.L."/>
+<person name="Lopez J.L."/>
+<person name="Lorensuhewa L.L."/>
+<person name="Mata R.M."/>
+<person name="Mathew T.M."/>
+<person name="Mercado C.M."/>
+<person name="Mercado I.M."/>
+<person name="Morales K.M."/>
+<person name="Morgan M.M."/>
+<person name="Munidasa M.M."/>
+<person name="Ngo D.N."/>
+<person name="Nguyen L.N."/>
+<person name="Nguyen T.N."/>
+<person name="Nguyen N.N."/>
+<person name="Obregon M.O."/>
+<person name="Okwuonu G.O."/>
+<person name="Ongeri F.O."/>
+<person name="Onwere C.O."/>
+<person name="Osifeso I.O."/>
+<person name="Parra A.P."/>
+<person name="Patil S.P."/>
+<person name="Perez A.P."/>
+<person name="Perez Y.P."/>
+<person name="Pham C.P."/>
+<person name="Pu L.-L.P."/>
+<person name="Puazo M.P."/>
+<person name="Quiroz J.Q."/>
+<person name="Rouhana J.R."/>
+<person name="Ruiz M.R."/>
+<person name="Ruiz S.-J.R."/>
+<person name="Saada N.S."/>
+<person name="Santibanez J.S."/>
+<person name="Scheel M.S."/>
+<person name="Schneider B.S."/>
+<person name="Simmons D.S."/>
+<person name="Sisson I.S."/>
+<person name="Tang L.-Y.T."/>
+<person name="Thornton R.T."/>
+<person name="Tisius J.T."/>
+<person name="Toledanes G.T."/>
+<person name="Trejos Z.T."/>
+<person name="Usmani K.U."/>
+<person name="Varghese R.V."/>
+<person name="Vattathil S.V."/>
+<person name="Vee V.V."/>
+<person name="Walker D.W."/>
+<person name="Weissenberger G.W."/>
+<person name="White C.W."/>
+<person name="Williams A.W."/>
+<person name="Woodworth J.W."/>
+<person name="Wright R.W."/>
+<person name="Zhu Y.Z."/>
+<person name="Han Y.H."/>
+<person name="Newsham I.N."/>
+<person name="Nazareth L.N."/>
+<person name="Worley K.W."/>
+<person name="Muzny D.M."/>
+<person name="Rogers J.R."/>
+<person name="Gibbs R.G."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<reference key="2" evidence="3">
+<citation type="submission" date="2014-10" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<consortium name="Ensembl"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<comment type="caution">
+<text evidence="3">The sequence shown here is derived from an Ensembl automatic analysis pipeline and should be considered as preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="AHZZ01073451">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AHZZ01073452">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AHZZ01073453">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_003911521.1">
+<property type="nucleotide sequence ID" value="XM_003911472.2"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENSPANT00000027009">
+<property type="protein sequence ID" value="ENSPANP00000019064"/>
+<property type="gene ID" value="ENSPANG00000025594"/>
+</dbReference>
+<dbReference type="GeneID" id="101025446"/>
+<dbReference type="CTD" id="23424"/>
+<dbReference type="GeneTree" id="ENSGT00830000128334"/>
+<dbReference type="OMA" id="VISTEEN"/>
+<dbReference type="Proteomes" id="UP000028761">
+<property type="component" value="Chromosome 15"/>
+</dbReference>
+<dbReference type="GO" id="GO:0035770">
+<property type="term" value="C:ribonucleoprotein granule"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003729">
+<property type="term" value="F:mRNA binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0070306">
+<property type="term" value="P:lens fiber cell differentiation"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0002089">
+<property type="term" value="P:lens morphogenesis in camera-type eye"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010608">
+<property type="term" value="P:posttranscriptional regulation of gene expression"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="3"/>
+<end position="76"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="233"/>
+<end position="302"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="337"/>
+<end position="406"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="513"/>
+<end position="570"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="703"/>
+<end position="760"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Ensembl" id="ENSPANP00000019064"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000028761"/>
+</source>
+</evidence>
+<sequence length="1098" mass="123627" checksum="882DC6F6D17765A4" modified="2014-11-26" version="1">
+MLEGDLVSKMLRAVLQSHKNGVALPRLQGEYRSLTGDWIPFKQLGFPTLEAYLRSVPAVV
+RIETSRSGEITCYAMACTETARIAQLVARQRSSKRKTGRQVNCQMRVKKTMPFFLEGKPK
+ATLRQPGFASNFSVGKKPNPAPLRDKGNSAGVKPEAEMSPYMLHTTLRNEALKDTPVQRH
+VTMSTNNRFSPKASLQPPLQIHLSRTSTKEMSDNLNQTVEKPNVTPPASYTYKMDEVQNR
+IKEILNKHNNGIWISKLPHFYKELYKEDLNQGILQQFEHWPHICTVEKPCSGGQDLLLYP
+AKRKQLLRSELDTEKVPPSPLPAPKQTPPLKGCPTVVAGDFKEKVAELLVKYTSGLWASA
+LPKAFEEMYKVKFPEDALKNLSSLSDVCTIDYISGNPQKAILYAKLPLPTDKIQTDAGQA
+HGDHDIKAMVEQEYLQIEENIAESANTFMEDITVPPLMIPTEASPSVLVVELSNTNEVVI
+RYVGKDYSAAQELMEDEMKEYYSKNPKVIPVQAVNVGQLLAVNAEEDAWLRAQVISTEEN
+KIKVCYVDYGFSENVEKNKAYKLNPKFCSLSFQATKCKLAGLEVLSDDPDLVKVVESLTC
+GKIFAVEILDKADIPLVVLYDTSGEDDININATCLKAICDKSLEVHLQVDAMYTNVKVTN
+ICSDGTLYCQVPCKGLNKLNDLLHKIEDYFHCKHMTSECFVSLPFCGKICLFHCKGKWLR
+VEITNVHSSRALDVQFLDSGTVTSVKVSELREIPPRFLQEMIAIPPQAIKCCLADLPQSI
+GMWTPDAVLWLRDSVLNCSDCSIKVTKVDETRGIAHVYLFTPKNFPDPHRSINRQITNAD
+LWKHQKDVFLSAISSGAGSPDSKNGNMPMLGNAGENFRKNLTDVIKKSMVDHTSSFSTEE
+LPPPVHLSKPGEHMDVYVPVACHPGYFVIQPWQEIHKLEVLMEEMILYYSVSEERHIAVE
+KDQVYAAKVENKWHRVLLKGILTNGLVSVYELDYGKHELVNIRKVQPLVDMFRKLPFQAV
+TAQLAGVKCNQWSEEASMVFRNHVEKKPLVALVQTVIENANPWDRKVVVYLVDTSLPDTD
+IWIHDFMSEYLIELSKVN
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

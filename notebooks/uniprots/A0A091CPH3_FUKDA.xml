@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-11-26" modified="2016-05-11" version="7">
+<accession>A0A091CPH3</accession>
+<name>A0A091CPH3_FUKDA</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Tudor domain-containing protein 7</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">H920_19558</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Fukomys damarensis</name>
+<name type="common">Damaraland mole rat</name>
+<name type="synonym">Cryptomys damarensis</name>
+<dbReference type="NCBI Taxonomy" id="885580"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Hystricognathi</taxon>
+<taxon>Bathyergidae</taxon>
+<taxon>Fukomys</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="submission" date="2013-11" db="EMBL/GenBank/DDBJ databases">
+<title>The Damaraland mole rat (Fukomys damarensis) genome and evolution of African mole rats.</title>
+<authorList>
+<person name="Gladyshev V.N."/>
+<person name="Fang X."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<tissue evidence="3">Liver</tissue>
+</source>
+</reference>
+<dbReference type="EMBL" id="KN125198">
+<property type="protein sequence ID" value="KFO19095.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000028990">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="3"/>
+<end position="76"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="233"/>
+<end position="302"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="337"/>
+<end position="406"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="523"/>
+<end position="586"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="719"/>
+<end position="776"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KFO19095.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000028990"/>
+</source>
+</evidence>
+<sequence length="1114" mass="125501" checksum="A5E15F7547B654A9" modified="2014-11-26" version="1">
+MLEADLVSKMLRAVLQSHKNGIALPRLQGEYRSLTGDWIPFKQLGYCTLEDYLRSVPAVV
+RIDTSRSGEITCHAVACTETARIAQLVACQRSSKRKIGRQVNCQMRVKKTMPFFLEGKPK
+ATLRQPELASAFSISKRPNPTLLRDKGNSLGIKFDAETPPYPVHRTIGNEVFRDIPMQRH
+VAMSTNNRFSSKAPHPPPFQMHLLRTCTKEVSDNLNKTVEKTNVMPPASHTYKMDEVQNR
+IKEMLNKHNNGIWISKLPHFYKELYKEELNQGILQQFEHWPHICTVEKPCSGGQDLLLYP
+AKRKQPMRSELDTEKMLPSPLPASKQISPSKGSLATMPGEIKEKVAELLVKYSSGLWASA
+LPKAFEDAYKVKFPEDVLKNLASLSDVCSVDYISGNSQKAILYAKLPLPFDKSLKDERQA
+QENDTKSAIEQKYLQIEKNVAESTETFLEDIMVPPLVIPSEASPSVLVVELSNTNEVVIR
+QVSLSNLLECRYVGKDYSAAQELMEDEMKEFYSKNPMVAPVQAVLVGQLLAVNAEEDAWL
+RAQVISAEENKMKASSSDFVCYVDYGFSEVIEKSKAYKLNPKFWSLSFQATKCKLAGLEV
+LSDDPNLVKVVESLTCGKIFAVEILDKADIPLVVLYDTSGDDDININATCLKAMHDKSLE
+VHLQVDATYINVKVTNICSDGTLFCQVPCKGLNKLKDLLHKIEDYFHCKHMTSEYFISLP
+FCGKICLFHCKGKWLRVEITNVHSSRALDVQFLDSGSATSVKVSELREIPPRFLQEVISI
+PPQAVKCCLADLPQSVGMWTPDAVLWLRDSVLNCSDCSIKVTKMDETKGIAYVHLFTPTN
+FPDPHRSINHQITNADLWKHQKDVFLSAVSSTVSSPSSRNGNMPVASSTGENFKKSIPKV
+IKKPMVDPTSSFSMGELPPPLHLSKPGQYMDVYVPVACHPGYFVIQPWQEIHKLEVLMEE
+MILYYSVSEECHISLEKDQVYAAKVENKWHRVLLKGILTNGLVSVYELDYGKHELINIRK
+VQPLVDMFRKLPFQAVTAQLAGVKCSQWSEEASMVFRSHVEKKAVVALVQEVIENPNPWD
+RKVVVYLADTSVPDTDTWIHDFMLQYPVESSKVN
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

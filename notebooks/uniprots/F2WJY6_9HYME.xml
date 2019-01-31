@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2011-05-31" modified="2016-05-11" version="17">
+<accession>F2WJY6</accession>
+<name>F2WJY6_9HYME</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Oskar</fullName>
+</submittedName>
+</protein>
+<organism evidence="2">
+<name type="scientific">Messor pergandei</name>
+<dbReference type="NCBI Taxonomy" id="458889"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Hymenoptera</taxon>
+<taxon>Apocrita</taxon>
+<taxon>Aculeata</taxon>
+<taxon>Vespoidea</taxon>
+<taxon>Formicidae</taxon>
+<taxon>Myrmicinae</taxon>
+<taxon>Messor</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2">
+<citation type="journal article" date="2011" name="PLoS Genet." volume="7" first="E1002029" last="E1002029">
+<title>The Phylogenetic Origin of oskar Coincided with the Origin of Maternally Provisioned Germ Plasm and Pole Cells at the Base of the Holometabola.</title>
+<authorList>
+<person name="Lynch J.A."/>
+<person name="Ozuak O."/>
+<person name="Khila A."/>
+<person name="Abouheif E."/>
+<person name="Desplan C."/>
+<person name="Roth S."/>
+</authorList>
+<dbReference type="PubMed" id="21552321"/>
+<dbReference type="DOI" id="10.1371/journal.pgen.1002029"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<dbReference type="EMBL" id="HM992570">
+<property type="protein sequence ID" value="ADM07366.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="F2WJY6"/>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR033447">
+<property type="entry name" value="OSK"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF17182">
+<property type="entry name" value="OSK"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="1"/>
+<end position="74"/>
+</location>
+</feature>
+<feature type="non-terminal residue" evidence="2">
+<location>
+<position position="352"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="ADM07366.1"/>
+</source>
+</evidence>
+<sequence length="352" mass="41185" checksum="DC998967F7B23E98" modified="2011-05-31" version="1" fragment="single">
+MDETVALVKSCIISKKGGVPIEDLNDEFQYVVGESIPYRRLGFSSLRAFLQTIDGLEMTW
+NDFGEQILKINDSKISHIDRLIRKQKVDYSKTRNKYYKQFMRNNGNVRNNNDERRERNRL
+IYNTNRANRRNQDFAHRRNQNFFGTNGVYKNIDFLYGEEENHHPIVIETNEKKNHNYIYE
+PVANGRQLLGDDFFLQLAIRNLHLPIWRYKDSLALHCGLCISGQTISDCTQTLKNISTIS
+NRVVILLGSVDVYNNATCDEMIYDMTELLQVLRSKFHLSNTAITICTLPPLANLSIYAYK
+KQSMALLSFNNWIRSLADDPSKRDPSFVNYPIIDLYKKFCLDETYTTDYDWF
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

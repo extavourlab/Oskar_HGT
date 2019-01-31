@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2001-06-01" modified="2016-06-08" version="51">
+<accession>Q9ALW4</accession>
+<name>Q9ALW4_STRAG</name>
+<protein>
+<submittedName>
+<fullName evidence="2">CMP-N-acetylneuraminic acid synthetase NeuA</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="2">neuA</name>
+</gene>
+<organism evidence="2">
+<name type="scientific">Streptococcus agalactiae</name>
+<dbReference type="NCBI Taxonomy" id="1311"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Bacilli</taxon>
+<taxon>Lactobacillales</taxon>
+<taxon>Streptococcaceae</taxon>
+<taxon>Streptococcus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2">
+<citation type="journal article" date="2002" name="Mol. Microbiol." volume="45" first="109" last="122">
+<title>CpsK of Streptococcus agalactiae exhibits alpha2,3-sialyltransferase activity in Haemophilus ducreyi.</title>
+<authorList>
+<person name="Chaffin D.O."/>
+<person name="McKinnon K."/>
+<person name="Rubens C.E."/>
+</authorList>
+<dbReference type="PubMed" id="12100552"/>
+<dbReference type="DOI" id="10.1046/j.1365-2958.2002.02988.x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="2">NT6</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="AF337958">
+<property type="protein sequence ID" value="AAK11673.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q9ALW4"/>
+<dbReference type="STRING" id="211110.gbs1233"/>
+<dbReference type="eggNOG" id="ENOG4105F0R">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG1083">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.90.550.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003329">
+<property type="entry name" value="Cytidylyl_trans"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029044">
+<property type="entry name" value="Nucleotide-diphossugar_trans"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02348">
+<property type="entry name" value="CTP_transf_3"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF53448">
+<property type="entry name" value="SSF53448"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="266"/>
+<end position="396"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AAK11673.1"/>
+</source>
+</evidence>
+<sequence length="413" mass="47627" checksum="0F4DA99B9ED97D37" modified="2001-06-01" version="1">
+MKPICIIPARSGSKGLPDKNMLFLAGKPMIFHTIDAAIESGMFDKKDIFVSTDSELYREI
+CLERGISVVMRKPELSTDQATSYDMLKDFLSDYEDNQEFVLLQVTSPLRKSWHIKEAMEY
+YSSHDVDNVVSFSEVEKHPSLFTTLSDKGYAIDMVGADKGYRRQDLQPLYYPNGAIFISN
+KETYLREKSFFTSRTYAYQMAKEFSLDVDTRDDFIHVIGHLFFDYAIREKENKVFYKEGY
+SRLFNREASKIILGDSKTISTSLESYHNYSQGGVTLATMLENLPNFLTANVTEAFVSIGV
+NDLITGYSVEEIFSNFQKLYSLLAENKIKMRLTTIAYTLFRETVNNADIEKINQWLTEFC
+YQNQIPLLDINRFLSKDGNLNYHLTSDGLHFTQEANDLLQSQYQLFVDEVKTL
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

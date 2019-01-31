@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2012-05-16" modified="2015-12-09" version="12">
+<accession>H9JY66</accession>
+<name>H9JY66_BOMMO</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="2">LOC101739099</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Bombyx mori</name>
+<name type="common">Silk moth</name>
+<dbReference type="NCBI Taxonomy" id="7091"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Lepidoptera</taxon>
+<taxon>Glossata</taxon>
+<taxon>Ditrysia</taxon>
+<taxon>Bombycoidea</taxon>
+<taxon>Bombycidae</taxon>
+<taxon>Bombycinae</taxon>
+<taxon>Bombyx</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2">
+<citation type="journal article" date="2008" name="Insect Biochem. Mol. Biol." volume="38" first="1036" last="1045">
+<title>The genome of a lepidopteran model insect, the silkworm Bombyx mori.</title>
+<authorList>
+<consortium name="International Silkworm Genome Consortium"/>
+</authorList>
+<dbReference type="PubMed" id="19121390"/>
+<dbReference type="DOI" id="10.1016/j.ibmb.2008.11.004"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2">p50T</strain>
+</source>
+</reference>
+<reference key="2" evidence="2">
+<citation type="submission" date="2015-06" db="UniProtKB">
+<authorList>
+<consortium name="EnsemblMetazoa"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+<source>
+<strain evidence="2">p50T (Dazao)</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="BABH01042366">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BABH01042367">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BABH01042368">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BABH01042369">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="STRING" id="7091.BGIBMGA014484-TA"/>
+<dbReference type="EnsemblMetazoa" id="BGIBMGA014484-RA">
+<property type="protein sequence ID" value="BGIBMGA014484-TA"/>
+<property type="gene ID" value="BGIBMGA014484"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410J67C">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4111HJ1">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="InParanoid" id="H9JY66"/>
+<dbReference type="OrthoDB" id="EOG7BS4C2"/>
+<dbReference type="Proteomes" id="UP000005204">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="4"/>
+<end position="78"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EnsemblMetazoa" id="BGIBMGA014484-TA"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000005204"/>
+</source>
+</evidence>
+<sequence length="412" mass="46037" checksum="EF45DB5434869975" modified="2012-05-16" version="1">
+MEEDLQKLKGVLRSLVVSSPTQVDLRSLLRDYRSMMGEHIPIAKYGYRDLLTFLKERCSD
+CFLFGGVSSNPVLTLIVPDNLKHIDKFVRKQKAPTNVRVKGKRQSVPMNDLIVNTFIAKK
+ETEMNPNTKPKAAATKNVENTVEKKMVELKLTDNTDSADSTPQHRVSTQDSTICSQDALR
+SFMRKRIPAYDCESSWGYESTGRTSSQDNDSGRQSSSRQCVNKLVNISDGLDCVPVAFYK
+WIGIFLVQDIFTNRLTSRPYLQRPYSTRGDMTYNANSKQFLDAVLYTQSHSDSRDRYKKE
+LNFTRYGYTSIISLVYALESIHASRPHDTGDWLLRPGRVPVGLSAVHGERAAARAVRGAR
+GAARGAGGGGVLPFALLAHPARGPLQHCHGEHHGRNEVSAAQLTARDILIVY
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

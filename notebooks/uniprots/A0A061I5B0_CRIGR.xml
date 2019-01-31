@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-09-03" modified="2015-12-09" version="6">
+<accession>A0A061I5B0</accession>
+<name>A0A061I5B0_CRIGR</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Tudor domain-containing protein 5</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">H671_5g14992</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Cricetulus griseus</name>
+<name type="common">Chinese hamster</name>
+<name type="synonym">Cricetulus barabensis griseus</name>
+<dbReference type="NCBI Taxonomy" id="10029"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Sciurognathi</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Cricetidae</taxon>
+<taxon>Cricetinae</taxon>
+<taxon>Cricetulus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="4">
+<citation type="journal article" date="2013" name="Nat. Biotechnol." volume="31" first="694" last="695">
+<title>Chinese hamster genome sequenced from sorted chromosomes.</title>
+<authorList>
+<person name="Brinkrolf K."/>
+<person name="Rupp O."/>
+<person name="Laux H."/>
+<person name="Kollin F."/>
+<person name="Ernst W."/>
+<person name="Linke B."/>
+<person name="Kofler R."/>
+<person name="Romand S."/>
+<person name="Hesse F."/>
+<person name="Budach W.E."/>
+<person name="Galosy S."/>
+<person name="Muller D."/>
+<person name="Noll T."/>
+<person name="Wienberg J."/>
+<person name="Jostock T."/>
+<person name="Leonard M."/>
+<person name="Grillari J."/>
+<person name="Tauch A."/>
+<person name="Goesmann A."/>
+<person name="Helk B."/>
+<person name="Mott J.E."/>
+<person name="Puhler A."/>
+<person name="Borth N."/>
+</authorList>
+<dbReference type="PubMed" id="23929341"/>
+<dbReference type="DOI" id="10.1038/nbt.2645"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="4">17A/GY</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="KE680436">
+<property type="protein sequence ID" value="ERE72468.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000030759">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="7"/>
+<end position="80"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="122"/>
+<end position="197"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="243"/>
+<end position="318"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="450"/>
+<end position="509"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="ERE72468.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000030759"/>
+</source>
+</evidence>
+<sequence length="927" mass="104055" checksum="21C4B10224847260" modified="2014-09-03" version="1">
+MSEQERIQDCLRKEIRSLLISTKDGLTPQQLEKEYLLMVGNHLPLRILGYRSTMELVLDM
+PDVVSVCPCGDGTVILKAIPDESTKGIASLVAKQRRSHKVRNSMQKGRTSVCSGRVPYRG
+RVPPILPAVVKSELKDLLALSPVLLSDFEKAFAKRFGRSFQYMQYGFLSMFEVLNAASDV
+ISVEQTRAGSLLTLKKTASEEKQRGWPAGKIFAQPFRMKQQGSYSTGFPVTKTRFSQPTS
+SVEPPKPVLNMEKMPTFSAVETSRLNHTEKLNQLIFKEQLSPKQLGFLNVTELVGALSDI
+LRVEFSEEKQDLLVFDADLKPVPPAVKKTTWDCPLKNHKEPEQKIYKKPNLVVKPLQLQV
+EANKSQLSLSVANHDIPPDAVCAKKLCRLPPLDTSTLVGVFVEYIISPSQFYIRIYSRDS
+SELLEDMMIEMRRCYSNQLVSDRYIMPEYFIQPGHLCCVRISEDKWWYRVIIHRIIGKKE
+VEVFYPDFGNIGTVQKSSLRFLKCCYTKLPAQAIPCSLAWVRPAEGFRDLNPLALYTSSS
+GMAGDTVLTELGPSQQQCFDEDREPRQQSKEDINDEKSSSHLKSGDSKLSSLKTCKSCED
+DPQWSILQPKDAKDENEDEIPTGMPCLESVTIGDDIWDENWLPLQAKMGKGGSPASHLFT
+SSLVGKKQYQSHGDMPQKDWCFSTSKDIWDDSWQPLGLANDMKGGIQTPERPITQEKNTG
+TTRIRKQEDLQYPLDSSTLPKLEEFYISLIKSQQSAEGSQPEPESIQTQPKHNLLSSVVP
+SSAPAGLDSPETHSGSVESSPGSLKNEDFSSSHADTVVKDKSQGAIDQLSFILSPQHQIS
+QKLYIPRSTATAVLGAAARLATSRSLLHWYPSVKGWKLEGQEAEKDEMKYRPKCIAVSVS
+LSMYFDFSTILQWYCLIDSPPICLTKF
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

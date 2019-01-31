@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2011-11-16" modified="2016-05-11" version="22">
+<accession>G3Q8U3</accession>
+<name>G3Q8U3_GASAC</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3">TDRD7 (1 to many)</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Gasterosteus aculeatus</name>
+<name type="common">Three-spined stickleback</name>
+<dbReference type="NCBI Taxonomy" id="69293"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Actinopterygii</taxon>
+<taxon>Neopterygii</taxon>
+<taxon>Teleostei</taxon>
+<taxon>Neoteleostei</taxon>
+<taxon>Acanthomorphata</taxon>
+<taxon>Eupercaria</taxon>
+<taxon>Perciformes</taxon>
+<taxon>Cottioidei</taxon>
+<taxon>Gasterosteales</taxon>
+<taxon>Gasterosteidae</taxon>
+<taxon>Gasterosteus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="submission" date="2006-01" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Lindblad-Toh K."/>
+<person name="Mauceli E."/>
+<person name="Grabherr M."/>
+<person name="Chang J.L."/>
+<person name="Lander E.S."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<reference key="2" evidence="3">
+<citation type="submission" date="2011-09" db="UniProtKB">
+<authorList>
+<consortium name="Ensembl"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<comment type="caution">
+<text evidence="3">The sequence shown here is derived from an Ensembl automatic analysis pipeline and should be considered as preliminary data.</text>
+</comment>
+<dbReference type="STRING" id="69293.ENSGACP00000026307"/>
+<dbReference type="Ensembl" id="ENSGACT00000026358">
+<property type="protein sequence ID" value="ENSGACP00000026307"/>
+<property type="gene ID" value="ENSGACG00000019913"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410IPR1">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410XST4">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00830000128334"/>
+<dbReference type="InParanoid" id="G3Q8U3"/>
+<dbReference type="OMA" id="KCSQWSE"/>
+<dbReference type="OrthoDB" id="EOG7BW0HQ"/>
+<dbReference type="Proteomes" id="UP000007635">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="3"/>
+<end position="76"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="228"/>
+<end position="298"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="331"/>
+<end position="400"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="506"/>
+<end position="564"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="698"/>
+<end position="755"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Ensembl" id="ENSGACP00000026307"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000007635"/>
+</source>
+</evidence>
+<sequence length="1093" mass="122716" checksum="96657F26D245B8CB" modified="2011-11-16" version="1">
+MVDVEGVKKMLRAVLLANKGGVSLSRLQLEYKELTGEQIPHKQMGHNHLDALLASMPSVV
+RTERTRSGEIDVYAWRAHQTAHLAKVVARQRSSKKTGRPHLVNTQMRVKPAAPLVLNAKP
+QTSLRQPNHRGTHPTGKRTNLPRSTQLNTVSSLKVAGESFRCLLSFTITWNELKNLIIYY
+CRGHLEVLSEKRMTLPSRFQKEVHAHLSRNPQPTGHESLNSGKEKPYNPQEVQRRISEIL
+GKYSNGFWVSKLPQIYRELYKQDMPTEAFKDLETWIHICTVEKTCSSNPSELLLYPAKEQ
+TSTSSPPPILNPNSPSAPGPNSSPPSSPGTLSPDLKLKLEELLVKYSNGLWAHALPKLFQ
+DTYKKFKFPGHVLENLHLLSGICTIDYPMPDNPKRAILYKGSSSSGGGGGGEGIENENCN
+RRMSSASEEELRVREELGRRLSNHAVPSLQIPKEEYPSVLVVEATNTNGVIIRYIGEGYS
+LAQESMEDEMRVFYDVNQRRPTPLSSPSSGQLVAVRAEEEEEILRGQVCEVMADRIKVHY
+VDHGFSEVISKTKVLELHERFFKLPFQATKCKLAGLEPFCQEPAVLKRFETMASGKILLA
+EIIDRGQPPVAVLYDTSQDDDVNINSACMKALQDKTLTSTLQVNSAYMNVTVRSVCSDGT
+IYCQLPSRGLAKLNETLENIEAYFHSQFQVTSEFLVSNPFCGKVCVARYKGKWSRVEITN
+LHGRRVLDILFIDVGVQASVEVFELREIPPQFLRDLMAIPPQAVKCCLADLAVSVGSWTP
+DAVQWLREKVLNITDCSMKVAKVDETKRCTYVHLFTDKNFHDAARSLNHQMGQSDLFRQQ
+PDVFLTSHRIASSGDHSNGSLTSTSSPGRPHLRRALSGPRGGEGGNTTSTSPPELPPLLE
+FPPAGNNIDVYVSVACHPGHFVLQPWRDMYRLVVLMGEMILYYSKTEEKPLAHIEKNHIY
+AAKIENSWHRVLVKGVLSNGSVSVYELDYGKHELVSCTQLRPLIKEFRQLPFQGITAQLA
+GLKPRQWSEEASIVFRNHVEKKPLVAQLEAVQEATNPWDRKLVVFLVDTSQEERDIWVHD
+IMAEFADEPTNKP
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

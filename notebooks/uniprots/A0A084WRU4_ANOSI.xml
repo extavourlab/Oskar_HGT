@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-10-29" modified="2016-06-08" version="8">
+<accession>A0A084WRU4</accession>
+<name>A0A084WRU4_ANOSI</name>
+<protein>
+<submittedName>
+<fullName evidence="2">AGAP003545-PA-like protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">ZHAS_00021239</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Anopheles sinensis</name>
+<name type="common">Mosquito</name>
+<dbReference type="NCBI Taxonomy" id="74873"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Diptera</taxon>
+<taxon>Nematocera</taxon>
+<taxon>Culicoidea</taxon>
+<taxon>Culicidae</taxon>
+<taxon>Anophelinae</taxon>
+<taxon>Anopheles</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="journal article" date="2014" name="BMC Genomics" volume="15" first="42" last="42">
+<title>Genome sequence of Anopheles sinensis provides insight into genetics basis of mosquito competence for malaria parasites.</title>
+<authorList>
+<person name="Zhou D."/>
+<person name="Zhang D."/>
+<person name="Ding G."/>
+<person name="Shi L."/>
+<person name="Hou Q."/>
+<person name="Ye Y."/>
+<person name="Xu Y."/>
+<person name="Zhou H."/>
+<person name="Xiong C."/>
+<person name="Li S."/>
+<person name="Yu J."/>
+<person name="Hong S."/>
+<person name="Yu X."/>
+<person name="Zou P."/>
+<person name="Chen C."/>
+<person name="Chang X."/>
+<person name="Wang W."/>
+<person name="Lv Y."/>
+<person name="Sun Y."/>
+<person name="Ma L."/>
+<person name="Shen B."/>
+<person name="Zhu C."/>
+</authorList>
+<dbReference type="PubMed" id="24438588"/>
+<dbReference type="DOI" id="10.1186/1471-2164-15-42"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<dbReference type="EMBL" id="KE525408">
+<property type="protein sequence ID" value="KFB52938.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000030765">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR033447">
+<property type="entry name" value="OSK"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF17182">
+<property type="entry name" value="OSK"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="OSK" evidence="1">
+<location>
+<begin position="204"/>
+<end position="391"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF17182"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KFB52938.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000030765"/>
+</source>
+</evidence>
+<sequence length="418" mass="47821" checksum="A2B7217EE68C386D" modified="2014-10-29" version="1">
+MVQPVYDMDSESDEELMNHLRSVIITRSKDGATIDEIIEDYLELTGKHLLDNFSCRNDLM
+IYLSMIDGIWYSTEGTHSVILWFCSTPKTKHLVEMIKRQRASKTAGHYMEREVVFANEEI
+DNYGNNLNPSAETGCGIKPSASAVFLTDNNNNWRMPSAAETRRSTRQFRYHRPQRRVRNR
+PYARPETNSYVPSWRRPRSCELDYCKYGPSFHQHQLLGDDFFLAIAKWELKYSFDPGHDI
+EMCGLCISGLTLSDAAMRIQVAPYIAGQVLINVGTVDLLHGRVMIDLIHDFELLMARFRD
+RNVEPIVTTLAPIANSGGRTIMAERLLKFNEYIRRTCPRYIDLWKYFVHADGSCRFELYQ
+PGPRTVTGSIRPHVLWNKLGRHHLMSVIGHEIAAQLTGSTSAQLLTPHYGLGSVGIVC
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

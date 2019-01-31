@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-11-26" modified="2016-06-08" version="9">
+<accession>A0A094AE00</accession>
+<name>A0A094AE00_9PEZI</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">V493_03380</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Pseudogymnoascus sp. VKM F-4281 (FW-2241)</name>
+<dbReference type="NCBI Taxonomy" id="1420906"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Pezizomycotina</taxon>
+<taxon>Leotiomycetes</taxon>
+<taxon>Leotiomycetes incertae sedis</taxon>
+<taxon>Pseudeurotiaceae</taxon>
+<taxon>Pseudogymnoascus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="submission" date="2014-07" db="EMBL/GenBank/DDBJ databases">
+<title>Population genomics of a fungus Geomyces pannorum provides evidence of horizontal gene transfer but not of sexual reproduction.</title>
+<authorList>
+<person name="Leushkin E.V."/>
+<person name="Logacheva M.D."/>
+<person name="Penin A.A."/>
+<person name="Sutormin R.A."/>
+<person name="Gerasimov E.S."/>
+<person name="Kochkina G.A."/>
+<person name="Ivanushkina N.E."/>
+<person name="Vasilenko O.V."/>
+<person name="Kondrashov A.S."/>
+<person name="Ozerskaya S.M."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="4">VKM F-4281 (FW-2241)</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="3">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="JPJV01001300">
+<property type="protein sequence ID" value="KFY27644.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EnsemblFungi" id="KFY27644">
+<property type="protein sequence ID" value="KFY27644"/>
+<property type="gene ID" value="V493_03380"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000029327">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<keyword id="KW-0732" evidence="1">Signal</keyword>
+<feature type="signal peptide" evidence="1">
+<location>
+<begin position="1"/>
+<end position="21"/>
+</location>
+</feature>
+<feature type="chain" id="PRO_5001896769" evidence="1">
+<location>
+<begin position="22"/>
+<end position="226"/>
+</location>
+</feature>
+<feature type="domain" description="SGNH_hydro" evidence="2">
+<location>
+<begin position="30"/>
+<end position="207"/>
+</location>
+</feature>
+<feature type="non-terminal residue" evidence="3">
+<location>
+<position position="226"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="SignalP"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KFY27644.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000029327"/>
+</source>
+</evidence>
+<sequence length="226" mass="23826" checksum="95441A356C1E2C7E" modified="2014-11-26" version="1" fragment="single">
+MHVPSISSLFAAAALAGLATAQAKIKIMPMGDSITEITCWRSTLWSDLQTDGVTDSFEFV
+GSMTNNPQNCQGSSGWDMHHEGHSGYMAVDIAKNNLAGWLAAAKPDVVMFMLGTNDITQG
+KSTDEIITAYTTMVELMRSSNPNMKIIVDLLIPIAFSDNVAPLNAAIPGWASDLSTSASP
+ITIADCATGFTTADLRDQVHPNAAGDAKIAAAIHPVLLDVIKSFGG
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

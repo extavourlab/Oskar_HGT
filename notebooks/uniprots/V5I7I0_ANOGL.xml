@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-01-22" modified="2015-12-09" version="5">
+<accession>V5I7I0</accession>
+<name>V5I7I0_ANOGL</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Meiosis arrest female protein 1</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="2">LKAP</name>
+</gene>
+<organism evidence="2">
+<name type="scientific">Anoplophora glabripennis</name>
+<name type="common">Asian longhorn beetle</name>
+<name type="synonym">Anoplophora nobilis</name>
+<dbReference type="NCBI Taxonomy" id="217634"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Coleoptera</taxon>
+<taxon>Polyphaga</taxon>
+<taxon>Cucujiformia</taxon>
+<taxon>Chrysomeloidea</taxon>
+<taxon>Cerambycidae</taxon>
+<taxon>Lamiinae</taxon>
+<taxon>Lamiini</taxon>
+<taxon>Anoplophora</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2">
+<citation type="submission" date="2013-07" db="EMBL/GenBank/DDBJ databases">
+<title>Midgut Transcriptome Profiling of Anoplphora glabripennis, a Lignocellulose Degrading, Wood-Boring Cerambycid.</title>
+<authorList>
+<person name="Scully E.D."/>
+<person name="Hoover K."/>
+<person name="Carlson J.E."/>
+<person name="Tien M."/>
+<person name="Geib S.M."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<dbReference type="EMBL" id="GALX01006400">
+<property type="protein sequence ID" value="JAB62066.1"/>
+<property type="molecule type" value="Transcribed_RNA"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005777">
+<property type="term" value="C:peroxisome"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010468">
+<property type="term" value="P:regulation of gene expression"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024768">
+<property type="entry name" value="Marf1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR14379">
+<property type="entry name" value="PTHR14379"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="4"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="5"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="19"/>
+<end position="92"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="114"/>
+<end position="188"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="190"/>
+<end position="265"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="274"/>
+<end position="348"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="351"/>
+<end position="425"/>
+</location>
+</feature>
+<feature type="non-terminal residue" evidence="2">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<feature type="non-terminal residue" evidence="2">
+<location>
+<position position="523"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="JAB62066.1"/>
+</source>
+</evidence>
+<sequence length="523" mass="59714" checksum="71B34F8E45F2A417" modified="2014-01-22" version="1" fragment="single">
+QSRGWCELNTIQTPNIMMSLKLFGNKLIGLLKMHLGCMPLLSFQICYEQEYHEPLPVVES
+GVPLEHLIACVPNMEVNYVGPNKNIKVVKYNEMKNVESDEDAVLKTVPPSLAPNISLLCR
+ELVDLLKTMDRCQLLLSKFIPAYHHHFGRQCRVADYGYTKLLDLFESISHVVQIMGDGTR
+RVITLSHSAQMRRFTSDLLRVLKVQPSKQISITDFPSAYEKVMNKSFNAVEYGLCTFEDL
+LQEVPENTIVVSRNDEGINIAVPKREQTAEEIMRTKQFASEVIDLLRHSPYYTMLFNKFV
+PAYHHHFGHQCKVSHYGFTKLIELFEAIPDVVKIDELSDGERTVSLTLEQSLKILGSQIV
+QIIKASGQSAVPLDDVPRIYLREYGYPLKPQLYECDTITEVTQKLFEYVQLINGNAGSLL
+VAIDMDMIPNTLRVRSWALLLNPPHSKDVVTFRYEYQCRYNSNFSIEGLHQIGNVISISN
+DTNIISLTVLYILAAQIYHIIYNNGGSVLYNNLEKLYFETFGK
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

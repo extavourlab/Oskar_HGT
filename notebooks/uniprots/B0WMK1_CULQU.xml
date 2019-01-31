@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2008-04-08" modified="2016-03-16" version="38">
+<accession>B0WMK1</accession>
+<name>B0WMK1_CULQU</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Putative uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">CpipJ_CPIJ007981</name>
+</gene>
+<organism evidence="3">
+<name type="scientific">Culex quinquefasciatus</name>
+<name type="common">Southern house mosquito</name>
+<name type="synonym">Culex pungens</name>
+<dbReference type="NCBI Taxonomy" id="7176"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Diptera</taxon>
+<taxon>Nematocera</taxon>
+<taxon>Culicoidea</taxon>
+<taxon>Culicidae</taxon>
+<taxon>Culicinae</taxon>
+<taxon>Culicini</taxon>
+<taxon>Culex</taxon>
+<taxon>Culex</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="submission" date="2007-03" db="EMBL/GenBank/DDBJ databases">
+<title>Annotation of Culex pipiens quinquefasciatus.</title>
+<authorList>
+<consortium name="The Broad Institute Genome Sequencing Platform"/>
+<person name="Atkinson P.W."/>
+<person name="Hemingway J."/>
+<person name="Christensen B.M."/>
+<person name="Higgs S."/>
+<person name="Kodira C.D."/>
+<person name="Hannick L.I."/>
+<person name="Megy K."/>
+<person name="O'Leary S.B."/>
+<person name="Pearson M."/>
+<person name="Haas B.J."/>
+<person name="Mauceli E."/>
+<person name="Wortman J.R."/>
+<person name="Lee N.H."/>
+<person name="Guigo R."/>
+<person name="Stanke M."/>
+<person name="Alvarado L."/>
+<person name="Amedeo P."/>
+<person name="Antoine C.H."/>
+<person name="Arensburger P."/>
+<person name="Bidwell S.L."/>
+<person name="Crawford M."/>
+<person name="Camaro F."/>
+<person name="Devon K."/>
+<person name="Engels R."/>
+<person name="Hammond M."/>
+<person name="Howarth C."/>
+<person name="Koehrsen M."/>
+<person name="Lawson D."/>
+<person name="Montgomery P."/>
+<person name="Nene V."/>
+<person name="Nusbaum C."/>
+<person name="Puiu D."/>
+<person name="Romero-Severson J."/>
+<person name="Severson D.W."/>
+<person name="Shumway M."/>
+<person name="Sisk P."/>
+<person name="Stolte C."/>
+<person name="Zeng Q."/>
+<person name="Eisenstadt E."/>
+<person name="Fraser-Liggett C.M."/>
+<person name="Strausberg R."/>
+<person name="Galagan J."/>
+<person name="Birren B."/>
+<person name="Collins F.H."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3">JHB</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="DS231998">
+<property type="protein sequence ID" value="EDS31072.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_001849935.1">
+<property type="nucleotide sequence ID" value="XM_001849883.1"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="B0WMK1"/>
+<dbReference type="STRING" id="7176.CPIJ007981-PA"/>
+<dbReference type="EnsemblMetazoa" id="CPIJ007981-RA">
+<property type="protein sequence ID" value="CPIJ007981-PA"/>
+<property type="gene ID" value="CPIJ007981"/>
+</dbReference>
+<dbReference type="GeneID" id="6040553"/>
+<dbReference type="KEGG" id="cqu:CpipJ_CPIJ007981"/>
+<dbReference type="VectorBase" id="CPIJ007981">
+<property type="organism name" value="Culex quinquefasciatus"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410IPQW">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG41104YI">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000046089"/>
+<dbReference type="InParanoid" id="B0WMK1"/>
+<dbReference type="KO" id="K18405"/>
+<dbReference type="OMA" id="CEANDFE"/>
+<dbReference type="OrthoDB" id="EOG7H4DSP"/>
+<dbReference type="PhylomeDB" id="B0WMK1"/>
+<dbReference type="Proteomes" id="UP000002320">
+<property type="component" value="Partially assembled WGS sequence"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.160.20">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR014720">
+<property type="entry name" value="dsRBD_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="12"/>
+<end position="85"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EDS31072.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000002320"/>
+</source>
+</evidence>
+<sequence length="1042" mass="116427" checksum="21D32321EC685AE0" modified="2008-04-08" version="1">
+MANVSPKRFSEEAEAAVSVLRAIVTSKKGASTVHSVLADFRELEGGPLMYKKFGFPNADE
+FLKATGAFVVQSRMGESVVFAKHSAASAHIQKMVSAQRSTKTRKSGFAVLRQPQKRTGGS
+SWNPSAYSKMYPRVPYPAQKKYPQQQQYSSYQRNNVNPSPKQFFPPGSAKYSFNSQPKPL
+MSLKIAPPAQQSTPVNRPEANNNSSAAKNLNRATQGQGPLPNNDLRHRINNDRAPPPQQR
+QLSSLELKNRTNQHQQQDLQSPTHVINKDALQKTIYDALASNQAFNAPRSVNARLSTDVV
+RTSEPVKPFEASPNGVGQPRQEFSRPVRPAAASQQPLILAPPSPPVVPLPTLPGKKSLQE
+RLKINQQVDSVDLEKAAKVVAPQTSPPRAPELSQQTSVSSQPVTPPATNVVNAAKEPFQW
+NDPNATPVELLVQYAQHNGFCRPIYKYLRLKNQRFQCRVTVNGSTYSTYPADYANEFECQ
+FAAARTAIENIKRESERNNYSVCLWTDYEIAVKLYELLLNCPSGMFSKNIPDAFLEAHQS
+LLPDQWESEIMLARPRMFYKEEVSQASIYFAVAGENGSSESDGSITSEAKIMSVNLVELP
+WEKTYWDIYVTAPVSTVEVWARLVGPKHSDRMDALSTEIELEMMDLKNQQKPKSVKSGEF
+YLLLIMDCWHRIRVDEVDYESNTAMCFFIDTGDQETVALDTIYVCDSRYLELPAQSVCFT
+LDKLEDFGENPNAKPHLDNLICGKVSIGQILTTKEEYDKFDTIKIMLYDTSTDEDVNLNE
+ILLEHICADTPVPELQRNGVTTVTIVFVDDEGNVYCQLKDTAMVYIQKLINNLVENGALD
+NHHRGLYKTSGEHQLYLVRDEEDHKYYRAAKESKGAGSTVSVLYIDYGIRKTVQSVNLYR
+LQALSAALSRYPAQAIRTKLFDLPEMNEYLLSRLRALLKPGETAMVKVAAMSSVVPLVKV
+HMHYGENHILVCLNDSIRAEMELEINSEEVICDPRVAANDANSSFSSTASSARFDSVSDY
+SMSSTGVAELSQNFSGLSIEHD
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

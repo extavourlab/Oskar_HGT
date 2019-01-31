@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-10-16" modified="2015-12-09" version="13">
+<accession>T1J3I9</accession>
+<name>T1J3I9_STRMM</name>
+<protein>
+<submittedName>
+<fullName evidence="5">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<organism evidence="5 6">
+<name type="scientific">Strigamia maritima</name>
+<name type="common">European centipede</name>
+<name type="synonym">Geophilus maritimus</name>
+<dbReference type="NCBI Taxonomy" id="126957"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Myriapoda</taxon>
+<taxon>Chilopoda</taxon>
+<taxon>Pleurostigmophora</taxon>
+<taxon>Geophilomorpha</taxon>
+<taxon>Linotaeniidae</taxon>
+<taxon>Strigamia</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="6">
+<citation type="submission" date="2011-05" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Richards S.R."/>
+<person name="Qu J."/>
+<person name="Jiang H."/>
+<person name="Jhangiani S.N."/>
+<person name="Agravi P."/>
+<person name="Goodspeed R."/>
+<person name="Gross S."/>
+<person name="Mandapat C."/>
+<person name="Jackson L."/>
+<person name="Mathew T."/>
+<person name="Pu L."/>
+<person name="Thornton R."/>
+<person name="Saada N."/>
+<person name="Wilczek-Boney K.B."/>
+<person name="Lee S."/>
+<person name="Kovar C."/>
+<person name="Wu Y."/>
+<person name="Scherer S.E."/>
+<person name="Worley K.C."/>
+<person name="Muzny D.M."/>
+<person name="Gibbs R."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<reference key="2" evidence="5">
+<citation type="submission" date="2015-02" db="UniProtKB">
+<authorList>
+<consortium name="EnsemblMetazoa"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<comment type="similarity">
+<text evidence="1">Contains 1 BPTI/Kunitz inhibitor domain.</text>
+</comment>
+<dbReference type="EMBL" id="JH431827">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EnsemblMetazoa" id="SMAR008155-RA">
+<property type="protein sequence ID" value="SMAR008155-PA"/>
+<property type="gene ID" value="SMAR008155"/>
+</dbReference>
+<dbReference type="OMA" id="KWTHICT"/>
+<dbReference type="PhylomeDB" id="T1J3I9"/>
+<dbReference type="Proteomes" id="UP000014500">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004867">
+<property type="term" value="F:serine-type endopeptidase inhibitor activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="4.10.410.10">
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002223">
+<property type="entry name" value="Kunitz_BPTI"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR020901">
+<property type="entry name" value="Prtase_inh_Kunz-CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00014">
+<property type="entry name" value="Kunitz_BPTI"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00759">
+<property type="entry name" value="BASICPTASE"/>
+</dbReference>
+<dbReference type="SMART" id="SM00131">
+<property type="entry name" value="KU"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF57362">
+<property type="entry name" value="SSF57362"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00280">
+<property type="entry name" value="BPTI_KUNITZ_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50279">
+<property type="entry name" value="BPTI_KUNITZ_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="6">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="6">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="4">
+<location>
+<begin position="4"/>
+<end position="78"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="3">
+<location>
+<begin position="698"/>
+<end position="755"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="3">
+<location>
+<begin position="918"/>
+<end position="978"/>
+</location>
+</feature>
+<feature type="domain" description="BPTI/Kunitz inhibitor" evidence="2">
+<location>
+<begin position="1063"/>
+<end position="1113"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="RuleBase" id="RU000413"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50279"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="EnsemblMetazoa" id="SMAR008155-PA"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000014500"/>
+</source>
+</evidence>
+<sequence length="1124" mass="126686" checksum="A38F36EBEAAB61F1" modified="2013-10-16" version="1">
+MENDKLETEKLLRSVLQSCKNGVLLRQLEHDYRFITGDPIPFLKFGYSSLELYLRTIPTV
+VKLTNGPNGVTAEAVADKSTSHIAELVSRQLVTKSKAKSNKKPFANRNFRSCSRSSNVSF
+SAGSYSNKGNNTQSANYHSNRSTNNVQFSASNSNSHSTNNNDSYRKPQYEIAPRFLKEAT
+ARQTTARSTTSISPPPTRSVIMPNETATCKFVPLQTPAEPRNVKREVKLPKLTIPPAALL
+TTPSPTLTSPGAYFTTLPLKSPLLPTPPVPKQTRIPTPPIPKQPLLPTPSSIYNDRWQNL
+TSKCTENGNGPVRSEPPRLPIRDRLSSYTQMLEQYVNSNKLGLPIFTLIPLPEIRGYMAS
+VKIDDQSFSSYPIENLSPDQAREIAAEKAINALALLQNYKCGVVSDEIPSRYKEEYDQNL
+PDGWLKIILMRNNIHAETHNGRTILYPEKPKEVATDKDNGVGDSHFECLEVYLCHAVSTT
+SIFVRMDAFEVLGIQMEEECSNYKTNIATCDIIVGERYAAHFDGCWHRVTVMSLHTNKVL
+CKFIDNGDYDYVDSTSIQTLKPELLELEDQAVEFQLQGLEEYAEHPTSFLALQDECGKIF
+VAIKHRGNPKSIVLYDTSQDDENENINVKIKSKILEGDITPALPNTGIVCDKPVYISHVL
+SNGNIYVQIQNECYDFVEELLTSIRKNCDAIPSVTTENVRLGEANYIAKYDGEWYRARND
+GFDGDQMKVFFIDFGNSETVPIGNIKNLLPVDEILPKLPPLAFKCKLFGVPPSENLDWNQ
+AATHKLSELALDERVLLKVVIPATSETIPAVEIFKRLQPDNQLIAIKETLNLDMDLFWPK
+ITGCNSISPEPELNMNILKPPELPNVGCYMNVQVSLTASPWNFRCQLYDTFMSFEELTED
+MQKYYDKQENLVTMEAKSIKTGRFFACKHLEDKLWYRVQVKGYDATISVMSLYYIDFGDT
+VVATLNEIQPLINSFKTLPYQAIFCKLFGVSPTNKDWRPEDCVRFQQLVEKKMFVAEVCS
+KCTDDDMLTLGVKLIDTSCDEMDIDIGSLLVEEGRSASKHPYCDNPAKKGNCDGEIQRFY
+YDEKSHSCKKFIYTGCDGNENNFHTEAQCMEFCSENSSTGSSQR
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

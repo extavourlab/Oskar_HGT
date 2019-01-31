@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-01-09" modified="2016-05-11" version="7">
+<accession>K7CEI7</accession>
+<name>K7CEI7_PANTR</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Tudor domain containing 7</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3">TDRD7</name>
+</gene>
+<organism evidence="3">
+<name type="scientific">Pan troglodytes</name>
+<name type="common">Chimpanzee</name>
+<dbReference type="NCBI Taxonomy" id="9598"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+<taxon>Pan</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="submission" date="2012-10" db="EMBL/GenBank/DDBJ databases">
+<title>De novo assembly of the reference chimpanzee transcriptome from NextGen mRNA sequences.</title>
+<authorList>
+<person name="Maudhoo M.D."/>
+<person name="Meehan D.T."/>
+<person name="Norgren R.B.Jr."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<tissue evidence="3">Smooth vascular</tissue>
+</source>
+</reference>
+<dbReference type="EMBL" id="GABF01004818">
+<property type="protein sequence ID" value="JAA17327.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="STRING" id="9598.ENSPTRP00000046673"/>
+<dbReference type="PaxDb" id="K7CEI7"/>
+<dbReference type="eggNOG" id="ENOG410IPR1">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410XST4">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="3"/>
+<end position="76"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="233"/>
+<end position="302"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="337"/>
+<end position="406"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="513"/>
+<end position="570"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="703"/>
+<end position="760"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="JAA17327.1"/>
+</source>
+</evidence>
+<sequence length="1098" mass="123572" checksum="93889918EDB05C08" modified="2013-01-09" version="1">
+MLEGDLVSKMLRAVLQSHKNGVALPRLQGEYRSLTGDWIPFKQLGFPTLEAYLRSVPAVV
+RIETSRSGEITCYAMACTETARIAQLVARQRSSKRKTGRQVNCQMRVKKTMPFFLEGKPK
+ATLRQPGFASNFSVGKKPNPAPLRDKGNSAGVKPDAEMSPYMLHTTLGNEAFKDIPVQRH
+VTMSTNNRFSPKASLQPPLQMHLSRTSTKEMSDNLNQTVEKPNVMPPASYTYKMDEVQNR
+IKEILNKHNNGIWISKLPHFYKELYKEDLNQGILQQFEHWPHICTVEKPCSGGQDLLLYP
+AKRKQLLRSELDTEKVPLSPLPGPKQTPPLKGYPTVMAGDFKEKVADLLVKYTSGLWASA
+LPKAFEEMYKVKFPEDALKNLASLSDVCSIDYISGNPQKAILYAKLPLPTDKIQKDAGHA
+HGDNDIKAMVEQEYLQVEESIAESANTFMEDITVPPLMIPTEASPSVLVVELSNTNEVVI
+RYVGKDYSAAQELMEDEMKEYYSKNPKITPVQAVNVGQLLAVNAEEDAWLRAQVISTEEN
+KIKVCYVDYGFSENVEKSKAYKLNPKFCSLSFQATKCKLAGLEVLSDDPDLVKVVESLTC
+GKIFAVEILDKADIPLVVLYDTSGEDDININATCLKAICDKSLEVHLQVDAMYTNVKVTN
+ICSDGTLYCQVPCKGLNKLSDLLRKIEDYFHCKHMTSECFVSLPFCGKICLFHCKGKWLR
+VEITNVHSSRALDVQFLDSGTVTSVKVSELREIPPRFLQEMIAIPPQAIKCCLADLPQSI
+GMWTPDAVLWLRDSVLNCSDCSIKVTKVDETRGIAHVYLFTPKNFPDPHRSINRQITNAD
+LWKHQKDVFLSAISSGAGSPNSKNGNMPMSGNTGENFRKNLTDVIKKSMVDHTSAFSTEE
+LPPPVHLSKPGEHMDVYVPVACHPGYFVIQPWQEIHKLEVLMEEMILYYSVSEERHIAVE
+KDQVYAAKVENKWHRVLLKGILTNGLVSVYELDYGKHELVNIRKVQPLVDMFRKLPFQAV
+TAQLAGVKCNQWSEEASMVFRNHVEKKPLVALVQTVIENANPWDRKVVVYLVDTSLPDTD
+TWIHDFMSEYLIELSKVN
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

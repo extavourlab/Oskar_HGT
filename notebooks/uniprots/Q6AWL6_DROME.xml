@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2004-09-13" modified="2015-12-09" version="36">
+<accession>Q6AWL6</accession>
+<name>Q6AWL6_DROME</name>
+<protein>
+<submittedName>
+<fullName evidence="2">RE10852p</fullName>
+</submittedName>
+</protein>
+<organism evidence="2">
+<name type="scientific">Drosophila melanogaster</name>
+<name type="common">Fruit fly</name>
+<dbReference type="NCBI Taxonomy" id="7227"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Diptera</taxon>
+<taxon>Brachycera</taxon>
+<taxon>Muscomorpha</taxon>
+<taxon>Ephydroidea</taxon>
+<taxon>Drosophilidae</taxon>
+<taxon>Drosophila</taxon>
+<taxon>Sophophora</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2">
+<citation type="submission" date="2004-08" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Stapleton M."/>
+<person name="Carlson J."/>
+<person name="Chavez C."/>
+<person name="Frise E."/>
+<person name="George R."/>
+<person name="Pacleb J."/>
+<person name="Park S."/>
+<person name="Wan K."/>
+<person name="Yu C."/>
+<person name="Rubin G.M."/>
+<person name="Celniker S."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="2">Berkeley</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="BT015232">
+<property type="protein sequence ID" value="AAT94461.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="STRING" id="7227.FBpp0085592"/>
+<dbReference type="PaxDb" id="Q6AWL6"/>
+<dbReference type="PRIDE" id="Q6AWL6"/>
+<dbReference type="eggNOG" id="ENOG410IPQW">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG41104YI">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="Bgee" id="Q6AWL6"/>
+<dbReference type="ExpressionAtlas" id="Q6AWL6">
+<property type="expression patterns" value="differential"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="6"/>
+<end position="77"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="463"/>
+<end position="529"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AAT94461.1"/>
+</source>
+</evidence>
+<sequence length="965" mass="109503" checksum="F867AC5CD33C0CEB" modified="2004-09-13" version="1">
+MEKQEVLEYVAKVVRALITSAKPPVTLRSIVADYMEIEGEPIPFRRLGYSNDQELLKDSN
+QFNFHQSGNQVFITAKYNANTEHIVRMVRQQKTSKSTSLSKPTPIAQKPKPIAQKHTHGN
+KYHYQQRNKQPNHQPDQEIGRAAKCENQAIAEHKQDLTGIITQELFESFNNIQGPFSENL
+QVFNKNPEYITRRKKELKKEDDLDRGQITKEVAREKQKEKETRDRAVTETIFVTIENKKA
+PVMNGHGPRHVKVANGQDKHNDGKPPLRAILGNSASQRQQDTSTVYHSPESSFKRPRHPR
+VMYPGHQRTTGVSVNHRLKVTPQSDAPTPAVAPITPPASPEYAQTTTAAKATYKEDIHGG
+QGETGNVVTNPKVKVPLKFDPSLDPVSTLNFYCAANDFEKPAYNIFNKLRNLHCSVQIAG
+DVYSSYPQEFTDKETAYQRTAQIAIQRIMHAQSHQKLSACTFSDVEFIDGLYKELLKHPH
+GILGHKLEDWYGSTFRQHLPSHWYDLIVKSNKIRVEHGIDPRIILFANDPGSSEPDRTSI
+TTLPQMVLPWQSSEGGSHDWNMFISFCDSTKIVWARMIDQIANFEELTKHIGRQMESPHF
+RQKVSKPYAQEVYLVEMPDGWNRVRAISVDEETRSGRYHFIDFGDVAMFHSEDLFHCPPQ
+FLALPAQAVCLSMYALDKFEDHPHALQVLTKELDGQTVVAHVLTTEKQFLELGGSAQGVV
+ENGKRRACLVATLYDTSTAEDIHLNDLVAKRITKCTPAPSLSDEKKIGKTTPILVSHIND
+DGDLMVLLRNDDLKFVERSIAQTVADLGEQDRVSYSDLLHDRHIFVCDETVDGVKQWFRG
+RLVTRPLNPDEESFDVYYVDDGRQRKAHISNIYRLEANNRALATFPPQAIPVRLHDVPEI
+GGHMLHRLRGLIPWRAEALLKVVAMDGGKPLVNVFIREDPESMYMCVNIGLRLELEMASS
+LNNDI
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

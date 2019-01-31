@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-05-27" modified="2016-05-11" version="7">
+<accession>A0A0D7WDT3</accession>
+<name>A0A0D7WDT3_9FLAO</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Acylhydrolase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">PW52_02180</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Tamlana sedimentorum</name>
+<dbReference type="NCBI Taxonomy" id="1435349"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Bacteroidetes</taxon>
+<taxon>Flavobacteriia</taxon>
+<taxon>Flavobacteriales</taxon>
+<taxon>Flavobacteriaceae</taxon>
+<taxon>Tamlana</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="submission" date="2014-11" db="EMBL/GenBank/DDBJ databases">
+<title>Tamlana sedimentorum sp. nov., isolated from shallow sand sediments of the Sea of Japan.</title>
+<authorList>
+<person name="Romanenko L.A."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2 3">JCM 19808</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="JTDW01000001">
+<property type="protein sequence ID" value="KJD37310.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_052823354.1">
+<property type="nucleotide sequence ID" value="NZ_JTDW01000001.1"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="KJD37310">
+<property type="protein sequence ID" value="KJD37310"/>
+<property type="gene ID" value="PW52_02180"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000032578">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016787">
+<property type="term" value="F:hydrolase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-0378" evidence="2">Hydrolase</keyword>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="31"/>
+<end position="193"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KJD37310.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000032578"/>
+</source>
+</evidence>
+<sequence length="207" mass="23438" checksum="C444953B96B9D8BC" modified="2015-05-27" version="1">
+MPNEDWANLKKYRNANKVLLEASKKENMVVFMGNSITEKWVQFHPEFFQENNFIGRGISG
+QTTSQMLLRFKQDVINLKPKIVVIHAGTNDIAGNKGPISIEQIADNIFSMAELAKVYNIK
+VVLASVLPVSSYSWSPSIKPVEKINNLNRLIQTYAKANNLVYLDYYTKMVNNENGLIEVY
+GRDTVHPNVKGYAVMETLVLQALNNIN
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

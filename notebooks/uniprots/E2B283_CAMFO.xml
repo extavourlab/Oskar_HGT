@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2010-11-30" modified="2016-03-16" version="14">
+<accession>E2B283</accession>
+<name>E2B283_CAMFO</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Tudor domain-containing protein 7</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">EAG_02303</name>
+</gene>
+<organism evidence="4">
+<name type="scientific">Camponotus floridanus</name>
+<name type="common">Florida carpenter ant</name>
+<dbReference type="NCBI Taxonomy" id="104421"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Hymenoptera</taxon>
+<taxon>Apocrita</taxon>
+<taxon>Aculeata</taxon>
+<taxon>Vespoidea</taxon>
+<taxon>Formicidae</taxon>
+<taxon>Formicinae</taxon>
+<taxon>Camponotus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="journal article" date="2010" name="Science" volume="329" first="1068" last="1071">
+<title>Genomic comparison of the ants Camponotus floridanus and Harpegnathos saltator.</title>
+<authorList>
+<person name="Bonasio R."/>
+<person name="Zhang G."/>
+<person name="Ye C."/>
+<person name="Mutti N.S."/>
+<person name="Fang X."/>
+<person name="Qin N."/>
+<person name="Donahue G."/>
+<person name="Yang P."/>
+<person name="Li Q."/>
+<person name="Li C."/>
+<person name="Zhang P."/>
+<person name="Huang Z."/>
+<person name="Berger S.L."/>
+<person name="Reinberg D."/>
+<person name="Wang J."/>
+<person name="Liebig J."/>
+</authorList>
+<dbReference type="PubMed" id="20798317"/>
+<dbReference type="DOI" id="10.1126/science.1192428"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="4">C129</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="GL445067">
+<property type="protein sequence ID" value="EFN60209.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="InParanoid" id="E2B283"/>
+<dbReference type="Proteomes" id="UP000000311">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="2"/>
+<end position="73"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="350"/>
+<end position="417"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="701"/>
+<end position="760"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EFN60209.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000000311"/>
+</source>
+</evidence>
+<sequence length="1076" mass="122401" checksum="B214E48795442DD9" modified="2010-11-30" version="1">
+MDQDEVVKNLRSCLISSKGGIKLDNLRADYRTIAGEPLPFKKFGYSSVEDFIRNVPEVTV
+TRKNGELYVEATPSKSTAHLTKLISRQKARRKIRPQPKKWTPPRHTTKGFLSGSNKNNFN
+GFQPIKNNYVNSHGSFTKSTPGKSNLYTDFSRPILPLMETIVQCPLSINNEKSSFVPTTP
+PVSPVKRLTDNATNSNITILNQSVANCKTIEDLKCKVLNDKTAASPVINLKPKTVELKPS
+KLSERLKVSPLKSTPIMPSPLINSYNNGHTSLSIPSILNQLQTMSQQISDPRKDLQIYAD
+KLNLPSPVGAHTFHTYPEDAASEEEAEKIAARLALVNLTKLSSPEITTVDEKLVMKRILN
+IVTQHHSGVFMHLLPEYYCEQYKEALPHNWERIIEECVDINQEKSVGDLTILCRVLPTLK
+RSNSTPLKNAVENTFSLNEKIQLNPIGPAAPGKLIVPKMTTWQVYITCIISTVEIWVRLG
+ENNDNFVEMTKEMTKHYDKKKPTSMLSTECVIGDFYAIFEENYWRRVQCIDFDFETGLAT
+VFFIDEGYDEQYKPDMLHPLDKKFCSLPAQAIRVALEGLEEFRDYTQLVPEIENHLLVEN
+MFSAKVHGTNADEYGSYTKVTFYDISKEGKYIDVNQVLSDRILRDISIASKIQTGQLIEL
+YITHIDESGKIYAQLNSFMKSLVHNEALSQILLNNTTSLERETIHFTKVYFAKWDSQWYR
+ARVKDMPDKDKVTVFLFDIGKTVTISKRDLFTNETNALHYIPPQAIQIFLHHLDQSKYNG
+KLVARFCELVSDTDLLVARIIKISSSGIPIVEIFKRIGPSNMLASINTSLIYDNELLKTN
+EDGNNNIKLSKKRIERRNSRVLESIVKLNPPTISDVGQYFDVHVTLAAHPGHFIVQPLND
+ARELKMMMNELQRYCHEYDGPPIEIVGEGKLYAGKFREDWYRVYVTNIISENEVSIYFCD
+FGDVTIVSRNSLQPLKSDFMKLPYQAVKAKLIGIEPTNVDWTVNDCVRFKDLVLDKNFVS
+VVAESVFDHLSPANGTVLGLRLIDVSTEKDIYIDKILVEEKRAKYINGYEDYFASS
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

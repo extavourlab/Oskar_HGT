@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-09-16" modified="2016-06-08" version="6">
+<accession>A0A0G9KE64</accession>
+<name>A0A0G9KE64_9PROT</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Lipolytic protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">AF78_07550</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Arcobacter butzleri L353</name>
+<dbReference type="NCBI Taxonomy" id="1447261"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Epsilonproteobacteria</taxon>
+<taxon>Campylobacterales</taxon>
+<taxon>Campylobacteraceae</taxon>
+<taxon>Arcobacter</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="submission" date="2014-01" db="EMBL/GenBank/DDBJ databases">
+<title>Development of a Comparative Genomic Fingerprinting Assay for High Resolution Genotyping of Arcobacter butzleri.</title>
+<authorList>
+<person name="Webb A.L."/>
+<person name="Inglis G.D."/>
+<person name="Kruczkiewicz P."/>
+<person name="Selinger L.B."/>
+<person name="Taboada E.N."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2 3">L353</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="JAIU01000054">
+<property type="protein sequence ID" value="KLE04832.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_050071727.1">
+<property type="nucleotide sequence ID" value="NZ_JAIU01000054.1"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="KLE04832">
+<property type="protein sequence ID" value="KLE04832"/>
+<property type="gene ID" value="AF78_07550"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000035558">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="60"/>
+<end position="210"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KLE04832.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000035558"/>
+</source>
+</evidence>
+<sequence length="220" mass="25703" checksum="E91E9DD946FB28DA" modified="2015-09-16" version="1">
+MKNKILIALCGLLFLNNYNLEAKDIQKVEEWKIQNDPYYKHKKSQFEVLMNNSKYTTMML
+GDSITDEGRWDELLNNNSVQNRGISGDTTSGVLDRLSTVSPSIKQVFIMIGVNDIMRGKS
+ENEVFENYKKIIKFFEEKNIKVHIQSTLYIGETRKQNFNPKIEKLNEKLKDFAQNNNIDF
+IDLNPIFAPNKVLKSEFTTDDLHLNGKAYTLWVKEIEKYF
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

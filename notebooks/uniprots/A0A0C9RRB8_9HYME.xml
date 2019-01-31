@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-04-29" modified="2015-12-09" version="4">
+<accession>A0A0C9RRB8</accession>
+<name>A0A0C9RRB8_9HYME</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Tdrd7_0 protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3">tdrd7_0</name>
+<name type="ORF" evidence="3">g.61011</name>
+</gene>
+<organism evidence="3">
+<name type="scientific">Fopius arisanus</name>
+<dbReference type="NCBI Taxonomy" id="64838"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Hymenoptera</taxon>
+<taxon>Apocrita</taxon>
+<taxon>Ichneumonoidea</taxon>
+<taxon>Braconidae</taxon>
+<taxon>Opiinae</taxon>
+<taxon>Fopius</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="submission" date="2015-01" db="EMBL/GenBank/DDBJ databases">
+<title>Transcriptome Assembly of Fopius arisanus.</title>
+<authorList>
+<person name="Geib S."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<dbReference type="EMBL" id="GBYB01009866">
+<property type="protein sequence ID" value="JAG79633.1"/>
+<property type="molecule type" value="Transcribed_RNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_011303923.1">
+<property type="nucleotide sequence ID" value="XM_011305621.1"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_011303924.1">
+<property type="nucleotide sequence ID" value="XM_011305622.1"/>
+</dbReference>
+<dbReference type="GeneID" id="105267044"/>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="1"/>
+<end position="83"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="297"/>
+<end position="363"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="861"/>
+<end position="918"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="JAG79633.1"/>
+</source>
+</evidence>
+<sequence length="1001" mass="113148" checksum="7ED45878638D9783" modified="2015-04-29" version="1">
+MDEVASTLRACLITSKGGVRLDHVNRDYYSLEGENIPYRRLGFQTLESFISKVPRLRQYQ
+RGGITFVEVIPDSNTAHLAELIKKQRTSRKKRKPLRVPTSWRRPVLPNVPRDTTRSTRCP
+PTPQSLPKKPQGSQACPKSRSNAQKSSNGAVDPRNLSRQTSLPQLVSAPRNSRAPPPLKL
+ARPLSERLRRSPERKVIISSHSKPLTPPHESDPRDELRLLMKRLNLSAPEYKNFETKSKG
+GKISFFSGVQVGGNHKYNSFPLEASSTDEAEKLSATAALNALNKLYGPPAKMRETTDRDV
+ILQRIVDIVDVHPSGVFMEKLPLFYKEKHEELLPSDWMDVVEGSGELSLEKVVENAIIIC
+RSKEENPVNSVSTSNQGLASLILPEDNLWPVYVSHVESTNDIWIRLLEDKNNEEFFKMCQ
+ELSSRMINSSPCQVEIHGCYVTKVEDEWQRVRVKALEDSEAKCFFLDTGEEDVLDVSELL
+SLPTEFFKVPAQAIRVSLFRSNEEITVCDTTAGIARELLVDKTFYLQALSREEDNVSHVI
+TGIFYDTSSETDDDMNERITKEILRVMELSQLEVQLASRGRVLDVFISHIEYNGDVYLQI
+RNDGLDILCGMMNSLTESLKDEERVRKARHSGAVDSDEIYLAQKSDGSWVRVQVAFPGIK
+NSRMRLVDFGELMDVERSKLLKLWDLSEAVARFPVQAVQVELNNVKRAIFTEEMAVRLRK
+LALPGEHLVCKVVQMKENTRPAVVELFKRVEPDNLLVSINHTLVLEPELTKTGDGNNNVK
+TRKRIERTVFKASVGETSMKILKLPTIPEIESCFDVHVTQSAANPDNFVVQPLEDKEKLE
+AMMKSMQIAYSGVREKLRMEEIKEGKVYAVKLQDGIWYRATVNKILGEQVAVYLSDFGNI
+NVIGLGQLQLLKKEFMELPCQAIKAGLNGIQPANGDWSLAACIRFKELVVNKDFVSIVKR
+IDQDETAPGFSLGLDLIDVSIQDVDVLIHEILLKEKWATTK
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

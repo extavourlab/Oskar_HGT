@@ -1,0 +1,453 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-09-16" modified="2016-02-17" version="6">
+<accession>A0A0H2UHC6</accession>
+<name>A0A0H2UHC6_RAT</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Tudor domain-containing protein 5</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3 5">Tdrd5</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Rattus norvegicus</name>
+<name type="common">Rat</name>
+<dbReference type="NCBI Taxonomy" id="10116"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Sciurognathi</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+<taxon>Rattus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="journal article" date="2004" name="Nature" volume="428" first="493" last="521">
+<title>Genome sequence of the Brown Norway rat yields insights into mammalian evolution.</title>
+<authorList>
+<consortium name="Rat Genome Sequencing Project Consortium"/>
+<person name="Gibbs R.A."/>
+<person name="Weinstock G.M."/>
+<person name="Metzker M.L."/>
+<person name="Muzny D.M."/>
+<person name="Sodergren E.J."/>
+<person name="Scherer S."/>
+<person name="Scott G."/>
+<person name="Steffen D."/>
+<person name="Worley K.C."/>
+<person name="Burch P.E."/>
+<person name="Okwuonu G."/>
+<person name="Hines S."/>
+<person name="Lewis L."/>
+<person name="Deramo C."/>
+<person name="Delgado O."/>
+<person name="Dugan-Rocha S."/>
+<person name="Miner G."/>
+<person name="Morgan M."/>
+<person name="Hawes A."/>
+<person name="Gill R."/>
+<person name="Holt R.A."/>
+<person name="Adams M.D."/>
+<person name="Amanatides P.G."/>
+<person name="Baden-Tillson H."/>
+<person name="Barnstead M."/>
+<person name="Chin S."/>
+<person name="Evans C.A."/>
+<person name="Ferriera S."/>
+<person name="Fosler C."/>
+<person name="Glodek A."/>
+<person name="Gu Z."/>
+<person name="Jennings D."/>
+<person name="Kraft C.L."/>
+<person name="Nguyen T."/>
+<person name="Pfannkoch C.M."/>
+<person name="Sitter C."/>
+<person name="Sutton G.G."/>
+<person name="Venter J.C."/>
+<person name="Woodage T."/>
+<person name="Smith D."/>
+<person name="Lee H.-M."/>
+<person name="Gustafson E."/>
+<person name="Cahill P."/>
+<person name="Kana A."/>
+<person name="Doucette-Stamm L."/>
+<person name="Weinstock K."/>
+<person name="Fechtel K."/>
+<person name="Weiss R.B."/>
+<person name="Dunn D.M."/>
+<person name="Green E.D."/>
+<person name="Blakesley R.W."/>
+<person name="Bouffard G.G."/>
+<person name="De Jong P.J."/>
+<person name="Osoegawa K."/>
+<person name="Zhu B."/>
+<person name="Marra M."/>
+<person name="Schein J."/>
+<person name="Bosdet I."/>
+<person name="Fjell C."/>
+<person name="Jones S."/>
+<person name="Krzywinski M."/>
+<person name="Mathewson C."/>
+<person name="Siddiqui A."/>
+<person name="Wye N."/>
+<person name="McPherson J."/>
+<person name="Zhao S."/>
+<person name="Fraser C.M."/>
+<person name="Shetty J."/>
+<person name="Shatsman S."/>
+<person name="Geer K."/>
+<person name="Chen Y."/>
+<person name="Abramzon S."/>
+<person name="Nierman W.C."/>
+<person name="Havlak P.H."/>
+<person name="Chen R."/>
+<person name="Durbin K.J."/>
+<person name="Egan A."/>
+<person name="Ren Y."/>
+<person name="Song X.-Z."/>
+<person name="Li B."/>
+<person name="Liu Y."/>
+<person name="Qin X."/>
+<person name="Cawley S."/>
+<person name="Cooney A.J."/>
+<person name="D'Souza L.M."/>
+<person name="Martin K."/>
+<person name="Wu J.Q."/>
+<person name="Gonzalez-Garay M.L."/>
+<person name="Jackson A.R."/>
+<person name="Kalafus K.J."/>
+<person name="McLeod M.P."/>
+<person name="Milosavljevic A."/>
+<person name="Virk D."/>
+<person name="Volkov A."/>
+<person name="Wheeler D.A."/>
+<person name="Zhang Z."/>
+<person name="Bailey J.A."/>
+<person name="Eichler E.E."/>
+<person name="Tuzun E."/>
+<person name="Birney E."/>
+<person name="Mongin E."/>
+<person name="Ureta-Vidal A."/>
+<person name="Woodwark C."/>
+<person name="Zdobnov E."/>
+<person name="Bork P."/>
+<person name="Suyama M."/>
+<person name="Torrents D."/>
+<person name="Alexandersson M."/>
+<person name="Trask B.J."/>
+<person name="Young J.M."/>
+<person name="Huang H."/>
+<person name="Wang H."/>
+<person name="Xing H."/>
+<person name="Daniels S."/>
+<person name="Gietzen D."/>
+<person name="Schmidt J."/>
+<person name="Stevens K."/>
+<person name="Vitt U."/>
+<person name="Wingrove J."/>
+<person name="Camara F."/>
+<person name="Mar Alba M."/>
+<person name="Abril J.F."/>
+<person name="Guigo R."/>
+<person name="Smit A."/>
+<person name="Dubchak I."/>
+<person name="Rubin E.M."/>
+<person name="Couronne O."/>
+<person name="Poliakov A."/>
+<person name="Huebner N."/>
+<person name="Ganten D."/>
+<person name="Goesele C."/>
+<person name="Hummel O."/>
+<person name="Kreitler T."/>
+<person name="Lee Y.-A."/>
+<person name="Monti J."/>
+<person name="Schulz H."/>
+<person name="Zimdahl H."/>
+<person name="Himmelbauer H."/>
+<person name="Lehrach H."/>
+<person name="Jacob H.J."/>
+<person name="Bromberg S."/>
+<person name="Gullings-Handley J."/>
+<person name="Jensen-Seaman M.I."/>
+<person name="Kwitek A.E."/>
+<person name="Lazar J."/>
+<person name="Pasko D."/>
+<person name="Tonellato P.J."/>
+<person name="Twigger S."/>
+<person name="Ponting C.P."/>
+<person name="Duarte J.M."/>
+<person name="Rice S."/>
+<person name="Goodstadt L."/>
+<person name="Beatson S.A."/>
+<person name="Emes R.D."/>
+<person name="Winter E.E."/>
+<person name="Webber C."/>
+<person name="Brandt P."/>
+<person name="Nyakatura G."/>
+<person name="Adetobi M."/>
+<person name="Chiaromonte F."/>
+<person name="Elnitski L."/>
+<person name="Eswara P."/>
+<person name="Hardison R.C."/>
+<person name="Hou M."/>
+<person name="Kolbe D."/>
+<person name="Makova K."/>
+<person name="Miller W."/>
+<person name="Nekrutenko A."/>
+<person name="Riemer C."/>
+<person name="Schwartz S."/>
+<person name="Taylor J."/>
+<person name="Yang S."/>
+<person name="Zhang Y."/>
+<person name="Lindpaintner K."/>
+<person name="Andrews T.D."/>
+<person name="Caccamo M."/>
+<person name="Clamp M."/>
+<person name="Clarke L."/>
+<person name="Curwen V."/>
+<person name="Durbin R.M."/>
+<person name="Eyras E."/>
+<person name="Searle S.M."/>
+<person name="Cooper G.M."/>
+<person name="Batzoglou S."/>
+<person name="Brudno M."/>
+<person name="Sidow A."/>
+<person name="Stone E.A."/>
+<person name="Payseur B.A."/>
+<person name="Bourque G."/>
+<person name="Lopez-Otin C."/>
+<person name="Puente X.S."/>
+<person name="Chakrabarti K."/>
+<person name="Chatterji S."/>
+<person name="Dewey C."/>
+<person name="Pachter L."/>
+<person name="Bray N."/>
+<person name="Yap V.B."/>
+<person name="Caspi A."/>
+<person name="Tesler G."/>
+<person name="Pevzner P.A."/>
+<person name="Haussler D."/>
+<person name="Roskin K.M."/>
+<person name="Baertsch R."/>
+<person name="Clawson H."/>
+<person name="Furey T.S."/>
+<person name="Hinrichs A.S."/>
+<person name="Karolchik D."/>
+<person name="Kent W.J."/>
+<person name="Rosenbloom K.R."/>
+<person name="Trumbower H."/>
+<person name="Weirauch M."/>
+<person name="Cooper D.N."/>
+<person name="Stenson P.D."/>
+<person name="Ma B."/>
+<person name="Brent M."/>
+<person name="Arumugam M."/>
+<person name="Shteynberg D."/>
+<person name="Copley R.R."/>
+<person name="Taylor M.S."/>
+<person name="Riethman H."/>
+<person name="Mudunuri U."/>
+<person name="Peterson J."/>
+<person name="Guyer M."/>
+<person name="Felsenfeld A."/>
+<person name="Old S."/>
+<person name="Mockrin S."/>
+<person name="Collins F.S."/>
+</authorList>
+<dbReference type="PubMed" id="15057822"/>
+<dbReference type="DOI" id="10.1038/nature02426"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3 4">Brown Norway</strain>
+</source>
+</reference>
+<reference key="2" evidence="3">
+<citation type="submission" date="2015-06" db="UniProtKB">
+<authorList>
+<consortium name="Ensembl"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+<source>
+<strain evidence="3">Brown Norway</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="3">The sequence shown here is derived from an Ensembl automatic analysis pipeline and should be considered as preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="AABR07021465">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_006250099.1">
+<property type="nucleotide sequence ID" value="XM_006250037.2"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_006250100.1">
+<property type="nucleotide sequence ID" value="XM_006250038.2"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_008767837.1">
+<property type="nucleotide sequence ID" value="XM_008769615.1"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_008767838.1">
+<property type="nucleotide sequence ID" value="XM_008769616.1"/>
+</dbReference>
+<dbReference type="UniGene" id="Rn.108460"/>
+<dbReference type="Ensembl" id="ENSRNOT00000005353">
+<property type="protein sequence ID" value="ENSRNOP00000005353"/>
+<property type="gene ID" value="ENSRNOG00000004018"/>
+</dbReference>
+<dbReference type="GeneID" id="289129"/>
+<dbReference type="CTD" id="163589"/>
+<dbReference type="RGD" id="1307078">
+<property type="gene designation" value="Tdrd5"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00730000110295"/>
+<dbReference type="Proteomes" id="UP000002494">
+<property type="component" value="Chromosome 13"/>
+</dbReference>
+<dbReference type="ExpressionAtlas" id="A0A0H2UHC6">
+<property type="expression patterns" value="baseline"/>
+</dbReference>
+<dbReference type="GO" id="GO:0033391">
+<property type="term" value="C:chromatoid body"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0071546">
+<property type="term" value="C:pi-body"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043046">
+<property type="term" value="P:DNA methylation involved in gamete generation"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030719">
+<property type="term" value="P:P granule organization"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007286">
+<property type="term" value="P:spermatid development"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="7"/>
+<end position="80"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="122"/>
+<end position="197"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="291"/>
+<end position="365"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="533"/>
+<end position="592"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Ensembl" id="ENSRNOP00000005353"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000002494"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="RGD" id="1307078"/>
+</source>
+</evidence>
+<sequence length="1046" mass="116822" checksum="9A5211CC7CFB349B" modified="2015-09-16" version="1">
+MSEQERIQDCLRKEIRSLLISTKDGLTPQQLEKEYLLMVGNHLPLRILGYRSTMELVLDM
+PDVVSVCPCGDGTVILKAIPDESTKGIASLVAKQRRSHKVRNSMQKGRSSVCSGRVPYRG
+RVPPILPAVVKSELKDLLALSPVLLSDFEKAFARRFGRSFQYMQYGFLSMFEVLSAASDV
+ICVEQTRAGSLLTLKKSASEEKQREWPAGKIFTQPFRMKQQGSYSTGFPVTKTRFSQPIS
+NMEPPKQVLSMEKIPMFNTVEASRLSHTEKLNQLESTFKSVIAQIGPGGTVDPDLKHKIK
+FVVSKFPQGLFISKLLGEFELVFKEQLSPKQLGFLNVTELVGALSDILRVEFSEEKQDLL
+VFDADLRPLLPAGPLSSVRNSCLVQPDKRIEANAWASSPSRNSLSTVAVKKTTWDCPLKN
+HKEAEQKAYKKPNLVVKPLQLQVETNKSQLSLSMANHDIPPDAVRAKKLCRLPPLDTSTL
+VGVFVEYIISPSQFYVRIYSRDSSELLEDMMIEMRRCYSNQLVSDRYVMPEYFIQPGHLC
+CVRISEDKWWYRVIIHRILGKKEVEVFYPDFGNIGTVQKSSLRFLKCCYTKLPAQAIPCS
+LAWVRPAEEHWTSKAILHFQKLCGLKPLVGVVDEYIDGILNIFLCDTSSNEDVYFHHVLR
+TEGHAIVCRENAPSKGFRDFNPPALYTNSSAAPGDMVLTELGHPAQQHYLNEDGEILQQP
+QQDINDEKSISHLKSVSEELLKDSKLGPLKTRESCEEEPQWSILKPKDPKEENEDEVPTG
+MPCLESVTIGDDIWDENWLPLQAKMGKAGGPASHLFTSSLVGKKQYQTRGETTRKDWCFS
+TSKDIWDDSWQPLGLANDVKGRTHTPEGPIAQEKNIGTTRIRKQPDLQYPLDSSTLPKLE
+EFYISLIKSQQSAEGSQSEPASIQTPLKPGQASSTAPSSTPAAGDSPENHSGSVESSPGS
+LKNEDFSNSHADAVVKDKSQGAIDQLSFILSPQHQISQKLYIPRSTATAVLGAAARLATS
+RSLLHWYPSVKGGKLEGQEAERDGVK
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>
