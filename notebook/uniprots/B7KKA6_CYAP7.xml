@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2009-02-10" modified="2016-06-08" version="44">
+<accession>B7KKA6</accession>
+<name>B7KKA6_CYAP7</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Lipolytic protein G-D-S-L family</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="2">PCC7424_2577</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Cyanothece sp. (strain PCC 7424)</name>
+<name type="synonym">Synechococcus sp. (strain ATCC 29155)</name>
+<dbReference type="NCBI Taxonomy" id="65393"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Cyanobacteria</taxon>
+<taxon>Oscillatoriophycideae</taxon>
+<taxon>Chroococcales</taxon>
+<taxon>Cyanothece</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="journal article" date="2011" name="MBio" volume="2" first="E214" last="E214">
+<title>Novel metabolic attributes of the genus Cyanothece, comprising a group of unicellular nitrogen-fixing Cyanobacteria.</title>
+<authorList>
+<person name="Bandyopadhyay A."/>
+<person name="Elvitigala T."/>
+<person name="Welsh E."/>
+<person name="Stockel J."/>
+<person name="Liberton M."/>
+<person name="Min H."/>
+<person name="Sherman L.A."/>
+<person name="Pakrasi H.B."/>
+</authorList>
+<dbReference type="PubMed" id="21972240"/>
+<dbReference type="DOI" id="10.1128/mBio.00214-11"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3">PCC 7424</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="CP001291">
+<property type="protein sequence ID" value="ACK70991.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_015954594.1">
+<property type="nucleotide sequence ID" value="NC_011729.1"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="B7KKA6"/>
+<dbReference type="STRING" id="65393.PCC7424_2577"/>
+<dbReference type="EnsemblBacteria" id="ACK70991">
+<property type="protein sequence ID" value="ACK70991"/>
+<property type="gene ID" value="PCC7424_2577"/>
+</dbReference>
+<dbReference type="KEGG" id="cyc:PCC7424_2577"/>
+<dbReference type="PATRIC" id="21554078">
+<property type="gene designation" value="VBICyaSp136448_2651"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4108N22">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4110Y6E">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="OrthoDB" id="EOG6WMHTW"/>
+<dbReference type="BioCyc" id="CSP65393:GJP7-2610-MONOMER"/>
+<dbReference type="Proteomes" id="UP000002384">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.150.10.10">
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011049">
+<property type="entry name" value="Serralysin-like_metalloprot_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF51120">
+<property type="entry name" value="SSF51120"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="334"/>
+<end position="518"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="ACK70991.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000002384"/>
+</source>
+</evidence>
+<sequence length="681" mass="74504" checksum="7DB27CA3636EC709" modified="2009-02-10" version="1">
+MNQLNSSNLLIEAENLNLENYGIQTFSGASNGQLISLLNGKDSGTASTQFTGASGYYDIL
+IGYYDEIDGKSLLQFKVNDETKDQWRADQQLDPQGFVATSKNFTDRLIRGISLKNGDTLT
+IKGFQDQQEYGRIDFMKLIPSEDIIIEAEKLELENYELQNFSVASNRQVVSLSNGKNNGS
+ASTEFIGFAGSYNIIVGYYDEIDGESLFQFKVNDHIKDEWKADQQLDPQGFTPTSKNFTE
+RLIQGISLKPGDILEIEGFRDQQEYARFDFIKIIPSQQIIIEGKENSNIIQGDENKSDTL
+DYSQLKNGIIGNLSTGEVIKPLYGISNGSKIMPLGDSITAGTGKYPVFGGYRIQLWNNFL
+TDNLTVDFVGSMSNGPDQIDKNHEGHGGWKINQINDLINEGILNTYQPQTILLMIGTNDI
+LKTDNSVNQMVADLDKLINDITEKSPNCQLLIGSIAPISPSGRDPEKIGRISPYNANIQE
+LVADKFNQGKKIAFVDIGGTLSEDDLSDGVHPNRKGYDKMGDLWYDSLVKKDNLFSIENI
+TGTSFNDTLIGNNSANIITGGQGDDLLTGGEGADVFAYEKIGENFDTITDFTSGQDHLSF
+STSGFRGGLVAGINLTTSISLTGVFVRGDSPTAIGSSANFLYNTNTGILSFDVDGNGTTI
+AKPIVYLEGAPLLNANDIMIV
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

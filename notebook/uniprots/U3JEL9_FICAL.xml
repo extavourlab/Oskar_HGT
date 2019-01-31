@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-11-13" modified="2016-05-11" version="16">
+<accession>U3JEL9</accession>
+<name>U3JEL9_FICAL</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3">TDRD7</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Ficedula albicollis</name>
+<name type="common">Collared flycatcher</name>
+<name type="synonym">Muscicapa albicollis</name>
+<dbReference type="NCBI Taxonomy" id="59894"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Archelosauria</taxon>
+<taxon>Archosauria</taxon>
+<taxon>Dinosauria</taxon>
+<taxon>Saurischia</taxon>
+<taxon>Theropoda</taxon>
+<taxon>Coelurosauria</taxon>
+<taxon>Aves</taxon>
+<taxon>Neognathae</taxon>
+<taxon>Passeriformes</taxon>
+<taxon>Muscicapidae</taxon>
+<taxon>Ficedula</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="submission" date="2013-09" db="UniProtKB">
+<authorList>
+<consortium name="Ensembl"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<comment type="caution">
+<text evidence="3">The sequence shown here is derived from an Ensembl automatic analysis pipeline and should be considered as preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="AGTO01001225">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AGTO01001226">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AGTO01011345">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AGTO01021465">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENSFALT00000001229">
+<property type="protein sequence ID" value="ENSFALP00000001223"/>
+<property type="gene ID" value="ENSFALG00000001173"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00830000128334"/>
+<dbReference type="OMA" id="KCSQWSE"/>
+<dbReference type="Proteomes" id="UP000016665">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0035770">
+<property type="term" value="C:ribonucleoprotein granule"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003729">
+<property type="term" value="F:mRNA binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0070306">
+<property type="term" value="P:lens fiber cell differentiation"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0002089">
+<property type="term" value="P:lens morphogenesis in camera-type eye"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010608">
+<property type="term" value="P:posttranscriptional regulation of gene expression"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="3"/>
+<end position="76"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="237"/>
+<end position="307"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="346"/>
+<end position="415"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="515"/>
+<end position="572"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="704"/>
+<end position="761"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Ensembl" id="ENSFALP00000001223"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000016665"/>
+</source>
+</evidence>
+<sequence length="1056" mass="118589" checksum="B21EE67B127AFCE4" modified="2013-11-13" version="1">
+MQEPELVAKALRAVLHAFKSGIRLSELQSEYRSLTNELIPFKHLGYDTLESYLESVPGVV
+RMEENKMGEVICHAVSCSETVRVAQLVARQRSSKKKTVRQVNCQMRLKNTSPVSLSGKPK
+GTLRQPRSLNMPEEGSKRPVPRLPRGREVACGGVKPVVESTRSALPSAAGSGPPKEIPMQ
+RHVTVVNRSEKRLTVPPRFQKELQVHLSRSSSTESSDSLNTSTAETHTVAPGSSAADIHE
+LQSRIKELLSKYSSGVRLSKMPQVYREMYWEDLSTEVLYQLENWPHVCTVEKIHRGDPMD
+GFLYPAKKIPPVPKSDTEQEKASQNVTSSKADPLLKPNMETTPASLSSDFKAKVVSILLK
+YSNGLWAHALPKVYQDTFQVKFPEDILNNLELLSDICVVDYVSEVPRRAILYAKPQRCID
+ENLNVTEKAKRHDGMKATAEQQYEESKDQYLENITVPALVIPSEGSVSIMVLELKNTNEV
+LIRYVGKDYSSAQEQMEDEMKAYYNQNSTVSPAQSLSVGQLVAVHAEEEAWLRARIISLE
+DHRVKVYYVDHGFTEFVESSSVCRLQKQFRSLPFQAAKCKLAGLEAFCDDPVLVKAVESQ
+TCFKIFAVEILEKSDTPLLVLYDTSGEDDININATCLKALYDKSLELHLQVDALYTNVRV
+TSVSSDGSLYCQVPSKGLSRLSEILQKLEDYFLYKQTSEFNVLLPFCGKICLFPSKGKWA
+RVEIKIIHTRRALDVQFMDSGTVATVKVSELKEIPPQFLREVIAIPPQALKCCLADLPPN
+TGMWTPDAVLWLRDAVINCPEFSMKVIKQDASKGIAHVYLFAPENFPDMDRSINRQIKNA
+DLWKHQKDVFLSVAPSGTSSTKAIGDAVSALQLSSGKLEKSFPDSGREPGSAVSTIDMPP
+PLPLPKPGDLMDIYVSVACHPGHFIVQPWNELNNLYALMEEMILYYSRAEEKPVNIEKNK
+LYAAKIGDEWYRVIIKGILRNGFLSVYELDYGKHEFVSIQKVQPLLDTFRRLPFQAITAQ
+LAVLQYIFGIQSCLEYIGFLKQTKNSTRGWAFNKLT
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

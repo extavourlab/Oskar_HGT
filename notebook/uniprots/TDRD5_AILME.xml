@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2011-05-03" modified="2015-10-14" version="20">
+<accession>D2H3M0</accession>
+<name>TDRD5_AILME</name>
+<protein>
+<recommendedName>
+<fullName>Tudor domain-containing protein 5</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">TDRD5</name>
+<name type="ORF">PANDA_004307</name>
+</gene>
+<organism>
+<name type="scientific">Ailuropoda melanoleuca</name>
+<name type="common">Giant panda</name>
+<dbReference type="NCBI Taxonomy" id="9646"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Laurasiatheria</taxon>
+<taxon>Carnivora</taxon>
+<taxon>Caniformia</taxon>
+<taxon>Ursidae</taxon>
+<taxon>Ailuropoda</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2010" name="Nature" volume="463" first="311" last="317">
+<title>The sequence and de novo assembly of the giant panda genome.</title>
+<authorList>
+<person name="Li R."/>
+<person name="Fan W."/>
+<person name="Tian G."/>
+<person name="Zhu H."/>
+<person name="He L."/>
+<person name="Cai J."/>
+<person name="Huang Q."/>
+<person name="Cai Q."/>
+<person name="Li B."/>
+<person name="Bai Y."/>
+<person name="Zhang Z."/>
+<person name="Zhang Y."/>
+<person name="Wang W."/>
+<person name="Li J."/>
+<person name="Wei F."/>
+<person name="Li H."/>
+<person name="Jian M."/>
+<person name="Li J."/>
+<person name="Zhang Z."/>
+<person name="Nielsen R."/>
+<person name="Li D."/>
+<person name="Gu W."/>
+<person name="Yang Z."/>
+<person name="Xuan Z."/>
+<person name="Ryder O.A."/>
+<person name="Leung F.C."/>
+<person name="Zhou Y."/>
+<person name="Cao J."/>
+<person name="Sun X."/>
+<person name="Fu Y."/>
+<person name="Fang X."/>
+<person name="Guo X."/>
+<person name="Wang B."/>
+<person name="Hou R."/>
+<person name="Shen F."/>
+<person name="Mu B."/>
+<person name="Ni P."/>
+<person name="Lin R."/>
+<person name="Qian W."/>
+<person name="Wang G."/>
+<person name="Yu C."/>
+<person name="Nie W."/>
+<person name="Wang J."/>
+<person name="Wu Z."/>
+<person name="Liang H."/>
+<person name="Min J."/>
+<person name="Wu Q."/>
+<person name="Cheng S."/>
+<person name="Ruan J."/>
+<person name="Wang M."/>
+<person name="Shi Z."/>
+<person name="Wen M."/>
+<person name="Liu B."/>
+<person name="Ren X."/>
+<person name="Zheng H."/>
+<person name="Dong D."/>
+<person name="Cook K."/>
+<person name="Shan G."/>
+<person name="Zhang H."/>
+<person name="Kosiol C."/>
+<person name="Xie X."/>
+<person name="Lu Z."/>
+<person name="Zheng H."/>
+<person name="Li Y."/>
+<person name="Steiner C.C."/>
+<person name="Lam T.T."/>
+<person name="Lin S."/>
+<person name="Zhang Q."/>
+<person name="Li G."/>
+<person name="Tian J."/>
+<person name="Gong T."/>
+<person name="Liu H."/>
+<person name="Zhang D."/>
+<person name="Fang L."/>
+<person name="Ye C."/>
+<person name="Zhang J."/>
+<person name="Hu W."/>
+<person name="Xu A."/>
+<person name="Ren Y."/>
+<person name="Zhang G."/>
+<person name="Bruford M.W."/>
+<person name="Li Q."/>
+<person name="Ma L."/>
+<person name="Guo Y."/>
+<person name="An N."/>
+<person name="Hu Y."/>
+<person name="Zheng Y."/>
+<person name="Shi Y."/>
+<person name="Li Z."/>
+<person name="Liu Q."/>
+<person name="Chen Y."/>
+<person name="Zhao J."/>
+<person name="Qu N."/>
+<person name="Zhao S."/>
+<person name="Tian F."/>
+<person name="Wang X."/>
+<person name="Wang H."/>
+<person name="Xu L."/>
+<person name="Liu X."/>
+<person name="Vinar T."/>
+<person name="Wang Y."/>
+<person name="Lam T.W."/>
+<person name="Yiu S.M."/>
+<person name="Liu S."/>
+<person name="Zhang H."/>
+<person name="Li D."/>
+<person name="Huang Y."/>
+<person name="Wang X."/>
+<person name="Yang G."/>
+<person name="Jiang Z."/>
+<person name="Wang J."/>
+<person name="Qin N."/>
+<person name="Li L."/>
+<person name="Li J."/>
+<person name="Bolund L."/>
+<person name="Kristiansen K."/>
+<person name="Wong G.K."/>
+<person name="Olson M."/>
+<person name="Zhang X."/>
+<person name="Li S."/>
+<person name="Yang H."/>
+<person name="Wang J."/>
+<person name="Wang J."/>
+</authorList>
+<dbReference type="PubMed" id="20010809"/>
+<dbReference type="DOI" id="10.1038/nature08696"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<comment type="function">
+<text evidence="1">Required during spermiogenesis to participate in the repression transposable elements and prevent their mobilization, which is essential for the germline integrity. Probably acts via the piRNA metabolic process, which mediates the repression of transposable elements during meiosis by forming complexes composed of piRNAs and Piwi proteins and govern the methylation and subsequent repression of transposons. Required for chromatoid body (CB) assembly (By similarity).</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Cytoplasm</location>
+</subcellularLocation>
+<text evidence="1">Localizes to chromatoid body (CB) and pi-body (also called intermitochondrial cementin), 2 cytoplasmic ribonucleoprotein granules involved in RNA processing for spermatogenesis.</text>
+</comment>
+<comment type="similarity">
+<text evidence="5">Belongs to the TDRD5 family.</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Contains 3 HTH OST-type domains.</text>
+</comment>
+<comment type="similarity">
+<text evidence="3">Contains 1 Tudor domain.</text>
+</comment>
+<dbReference type="EMBL" id="GL192465">
+<property type="protein sequence ID" value="EFB26879.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="InParanoid" id="D2H3M0"/>
+<dbReference type="Proteomes" id="UP000008912">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0033391">
+<property type="term" value="C:chromatoid body"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0071546">
+<property type="term" value="C:pi-body"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043046">
+<property type="term" value="P:DNA methylation involved in gamete generation"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030719">
+<property type="term" value="P:P granule organization"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007286">
+<property type="term" value="P:spermatid development"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0217">Developmental protein</keyword>
+<keyword id="KW-0221">Differentiation</keyword>
+<keyword id="KW-0597">Phosphoprotein</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0677">Repeat</keyword>
+<keyword id="KW-0744">Spermatogenesis</keyword>
+<feature type="chain" description="Tudor domain-containing protein 5" id="PRO_0000408345">
+<location>
+<begin position="1"/>
+<end position="982"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type 1" evidence="4">
+<location>
+<begin position="7"/>
+<end position="80"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type 2" evidence="4">
+<location>
+<begin position="127"/>
+<end position="202"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type 3" evidence="4">
+<location>
+<begin position="297"/>
+<end position="371"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="3">
+<location>
+<begin position="527"/>
+<end position="586"/>
+</location>
+</feature>
+<feature type="modified residue" description="Phosphoserine" evidence="2">
+<location>
+<position position="894"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q5VCS6"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00211"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00975"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000305"/>
+<sequence length="982" mass="109911" checksum="8C35DCD9B0B4D389" modified="2010-02-09" version="1">
+MSEQERVQECLRKEIRSLLISTKDGLTPQQLEKEYLLMVGSHLPLRILGYRSTMELVLDM
+PDVVTVCPYGDGTVILRAIPDESTKGIASLVAKQRSSHKVRNSAQKGRASVCSGPSSRRQ
+VPYRGRLPPILPAVVKSELKDLLALSPILLSDFEKAFVRRFGRSFQYVQYGFFSMFEVLN
+AASDVISVEQTRAGSLLMLKKSVSEEKQRGWPAGGKMFTQPFRMKQQGSYSTGSPVAKAR
+FSQPTSNMEPPKQILNVEKTFKSNVVETSRLNHTEKLNQLENTFKSVIAQIGPGGTISPE
+LKHKIRFVVSKFPEGLLISKLLREFEIIFKEQLSPKKLGFLNVIELVGALSDILRVEFRE
+GEQDLLVFDADMKPLPPAQSDKKIEVKAYVSSPPRNSLSTAAVKETTWDCPPKNRKEPEQ
+KICKKPNLVVKPLQLQVEVNKSQRNLAMANHDIPPDAVRDKKLCRLPLLDTSTLVGVFVE
+YIISPSQFYIRIYSRDSSELLEDMMIEMRRCYSNQLVSDRYTLPEYFIQPGHLCCVRISE
+DKWWYRVIIHRVLGKQEVEVFYPDFGNIGTVQKSSLRFLKCCYTKLPAQAIPCSLAWVRP
+VEEHWTSKAILQFQKLCGLKPLVGVVDEYVDGILNIFLCDTSSNEDVYFHHVLRTEGHAI
+VCRENVPSKGFRELNPLALYTKSSSGPEDVVLTELGYPSQQHYFNEDREISPQSKESELS
+TLDEIPTGMPCLESVTIGDDVWDENWLPLQAKMGKGGDAASHLFTSSLGGKKPYPSCKEM
+PQKDWCFSGPKDVWDDSWQPSGLMNGVKVEVQKQEGLGAQEKNTGTTRIQKPPPVESSLD
+LSTLPKLEEFYSSLIQSQQSAEGSQPEPSCIQTPAKPVQLSTAALSASPMALDSAEKHSG
+SVESSPESLKNDFSSSHAITVFKDKSHGAMDQLSLILSPEHQISQKLYIPRSTATAALGA
+AARLATSRSLLHWYPSVKRMEA
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

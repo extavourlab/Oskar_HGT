@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-06-11" modified="2016-05-11" version="13">
+<accession>A0A022LM17</accession>
+<name>A0A022LM17_9MICO</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">H489_0108280</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Curtobacterium flaccumfaciens UCD-AKU</name>
+<dbReference type="NCBI Taxonomy" id="1292022"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Micrococcales</taxon>
+<taxon>Microbacteriaceae</taxon>
+<taxon>Curtobacterium</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="journal article" date="2013" name="Genome Announc." volume="1" first="E00244" last="13">
+<title>Draft Genome Sequence of Curtobacterium flaccumfaciens Strain UCD-AKU (Phylum Actinobacteria).</title>
+<authorList>
+<person name="Flanagan J.C."/>
+<person name="Lang J.M."/>
+<person name="Darling A.E."/>
+<person name="Eisen J.A."/>
+<person name="Coil D.A."/>
+</authorList>
+<dbReference type="PubMed" id="23682147"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2">UCD-AKU</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="APJN01000038">
+<property type="protein sequence ID" value="EYT64805.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_017888603.1">
+<property type="nucleotide sequence ID" value="NZ_KB714631.1"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="EYT64805">
+<property type="protein sequence ID" value="EYT64805"/>
+<property type="gene ID" value="H489_0108280"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000019755">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="32"/>
+<end position="214"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EYT64805.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000019755"/>
+</source>
+</evidence>
+<sequence length="398" mass="41182" checksum="D8740B7648283946" modified="2014-06-11" version="1">
+MEVQPVGGEGLYFRRRLAPLAASAFGSGIAWLGDSITRGLGATNKGDSWPGVIAGTSVAV
+AGDSIPTYAMLYSGGKLAKTVNAGVSGDTTAKMLARVKKDVINYNPAVCVVLGGTNDSAT
+PVPVDDFAANITGIVTQLRAAGIVPVLCTIPTINSTAQRPVIVNYNTWLRRYCAVQGIRM
+LDFYALTVDPATGNLLQSTMGNTDGTHPGNIGNALLGKYAADTLAPLVGAATIPVASDNT
+DTLNLVPDGLNYGSVTNGLAAPWGVFGSLPTGATSSVVTDPLVPGKMQQLSLSATTSGAT
+LYKRITPTPGRRIVISGTVTKTAGAAGLQAYFNTSNQTDTYNQLLDITEAVTRGKFSTEL
+VVPENTNSIDLKMFVQPGTTTFAIGQLTAYDLTAQAVL
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

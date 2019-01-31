@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2012-05-16" modified="2016-05-11" version="26">
+<accession>H8KRU2</accession>
+<name>H8KRU2_SOLCM</name>
+<protein>
+<submittedName>
+<fullName evidence="4">Lysophospholipase L1-like esterase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="4">Solca_2696</name>
+</gene>
+<organism evidence="4 5">
+<name type="scientific">Solitalea canadensis (strain ATCC 29591 / DSM 3403 / NBRC 15130 / NCIMB 12057 / USAM 9D)</name>
+<name type="synonym">Flexibacter canadensis</name>
+<dbReference type="NCBI Taxonomy" id="929556"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Bacteroidetes</taxon>
+<taxon>Sphingobacteriia</taxon>
+<taxon>Sphingobacteriales</taxon>
+<taxon>Sphingobacteriaceae</taxon>
+<taxon>Solitalea</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="5">
+<citation type="submission" date="2012-02" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome of Solitalea canadensis DSM 3403.</title>
+<authorList>
+<person name="Lucas S."/>
+<person name="Copeland A."/>
+<person name="Lapidus A."/>
+<person name="Glavina del Rio T."/>
+<person name="Dalin E."/>
+<person name="Tice H."/>
+<person name="Bruce D."/>
+<person name="Goodwin L."/>
+<person name="Pitluck S."/>
+<person name="Peters L."/>
+<person name="Ovchinnikova G."/>
+<person name="Lu M."/>
+<person name="Kyrpides N."/>
+<person name="Mavromatis K."/>
+<person name="Ivanova N."/>
+<person name="Brettin T."/>
+<person name="Detter J.C."/>
+<person name="Han C."/>
+<person name="Larimer F."/>
+<person name="Land M."/>
+<person name="Hauser L."/>
+<person name="Markowitz V."/>
+<person name="Cheng J.-F."/>
+<person name="Hugenholtz P."/>
+<person name="Woyke T."/>
+<person name="Wu D."/>
+<person name="Spring S."/>
+<person name="Schroeder M."/>
+<person name="Kopitz M."/>
+<person name="Brambilla E."/>
+<person name="Klenk H.-P."/>
+<person name="Eisen J.A."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="5">ATCC 29591 / DSM 3403 / NBRC 15130 / NCIMB 12057 / USAM 9D</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="CP003349">
+<property type="protein sequence ID" value="AFD07730.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="H8KRU2"/>
+<dbReference type="EnsemblBacteria" id="AFD07730">
+<property type="protein sequence ID" value="AFD07730"/>
+<property type="gene ID" value="Solca_2696"/>
+</dbReference>
+<dbReference type="KEGG" id="scn:Solca_2696"/>
+<dbReference type="BioCyc" id="SCAN929556:GLKC-2696-MONOMER"/>
+<dbReference type="Proteomes" id="UP000007590">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0175" evidence="1">Coiled coil</keyword>
+<keyword id="KW-0181" evidence="5">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="5">Reference proteome</keyword>
+<keyword id="KW-0732" evidence="2">Signal</keyword>
+<feature type="signal peptide" evidence="2">
+<location>
+<begin position="1"/>
+<end position="25"/>
+</location>
+</feature>
+<feature type="chain" id="PRO_5003613334" evidence="2">
+<location>
+<begin position="26"/>
+<end position="454"/>
+</location>
+</feature>
+<feature type="domain" description="SGNH_hydro" evidence="3">
+<location>
+<begin position="61"/>
+<end position="220"/>
+</location>
+</feature>
+<feature type="domain" description="SGNH_hydro" evidence="3">
+<location>
+<begin position="282"/>
+<end position="441"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="386"/>
+<end position="409"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="SignalP"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AFD07730.1"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000007590"/>
+</source>
+</evidence>
+<sequence length="454" mass="51768" checksum="D41A230FFB70D99B" modified="2012-05-16" version="1">
+MLRCKMKSTLLISAGILCCNLAARAQQPVAAKFDTTFHTTYYDQKRSLFELLPDTKNEII
+FLGNSITDIGEWAELFQNPSVKNRGISSDITFGVIDRLPEVLSSKPAKIFYMIGINDIAK
+NIPDSVILANHQRIVSIIKQQSPTTKIYIQSLLPTNNEFIEFKRHQNKTEHIIAVNDGLR
+ELAKREQVTFIDLYPKFIDENGKLDKKYTNDGLHLKGAGYIKWVNILKELNYCCDDTPTS
+ANVSVSVSSDVNRIDTSYANSHYRQRLEFFKHLPNTKNEIVFLGNSITEMGEWQELIPNK
+NVVNRGISGDVTYGIYARLDEVLASKPLKLFLMDGVNDIKRGTPVQAIADNIQRIIEKIQ
+KVSPKTKIYLQSTLPVNESVKSSAYVKVSNEKIQELNELQKKLANQLNITYIDVQHVLSD
+SFGQLKREYTSDGIHLVEMGYVYWVNYLKEQKYL
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

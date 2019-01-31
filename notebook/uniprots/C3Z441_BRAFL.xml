@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2009-07-28" modified="2016-05-11" version="42">
+<accession>C3Z441</accession>
+<name>C3Z441_BRAFL</name>
+<protein>
+<submittedName>
+<fullName evidence="4">Putative uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="4">BRAFLDRAFT_122048</name>
+</gene>
+<organism evidence="5">
+<name type="scientific">Branchiostoma floridae</name>
+<name type="common">Florida lancelet</name>
+<name type="synonym">Amphioxus</name>
+<dbReference type="NCBI Taxonomy" id="7739"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Cephalochordata</taxon>
+<taxon>Branchiostomidae</taxon>
+<taxon>Branchiostoma</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="4 5">
+<citation type="journal article" date="2008" name="Nature" volume="453" first="1064" last="1071">
+<title>The amphioxus genome and the evolution of the chordate karyotype.</title>
+<authorList>
+<consortium name="US DOE Joint Genome Institute (JGI-PGF)"/>
+<person name="Putnam N.H."/>
+<person name="Butts T."/>
+<person name="Ferrier D.E.K."/>
+<person name="Furlong R.F."/>
+<person name="Hellsten U."/>
+<person name="Kawashima T."/>
+<person name="Robinson-Rechavi M."/>
+<person name="Shoguchi E."/>
+<person name="Terry A."/>
+<person name="Yu J.-K."/>
+<person name="Benito-Gutierrez E.L."/>
+<person name="Dubchak I."/>
+<person name="Garcia-Fernandez J."/>
+<person name="Gibson-Brown J.J."/>
+<person name="Grigoriev I.V."/>
+<person name="Horton A.C."/>
+<person name="de Jong P.J."/>
+<person name="Jurka J."/>
+<person name="Kapitonov V.V."/>
+<person name="Kohara Y."/>
+<person name="Kuroki Y."/>
+<person name="Lindquist E."/>
+<person name="Lucas S."/>
+<person name="Osoegawa K."/>
+<person name="Pennacchio L.A."/>
+<person name="Salamov A.A."/>
+<person name="Satou Y."/>
+<person name="Sauka-Spengler T."/>
+<person name="Schmutz J."/>
+<person name="Shin-I T."/>
+<person name="Toyoda A."/>
+<person name="Bronner-Fraser M."/>
+<person name="Fujiyama A."/>
+<person name="Holland L.Z."/>
+<person name="Holland P.W.H."/>
+<person name="Satoh N."/>
+<person name="Rokhsar D.S."/>
+</authorList>
+<dbReference type="PubMed" id="18563158"/>
+<dbReference type="DOI" id="10.1038/nature06967"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="4 5">S238N-H82</strain>
+<tissue evidence="4">Testes</tissue>
+</source>
+</reference>
+<dbReference type="EMBL" id="GG666578">
+<property type="protein sequence ID" value="EEN52654.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_002596642.1">
+<property type="nucleotide sequence ID" value="XM_002596596.1"/>
+</dbReference>
+<dbReference type="UniGene" id="Bfl.26875"/>
+<dbReference type="ProteinModelPortal" id="C3Z441"/>
+<dbReference type="GeneID" id="7218984"/>
+<dbReference type="KEGG" id="bfo:BRAFLDRAFT_122048"/>
+<dbReference type="Proteomes" id="UP000001554">
+<property type="component" value="Partially assembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008270">
+<property type="term" value="F:zinc ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.40.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR019786">
+<property type="entry name" value="Zinc_finger_PHD-type_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011011">
+<property type="entry name" value="Znf_FYVE_PHD"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001965">
+<property type="entry name" value="Znf_PHD"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR019787">
+<property type="entry name" value="Znf_PHD-finger"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013083">
+<property type="entry name" value="Znf_RING/FYVE/PHD"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00628">
+<property type="entry name" value="PHD"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00249">
+<property type="entry name" value="PHD"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF57903">
+<property type="entry name" value="SSF57903"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01359">
+<property type="entry name" value="ZF_PHD_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50016">
+<property type="entry name" value="ZF_PHD_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0175" evidence="2">Coiled coil</keyword>
+<keyword id="KW-0181" evidence="5">Complete proteome</keyword>
+<keyword id="KW-0479" evidence="1">Metal-binding</keyword>
+<keyword id="KW-1185" evidence="5">Reference proteome</keyword>
+<keyword id="KW-0862" evidence="1">Zinc</keyword>
+<keyword id="KW-0863" evidence="1">Zinc-finger</keyword>
+<feature type="domain" description="PHD-type" evidence="3">
+<location>
+<begin position="26"/>
+<end position="83"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="170"/>
+<end position="204"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAAS" id="SAAS00592111"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50016"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EEN52654.1"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000001554"/>
+</source>
+</evidence>
+<sequence length="796" mass="87871" checksum="0D53F48B31373385" modified="2009-07-28" version="1">
+MAANDRKLACEESTSQLDSCGDAYTNRICGKCSRENDDDDSFIQCGGCKTWFHSHCSGLL
+ENLLDDLVDCGEKDYICYTCLQLRNKGKRQKTTKQGKSQSLRVTKEKRETHNQYDLVNGT
+AKNGQETTNRRSGKLETVTQSASEKCKRNVPVGQSQGFHTENNVTSATFIRALTDRVVSL
+EAANTQLNERVARLELELSKMSTVCQVENGDAKTDFCYTNPTNASSTDFETETVQSECAI
+PTEYMFRDYQVQSLSHPDSLNENASAAVINENVEERNDDHVCAKQAPLKHSHPAAMVSHP
+KTSINHPDDDEEQAEILLIGDENIKGIQPLMLHKDLKLAKHSAQIIQDAALCLKNTHYTR
+LKCLILHIGMNDVRMTRSTDDVVHNYDVLISKAQKKYPSACIVLSLIPPWREISLMYKRK
+QVNDFLWDISTTIATAVCVDNENLGTERPILIKAGLYQSNGRLLNAYGTALLGSNLKKAV
+DAAIELGNKEAPQTVLHDDVIETDIKQQSGTLANRECVATTSQGSIQQHMSIEAQAIPRP
+SNKLSPGFVSYTDTGDGSFPWGHAVPNVVSSGPPTGPAHNLQHPTTYMMCPQPHPYPPLQ
+PSPVQAITITQAPPVQQIPARQHVPMGRPSPQMVTPVHAVPIQPAVFTQGQTVQHQPTPM
+HQPTYGPPLHGRPMFAAHRQQSRPVKSMPMVHTTSIQHAPIGQAIPMQRPSPIPPTSHGQ
+TAPMGQLLQMRQPTTMRHPTPMGQSPPIPQPRPMGQLLHVRQPLHLGQPLHVGQPTPIQP
+ARQPVNAEWAMTGMHP
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

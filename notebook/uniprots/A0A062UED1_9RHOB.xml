@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-09-03" modified="2016-05-11" version="13">
+<accession>A0A062UED1</accession>
+<name>A0A062UED1_9RHOB</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">HY30_13870</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Hyphomonas chukchiensis</name>
+<dbReference type="NCBI Taxonomy" id="1280947"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Alphaproteobacteria</taxon>
+<taxon>Rhodobacterales</taxon>
+<taxon>Hyphomonadaceae</taxon>
+<taxon>Hyphomonas</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="journal article" date="2014" name="Antonie Van Leeuwenhoek" volume="106" first="657" last="665">
+<title>Hyphomonas beringensis sp. nov. and Hyphomonas chukchiensis sp. nov., isolated from surface seawater of the Bering Sea and Chukchi Sea.</title>
+<authorList>
+<person name="Li C."/>
+<person name="Lai Q."/>
+<person name="Li G."/>
+<person name="Dong C."/>
+<person name="Wang J."/>
+<person name="Liao Y."/>
+<person name="Shao Z."/>
+</authorList>
+<dbReference type="PubMed" id="25070064"/>
+<dbReference type="DOI" id="10.1007/s10482-014-0236-y"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3 4">BH-BN04-4</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="3">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="AWFG01000013">
+<property type="protein sequence ID" value="KCZ59688.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_051614897.1">
+<property type="nucleotide sequence ID" value="NZ_AWFG01000013.1"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="KCZ59688">
+<property type="protein sequence ID" value="KCZ59688"/>
+<property type="gene ID" value="HY30_13870"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000027190">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-0732" evidence="1">Signal</keyword>
+<feature type="signal peptide" evidence="1">
+<location>
+<begin position="1"/>
+<end position="28"/>
+</location>
+</feature>
+<feature type="chain" id="PRO_5001618251" evidence="1">
+<location>
+<begin position="29"/>
+<end position="293"/>
+</location>
+</feature>
+<feature type="domain" description="SGNH_hydro" evidence="2">
+<location>
+<begin position="113"/>
+<end position="274"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="SignalP"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KCZ59688.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000027190"/>
+</source>
+</evidence>
+<sequence length="293" mass="31785" checksum="25C184624A407506" modified="2014-09-03" version="1">
+MKNDPLIRWPITLALSAACIALPFAANAQSAPADAAPPCQLEDPDVTSFMAGVVHDLLDP
+DSNFTHQSIRGAPELATLQEGEKYRQKNDWAYVCKYKDANAALSGEPAPKVVFMGDSITE
+FWTVGDKDLFSDGVIGRGISGQTSTQMVARFWQDVVALHPTAVHIMAGTNDLAENTGYVR
+DEDYKNNIRAMAAMAQSQGIVVILASIPPAKSFGWRADIKPVERIVSLNQWLKDYAEEIG
+GIYVDYYAALVGDEGELQAGYTHDGVHPQRLGYSAMHDDAVAAIKKAVAKAEN
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

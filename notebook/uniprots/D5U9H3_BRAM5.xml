@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2010-07-13" modified="2016-05-11" version="31">
+<accession>D5U9H3</accession>
+<name>D5U9H3_BRAM5</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Lipolytic protein G-D-S-L family</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="2">Bmur_1252</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Brachyspira murdochii (strain ATCC 51284 / DSM 12563 / 56-150)</name>
+<name type="synonym">Serpulina murdochii</name>
+<dbReference type="NCBI Taxonomy" id="526224"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Spirochaetes</taxon>
+<taxon>Brachyspirales</taxon>
+<taxon>Brachyspiraceae</taxon>
+<taxon>Brachyspira</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="journal article" date="2010" name="Stand. Genomic Sci." volume="2" first="260" last="269">
+<title>Complete genome sequence of Brachyspira murdochii type strain (56-150).</title>
+<authorList>
+<person name="Pati A."/>
+<person name="Sikorski J."/>
+<person name="Gronow S."/>
+<person name="Munk C."/>
+<person name="Lapidus A."/>
+<person name="Copeland A."/>
+<person name="Glavina Del Tio T."/>
+<person name="Nolan M."/>
+<person name="Lucas S."/>
+<person name="Chen F."/>
+<person name="Tice H."/>
+<person name="Cheng J.F."/>
+<person name="Han C."/>
+<person name="Detter J.C."/>
+<person name="Bruce D."/>
+<person name="Tapia R."/>
+<person name="Goodwin L."/>
+<person name="Pitluck S."/>
+<person name="Liolios K."/>
+<person name="Ivanova N."/>
+<person name="Mavromatis K."/>
+<person name="Mikhailova N."/>
+<person name="Chen A."/>
+<person name="Palaniappan K."/>
+<person name="Land M."/>
+<person name="Hauser L."/>
+<person name="Chang Y.J."/>
+<person name="Jeffries C.D."/>
+<person name="Spring S."/>
+<person name="Rohde M."/>
+<person name="Goker M."/>
+<person name="Bristow J."/>
+<person name="Eisen J.A."/>
+<person name="Markowitz V."/>
+<person name="Hugenholtz P."/>
+<person name="Kyrpides N.C."/>
+<person name="Klenk H.P."/>
+</authorList>
+<dbReference type="PubMed" id="21304710"/>
+<dbReference type="DOI" id="10.4056/sigs.831993"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3">ATCC 51284 / DSM 12563 / 56-150</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="CP001959">
+<property type="protein sequence ID" value="ADG71346.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_013113769.1">
+<property type="nucleotide sequence ID" value="NC_014150.1"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="D5U9H3"/>
+<dbReference type="STRING" id="526224.Bmur_1252"/>
+<dbReference type="EnsemblBacteria" id="ADG71346">
+<property type="protein sequence ID" value="ADG71346"/>
+<property type="gene ID" value="Bmur_1252"/>
+</dbReference>
+<dbReference type="KEGG" id="brm:Bmur_1252"/>
+<dbReference type="PATRIC" id="38144670">
+<property type="gene designation" value="VBIBraMur21074_1266"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG41082S2">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG2755">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000094444"/>
+<dbReference type="OMA" id="INGDMIS"/>
+<dbReference type="BioCyc" id="BMUR526224:GHIV-1270-MONOMER"/>
+<dbReference type="Proteomes" id="UP000001915">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="6"/>
+<end position="182"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="ADG71346.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000001915"/>
+</source>
+</evidence>
+<sequence length="197" mass="22903" checksum="EF4D6555FF429E6E" modified="2010-07-13" version="1">
+MKKIVCLGDSTTYGYMVSRDKVWTEILNDKFSNNNKDFTFINKGINGDMISGMLARFDRD
+CVNADTVILMGGVNDIFTCKHVKKIENNLISIVNKSLENNIDIIVFTPIAFIKEAFDFFE
+SNNIEEFDNILKEYVNFINQYTKTNNIKSIDVYNLFVNKILKENHYYDIFFDGVHLSENG
+HNVFASEIYNYINDILY
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

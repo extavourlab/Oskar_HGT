@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-10-16" modified="2016-06-08" version="21">
+<accession>T0EFE4</accession>
+<name>T0EFE4_CLOSO</name>
+<protein>
+<submittedName>
+<fullName evidence="2">GDSL-like Lipase/Acylhydrolase family protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">H477_5397</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">[Clostridium] sordellii ATCC 9714</name>
+<dbReference type="NCBI Taxonomy" id="1292036"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Clostridia</taxon>
+<taxon>Clostridiales</taxon>
+<taxon>Peptostreptococcaceae</taxon>
+<taxon>Peptoclostridium</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="journal article" date="2013" name="J. Bacteriol." volume="195" first="4246" last="4254">
+<title>Identification and Characterization of Clostridium sordellii Toxin Gene Regulator.</title>
+<authorList>
+<person name="Sirigi Reddy A.R."/>
+<person name="Girinathan B.P."/>
+<person name="Zapotocny R."/>
+<person name="Govind R."/>
+</authorList>
+<dbReference type="PubMed" id="23873908"/>
+<dbReference type="DOI" id="10.1128/JB.00711-13"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2 3">ATCC 9714</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="APWR01000016">
+<property type="protein sequence ID" value="EPZ62423.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="EPZ62423">
+<property type="protein sequence ID" value="EPZ62423"/>
+<property type="gene ID" value="H477_5397"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000015748">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016787">
+<property type="term" value="F:hydrolase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-0378" evidence="2">Hydrolase</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="55"/>
+<end position="184"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EPZ62423.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000015748"/>
+</source>
+</evidence>
+<sequence length="202" mass="22955" checksum="38569B495CE366D2" modified="2013-10-16" version="1">
+MDEESNNNEVENKKDDTKKEEVKDFNKVFEDSVIMGDSRGEGLTEYEILSPSSVVAYKGR
+TTIKAKDDISSVVDLAPSKIFMTYGMNDLELFSDSKEFIKNYESLIKDVKAKLPNSKIYV
+TSIIPTNKSAINKQPKFKNVYSFNDGIKGMCKNLNVEFIDVGDSMNSDKNLYEPDGIHFK
+PAFYKGYLNIYKKKLIYRTGGI
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

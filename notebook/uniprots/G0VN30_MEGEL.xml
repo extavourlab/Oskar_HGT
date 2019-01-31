@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2011-10-19" modified="2016-05-11" version="26">
+<accession>G0VN30</accession>
+<name>G0VN30_MEGEL</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Lipolytic enzyme</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">MELS_0636</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Megasphaera elsdenii DSM 20460</name>
+<dbReference type="NCBI Taxonomy" id="1064535"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Negativicutes</taxon>
+<taxon>Selenomonadales</taxon>
+<taxon>Veillonellaceae</taxon>
+<taxon>Megasphaera</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="journal article" date="2011" name="J. Bacteriol." volume="193" first="5578" last="5579">
+<title>Genome Sequence of the Ruminal Bacterium Megasphaera elsdenii.</title>
+<authorList>
+<person name="Marx H."/>
+<person name="Graf A.B."/>
+<person name="Tatto N."/>
+<person name="Thallinger G.G."/>
+<person name="Mattanovich D."/>
+<person name="Sauer M."/>
+</authorList>
+<dbReference type="PubMed" id="21914887"/>
+<dbReference type="DOI" id="10.1128/JB.05861-11"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3">DSM 20460</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="HE576794">
+<property type="protein sequence ID" value="CCC72858.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_014015600.1">
+<property type="nucleotide sequence ID" value="NC_015873.1"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="G0VN30"/>
+<dbReference type="STRING" id="1064535.MELS_0636"/>
+<dbReference type="EnsemblBacteria" id="CCC72858">
+<property type="protein sequence ID" value="CCC72858"/>
+<property type="gene ID" value="MELS_0636"/>
+</dbReference>
+<dbReference type="KEGG" id="med:MELS_0636"/>
+<dbReference type="eggNOG" id="ENOG4107GTA">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410ZVTS">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000010111">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016298">
+<property type="term" value="F:lipase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006629">
+<property type="term" value="P:lipid metabolic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008265">
+<property type="entry name" value="Lipase_GDSL_AS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01098">
+<property type="entry name" value="LIPASE_GDSL_SER"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<keyword id="KW-0732" evidence="1">Signal</keyword>
+<feature type="signal peptide" evidence="1">
+<location>
+<begin position="1"/>
+<end position="24"/>
+</location>
+</feature>
+<feature type="chain" id="PRO_5003410638" evidence="1">
+<location>
+<begin position="25"/>
+<end position="470"/>
+</location>
+</feature>
+<feature type="domain" description="SGNH_hydro" evidence="2">
+<location>
+<begin position="280"/>
+<end position="447"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="SignalP"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="CCC72858.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000010111"/>
+</source>
+</evidence>
+<sequence length="470" mass="51618" checksum="6BC154084BC7ECDC" modified="2011-10-19" version="1">
+MRKQIAFVTALMALTLGVGILAGARQSTDSHGVDVALEEARQHATTDGDDVPALREKPQV
+TLHYPATDPADAHPILRWSRVDGAVMYDVQILKKEEEKDADGKPSTSYEPFMDDQKAYTT
+GLELDLPDTFLGQVFYWRVRGLDLKGRPVSEFSDVEEVHVDIFQPFTEKPTPLSFFNQGP
+GQTLLYPVYDWIAVPGAAKYEVEILNDLPEDPNGTAPSIHRIDSYTPQYAQQYDQKARMG
+DKPFYWRVLALDGAGNPIGGYSDALPFELDPAAEQGVVAIFGDSISHGGGSISYSPTDWD
+FSYASYLMFPTINLAQSGDTSAMGVERFDRDVLPFKPSYVIILIGSNSLRAGVPAGEVIA
+DLRTLKKKCLSHGIKPVFLTIPPLNPQNIKAAFDQDTADDWRSAIAEVNDYIDTQVHIDI
+TPGMADSHGELKTELALDGLHLDPPGKKMMAAAINNAWASITELPDSAWE
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

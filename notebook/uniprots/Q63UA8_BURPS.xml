@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2004-10-25" modified="2016-05-11" version="72">
+<accession>Q63UA8</accession>
+<name>Q63UA8_BURPS</name>
+<protein>
+<submittedName>
+<fullName evidence="5">Putative exported oxidase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="5">BPSL1707</name>
+</gene>
+<organism evidence="5 6">
+<name type="scientific">Burkholderia pseudomallei (strain K96243)</name>
+<dbReference type="NCBI Taxonomy" id="272560"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Burkholderiales</taxon>
+<taxon>Burkholderiaceae</taxon>
+<taxon>Burkholderia</taxon>
+<taxon>pseudomallei group</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="5 6">
+<citation type="journal article" date="2004" name="Proc. Natl. Acad. Sci. U.S.A." volume="101" first="14240" last="14245">
+<title>Genomic plasticity of the causative agent of melioidosis, Burkholderia pseudomallei.</title>
+<authorList>
+<person name="Holden M.T.G."/>
+<person name="Titball R.W."/>
+<person name="Peacock S.J."/>
+<person name="Cerdeno-Tarraga A.M."/>
+<person name="Atkins T."/>
+<person name="Crossman L.C."/>
+<person name="Pitt T."/>
+<person name="Churcher C."/>
+<person name="Mungall K."/>
+<person name="Bentley S.D."/>
+<person name="Sebaihia M."/>
+<person name="Thomson N.R."/>
+<person name="Bason N."/>
+<person name="Beacham I.R."/>
+<person name="Brooks K."/>
+<person name="Brown K.A."/>
+<person name="Brown N.F."/>
+<person name="Challis G.L."/>
+<person name="Cherevach I."/>
+<person name="Chillingworth T."/>
+<person name="Cronin A."/>
+<person name="Crosset B."/>
+<person name="Davis P."/>
+<person name="DeShazer D."/>
+<person name="Feltwell T."/>
+<person name="Fraser A."/>
+<person name="Hance Z."/>
+<person name="Hauser H."/>
+<person name="Holroyd S."/>
+<person name="Jagels K."/>
+<person name="Keith K.E."/>
+<person name="Maddison M."/>
+<person name="Moule S."/>
+<person name="Price C."/>
+<person name="Quail M.A."/>
+<person name="Rabbinowitsch E."/>
+<person name="Rutherford K."/>
+<person name="Sanders M."/>
+<person name="Simmonds M."/>
+<person name="Songsivilai S."/>
+<person name="Stevens K."/>
+<person name="Tumapa S."/>
+<person name="Vesaratchavest M."/>
+<person name="Whitehead S."/>
+<person name="Yeats C."/>
+<person name="Barrell B.G."/>
+<person name="Oyston P.C.F."/>
+<person name="Parkhill J."/>
+</authorList>
+<dbReference type="PubMed" id="15377794"/>
+<dbReference type="DOI" id="10.1073/pnas.0403302101"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="5 6">K96243</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="BX571965">
+<property type="protein sequence ID" value="CAH35705.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_004550464.1">
+<property type="nucleotide sequence ID" value="NZ_CP009538.1"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_108308.1">
+<property type="nucleotide sequence ID" value="NC_006350.1"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q63UA8"/>
+<dbReference type="STRING" id="272560.BPSL1707"/>
+<dbReference type="EnsemblBacteria" id="CAH35705">
+<property type="protein sequence ID" value="CAH35705"/>
+<property type="gene ID" value="BPSL1707"/>
+</dbReference>
+<dbReference type="GeneID" id="3094450"/>
+<dbReference type="KEGG" id="bps:BPSL1707"/>
+<dbReference type="PATRIC" id="19263389">
+<property type="gene designation" value="VBIBurPse99623_1916"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4105F6Z">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410XS0J">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000057298"/>
+<dbReference type="OMA" id="QWANSTI"/>
+<dbReference type="OrthoDB" id="EOG6WMHTW"/>
+<dbReference type="BioCyc" id="BPSE272560:GJNI-1742-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000605">
+<property type="component" value="Chromosome 1"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.130.10.80">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.60.40.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR015202">
+<property type="entry name" value="DUF1929"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011043">
+<property type="entry name" value="Gal_Oxase/kelch_b-propeller"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR015916">
+<property type="entry name" value="Gal_Oxidase_b-propeller"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR009880">
+<property type="entry name" value="Glyoxal_oxidase_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013783">
+<property type="entry name" value="Ig-like_fold"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR014756">
+<property type="entry name" value="Ig_E-set"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006652">
+<property type="entry name" value="Kelch_1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF09118">
+<property type="entry name" value="DUF1929"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF07250">
+<property type="entry name" value="Glyoxal_oxid_N"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01344">
+<property type="entry name" value="Kelch_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF50965">
+<property type="entry name" value="SSF50965"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF81296">
+<property type="entry name" value="SSF81296"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="6">Complete proteome</keyword>
+<keyword id="KW-0472" evidence="1">Membrane</keyword>
+<keyword id="KW-1185" evidence="6">Reference proteome</keyword>
+<keyword id="KW-0812" evidence="1">Transmembrane</keyword>
+<keyword id="KW-1133" evidence="1">Transmembrane helix</keyword>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="12"/>
+<end position="32"/>
+</location>
+</feature>
+<feature type="domain" description="Glyoxal_oxid_N" evidence="2">
+<location>
+<begin position="115"/>
+<end position="272"/>
+</location>
+</feature>
+<feature type="domain" description="DUF1929" evidence="3">
+<location>
+<begin position="451"/>
+<end position="545"/>
+</location>
+</feature>
+<feature type="domain" description="SGNH_hydro" evidence="4">
+<location>
+<begin position="564"/>
+<end position="748"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Phobius"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF07250"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF09118"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="CAH35705.1"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000000605"/>
+</source>
+</evidence>
+<sequence length="771" mass="82088" checksum="74B0A93BB07EDABC" modified="2004-10-25" version="1">
+MDNGLDLKRRRVMVAAGLTTAGIATASLFKMAKGSTDGGTLSQSVGMIIPEKGDPVRGIF
+SPVVDWPFIPIHAILMKDGRILTYGSTKQGFQSGMFFYDVWSPFLGGSPSAHQTLPNTTR
+VDLFCSSQLNLADGTVGIFGGDVTVGSSDSTGYSINAFTNSSITIYNPDASDASQQLAKQ
+ANQMLLPRWYSTATVLPNNEIYLQGGTGGNTYPEIRGVPDGVHRLLNGVYTGVYDDWYPR
+NFVGPNGKIFGKTGASLFEVDTKGNGSVRTLNSTAPYNPFAAGSRGEAVVMFAPGKILVV
+GTGGDARTASVIDINKMETSGSGASSTPSVIPLVTATSRLNRPRTWGHATVLPNGQVFVN
+GGSMGYNELATSSYTAELYDPATNTWADGAVAAHSRMYHAISLLLPDGTVLTGGGGASTP
+TYPGPEFPVNANAEVYYPPYLFNADGTRASRPVIDSAPAAITANRIFTLTSPDAGSIGRM
+TMVKTGSTTHSFNMEQRFVELNFTRQGAQLSATLTNDRHQFTPGMYMLFVINVNGVPSVA
+SLVRVDPDPVLAATATRTLRIMPMGDAITYGYINLPGTKYSGYRAPLQDLLAQANLNYQF
+VGSMYAGNGVYGIDTHHEGHPGMLIADMTANAASWVTAAKPDVVMLQMGFTDMLNNYLVD
+TAPSRLRKLIDTIRAAAPGAKIILSTLAPTPDAATQARINQFNAQVVSLANDEAAQFKDV
+FLVDSSTLIPKVGVDYYDMLYPNDNGHTKIAKVWRDGIVRALGSPFTSKSA
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

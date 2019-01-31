@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2016-06-08" modified="2016-06-08" version="1">
+<accession>A0A151XCS6</accession>
+<name>A0A151XCS6_9HYME</name>
+<protein>
+<submittedName>
+<fullName evidence="1">Tudor domain-containing protein 7</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="1">ALC60_02841</name>
+</gene>
+<organism evidence="1">
+<name type="scientific">Trachymyrmex zeteki</name>
+<dbReference type="NCBI Taxonomy" id="64791"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Hymenoptera</taxon>
+<taxon>Apocrita</taxon>
+<taxon>Aculeata</taxon>
+<taxon>Vespoidea</taxon>
+<taxon>Formicidae</taxon>
+<taxon>Myrmicinae</taxon>
+<taxon>Trachymyrmex</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="1 2">
+<citation type="submission" date="2015-09" db="EMBL/GenBank/DDBJ databases">
+<title>Trachymyrmex zeteki WGS genome.</title>
+<authorList>
+<person name="Nygaard S."/>
+<person name="Hu H."/>
+<person name="Boomsma J."/>
+<person name="Zhang G."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="1">Tzet28-1</strain>
+<tissue evidence="1">Whole body</tissue>
+</source>
+</reference>
+<dbReference type="EMBL" id="KQ982297">
+<property type="protein sequence ID" value="KYQ58172.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000075809">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="2">Complete proteome</keyword>
+<evidence key="1" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KYQ58172.1"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000075809"/>
+</source>
+</evidence>
+<sequence length="1071" mass="120954" checksum="F2A6BA1D6B9E42BF" modified="2016-06-08" version="1">
+MDKDEVIRKLRSCLISCKGGIKLENLRADYRVITGESLPFKQFGYSSVENFVRNVPDVIV
+NKKNGELFVEAIPSKTSAHLTKLVSRQKSTKRKIRPQPKKWTPPRHVKGFSYGSRSNNLN
+SGLQPARNNYVSPPSPFTRSTPDKSNLYTDFTRPVPLMETIVQCPYPLNNTKPSFTPTTP
+PSSPTICTFPKRLTDKVTIPSLATVNQSDNCKTIDVRFKVLNDNTASSVINQKPKTVEMK
+PSKLSDRLKITPPETPLPPISNYNNGYTSTPIPSIFNLPQVAPPLEAVDSRKELEVRANM
+LNLPAPVGTHTFHTYPEDAATEEEAEKIAARLALGHLAKESSSDVTTADAELIEKRILKI
+VTTHHSGVFMHLLPECYNEQYGEALPHNWQSIIQNCVDINQEKGVGDSMILCLTSPTLKV
+IQINSASKNIPENILLTNKKIQLNPIGPATPSILPVPEAHIWQVYVTYVVNTAEIWVRLG
+DDNNEFVDMTNEMTSYYDKINKPISSVACVPGDFYAVLEENYWHRVQCTDYDNETGIATV
+FFIDEGYMEQYKSDVLHLLDKRFNSLPFQAIRVGLQGLKEFHDCAQIVTEIENYLLVDQL
+FYVRVHGMDSDEYGSYVTVTFYDTSKGDEDVDVNQILIDKILEVLAVTFKMRVGQLIELN
+VTHIDEYGKVYTQLNSFYKNILCNKNMFQFATNNTTVNAVNFTKTYLVEWNSQWYRARVT
+DIPAEQEVAVFLIDIGKTVLIPRENLFHMDKTSKAVQCIPPQAIQIFLHNIDQSMYNKRF
+VARFQELVSDTDMLLARVIRISNSGIPVVEIFKRVGPSNMLASINTSLIYAGELSKINED
+SNNNNKSKKRLDRKSTRAPEIVGKLNPPVISDIGQYFDVHVTLVAHPGHFIVQPLNNASQ
+LREMMMDLQKCYDANDNSPLESISEGKLYAGKLQDDWFRVYVTDIISDNDVSVYLCDYGD
+VTIISTSNLQPLMSKFLKLPYQAVKAKLVGIEPINVDWTVTDCVKFKDLVLDKDFVSVIM
+ESVFDSLSPVNGTMLGLKLIDTSTEKDIYIDKLLVEEKRAKYIEEVEGLPS
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2012-02-22" modified="2016-05-11" version="10">
+<accession>G9KSV0</accession>
+<name>G9KSV0_MUSPF</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Tudor domain containing 7</fullName>
+</submittedName>
+</protein>
+<organism evidence="3">
+<name type="scientific">Mustela putorius furo</name>
+<name type="common">European domestic ferret</name>
+<name type="synonym">Mustela furo</name>
+<dbReference type="NCBI Taxonomy" id="9669"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Laurasiatheria</taxon>
+<taxon>Carnivora</taxon>
+<taxon>Caniformia</taxon>
+<taxon>Mustelidae</taxon>
+<taxon>Mustelinae</taxon>
+<taxon>Mustela</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="journal article" date="2013" name="J. Virol." volume="87" first="1957" last="1966">
+<title>Sequencing, annotation, and characterization of the influenza ferret infectome.</title>
+<authorList>
+<person name="Leon A.J."/>
+<person name="Banner D."/>
+<person name="Xu L."/>
+<person name="Ran L."/>
+<person name="Peng Z."/>
+<person name="Yi K."/>
+<person name="Chen C."/>
+<person name="Xu F."/>
+<person name="Huang J."/>
+<person name="Zhao Z."/>
+<person name="Lin Z."/>
+<person name="Huang S.H."/>
+<person name="Fang Y."/>
+<person name="Kelvin A.A."/>
+<person name="Ross T.M."/>
+<person name="Farooqui A."/>
+<person name="Kelvin D.J."/>
+</authorList>
+<dbReference type="PubMed" id="23236062"/>
+<dbReference type="DOI" id="10.1128/JVI.02476-12"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<tissue evidence="3">Lungs</tissue>
+</source>
+</reference>
+<dbReference type="EMBL" id="JP019381">
+<property type="protein sequence ID" value="AES07979.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="STRING" id="9669.ENSMPUP00000006312"/>
+<dbReference type="eggNOG" id="ENOG410IPR1">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410XST4">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="3"/>
+<end position="76"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="233"/>
+<end position="302"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="337"/>
+<end position="406"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="513"/>
+<end position="570"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="703"/>
+<end position="760"/>
+</location>
+</feature>
+<feature type="non-terminal residue" evidence="3">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<feature type="non-terminal residue" evidence="3">
+<location>
+<position position="1104"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AES07979.1"/>
+</source>
+</evidence>
+<sequence length="1104" mass="124231" checksum="602E6AD1567AAB14" modified="2012-02-22" version="1" fragment="single">
+MLEADLVSKMLRAVLQSHKNGIALPRLQGEYRSLTGDWIPFKQLGYPTLEAYLRSVPAVV
+RIETSRSGEITCYAMACTETARIAQLVARQRSSKRKTGRQVNCQMRVKKTMPFFLEGKPK
+ATLRQPGISSDFSISKKPNPTLLRDKGNSLGIKSDAEMPPYTLHTTIGSDVFKDVPGQRH
+VTIPTNNRFSPKASLPPPFQMHLSRTCAKEVSDNLNQTVEKPNVTPPASYTYKMDEVQNR
+IKEILNKHNNGIWISKLPHFYKELYKEELNQGILQQFEHWPHICTVEKPCSGGQDLLLYP
+AKRKQLLRGELDGEKVPPSPLPAPKPIPPLKECPTVIPGDLKEKVAELLAKYSSGLWASA
+LPKAFEDMYKVKFPEDALKNLASFSDVCTIDYISGNPQKAILYAKLPLPTDKILKDAGQA
+HGDYDIKSMIEQEYLQIEENIAKCADTFVENIAVPPLIIPTEASPSVLVVELSNTNEVVI
+RYVGKDYSAAQELMEDEMKEYYSKNPKVTPVQTVHVGQLLAVNAEEDAWLRAQIISMDEN
+KIKVCYVDYGFSENIEKSKAYKLNPKFCSLSFQATKCKLAGLEVLSDDPDLVKVVESLTC
+GKIFAVEILEKADIPLVVLYDTSGEDDVNINATCLKAICDKSLEAHLQIDAMYTNVRVTN
+ICSDGTLYCQVPCKGLNKLNDLLHKIEDYFHCKHMTSEYFVSLPFCGKVCLFHCKGKWLR
+VEITNVHSSRALDVQFLDSGTVTSVKVSELREIPPRFLQEIIVIPPQAIKCCLADLPQSI
+GMWTPDAVLWLRDSVLNCSDCSIKVTKVDETRGIAHIYLFTPKNFPDPHRSINRQITNAN
+RQITNADLWKHQKDVFLSAVSSGTSSPNSKSGGTPVLGNTGENFRKNLTDAIKKSVVDHS
+SSFSTEELPPPVHLSKPGEHMDVYVPVACHPGYFVIQPWQEIHKLEVLMEEMILYYSVSE
+ERHIAVEKDQVYAAKVENKWHRVLLKGILTNGLVSVYELDYGKHELVNIRKVQPLVDMFR
+KLPFQAVTAQLAGVKCNQWSEEASMVFRNHVEKKPLVALVQTVIENANPWDRKVVVYLVD
+TSLPDTDIWIHDFMSEYLVELSKV
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

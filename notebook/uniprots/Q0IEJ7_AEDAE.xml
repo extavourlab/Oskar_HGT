@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2006-10-03" modified="2016-05-11" version="55">
+<accession>Q0IEJ7</accession>
+<name>Q0IEJ7_AEDAE</name>
+<protein>
+<submittedName>
+<fullName evidence="3">AAEL010311-PA</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">AAEL010311</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Aedes aegypti</name>
+<name type="common">Yellowfever mosquito</name>
+<name type="synonym">Culex aegypti</name>
+<dbReference type="NCBI Taxonomy" id="7159"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Diptera</taxon>
+<taxon>Nematocera</taxon>
+<taxon>Culicoidea</taxon>
+<taxon>Culicidae</taxon>
+<taxon>Culicinae</taxon>
+<taxon>Aedini</taxon>
+<taxon>Aedes</taxon>
+<taxon>Stegomyia</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="journal article" date="2007" name="Science" volume="316" first="1718" last="1723">
+<title>Genome sequence of Aedes aegypti, a major arbovirus vector.</title>
+<authorList>
+<person name="Nene V."/>
+<person name="Wortman J.R."/>
+<person name="Lawson D."/>
+<person name="Haas B.J."/>
+<person name="Kodira C.D."/>
+<person name="Tu Z.J."/>
+<person name="Loftus B.J."/>
+<person name="Xi Z."/>
+<person name="Megy K."/>
+<person name="Grabherr M."/>
+<person name="Ren Q."/>
+<person name="Zdobnov E.M."/>
+<person name="Lobo N.F."/>
+<person name="Campbell K.S."/>
+<person name="Brown S.E."/>
+<person name="Bonaldo M.F."/>
+<person name="Zhu J."/>
+<person name="Sinkins S.P."/>
+<person name="Hogenkamp D.G."/>
+<person name="Amedeo P."/>
+<person name="Arensburger P."/>
+<person name="Atkinson P.W."/>
+<person name="Bidwell S.L."/>
+<person name="Biedler J."/>
+<person name="Birney E."/>
+<person name="Bruggner R.V."/>
+<person name="Costas J."/>
+<person name="Coy M.R."/>
+<person name="Crabtree J."/>
+<person name="Crawford M."/>
+<person name="DeBruyn B."/>
+<person name="DeCaprio D."/>
+<person name="Eiglmeier K."/>
+<person name="Eisenstadt E."/>
+<person name="El-Dorry H."/>
+<person name="Gelbart W.M."/>
+<person name="Gomes S.L."/>
+<person name="Hammond M."/>
+<person name="Hannick L.I."/>
+<person name="Hogan J.R."/>
+<person name="Holmes M.H."/>
+<person name="Jaffe D."/>
+<person name="Johnston S.J."/>
+<person name="Kennedy R.C."/>
+<person name="Koo H."/>
+<person name="Kravitz S."/>
+<person name="Kriventseva E.V."/>
+<person name="Kulp D."/>
+<person name="Labutti K."/>
+<person name="Lee E."/>
+<person name="Li S."/>
+<person name="Lovin D.D."/>
+<person name="Mao C."/>
+<person name="Mauceli E."/>
+<person name="Menck C.F."/>
+<person name="Miller J.R."/>
+<person name="Montgomery P."/>
+<person name="Mori A."/>
+<person name="Nascimento A.L."/>
+<person name="Naveira H.F."/>
+<person name="Nusbaum C."/>
+<person name="O'Leary S.B."/>
+<person name="Orvis J."/>
+<person name="Pertea M."/>
+<person name="Quesneville H."/>
+<person name="Reidenbach K.R."/>
+<person name="Rogers Y.-H.C."/>
+<person name="Roth C.W."/>
+<person name="Schneider J.R."/>
+<person name="Schatz M."/>
+<person name="Shumway M."/>
+<person name="Stanke M."/>
+<person name="Stinson E.O."/>
+<person name="Tubio J.M.C."/>
+<person name="Vanzee J.P."/>
+<person name="Verjovski-Almeida S."/>
+<person name="Werner D."/>
+<person name="White O.R."/>
+<person name="Wyder S."/>
+<person name="Zeng Q."/>
+<person name="Zhao Q."/>
+<person name="Zhao Y."/>
+<person name="Hill C.A."/>
+<person name="Raikhel A.S."/>
+<person name="Soares M.B."/>
+<person name="Knudson D.L."/>
+<person name="Lee N.H."/>
+<person name="Galagan J."/>
+<person name="Salzberg S.L."/>
+<person name="Paulsen I.T."/>
+<person name="Dimopoulos G."/>
+<person name="Collins F.H."/>
+<person name="Bruce B."/>
+<person name="Fraser-Liggett C.M."/>
+<person name="Severson D.W."/>
+</authorList>
+<dbReference type="PubMed" id="17510324"/>
+<dbReference type="DOI" id="10.1126/science.1138878"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="4">LVPib12</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="CH477655">
+<property type="protein sequence ID" value="EAT37713.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_001654423.1">
+<property type="nucleotide sequence ID" value="XM_001654373.1"/>
+</dbReference>
+<dbReference type="UniGene" id="Aae.5910"/>
+<dbReference type="ProteinModelPortal" id="Q0IEJ7"/>
+<dbReference type="STRING" id="7159.AAEL010311-PA"/>
+<dbReference type="GeneID" id="5573221"/>
+<dbReference type="KEGG" id="aag:AaeL_AAEL010311"/>
+<dbReference type="VectorBase" id="AAEL010311">
+<property type="organism name" value="Aedes aegypti"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410IPQW">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG41104YI">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000046089"/>
+<dbReference type="InParanoid" id="Q0IEJ7"/>
+<dbReference type="KO" id="K18405"/>
+<dbReference type="OMA" id="HVFVCDE"/>
+<dbReference type="OrthoDB" id="EOG7H4DSP"/>
+<dbReference type="PhylomeDB" id="Q0IEJ7"/>
+<dbReference type="Proteomes" id="UP000008820">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="12"/>
+<end position="85"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="1159"/>
+<end position="1219"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EAT37713.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000008820"/>
+</source>
+</evidence>
+<sequence length="1304" mass="147284" checksum="B6F6CDC66C5A3D35" modified="2006-10-03" version="1">
+MANIPKKEHSEEAENAISVLRALVLSKKGPSTVHGILADYRELEGGPLMYKKFGYPNADE
+FLKSTGEFVVQSRMGETVIFVKPSKESAHILKMVAAQKTTKTRKSGFSTMRQPQKRTGGN
+NWNPSAYNKMYSQMPNKATQFGQRKYPPLSQNNYQRYTNNPLKPFFQNTPPTGGGWTNNN
+RYNIQNTNGNQPKPPMTIKVATTSAPNSKPFGNNVPQTTNNQRQIRIETNNNNSTFKNFN
+KSSPDSAKTSQITLTSNDLRHIINDRSPQTPQRQSSQFELKSQESQFAPRSSDYRNDQSL
+SSPTKATAKDIQQMTLPDPSNKQPHVLPPPFVAQPQDHRSVNSRLQVSKDVMPTSPPVQK
+MVQKVYPLRDMTTNFDDSVRVPIPVTLPTIPGQKTLQDRLKIKQQIDSSDLEKAARVITV
+HTPANNASDIEPKSPTSNPVTPVATTQTARSKEPFSWNQPTATPIELLYRYAKCNDLDRP
+IYTYYKLRNKRIQCRVMVNESTYSTYPDDFANEFEGQFAAAQIAIENIKRDEERNNYSVC
+LDSDYEIAVKIHELLTQCPHGMFSKNIPEAFRQAHQLLLPDHWELIIMSQYSHMFSKEDA
+QENTILFANPHVENDSSNSSPSITSEAKCMTANVLKLPWNDQYWNLYITNPVSTVEIWAR
+LVGSEYSDKMDGLITDIELSMMGNDKPKPSIVRNGEYYLVQTPDSWHRVRVDEIDYSNNQ
+GVCFFIDLGEWERVSLDEIYVCDAKYLELAGQSVCFSLDGLEDFGENPKAKPHLDNLISG
+KVCIGEILTPRNEYEKDNELNSVGDVRIKMILYDTSSDEDVNLNPVILKHICDDTPTPEL
+NKKGVTTVVVTHVDDSGDVYCQLKDDAMVYIQKLINNLVKSNALEGNHRGLYKGKSSAHQ
+LYLVNDEKDNKWYRASLEAEESGPFCRMLYVDRGLKTSVNVSNIYRLEMLSVALSRYPAQ
+AIRLRMFDIPEITDYLLSRMRVLLKPGLTAMVKVAALSVIPLVKLYVHLEQTNILVCIND
+SIRSEMELEISSEIISNPRITSNELSSNTSNASSIKLNTSFASDYSIGSNEAAELSRSFS
+GLNIEQRKLSSPVPSQVTPKLAKFPLPGIKELFYVSVTIASSPKYFIVQPYSHAVQLNRM
+MLELQEYCKTKASRVPKDSVEQGEVYAGIKSDDGHWYRVIAVNILSGTGLIHVYFCDFGQ
+ISVVDSESLRILPAHLRTLPQQAVKARLHGVQPVHGDWTTEDAVRFQQLTVDKKFASYIH
+NITTDEFSPNEEIVDLMLIDVSTEEDIFIHQILVDENRAVLISK
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

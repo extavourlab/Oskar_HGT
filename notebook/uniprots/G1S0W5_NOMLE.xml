@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2011-10-19" modified="2016-03-16" version="23">
+<accession>G1S0W5</accession>
+<name>G1S0W5_NOMLE</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3">TDRD5</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Nomascus leucogenys</name>
+<name type="common">Northern white-cheeked gibbon</name>
+<name type="synonym">Hylobates leucogenys</name>
+<dbReference type="NCBI Taxonomy" id="61853"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hylobatidae</taxon>
+<taxon>Nomascus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="submission" date="2011-09" db="UniProtKB">
+<authorList>
+<consortium name="Ensembl"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<reference key="2" evidence="3">
+<citation type="submission" date="2012-10" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<consortium name="Gibbon Genome Sequencing Consortium"/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<comment type="caution">
+<text evidence="3">The sequence shown here is derived from an Ensembl automatic analysis pipeline and should be considered as preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="ADFV01184991">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="ADFV01184992">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="ADFV01184993">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="ADFV01184994">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="ADFV01184995">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="ADFV01184996">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="ADFV01184997">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="ADFV01184998">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="ADFV01184999">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="ADFV01185000">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_003259005.1">
+<property type="nucleotide sequence ID" value="XM_003258957.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_012366498.1">
+<property type="nucleotide sequence ID" value="XM_012511044.1"/>
+</dbReference>
+<dbReference type="STRING" id="61853.ENSNLEP00000019147"/>
+<dbReference type="Ensembl" id="ENSNLET00000020116">
+<property type="protein sequence ID" value="ENSNLEP00000019147"/>
+<property type="gene ID" value="ENSNLEG00000015751"/>
+</dbReference>
+<dbReference type="GeneID" id="100592380"/>
+<dbReference type="KEGG" id="nle:100592380"/>
+<dbReference type="CTD" id="163589"/>
+<dbReference type="eggNOG" id="KOG2039">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4111HJ1">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00730000110295"/>
+<dbReference type="InParanoid" id="G1S0W5"/>
+<dbReference type="KO" id="K18407"/>
+<dbReference type="OMA" id="QKLYIPR"/>
+<dbReference type="OrthoDB" id="EOG7W6WKS"/>
+<dbReference type="TreeFam" id="TF342664"/>
+<dbReference type="Proteomes" id="UP000001073">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="7"/>
+<end position="80"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="127"/>
+<end position="202"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="295"/>
+<end position="369"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="525"/>
+<end position="584"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Ensembl" id="ENSNLEP00000019147"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000001073"/>
+</source>
+</evidence>
+<sequence length="1035" mass="115831" checksum="058D462F67F1A7B2" modified="2011-10-19" version="1">
+MSEQERIQECLRKEIRSLLISTKDGLSPQELEKEYLLMVGNRLPLRILGYRSTMELVLDM
+PDVVSVCPGAGGTVILKAIPDESTKGIASLVAKQRSSHKVRNSMHKGRPSIYSGPRSYQR
+VPYRGRVAPVLPAVVKSELKDLLALSPVLLSDFEKAFAKRFGRSFQYMQYGFLSMFEVLN
+AASDVISVEQTRAGSLLMLKKSVTEEKPRGCPAGKIFTQPFRMKQGSYSTGFPVAKACFS
+QPTSNMEPPKQMMSMGKTSKLNVVETSRLNHTEKLNQLENTFKSVIAQIGPGGTISSELK
+HKIKFVVSKFPEGLFISKLLGEYEVIFKEQLSPKKLGFLNVTELVGALSDILHVEFREGQ
+QDLLVFDADKKPLPPVQSDKKTEAKACVSSPPRNSLSTAAVKETVWNCPSEKQKEPQQKI
+CKKPNLVVKPLQLQVETNKSQLNLAMANYDIPPDAVPDKKLCRLPPLDTSSLIGVFVEYI
+ISPSQFYIRIYGRDSSELLEDMMIEMRRCYSNQLVSDRYVMPECFIQPGHLCCVRISEDK
+WWYRVIIHRVLGKQEVEVFYPDFGNTGIVQKSSLRFLKCCYTKLPAQAIPCSLAWVRPVE
+EHWTSKAILQFQKLCGLKPLVGVVGEYVDGILNIFLCDTSSNEDVYFHHVLRTEGHAIVC
+RENISSKGFSELNPLALYTKSSGEPEDIVLTELGYPSQQHYFNEDRKISPQSKESELQIL
+QDINDEKSLHHLKSESKEPLKDSEFDSLKTCNKSFEEDLKWSNPEPNDLKEENEDEIPTG
+MPCLESVTIGDDIWDENWLPLQAKMGKGGDAASHLFTASLGGKNQYSSCKEMPQKDWCFS
+TPKDTWDDSWQPSGLVNGMKVEVHKPEVLGAQEKNTGTNRTQKQLDINGSSDSSTLPKLE
+EFCASLTQSEQSADGSQSEPNNSQTQPKQIQLSTAVPCSTTAVDDSAEKPSGSVESSPEI
+LKNEDFSSSRAITLYKDKSQESMDQLSLILSYECQISQKLYIPRSTATAALGAAARLATS
+RSLLHWYPSVKRMEA
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

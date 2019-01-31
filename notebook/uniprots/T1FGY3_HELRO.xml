@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-10-16" modified="2016-05-11" version="14">
+<accession>T1FGY3</accession>
+<name>T1FGY3_HELRO</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF">HELRODRAFT_181386</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Helobdella robusta</name>
+<name type="common">Californian leech</name>
+<dbReference type="NCBI Taxonomy" id="6412"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Lophotrochozoa</taxon>
+<taxon>Annelida</taxon>
+<taxon>Clitellata</taxon>
+<taxon>Hirudinida</taxon>
+<taxon>Hirudinea</taxon>
+<taxon>Rhynchobdellida</taxon>
+<taxon>Glossiphoniidae</taxon>
+<taxon>Helobdella</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="submission" date="2012-12" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Hellsten U."/>
+<person name="Grimwood J."/>
+<person name="Chapman J.A."/>
+<person name="Shapiro H."/>
+<person name="Aerts A."/>
+<person name="Otillar R.P."/>
+<person name="Terry A.Y."/>
+<person name="Boore J.L."/>
+<person name="Simakov O."/>
+<person name="Marletaz F."/>
+<person name="Cho S.-J."/>
+<person name="Edsinger-Gonzales E."/>
+<person name="Havlak P."/>
+<person name="Kuo D.-H."/>
+<person name="Larsson T."/>
+<person name="Lv J."/>
+<person name="Arendt D."/>
+<person name="Savage R."/>
+<person name="Osoegawa K."/>
+<person name="de Jong P."/>
+<person name="Lindberg D.R."/>
+<person name="Seaver E.C."/>
+<person name="Weisblat D.A."/>
+<person name="Putnam N.H."/>
+<person name="Grigoriev I.V."/>
+<person name="Rokhsar D.S."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<reference key="2" evidence="3 4">
+<citation type="journal article" date="2013" name="Nature" volume="493" first="526" last="531">
+<title>Insights into bilaterian evolution from three spiralian genomes.</title>
+<authorList>
+<person name="Simakov O."/>
+<person name="Marletaz F."/>
+<person name="Cho S.J."/>
+<person name="Edsinger-Gonzales E."/>
+<person name="Havlak P."/>
+<person name="Hellsten U."/>
+<person name="Kuo D.H."/>
+<person name="Larsson T."/>
+<person name="Lv J."/>
+<person name="Arendt D."/>
+<person name="Savage R."/>
+<person name="Osoegawa K."/>
+<person name="de Jong P."/>
+<person name="Grimwood J."/>
+<person name="Chapman J.A."/>
+<person name="Shapiro H."/>
+<person name="Aerts A."/>
+<person name="Otillar R.P."/>
+<person name="Terry A.Y."/>
+<person name="Boore J.L."/>
+<person name="Grigoriev I.V."/>
+<person name="Lindberg D.R."/>
+<person name="Seaver E.C."/>
+<person name="Weisblat D.A."/>
+<person name="Putnam N.H."/>
+<person name="Rokhsar D.S."/>
+</authorList>
+<dbReference type="PubMed" id="23254933"/>
+<dbReference type="DOI" id="10.1038/nature11696"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<reference key="3" evidence="3">
+<citation type="submission" date="2015-06" db="UniProtKB">
+<authorList>
+<consortium name="EnsemblMetazoa"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<dbReference type="EMBL" id="AMQM01007568">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AMQM01007569">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AMQM01007570">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AMQM01007571">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AMQM01007572">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="KB097640">
+<property type="protein sequence ID" value="ESN92511.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_009029440.1">
+<property type="nucleotide sequence ID" value="XM_009031192.1"/>
+</dbReference>
+<dbReference type="EnsemblMetazoa" id="HelroT181386">
+<property type="protein sequence ID" value="HelroP181386"/>
+<property type="gene ID" value="HelroG181386"/>
+</dbReference>
+<dbReference type="GeneID" id="20208082"/>
+<dbReference type="KEGG" id="hro:HELRODRAFT_181386"/>
+<dbReference type="CTD" id="20208082"/>
+<dbReference type="Proteomes" id="UP000015101">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0175" evidence="1">Coiled coil</keyword>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="domain" description="Tudor" evidence="2">
+<location>
+<begin position="547"/>
+<end position="603"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="930"/>
+<end position="964"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EnsemblMetazoa" id="HelroP181386"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000015101"/>
+</source>
+</evidence>
+<sequence length="1243" mass="143659" checksum="12B09C3EA856D795" modified="2013-10-16" version="1">
+MKIRSGILPRLKQLKLPEEFIVEDQNGCDVTLRSFIQWQRMHARLWLKLPEELIMEDVRL
+RSFSGKEYTPGWDTFYSFFSVFLCNLTLRGLAPVLEDIVGTGKHSTFCLCRMDDVNGRCN
+GVNKDFSTISELEKEYRSLTNNAIPYQSLGFRSVLELLKSFSKSDVEFKTMNNMVYCRAI
+VNSKTSQVNRSFINDPMFVQKLEIIELLKSFRNGLKLEHFHEAFGKRFGRYLNIHISEIL
+GYLKEIPEAVYLRREQGYIVIYPAVMMTTNQRTLPSNAAQTRPNRNNNNNNNNNKINNIS
+LASSPDNNNNVNVIVQASAMKTSTITTTAISGLSDIVSTLNKEECLWFFDTGHFNSIDQS
+SNSTGDFINFPELALANSDMLLCKMMDYLSNEYVSRGKILIKLKPYLDPQTNILYNTEYI
+LNDSVVDNIIISNNNNGIDVINKSGDVIINGSKDDDDVNDDNSDVINDNNNNYYNNNINN
+KTTTKYKEHLLKYPKMYEIMVCEVNREDECFYFQLSEQSSNIDKIMDDLQTFYESKVGSL
+YRVPTSYIKVGLVCVSLFDGVWHRCVVLHVHYDSVQIHYVDFGTRGTVPKQELRFLRKCF
+FTMEMQGLKGRFYQTKPAKNGRWSAEAFDYIFNYVSERTLNTVILGFDDDGNYLLKLLYA
+PYNLDDDNNNNYINNNNNNYNNNTDNKINSNNDLIAFNFFNDVLIAKGYAVHKDDLTREQ
+LRAKMNIFDDVSTDDDDDDDDNYTNTSNDDGDDDDSDGKVGSGDVRSRNKAGRPMAEEIV
+IKVPKNNIIKHHKLAKDEYEATLINLNDTGYMASCDVSSFLWDDDVDAFPIVILTKTMRQ
+LSIHLHTHPYLFHILMRDVPRLRKNNNGDMACITLYDLDEYNYYFYFFLHQQQQQNRLSS
+HQQLQNQEQGPHQLPQQQHQQHNEQLFENLRQFFQKEQLLQQQRQQLSQQIAQLTAEEKV
+QLAQQLVQFYHTANAAVTSTASANLERPVGPELNTLSLALSSTNDNNINNDSNIFSSYYN
+INKNIIAADTNIYSSNYNAISNSNSSTNSIVTPTEPKYLLVIPNNNNISNGNLLYVNNNT
+PVNNNPSGLIGFQQHQQQLNYPVQYLQQQQFIPQQQPQQFQNFYHYPVCNRSILIPQQYQ
+MLQQPPTFQQQQPIFQQTQQLPNVISHQQQNVMSQQQKQNVVLQQQQQQQQYQRAMLKDL
+TYQHPVNQSILTTSQQSLQQNLISRSSNQILSHRLVDFTKKRI
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

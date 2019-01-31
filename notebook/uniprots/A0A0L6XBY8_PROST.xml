@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-11-11" modified="2016-06-08" version="6">
+<accession>A0A0L6XBY8</accession>
+<name>A0A0L6XBY8_PROST</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Acyl-CoA thioesterase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">AFL46_09365</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Providencia stuartii</name>
+<dbReference type="NCBI Taxonomy" id="588"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacteriales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Providencia</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="submission" date="2015-07" db="EMBL/GenBank/DDBJ databases">
+<title>Draft genome sequence of a the first NDM-1-producing Providencia stuartii isolated in Portugal.</title>
+<authorList>
+<person name="Manageiro V."/>
+<person name="Sampaio D.A."/>
+<person name="Pereira P."/>
+<person name="Rodrigues P."/>
+<person name="Palos C."/>
+<person name="Vieira L."/>
+<person name="Canica M."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3 4">INSRA21868</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="3">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="LGYB01000009">
+<property type="protein sequence ID" value="KNZ85332.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_053110361.1">
+<property type="nucleotide sequence ID" value="NZ_LGYB01000009.1"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="KNZ85332">
+<property type="protein sequence ID" value="KNZ85332"/>
+<property type="gene ID" value="AFL46_09365"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000037235">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016298">
+<property type="term" value="F:lipase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006629">
+<property type="term" value="P:lipid metabolic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008265">
+<property type="entry name" value="Lipase_GDSL_AS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01098">
+<property type="entry name" value="LIPASE_GDSL_SER"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-0732" evidence="1">Signal</keyword>
+<feature type="signal peptide" evidence="1">
+<location>
+<begin position="1"/>
+<end position="27"/>
+</location>
+</feature>
+<feature type="chain" id="PRO_5005569316" evidence="1">
+<location>
+<begin position="28"/>
+<end position="213"/>
+</location>
+</feature>
+<feature type="domain" description="SGNH_hydro" evidence="2">
+<location>
+<begin position="34"/>
+<end position="191"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="SignalP"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KNZ85332.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000037235"/>
+</source>
+</evidence>
+<sequence length="213" mass="23712" checksum="27CF6DDC5F9FDE9B" modified="2015-11-11" version="1">
+MMNFKNIFRRHLLVFLLLFVASGQTLAATKLLILGDSLSAGYRLPAEQAWASLLAERWQK
+SSPPVIVINGSISGNTSAQGLERLPALLEQHKPDWVLIELGANDGLQGLSVKQMENTLQQ
+IIEQITQSGAKPLLMQIRIPPNYGKRYTSSFENVYPALAQQNAVPLLPFYMETIITKPEW
+IQQDGIHPTVEAQPSIADFMEKQLLPYLTSSAN
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

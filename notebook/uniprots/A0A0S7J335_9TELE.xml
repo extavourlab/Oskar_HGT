@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2016-02-17" modified="2016-02-17" version="1">
+<accession>A0A0S7J335</accession>
+<name>A0A0S7J335_9TELE</name>
+<protein>
+<submittedName>
+<fullName evidence="1">TRD7B</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="1">TRD7B</name>
+</gene>
+<organism evidence="1">
+<name type="scientific">Poeciliopsis prolifica</name>
+<name type="common">blackstripe livebearer</name>
+<dbReference type="NCBI Taxonomy" id="188132"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Actinopterygii</taxon>
+<taxon>Neopterygii</taxon>
+<taxon>Teleostei</taxon>
+<taxon>Neoteleostei</taxon>
+<taxon>Acanthomorphata</taxon>
+<taxon>Ovalentaria</taxon>
+<taxon>Atherinomorphae</taxon>
+<taxon>Cyprinodontiformes</taxon>
+<taxon>Poeciliidae</taxon>
+<taxon>Poeciliinae</taxon>
+<taxon>Poeciliopsis</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="1">
+<citation type="submission" date="2014-12" db="EMBL/GenBank/DDBJ databases">
+<title>Parallel Evolution in Life History Adaptation Evident in the Tissue-Specific Poeciliopsis prolifica transcriptome.</title>
+<authorList>
+<person name="Jue N.K."/>
+<person name="Foley R.J."/>
+<person name="Obergfell C."/>
+<person name="Reznick D.N."/>
+<person name="O'Neill R.J."/>
+<person name="O'Neill M.J."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<dbReference type="EMBL" id="GBYX01258614">
+<property type="protein sequence ID" value="JAO59525.1"/>
+<property type="molecule type" value="Transcribed_RNA"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<feature type="non-terminal residue" evidence="1">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<feature type="non-terminal residue" evidence="1">
+<location>
+<position position="104"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="JAO59525.1"/>
+</source>
+</evidence>
+<sequence length="104" mass="11424" checksum="7068510613971750" modified="2016-02-17" version="1" fragment="single">
+LQSDYKELTGDQIPHQEIGHVQVEALLASTSSVRMERGGSGEVVYVSSGAKEATHTAKVV
+ARQRSSKRTGRHHLVNTQMRVKPAVPLVLNAKPQTSLRQPNHHL
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

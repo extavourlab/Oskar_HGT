@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-01-22" modified="2015-12-09" version="12">
+<accession>V4CK92</accession>
+<name>V4CK92_LOTGI</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">LOTGIDRAFT_237885</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Lottia gigantea</name>
+<name type="common">Giant owl limpet</name>
+<dbReference type="NCBI Taxonomy" id="225164"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Lophotrochozoa</taxon>
+<taxon>Mollusca</taxon>
+<taxon>Gastropoda</taxon>
+<taxon>Patellogastropoda</taxon>
+<taxon>Lottioidea</taxon>
+<taxon>Lottiidae</taxon>
+<taxon>Lottia</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="journal article" date="2013" name="Nature" volume="493" first="526" last="531">
+<title>Insights into bilaterian evolution from three spiralian genomes.</title>
+<authorList>
+<person name="Simakov O."/>
+<person name="Marletaz F."/>
+<person name="Cho S.J."/>
+<person name="Edsinger-Gonzales E."/>
+<person name="Havlak P."/>
+<person name="Hellsten U."/>
+<person name="Kuo D.H."/>
+<person name="Larsson T."/>
+<person name="Lv J."/>
+<person name="Arendt D."/>
+<person name="Savage R."/>
+<person name="Osoegawa K."/>
+<person name="de Jong P."/>
+<person name="Grimwood J."/>
+<person name="Chapman J.A."/>
+<person name="Shapiro H."/>
+<person name="Aerts A."/>
+<person name="Otillar R.P."/>
+<person name="Terry A.Y."/>
+<person name="Boore J.L."/>
+<person name="Grigoriev I.V."/>
+<person name="Lindberg D.R."/>
+<person name="Seaver E.C."/>
+<person name="Weisblat D.A."/>
+<person name="Putnam N.H."/>
+<person name="Rokhsar D.S."/>
+</authorList>
+<dbReference type="PubMed" id="23254933"/>
+<dbReference type="DOI" id="10.1038/nature11696"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<dbReference type="EMBL" id="KB200149">
+<property type="protein sequence ID" value="ESP02655.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_009046676.1">
+<property type="nucleotide sequence ID" value="XM_009048428.1"/>
+</dbReference>
+<dbReference type="EnsemblMetazoa" id="LotgiT237885">
+<property type="protein sequence ID" value="LotgiP237885"/>
+<property type="gene ID" value="LotgiG237885"/>
+</dbReference>
+<dbReference type="GeneID" id="20250589"/>
+<dbReference type="KEGG" id="lgi:LOTGIDRAFT_237885"/>
+<dbReference type="CTD" id="20250589"/>
+<dbReference type="KO" id="K18405"/>
+<dbReference type="OMA" id="AMANDIS"/>
+<dbReference type="Proteomes" id="UP000030746">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR016071">
+<property type="entry name" value="Staphylococal_nuclease_OB-fold"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF50199">
+<property type="entry name" value="SSF50199"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="5"/>
+<end position="81"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="433"/>
+<end position="501"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="617"/>
+<end position="676"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="ESP02655.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000030746"/>
+</source>
+</evidence>
+<sequence length="1290" mass="143978" checksum="7E4C18ABFC3F1367" modified="2014-01-22" version="1">
+MADDKLKSMKSLIRAVLMSSKDGVATTRLLADYSEFAGEYLPYKEMGFPSVIKFIESIPD
+VARIRYDHKTGEERVMAVADESTAHIQKMVSKQRSAKKRKKALPKVMHRRPTRPVVPGRP
+PRGPRPPPRGPYRGPPYGGPPYGGPPYGGHPYRGPPGWQDYARKPMYPPMARPYSSHGRP
+AVRLDPYGRAISPLLQVPLSEFGGMWDDNNNTPKDNQSPVKNYTVTVGNVVSPRSGNFHR
+KVSDNPCGEPYDDRRKNPHPGATNDKKYGSSFEKPPRFQKKEENSSIKPVAVVNPNTMEN
+WDSPEKYPVQSTQIETDFSSDSSDSCEYLELLEDFSLHHDVEVNVDTTEARVGSITGHLG
+LVHMKGRNIGSVEVFETELAAREQAAKNACKEFNITKENVYQDRSETSGNSSAEAPPGQI
+QAINTVPDASAKVPVEIKQNIMKILEEITERGLWGARFKVRYTEEFGPAPDDLIEMIQQC
+TDIARVEITHDRPIIYVIKQEKQKEPEPKQQAVEVQKPIQNTVTPPATKSYSARTIPIIK
+PTVASAGNSLPLIVNPFKGTVIPPAPEMTIGTDHIAYVTYATSVTEFCIQLESSCCDHIN
+DVLQKVCKNLPKPDPKYVEKGIYCSALYSEDEQWYRAIVMTDVVDRKLTVRFVDYGNIET
+VSLDNIRQLPPKVVNQPEQAIVCSLYGIKPPQGDTQWSKKSLQILAEFVQDLALIAQPVI
+IQDGIYDVNLYHVDDKEKSVNQMLLDQGEAVVLSSPPQRSPDEPELLDIPDEKFLDVYVS
+FLSPITGVMVRLVGDQFSDKLEELEAELESFYKISPFNYIITAGMVCVVTLDSLYHRVKV
+LSIEGDKRLTNQMTAISNPLVPDNTAECYFLDHGDSELILKEVLKPIDVDLNRKLPYQAV
+SVNLYGLENYLVDPTTFDQLFLVVAKICVAEVVSRDGKLTVVLYDTDGEEDLNINEQIAK
+ILISEGKTIDLNLFSCNVGPSNSSDTQSVGSNDSGPIHSRTDIPKNIVSPFEPKQQNDLA
+AEAVSSMQANFDSMTLSKNTVETASLPSGISNSAKSSSSSIYTWDKSQNRTSTPTNGASI
+TPTVITSVPQAPSTATVMPPYVEIPPVGKMLPIYVLWVADPTNFVCLPYDQVEDLERFMV
+QLNDHYARAVFEEVEPEVGHLYGGQYLGAWYRMIVKEIFGEQLNVYMADYGEYTILTAED
+LQPLPRKFCSLPFTAFKGKLHGLSSVGDYWSESSKYAFMQRAQGRSFFALICDKDEEERM
+ISLRLIDTSDENEDVCIDEVLISMNLARRS
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-07-24" modified="2016-06-08" version="14">
+<accession>R9MY82</accession>
+<name>R9MY82_9FIRM</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">C819_04116</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Lachnospiraceae bacterium 10-1</name>
+<dbReference type="NCBI Taxonomy" id="1235800"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Clostridia</taxon>
+<taxon>Clostridiales</taxon>
+<taxon>Lachnospiraceae</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="submission" date="2013-04" db="EMBL/GenBank/DDBJ databases">
+<title>The Genome Sequence of Lachnospiraceae bacterium 10-01.</title>
+<authorList>
+<consortium name="The Broad Institute Genomics Platform"/>
+<consortium name="The Broad Institute Genome Sequencing Center for Infectious Disease"/>
+<person name="Earl A."/>
+<person name="Xavier R."/>
+<person name="Elson C."/>
+<person name="Duck W."/>
+<person name="Walker B."/>
+<person name="Young S."/>
+<person name="Zeng Q."/>
+<person name="Gargeya S."/>
+<person name="Fitzgerald M."/>
+<person name="Haas B."/>
+<person name="Abouelleil A."/>
+<person name="Allen A.W."/>
+<person name="Alvarado L."/>
+<person name="Arachchi H.M."/>
+<person name="Berlin A.M."/>
+<person name="Chapman S.B."/>
+<person name="Gainer-Dewar J."/>
+<person name="Goldberg J."/>
+<person name="Griggs A."/>
+<person name="Gujja S."/>
+<person name="Hansen M."/>
+<person name="Howarth C."/>
+<person name="Imamovic A."/>
+<person name="Ireland A."/>
+<person name="Larimer J."/>
+<person name="McCowan C."/>
+<person name="Murphy C."/>
+<person name="Pearson M."/>
+<person name="Poon T.W."/>
+<person name="Priest M."/>
+<person name="Roberts A."/>
+<person name="Saif S."/>
+<person name="Shea T."/>
+<person name="Sisk P."/>
+<person name="Sykes S."/>
+<person name="Wortman J."/>
+<person name="Nusbaum C."/>
+<person name="Birren B."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2 3">10-1</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="ASTF01000044">
+<property type="protein sequence ID" value="EOS72767.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_016230330.1">
+<property type="nucleotide sequence ID" value="NZ_KE159822.1"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="R9MY82"/>
+<dbReference type="EnsemblBacteria" id="EOS72767">
+<property type="protein sequence ID" value="EOS72767"/>
+<property type="gene ID" value="C819_04116"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000014134">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="41"/>
+<end position="178"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EOS72767.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000014134"/>
+</source>
+</evidence>
+<sequence length="184" mass="21302" checksum="E2C6E27DB32438F2" modified="2013-07-24" version="1">
+MKMETKNEMKLLDLFFKIYNAKKRRQYRNENARMTDSPVVFFGDSITDKCDLNKFFPGVN
+ALNRGISGNTVSDLINRIEVSVCNANPSKIILLIGINDMMNVKRSARETAKRYDKLLRMM
+REKCPAVPILCQSVYPGYDAEKNKKNKGLVFPLRHLASEIVELNLYIQDFCRKYGCTYKM
+SIHI
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

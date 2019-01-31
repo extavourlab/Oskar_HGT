@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2016-06-08" modified="2016-06-08" version="1">
+<accession>A0A146HMW8</accession>
+<name>A0A146HMW8_9AGAR</name>
+<protein>
+<submittedName>
+<fullName evidence="1">Lipolytic enzyme</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="1">MCHLO_06976</name>
+</gene>
+<organism evidence="1">
+<name type="scientific">Mycena chlorophos</name>
+<dbReference type="NCBI Taxonomy" id="658473"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Basidiomycota</taxon>
+<taxon>Agaricomycotina</taxon>
+<taxon>Agaricomycetes</taxon>
+<taxon>Agaricomycetidae</taxon>
+<taxon>Agaricales</taxon>
+<taxon>Tricholomataceae</taxon>
+<taxon>Mycena</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="1">
+<citation type="submission" date="2014-09" db="EMBL/GenBank/DDBJ databases">
+<title>Genome sequence of the luminous mushroom Mycena chlorophos for searching fungal bioluminescence genes.</title>
+<authorList>
+<person name="Tanaka Y."/>
+<person name="Kasuga D."/>
+<person name="Oba Y."/>
+<person name="Hase S."/>
+<person name="Sato K."/>
+<person name="Oba Y."/>
+<person name="Sakakibara Y."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<dbReference type="EMBL" id="DF845749">
+<property type="protein sequence ID" value="GAT49681.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<evidence key="1" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="GAT49681.1"/>
+</source>
+</evidence>
+<sequence length="467" mass="48814" checksum="943972D6A5A93075" modified="2016-06-08" version="1">
+MRSFLPLALALAALPSAYAGFSGQSLRIMPLGASITFGYGSTDGNGYRGTLHDLLAADGN
+TVQMVGTQINGTSVAPWNEGYPGYIITQVNTQANLNVPIQNPNIVTLLVGTNDATGDVDP
+AGMASRLTTLIQNVLDAPPTTLVVVSSLPPNANTAANGYIKTYNSQIPGVVANFVAAGRS
+VVFADTGAQVSLSDLVDGTHPNDAAYARMASVFYDAIQTAYADGWIWPLDGPNPRDGFTG
+KALRIMATGASITYGSGSTDGNGYRLDLLNLLKADGNTVDMVGSQQGGTMADNYNEGYPG
+YIIAEVTARATIEMPLQNPNIVTLLVGTVDMLNNDDPAGAPARLTTLIQTILDAPATTLV
+VVSNLLPNADAATNTRINAFNGALPGVVASFVSAGRSVVLVDCHGVVNVTDLVDGTNPDD
+AGYARMAQVWYNGIQIANTYDGWIWPLYGTAQNGRRELGSNSRVFAK
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

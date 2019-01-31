@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-04-16" modified="2016-06-08" version="16">
+<accession>W7SHM7</accession>
+<name>W7SHM7_9PSEU</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Alpha-L-arabinofuranosidase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">KUTG_00602</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Kutzneria sp. 744</name>
+<dbReference type="NCBI Taxonomy" id="345341"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Pseudonocardiales</taxon>
+<taxon>Pseudonocardiaceae</taxon>
+<taxon>Kutzneria</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="submission" date="2009-10" db="EMBL/GenBank/DDBJ databases">
+<title>The genome sequence of Kutzneria sp. strain 744.</title>
+<authorList>
+<consortium name="The Broad Institute Genome Sequencing Platform"/>
+<consortium name="Broad Institute Microbial Sequencing Center"/>
+<person name="Fischbach M."/>
+<person name="Godfrey P."/>
+<person name="Ward D."/>
+<person name="Young S."/>
+<person name="Zeng Q."/>
+<person name="Koehrsen M."/>
+<person name="Alvarado L."/>
+<person name="Berlin A.M."/>
+<person name="Bochicchio J."/>
+<person name="Borenstein D."/>
+<person name="Chapman S.B."/>
+<person name="Chen Z."/>
+<person name="Engels R."/>
+<person name="Freedman E."/>
+<person name="Gellesch M."/>
+<person name="Goldberg J."/>
+<person name="Griggs A."/>
+<person name="Gujja S."/>
+<person name="Heilman E.R."/>
+<person name="Heiman D.I."/>
+<person name="Hepburn T.A."/>
+<person name="Howarth C."/>
+<person name="Jen D."/>
+<person name="Larson L."/>
+<person name="Lewis B."/>
+<person name="Mehta T."/>
+<person name="Park D."/>
+<person name="Pearson M."/>
+<person name="Richards J."/>
+<person name="Roberts A."/>
+<person name="Saif S."/>
+<person name="Shea T.D."/>
+<person name="Shenoy N."/>
+<person name="Sisk P."/>
+<person name="Stolte C."/>
+<person name="Sykes S.N."/>
+<person name="Thomson T."/>
+<person name="Walk T."/>
+<person name="White J."/>
+<person name="Yandava C."/>
+<person name="Straight P."/>
+<person name="Clardy J."/>
+<person name="Hung D."/>
+<person name="Kolter R."/>
+<person name="Mekalanos J."/>
+<person name="Walker S."/>
+<person name="Walsh C.T."/>
+<person name="Wieland-Brown L.C."/>
+<person name="Haas B."/>
+<person name="Nusbaum C."/>
+<person name="Birren B."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3 4">744</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="KK037166">
+<property type="protein sequence ID" value="EWM10298.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_043714738.1">
+<property type="nucleotide sequence ID" value="NZ_KK037166.1"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="EWM10298">
+<property type="protein sequence ID" value="EWM10298"/>
+<property type="gene ID" value="KUTG_00602"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000030658">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000772">
+<property type="entry name" value="Ricin_B_lectin"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00652">
+<property type="entry name" value="Ricin_B_lectin"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00458">
+<property type="entry name" value="RICIN"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF50370">
+<property type="entry name" value="SSF50370"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50231">
+<property type="entry name" value="RICIN_B_LECTIN"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<keyword id="KW-0732" evidence="1">Signal</keyword>
+<feature type="signal peptide" evidence="1">
+<location>
+<begin position="1"/>
+<end position="28"/>
+</location>
+</feature>
+<feature type="chain" id="PRO_5004900007" evidence="1">
+<location>
+<begin position="29"/>
+<end position="366"/>
+</location>
+</feature>
+<feature type="domain" description="Ricin B-type lectin" evidence="2">
+<location>
+<begin position="233"/>
+<end position="363"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="SignalP"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50231"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EWM10298.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000030658"/>
+</source>
+</evidence>
+<sequence length="366" mass="38298" checksum="5ADCDAADD266DE58" modified="2014-04-16" version="1">
+MRTGLRLLAAALVALATSALLGFGTAAAESNGGVRIMPLGDSITDGVQTPGGYRIGLWQR
+FVAANYREDFVGSLSNGPASLGDHDHEGHSGWRIDQIDANIVTWLRNTTPHSVLLHIGTN
+DILQNDDVANAPNRLSGLIDHITATAPTAEVFVATIIPLANSGQEQAVQRYNAAIPGIVQ
+SKVAAGKHVHLVDMHSALTAADLVDGIHPTAAGYDKMATVWFTALRSVPGSIGDPVVPSG
+RELVGAQSGRCVDAQDTNGAQAQLADCANRASQLWTVTSSGQLSVYGSKCLDAYGQGTAN
+GTQVVVWDCNGQPNQQWRVNSNGTVSGVQSGLCLDASGQGTANGTKIILWSCNGQANQRW
+TQPSPF
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

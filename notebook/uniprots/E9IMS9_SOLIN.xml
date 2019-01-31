@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2011-04-05" modified="2015-12-09" version="13">
+<accession>E9IMS9</accession>
+<name>E9IMS9_SOLIN</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Putative uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">SINV_11219</name>
+</gene>
+<organism evidence="3">
+<name type="scientific">Solenopsis invicta</name>
+<name type="common">Red imported fire ant</name>
+<name type="synonym">Solenopsis wagneri</name>
+<dbReference type="NCBI Taxonomy" id="13686"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Hymenoptera</taxon>
+<taxon>Apocrita</taxon>
+<taxon>Aculeata</taxon>
+<taxon>Vespoidea</taxon>
+<taxon>Formicidae</taxon>
+<taxon>Myrmicinae</taxon>
+<taxon>Solenopsis</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="journal article" date="2011" name="Proc. Natl. Acad. Sci. U.S.A." volume="108" first="5679" last="5684">
+<title>The genome of the fire ant Solenopsis invicta.</title>
+<authorList>
+<person name="Wurm Y."/>
+<person name="Wang J."/>
+<person name="Riba-Grognuz O."/>
+<person name="Corona M."/>
+<person name="Nygaard S."/>
+<person name="Hunt B.G."/>
+<person name="Ingram K.K."/>
+<person name="Falquet L."/>
+<person name="Nipitwattanaphon M."/>
+<person name="Gotzek D."/>
+<person name="Dijkstra M.B."/>
+<person name="Oettler J."/>
+<person name="Comtesse F."/>
+<person name="Shih C.J."/>
+<person name="Wu W.J."/>
+<person name="Yang C.C."/>
+<person name="Thomas J."/>
+<person name="Beaudoing E."/>
+<person name="Pradervand S."/>
+<person name="Flegel V."/>
+<person name="Cook E.D."/>
+<person name="Fabbretti R."/>
+<person name="Stockinger H."/>
+<person name="Long L."/>
+<person name="Farmerie W.G."/>
+<person name="Oakey J."/>
+<person name="Boomsma J.J."/>
+<person name="Pamilo P."/>
+<person name="Yi S.V."/>
+<person name="Heinze J."/>
+<person name="Goodisman M.A."/>
+<person name="Farinelli L."/>
+<person name="Harshman K."/>
+<person name="Hulo N."/>
+<person name="Cerutti L."/>
+<person name="Xenarios I."/>
+<person name="Shoemaker D."/>
+<person name="Keller L."/>
+</authorList>
+<dbReference type="PubMed" id="21282665"/>
+<dbReference type="DOI" id="10.1073/pnas.1009690108"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<dbReference type="EMBL" id="GL764255">
+<property type="protein sequence ID" value="EFZ18122.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EnsemblMetazoa" id="SINV15514-RA">
+<property type="protein sequence ID" value="SINV15514-PA"/>
+<property type="gene ID" value="SINV15514"/>
+</dbReference>
+<dbReference type="InParanoid" id="E9IMS9"/>
+<dbReference type="OMA" id="WIHLREN"/>
+<dbReference type="OrthoDB" id="EOG7RRF6H"/>
+<dbReference type="Proteomes" id="UP000006539">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="7"/>
+<end position="80"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="319"/>
+<end position="393"/>
+</location>
+</feature>
+<feature type="non-terminal residue" evidence="2">
+<location>
+<position position="632"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EFZ18122.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000006539"/>
+</source>
+</evidence>
+<sequence length="632" mass="73396" checksum="1D6AC4CD17ACC354" modified="2011-04-05" version="1" fragment="single">
+MPINQAALDDVRTVLLSCLLARKGLTPLPVLERDFYDLEKKRIPYRQFGYSDLASFIQSM
+PDHFSIELYRGNTCVRGIASEKTQHIKSLVDRQKADNKRYVSSHSRQFYPSHNRRQHKSQ
+RVRISHEKLSDLISYIQKSPTGVSLNVASTYVQCLVPYVEVNKEDLREQLRELTHLLNLD
+GNMIYPILSNDLPSTSSHSQSFMEKPSLSQSWDPSELRNDSASPPTKQTECAAGQEDDLY
+CSEENDFVPAGCRITRTQKRTKTSEHLATNVAYYAQSEQTDKFSYKVQNDSEISEDECFA
+STDSKNNITLKTQDVYNIISDRTISRLEKLLQKHPEGIWCAELPDLYYNEYNVPLNYTVL
+GFASVREFTFYLPKIFYMTQVNKTDDFLLFNADKRPVVPKTESTDMTQSSNKRYDKHNKV
+QEYNNNNEEPIPSDISPDVVKRFAPDDAMSYNDNVEKISVVELKKTKTHLEVYVIEVFHP
+SFFWIHLRENRKRFFKMMDELSKFYEHNKDSYAIPKVALKKDLNCACIYMNKWHRGLIKS
+VKPDYRVTIFFYDYGTLKTYVAEDIYYLHKQFSTLSAQAIPCGLYNVKPTTIGERWKKSV
+VAQFIDKIEETLLAATIMSVDEKFHIKGTIKN
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

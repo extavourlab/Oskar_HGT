@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2016-06-08" modified="2016-06-08" version="1">
+<accession>A0A158NH30</accession>
+<name>A0A158NH30_ATTCE</name>
+<protein>
+<submittedName>
+<fullName evidence="1">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<organism evidence="1">
+<name type="scientific">Atta cephalotes</name>
+<name type="common">Leafcutter ant</name>
+<dbReference type="NCBI Taxonomy" id="12957"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Hymenoptera</taxon>
+<taxon>Apocrita</taxon>
+<taxon>Aculeata</taxon>
+<taxon>Vespoidea</taxon>
+<taxon>Formicidae</taxon>
+<taxon>Myrmicinae</taxon>
+<taxon>Atta</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="1 2">
+<citation type="journal article" date="2011" name="PLoS Genet." volume="7" first="e1002007" last="e1002007">
+<title>The genome sequence of the leaf-cutter ant Atta cephalotes reveals insights into its obligate symbiotic lifestyle.</title>
+<authorList>
+<person name="Suen G."/>
+<person name="Teiling C."/>
+<person name="Li L."/>
+<person name="Holt C."/>
+<person name="Abouheif E."/>
+<person name="Bornberg-Bauer E."/>
+<person name="Bouffard P."/>
+<person name="Caldera E.J."/>
+<person name="Cash E."/>
+<person name="Cavanaugh A."/>
+<person name="Denas O."/>
+<person name="Elhaik E."/>
+<person name="Fave M.J."/>
+<person name="Gadau J."/>
+<person name="Gibson J.D."/>
+<person name="Graur D."/>
+<person name="Grubbs K.J."/>
+<person name="Hagen D.E."/>
+<person name="Harkins T.T."/>
+<person name="Helmkampf M."/>
+<person name="Hu H."/>
+<person name="Johnson B.R."/>
+<person name="Kim J."/>
+<person name="Marsh S.E."/>
+<person name="Moeller J.A."/>
+<person name="Munoz-Torres M.C."/>
+<person name="Murphy M.C."/>
+<person name="Naughton M.C."/>
+<person name="Nigam S."/>
+<person name="Overson R."/>
+<person name="Rajakumar R."/>
+<person name="Reese J.T."/>
+<person name="Scott J.J."/>
+<person name="Smith C.R."/>
+<person name="Tao S."/>
+<person name="Tsutsui N.D."/>
+<person name="Viljakainen L."/>
+<person name="Wissler L."/>
+<person name="Yandell M.D."/>
+<person name="Zimmer F."/>
+<person name="Taylor J."/>
+<person name="Slater S.C."/>
+<person name="Clifton S.W."/>
+<person name="Warren W.C."/>
+<person name="Elsik C.G."/>
+<person name="Smith C.D."/>
+<person name="Weinstock G.M."/>
+<person name="Gerardo N.M."/>
+<person name="Currie C.R."/>
+</authorList>
+<dbReference type="PubMed" id="21347285"/>
+<dbReference type="DOI" id="10.1371/journal.pgen.1002007"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<reference key="2" evidence="1">
+<citation type="submission" date="2016-04" db="UniProtKB">
+<authorList>
+<consortium name="EnsemblMetazoa"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<dbReference type="EnsemblMetazoa" id="XM_012201448.1">
+<property type="protein sequence ID" value="XP_012056838.1"/>
+<property type="gene ID" value="LOC105619933"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000005205">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="2">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="2">Reference proteome</keyword>
+<evidence key="1" type="ECO:0000313">
+<source>
+<dbReference type="EnsemblMetazoa" id="XP_012056838.1"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000005205"/>
+</source>
+</evidence>
+<sequence length="1465" mass="168570" checksum="B21A0CE1F0AB74EF" modified="2016-06-08" version="1">
+MGNQDEIRTLLLSLLISRKDATPVVVLERDYYNMEKNRIPYREFGCNNLVQFLQSMPEHF
+IVEEANGGHYVRGIADKSKHVSSLVSRQRNSSNKNLRTRYPARQATTFNRRNQHARIPIR
+IPNSTLIDLVDHIKTHPNGMSLQNALLYVQAKIQYVPISYQDLRAQLREVTHQLCIDGNM
+IYAIQNGLQNNVVQQPSNQQPLVEESSMQLWINESKLPGDSISPPTQQTEYPAGEEDFEL
+DYFNDEDEDYFVLPCSKNNIDNCQKYPKTSEMLATNLAQHVQSEQTDMFNYSKNPDNNEI
+FESLMMNNNYMEMRATEYPQDKSEIVSDRIKARLEKLLQKYPDGIWCAELPDLYLKEYKV
+HLNYNNLGFTSVREFTSYLPKIFYMTQVNKTDDFKLYSANKRPVVPKAESNEISYDHQYD
+EHRTVEYNNSDNDPIPSEISSSITKKFAPEGVMNYGDDVDKILVTDLKRTKKFLETYVVE
+VFHPNFFWIHLRENKKRFNKMMDELQNFYILNKDKYIIAKVALKKDLNCACVFDGNWHRG
+IIKSVKPDFRVTVFFYDFGTVKAYAPEDIYYLHSKFSGLPAQAIPCGLYNVKPNVGDRWK
+RSVYEQFYDKVNETLLAATIITIDPPNNSMLIVLTDTSEEEDVCINNWLVKEKLAQFGKT
+GDAVDMASLMKYVVNNVNQKPSYCFAEESLMPENCYKTTSTEEKYEVPLVSSGLTLPHYD
+NQYQQQPVRPPPGFQSLDEQHIPSNTSTRSFQNSYSFANASNTKASVFSDAQATTNPFLT
+DEQFIPNDVVGQLYITMWNENKKLHTGVNEILCDMLKCLSLSLKDQIQLNKILKIVKKIL
+LEQKDDRSTVVKTPTASSLISRTTLNDVDLAQKVSYNLNNETAANQESNVNIFSMSNPFG
+INVDDRLQNNITFPYGSDSFSFKIGNWNQSDELNSRMQIPPSTANPTPSMFINHILPIST
+FLPKANQNNENVPLPVSPAAPTNTNFFNNFSEVNNMNTQFPAMFKDTNPFKFSMTDVPGT
+QVPEIQTERTINNYDTDISYLSTIKNLQSNALKTETANIHAKSNGFTSVSNLGHVNESYT
+SKIIYESDPVIYNTQKKQTDINVNTNVRQNACSSNFDNVQNAQSLKLEHSNKKLAPQVSQ
+STKNIASLHTQHTVNNNIINNNVRDNSHSDENYVTRLSMYFMHGSHGSTNGEAIYCHQNS
+NADNLQTVSQSWNQFEIPNWTNSKFQSSIPLLNHSENTPIILANQDWNNDNDRKSVPRKN
+EVTNSSNISKVNDDYDKEGSMDIYANSWYNNEKGSVQNRNMAFNSFLFQKIDSVEGITFI
+FHFEQDGWILTNEFVKVFTNFKLFSHLLTKIEMLNIKVTFKEILRSQYPSQFLQLDRYPL
+NVPRDSEKHILSIHLISLQTALALLHKLKIVSRDQIDNAFKKNEFLDDSVLRTLWVNISK
+MNILILTYRDLKQRIEVYSNELNYM
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

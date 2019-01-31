@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2010-10-05" modified="2016-05-11" version="31">
+<accession>D8GUL8</accession>
+<name>D8GUL8_CLOLD</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Putative SGNH hydrolase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="3">CLJU_c38700</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Clostridium ljungdahlii (strain ATCC 55383 / DSM 13528 / PETC)</name>
+<dbReference type="NCBI Taxonomy" id="748727"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Clostridia</taxon>
+<taxon>Clostridiales</taxon>
+<taxon>Clostridiaceae</taxon>
+<taxon>Clostridium</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="journal article" date="2010" name="Proc. Natl. Acad. Sci. U.S.A." volume="107" first="13087" last="13092">
+<title>Clostridium ljungdahlii represents a microbial production platform based on syngas.</title>
+<authorList>
+<person name="Kopke M."/>
+<person name="Held C."/>
+<person name="Hujer S."/>
+<person name="Liesegang H."/>
+<person name="Wiezer A."/>
+<person name="Wollherr A."/>
+<person name="Ehrenreich A."/>
+<person name="Liebl W."/>
+<person name="Gottschalk G."/>
+<person name="Durre P."/>
+</authorList>
+<dbReference type="PubMed" id="20616070"/>
+<dbReference type="DOI" id="10.1073/pnas.1004716107"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="4">ATCC 55383 / DSM 13528 / PETC</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="CP001666">
+<property type="protein sequence ID" value="ADK16895.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_013240468.1">
+<property type="nucleotide sequence ID" value="NC_014328.1"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="D8GUL8"/>
+<dbReference type="STRING" id="748727.CLJU_c38700"/>
+<dbReference type="EnsemblBacteria" id="ADK16895">
+<property type="protein sequence ID" value="ADK16895"/>
+<property type="gene ID" value="CLJU_c38700"/>
+</dbReference>
+<dbReference type="KEGG" id="clj:CLJU_c38700"/>
+<dbReference type="PATRIC" id="42489167">
+<property type="gene designation" value="VBICloLju82977_3921"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4105MDG">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4111TT5">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000235396"/>
+<dbReference type="OMA" id="VEYIEVW"/>
+<dbReference type="BioCyc" id="CLJU748727:GHMO-3869-MONOMER"/>
+<dbReference type="Proteomes" id="UP000001656">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016787">
+<property type="term" value="F:hydrolase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-0378" evidence="3">Hydrolase</keyword>
+<keyword id="KW-0472" evidence="1">Membrane</keyword>
+<keyword id="KW-0812" evidence="1">Transmembrane</keyword>
+<keyword id="KW-1133" evidence="1">Transmembrane helix</keyword>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="6"/>
+<end position="24"/>
+</location>
+</feature>
+<feature type="domain" description="SGNH_hydro" evidence="2">
+<location>
+<begin position="85"/>
+<end position="244"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Phobius"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="ADK16895.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000001656"/>
+</source>
+</evidence>
+<sequence length="254" mass="28948" checksum="D1DF837BB3A20D00" modified="2010-10-05" version="1">
+MKNKKLLIIITIIFFIILCLCMYLKLFSHSSKNVGVLGNTAVPENKMLPKKVGDISLDQK
+TYSDYYIQKVTMYINSDNKQGQIVFLGDSLTDIGQWNELLNNPYILNRGISGDNTSGALN
+RLSEVIKLKPRKIFIMIGINDIGKGLSTNEITKNYSKILGRIKKDLPNTIIYVESVLPIN
+KDLFKTNTSEKQIIDLNISLNKLCKSLSVQYIDLYHLFTLPNENKLSYKYTVSGLHINGD
+GYRVWRDALKPYLQ
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

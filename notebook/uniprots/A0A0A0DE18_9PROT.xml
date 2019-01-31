@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-01-07" modified="2016-06-08" version="10">
+<accession>A0A0A0DE18</accession>
+<name>A0A0A0DE18_9PROT</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">P409_00410</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Inquilinus limosus MP06</name>
+<dbReference type="NCBI Taxonomy" id="1398085"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Alphaproteobacteria</taxon>
+<taxon>Rhodospirillales</taxon>
+<taxon>Rhodospirillaceae</taxon>
+<taxon>Inquilinus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="submission" date="2014-01" db="EMBL/GenBank/DDBJ databases">
+<title>Genome sequence determination for a cystic fibrosis isolate, Inquilinus limosus.</title>
+<authorList>
+<person name="Pino M."/>
+<person name="Di Conza J."/>
+<person name="Gutkind G."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2 3">MP06</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="JANX01000001">
+<property type="protein sequence ID" value="KGM36143.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="KGM36143">
+<property type="protein sequence ID" value="KGM36143"/>
+<property type="gene ID" value="P409_00410"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000029995">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="67"/>
+<end position="226"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KGM36143.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000029995"/>
+</source>
+</evidence>
+<sequence length="248" mass="27419" checksum="A1166661984B3B0A" modified="2015-01-07" version="1">
+MIRFSYVFCGVLALALCGVALESQLPQRIAARFGWWPEVMGPARYVDEAAAELQEVYPTR
+KADIVMLGDSLTAAADWRELLPNWDVVNRGVAGETIREISARVDAVGRLHPRVVFLMAGT
+NDLMVGQTPNEVAESYRLILDRLQSTGAKVVVQPVLHVAKDRNTVGIQRFWYNRRNDAIS
+DVNARIRAIAEKRGLVFLDLNETIAPDGVLADDLTSDGTHLRAPAYLLWAKAINDVLSAP
+GLLAERRS
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

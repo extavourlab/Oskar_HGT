@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-07-22" modified="2016-06-08" version="8">
+<accession>A0A0G1IAI1</accession>
+<name>A0A0G1IAI1_9BACT</name>
+<protein>
+<submittedName>
+<fullName evidence="2">GDSL-like protein lipase/acylhydrolase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">UW48_C0002G0081</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Microgenomates group bacterium GW2011_GWC1_44_23</name>
+<dbReference type="NCBI Taxonomy" id="1618523"/>
+<lineage>
+<taxon>Bacteria</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="journal article" date="2015" name="Nature">
+<title>rRNA introns, odd ribosomes, and small enigmatic genomes across a large radiation of phyla.</title>
+<authorList>
+<person name="Brown C.T."/>
+<person name="Hug L.A."/>
+<person name="Thomas B.C."/>
+<person name="Sharon I."/>
+<person name="Castelle C.J."/>
+<person name="Singh A."/>
+<person name="Wilkins M.J."/>
+<person name="Williams K.H."/>
+<person name="Banfield J.F."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<comment type="caution">
+<text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="LCIM01000002">
+<property type="protein sequence ID" value="KKT55798.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="KKT55798">
+<property type="protein sequence ID" value="KKT55798"/>
+<property type="gene ID" value="UW48_C0002G0081"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000033894">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016787">
+<property type="term" value="F:hydrolase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-0378" evidence="2">Hydrolase</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="51"/>
+<end position="225"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KKT55798.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000033894"/>
+</source>
+</evidence>
+<sequence length="263" mass="30237" checksum="10BD0C94B5EECE8A" modified="2015-07-22" version="1">
+MTHNNKRLPGLLAPLIILLMFGGIYAISNLNKEGEEETKQIKNSDISYIPFGDSFTIGLG
+VAEPHRWPNMMVENFAKEDISIKILENPAVSGYTVRDMINFELPILETLRPDFVTVFIGT
+NDSFVQKDVVVFEKDYKELLDKIQKLLPDPKSIVLITIPDYSKFPALKHYRRINYSESIT
+SYNEVIRQESVDRDLILADIYPVSQKMTDEQDFIPDGLHPSGAGYVKWERVIYPKVRELL
+LKSPPRWNTFVMKSVQTETIFFG
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

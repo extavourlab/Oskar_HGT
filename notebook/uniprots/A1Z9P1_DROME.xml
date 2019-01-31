@@ -1,0 +1,652 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2007-02-06" modified="2016-06-08" version="82">
+<accession>A1Z9P1</accession>
+<name>A1Z9P1_DROME</name>
+<protein>
+<submittedName>
+<fullName evidence="3">FI02030p</fullName>
+</submittedName>
+<submittedName>
+<fullName evidence="2">Tejas</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="2 4">tej</name>
+<name type="ORF" evidence="3 4">CG8589</name>
+<name type="ORF" evidence="2">Dmel_CG8589</name>
+</gene>
+<organism evidence="2 5">
+<name type="scientific">Drosophila melanogaster</name>
+<name type="common">Fruit fly</name>
+<dbReference type="NCBI Taxonomy" id="7227"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Diptera</taxon>
+<taxon>Brachycera</taxon>
+<taxon>Muscomorpha</taxon>
+<taxon>Ephydroidea</taxon>
+<taxon>Drosophilidae</taxon>
+<taxon>Drosophila</taxon>
+<taxon>Sophophora</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 5">
+<citation type="journal article" date="2000" name="Science" volume="287" first="2185" last="2195">
+<title>The genome sequence of Drosophila melanogaster.</title>
+<authorList>
+<person name="Adams M.D."/>
+<person name="Celniker S.E."/>
+<person name="Holt R.A."/>
+<person name="Evans C.A."/>
+<person name="Gocayne J.D."/>
+<person name="Amanatides P.G."/>
+<person name="Scherer S.E."/>
+<person name="Li P.W."/>
+<person name="Hoskins R.A."/>
+<person name="Galle R.F."/>
+<person name="George R.A."/>
+<person name="Lewis S.E."/>
+<person name="Richards S."/>
+<person name="Ashburner M."/>
+<person name="Henderson S.N."/>
+<person name="Sutton G.G."/>
+<person name="Wortman J.R."/>
+<person name="Yandell M.D."/>
+<person name="Zhang Q."/>
+<person name="Chen L.X."/>
+<person name="Brandon R.C."/>
+<person name="Rogers Y.H."/>
+<person name="Blazej R.G."/>
+<person name="Champe M."/>
+<person name="Pfeiffer B.D."/>
+<person name="Wan K.H."/>
+<person name="Doyle C."/>
+<person name="Baxter E.G."/>
+<person name="Helt G."/>
+<person name="Nelson C.R."/>
+<person name="Gabor G.L."/>
+<person name="Abril J.F."/>
+<person name="Agbayani A."/>
+<person name="An H.J."/>
+<person name="Andrews-Pfannkoch C."/>
+<person name="Baldwin D."/>
+<person name="Ballew R.M."/>
+<person name="Basu A."/>
+<person name="Baxendale J."/>
+<person name="Bayraktaroglu L."/>
+<person name="Beasley E.M."/>
+<person name="Beeson K.Y."/>
+<person name="Benos P.V."/>
+<person name="Berman B.P."/>
+<person name="Bhandari D."/>
+<person name="Bolshakov S."/>
+<person name="Borkova D."/>
+<person name="Botchan M.R."/>
+<person name="Bouck J."/>
+<person name="Brokstein P."/>
+<person name="Brottier P."/>
+<person name="Burtis K.C."/>
+<person name="Busam D.A."/>
+<person name="Butler H."/>
+<person name="Cadieu E."/>
+<person name="Center A."/>
+<person name="Chandra I."/>
+<person name="Cherry J.M."/>
+<person name="Cawley S."/>
+<person name="Dahlke C."/>
+<person name="Davenport L.B."/>
+<person name="Davies P."/>
+<person name="de Pablos B."/>
+<person name="Delcher A."/>
+<person name="Deng Z."/>
+<person name="Mays A.D."/>
+<person name="Dew I."/>
+<person name="Dietz S.M."/>
+<person name="Dodson K."/>
+<person name="Doup L.E."/>
+<person name="Downes M."/>
+<person name="Dugan-Rocha S."/>
+<person name="Dunkov B.C."/>
+<person name="Dunn P."/>
+<person name="Durbin K.J."/>
+<person name="Evangelista C.C."/>
+<person name="Ferraz C."/>
+<person name="Ferriera S."/>
+<person name="Fleischmann W."/>
+<person name="Fosler C."/>
+<person name="Gabrielian A.E."/>
+<person name="Garg N.S."/>
+<person name="Gelbart W.M."/>
+<person name="Glasser K."/>
+<person name="Glodek A."/>
+<person name="Gong F."/>
+<person name="Gorrell J.H."/>
+<person name="Gu Z."/>
+<person name="Guan P."/>
+<person name="Harris M."/>
+<person name="Harris N.L."/>
+<person name="Harvey D."/>
+<person name="Heiman T.J."/>
+<person name="Hernandez J.R."/>
+<person name="Houck J."/>
+<person name="Hostin D."/>
+<person name="Houston K.A."/>
+<person name="Howland T.J."/>
+<person name="Wei M.H."/>
+<person name="Ibegwam C."/>
+<person name="Jalali M."/>
+<person name="Kalush F."/>
+<person name="Karpen G.H."/>
+<person name="Ke Z."/>
+<person name="Kennison J.A."/>
+<person name="Ketchum K.A."/>
+<person name="Kimmel B.E."/>
+<person name="Kodira C.D."/>
+<person name="Kraft C."/>
+<person name="Kravitz S."/>
+<person name="Kulp D."/>
+<person name="Lai Z."/>
+<person name="Lasko P."/>
+<person name="Lei Y."/>
+<person name="Levitsky A.A."/>
+<person name="Li J."/>
+<person name="Li Z."/>
+<person name="Liang Y."/>
+<person name="Lin X."/>
+<person name="Liu X."/>
+<person name="Mattei B."/>
+<person name="McIntosh T.C."/>
+<person name="McLeod M.P."/>
+<person name="McPherson D."/>
+<person name="Merkulov G."/>
+<person name="Milshina N.V."/>
+<person name="Mobarry C."/>
+<person name="Morris J."/>
+<person name="Moshrefi A."/>
+<person name="Mount S.M."/>
+<person name="Moy M."/>
+<person name="Murphy B."/>
+<person name="Murphy L."/>
+<person name="Muzny D.M."/>
+<person name="Nelson D.L."/>
+<person name="Nelson D.R."/>
+<person name="Nelson K.A."/>
+<person name="Nixon K."/>
+<person name="Nusskern D.R."/>
+<person name="Pacleb J.M."/>
+<person name="Palazzolo M."/>
+<person name="Pittman G.S."/>
+<person name="Pan S."/>
+<person name="Pollard J."/>
+<person name="Puri V."/>
+<person name="Reese M.G."/>
+<person name="Reinert K."/>
+<person name="Remington K."/>
+<person name="Saunders R.D."/>
+<person name="Scheeler F."/>
+<person name="Shen H."/>
+<person name="Shue B.C."/>
+<person name="Siden-Kiamos I."/>
+<person name="Simpson M."/>
+<person name="Skupski M.P."/>
+<person name="Smith T."/>
+<person name="Spier E."/>
+<person name="Spradling A.C."/>
+<person name="Stapleton M."/>
+<person name="Strong R."/>
+<person name="Sun E."/>
+<person name="Svirskas R."/>
+<person name="Tector C."/>
+<person name="Turner R."/>
+<person name="Venter E."/>
+<person name="Wang A.H."/>
+<person name="Wang X."/>
+<person name="Wang Z.Y."/>
+<person name="Wassarman D.A."/>
+<person name="Weinstock G.M."/>
+<person name="Weissenbach J."/>
+<person name="Williams S.M."/>
+<person name="WoodageT"/>
+<person name="Worley K.C."/>
+<person name="Wu D."/>
+<person name="Yang S."/>
+<person name="Yao Q.A."/>
+<person name="Ye J."/>
+<person name="Yeh R.F."/>
+<person name="Zaveri J.S."/>
+<person name="Zhan M."/>
+<person name="Zhang G."/>
+<person name="Zhao Q."/>
+<person name="Zheng L."/>
+<person name="Zheng X.H."/>
+<person name="Zhong F.N."/>
+<person name="Zhong W."/>
+<person name="Zhou X."/>
+<person name="Zhu S."/>
+<person name="Zhu X."/>
+<person name="Smith H.O."/>
+<person name="Gibbs R.A."/>
+<person name="Myers E.W."/>
+<person name="Rubin G.M."/>
+<person name="Venter J.C."/>
+</authorList>
+<dbReference type="PubMed" id="10731132"/>
+<dbReference type="DOI" id="10.1126/science.287.5461.2185"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="5">Berkeley</strain>
+</source>
+</reference>
+<reference key="2" evidence="2 5">
+<citation type="journal article" date="2002" name="Genome Biol." volume="3" first="RESEARCH0079" last="RESEARCH0079">
+<title>Finishing a whole-genome shotgun: release 3 of the Drosophila melanogaster euchromatic genome sequence.</title>
+<authorList>
+<person name="Celniker S.E."/>
+<person name="Wheeler D.A."/>
+<person name="Kronmiller B."/>
+<person name="Carlson J.W."/>
+<person name="Halpern A."/>
+<person name="Patel S."/>
+<person name="Adams M."/>
+<person name="Champe M."/>
+<person name="Dugan S.P."/>
+<person name="Frise E."/>
+<person name="Hodgson A."/>
+<person name="George R.A."/>
+<person name="Hoskins R.A."/>
+<person name="Laverty T."/>
+<person name="Muzny D.M."/>
+<person name="Nelson C.R."/>
+<person name="Pacleb J.M."/>
+<person name="Park S."/>
+<person name="Pfeiffer B.D."/>
+<person name="Richards S."/>
+<person name="Sodergren E.J."/>
+<person name="Svirskas R."/>
+<person name="Tabor P.E."/>
+<person name="Wan K."/>
+<person name="Stapleton M."/>
+<person name="Sutton G.G."/>
+<person name="Venter C."/>
+<person name="Weinstock G."/>
+<person name="Scherer S.E."/>
+<person name="Myers E.W."/>
+<person name="Gibbs R.A."/>
+<person name="Rubin G.M."/>
+</authorList>
+<dbReference type="PubMed" id="12537568"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="5">Berkeley</strain>
+</source>
+</reference>
+<reference key="3" evidence="2 5">
+<citation type="journal article" date="2002" name="Genome Biol." volume="3" first="RESEARCH0083.1" last="RESEARCH0083.22">
+<title>Annotation of the Drosophila melanogaster euchromatic genome: a systematic review.</title>
+<authorList>
+<person name="Misra S."/>
+<person name="Crosby M.A."/>
+<person name="Mungall C.J."/>
+<person name="Matthews B.B."/>
+<person name="Campbell K.S."/>
+<person name="Hradecky P."/>
+<person name="Huang Y."/>
+<person name="Kaminker J.S."/>
+<person name="Millburn G.H."/>
+<person name="Prochnik S.E."/>
+<person name="Smith C.D."/>
+<person name="Tupy J.L."/>
+<person name="Whitfied E.J."/>
+<person name="Bayraktaroglu L."/>
+<person name="Berman B.P."/>
+<person name="Bettencourt B.R."/>
+<person name="Celniker S.E."/>
+<person name="de Grey A.D."/>
+<person name="Drysdale R.A."/>
+<person name="Harris N.L."/>
+<person name="Richter J."/>
+<person name="Russo S."/>
+<person name="Schroeder A.J."/>
+<person name="Shu S.Q."/>
+<person name="Stapleton M."/>
+<person name="Yamada C."/>
+<person name="Ashburner M."/>
+<person name="Gelbart W.M."/>
+<person name="Rubin G.M."/>
+<person name="Lewis S.E."/>
+</authorList>
+<dbReference type="PubMed" id="12537572"/>
+<dbReference type="DOI" id="10.1186/gb-2002-3-12-research0083"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="5">Berkeley</strain>
+</source>
+</reference>
+<reference key="4" evidence="2 5">
+<citation type="journal article" date="2002" name="Genome Biol." volume="3" first="RESEARCH0084.1" last="RESEARCH0084.20">
+<title>The transposable elements of the Drosophila melanogaster euchromatin: a genomics perspective.</title>
+<authorList>
+<person name="Kaminker J.S."/>
+<person name="Bergman C.M."/>
+<person name="Kronmiller B."/>
+<person name="Carlson J."/>
+<person name="Svirskas R."/>
+<person name="Patel S."/>
+<person name="Frise E."/>
+<person name="Wheeler D.A."/>
+<person name="Lewis S.E."/>
+<person name="Rubin G.M."/>
+<person name="Ashburner M."/>
+<person name="Celniker S.E."/>
+</authorList>
+<dbReference type="PubMed" id="12537573"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="5">Berkeley</strain>
+</source>
+</reference>
+<reference key="5" evidence="2 5">
+<citation type="journal article" date="2002" name="Genome Biol." volume="3" first="RESEARCH0085" last="RESEARCH0085">
+<title>Heterochromatic sequences in a Drosophila whole-genome shotgun assembly.</title>
+<authorList>
+<person name="Hoskins R.A."/>
+<person name="Smith C.D."/>
+<person name="Carlson J.W."/>
+<person name="Carvalho A.B."/>
+<person name="Halpern A."/>
+<person name="Kaminker J.S."/>
+<person name="Kennedy C."/>
+<person name="Mungall C.J."/>
+<person name="Sullivan B.A."/>
+<person name="Sutton G.G."/>
+<person name="Yasuhara J.C."/>
+<person name="Wakimoto B.T."/>
+<person name="Myers E.W."/>
+<person name="Celniker S.E."/>
+<person name="Rubin G.M."/>
+<person name="Karpen G.H."/>
+</authorList>
+<dbReference type="PubMed" id="12537574"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="5">Berkeley</strain>
+</source>
+</reference>
+<reference key="6" evidence="2 5">
+<citation type="journal article" date="2005" name="PLoS Comput. Biol." volume="1" first="166" last="175">
+<title>Combined evidence annotation of transposable elements in genome sequences.</title>
+<authorList>
+<person name="Quesneville H."/>
+<person name="Bergman C.M."/>
+<person name="Andrieu O."/>
+<person name="Autard D."/>
+<person name="Nouaud D."/>
+<person name="Ashburner M."/>
+<person name="Anxolabehere D."/>
+</authorList>
+<dbReference type="PubMed" id="16110336"/>
+<dbReference type="DOI" id="10.1371/journal.pcbi.0010022"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="5">Berkeley</strain>
+</source>
+</reference>
+<reference key="7" evidence="2">
+<citation type="submission" date="2006-08" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Celniker S."/>
+<person name="Carlson J."/>
+<person name="Wan K."/>
+<person name="Frise E."/>
+<person name="Hoskins R."/>
+<person name="Park S."/>
+<person name="Svirskas R."/>
+<person name="Rubin G."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<reference key="8" evidence="2">
+<citation type="submission" date="2006-09" db="EMBL/GenBank/DDBJ databases">
+<title>Drosophila melanogaster release 4 sequence.</title>
+<authorList>
+<consortium name="Berkeley Drosophila Genome Project"/>
+<person name="Celniker S."/>
+<person name="Carlson J."/>
+<person name="Wan K."/>
+<person name="Pfeiffer B."/>
+<person name="Frise E."/>
+<person name="George R."/>
+<person name="Hoskins R."/>
+<person name="Stapleton M."/>
+<person name="Pacleb J."/>
+<person name="Park S."/>
+<person name="Svirskas R."/>
+<person name="Smith E."/>
+<person name="Yu C."/>
+<person name="Rubin G."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<reference key="9" evidence="2 5">
+<citation type="journal article" date="2007" name="Science" volume="316" first="1586" last="1591">
+<title>The Release 5.1 annotation of Drosophila melanogaster heterochromatin.</title>
+<authorList>
+<person name="Smith C.D."/>
+<person name="Shu S."/>
+<person name="Mungall C.J."/>
+<person name="Karpen G.H."/>
+</authorList>
+<dbReference type="PubMed" id="17569856"/>
+<dbReference type="DOI" id="10.1126/science.1139815"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="5">Berkeley</strain>
+</source>
+</reference>
+<reference key="10" evidence="2 5">
+<citation type="journal article" date="2007" name="Science" volume="316" first="1625" last="1628">
+<title>Sequence finishing and mapping of Drosophila melanogaster heterochromatin.</title>
+<authorList>
+<person name="Hoskins R.A."/>
+<person name="Carlson J.W."/>
+<person name="Kennedy C."/>
+<person name="Acevedo D."/>
+<person name="Evans-Holm M."/>
+<person name="Frise E."/>
+<person name="Wan K.H."/>
+<person name="Park S."/>
+<person name="Mendez-Lago M."/>
+<person name="Rossi F."/>
+<person name="Villasante A."/>
+<person name="Dimitri P."/>
+<person name="Karpen G.H."/>
+<person name="Celniker S.E."/>
+</authorList>
+<dbReference type="PubMed" id="17569867"/>
+<dbReference type="DOI" id="10.1126/science.1139816"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="5">Berkeley</strain>
+</source>
+</reference>
+<reference key="11" evidence="3">
+<citation type="submission" date="2007-10" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Stapleton M."/>
+<person name="Carlson J."/>
+<person name="Frise E."/>
+<person name="Kapadia B."/>
+<person name="Park S."/>
+<person name="Wan K."/>
+<person name="Yu C."/>
+<person name="Celniker S."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<reference key="12" evidence="2">
+<citation type="submission" date="2015-10" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<consortium name="FlyBase"/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<dbReference type="EMBL" id="AE013599">
+<property type="protein sequence ID" value="AAF58263.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BT030811">
+<property type="protein sequence ID" value="ABV82193.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_610950.2">
+<property type="nucleotide sequence ID" value="NM_137106.3"/>
+</dbReference>
+<dbReference type="UniGene" id="Dm.621"/>
+<dbReference type="SMR" id="A1Z9P1">
+<property type="residue range" value="8-67"/>
+</dbReference>
+<dbReference type="IntAct" id="A1Z9P1">
+<property type="interactions" value="1"/>
+</dbReference>
+<dbReference type="STRING" id="7227.FBpp0086689"/>
+<dbReference type="EnsemblMetazoa" id="FBtr0087562">
+<property type="protein sequence ID" value="FBpp0086689"/>
+<property type="gene ID" value="FBgn0033921"/>
+</dbReference>
+<dbReference type="GeneID" id="36590"/>
+<dbReference type="KEGG" id="dme:Dmel_CG8589"/>
+<dbReference type="UCSC" id="CG8589-RA">
+<property type="organism name" value="d. melanogaster"/>
+</dbReference>
+<dbReference type="CTD" id="36590"/>
+<dbReference type="FlyBase" id="FBgn0033921">
+<property type="gene designation" value="tej"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410JQYN">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410ZUSK">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="KO" id="K18407"/>
+<dbReference type="OMA" id="PHNFNFW"/>
+<dbReference type="OrthoDB" id="EOG7KQ22D"/>
+<dbReference type="PhylomeDB" id="A1Z9P1"/>
+<dbReference type="GenomeRNAi" id="36590"/>
+<dbReference type="Proteomes" id="UP000000803">
+<property type="component" value="Chromosome 2R"/>
+</dbReference>
+<dbReference type="ExpressionAtlas" id="A1Z9P1">
+<property type="expression patterns" value="differential"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043186">
+<property type="term" value="C:P granule"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030717">
+<property type="term" value="P:karyosome formation"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010529">
+<property type="term" value="P:negative regulation of transposition"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:1990511">
+<property type="term" value="P:piRNA biosynthetic process"/>
+<property type="evidence" value="ECO:0000316"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-0181" evidence="5">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="5">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="6"/>
+<end position="79"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AAF58263.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="ABV82193.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="FlyBase" id="FBgn0033921"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000000803"/>
+</source>
+</evidence>
+<sequence length="559" mass="63851" checksum="16E46C794367E7BB" modified="2007-02-06" version="1">
+MDDGGELSLVKKVVHSLVVSSPGKLTVEQLMRDYRSEEGCTLPYSKLGFKDAESFLRSIP
+DTVTVTGHGQMAWITAVATAKSAHIQKLVRCQKKSKNRGSHKPKYCYASEPSNLVFINES
+VSKMKNRKAPFPTYQVPRNLKLPVSYPNYNRLLYPVHTPHIDQMISTGQQQSTLRTQRPS
+FPCNANSKSLKVNDWSQKDRKQEPSKERNNQKYPKITTENKQEKETEELAQAFENLSVDV
+APTDHQEKLKCEIYEDNEDEFVRDPFIYGEVKEKEDEAVVLAFDAVSEDGFDLLSMTTTQ
+QNAVKPLDPPEDCLHYASSDDGEDENAIPAYAVDHRVLDVDYPRDAVRSAFTLPARDIES
+IIELQQRIRVQLVSLVNPHNFNFWIYNDDFKDYEAQFANMQTFYESSESKNYTMPLFLIT
+TDHLCVVRCTSGWERAKVLGYRSSNNKMTIEVELVDIGDIIRVSQQNVKFLIKPFALLPR
+QCLAGRLAFITQCKSPNWTAEVVNFFHDMILLRLLYAKVEAIKNNTAYLVLVDTESQGHT
+VNLNRSLIETGWVRRCTSA
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

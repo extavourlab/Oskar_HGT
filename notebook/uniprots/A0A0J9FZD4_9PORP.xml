@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-10-14" modified="2016-05-11" version="6">
+<accession>A0A0J9FZD4</accession>
+<name>A0A0J9FZD4_9PORP</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">HMPREF1000_00856</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Parabacteroides sp. D26</name>
+<dbReference type="NCBI Taxonomy" id="658662"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Bacteroidetes</taxon>
+<taxon>Bacteroidia</taxon>
+<taxon>Bacteroidales</taxon>
+<taxon>Porphyromonadaceae</taxon>
+<taxon>Parabacteroides</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="submission" date="2011-06" db="EMBL/GenBank/DDBJ databases">
+<title>The Genome Sequence of Parabacteroides sp. D26.</title>
+<authorList>
+<consortium name="The Broad Institute Genome Sequencing Platform"/>
+<person name="Earl A."/>
+<person name="Ward D."/>
+<person name="Feldgarden M."/>
+<person name="Gevers D."/>
+<person name="Sibley C."/>
+<person name="White A."/>
+<person name="Strauss J."/>
+<person name="Allen-Vercoe E."/>
+<person name="Young S.K."/>
+<person name="Zeng Q."/>
+<person name="Gargeya S."/>
+<person name="Fitzgerald M."/>
+<person name="Haas B."/>
+<person name="Abouelleil A."/>
+<person name="Alvarado L."/>
+<person name="Arachchi H.M."/>
+<person name="Berlin A."/>
+<person name="Brown A."/>
+<person name="Chapman S.B."/>
+<person name="Chen Z."/>
+<person name="Dunbar C."/>
+<person name="Freedman E."/>
+<person name="Gearin G."/>
+<person name="Gellesch M."/>
+<person name="Goldberg J."/>
+<person name="Griggs A."/>
+<person name="Gujja S."/>
+<person name="Heiman D."/>
+<person name="Howarth C."/>
+<person name="Larson L."/>
+<person name="Lui A."/>
+<person name="MacDonald P.J."/>
+<person name="Mehta T."/>
+<person name="Montmayeur A."/>
+<person name="Murphy C."/>
+<person name="Neiman D."/>
+<person name="Pearson M."/>
+<person name="Priest M."/>
+<person name="Roberts A."/>
+<person name="Saif S."/>
+<person name="Shea T."/>
+<person name="Shenoy N."/>
+<person name="Sisk P."/>
+<person name="Stolte C."/>
+<person name="Sykes S."/>
+<person name="Wortman J."/>
+<person name="Nusbaum C."/>
+<person name="Birren B."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3 4">D26</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="3">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="ACUB01000008">
+<property type="protein sequence ID" value="KMW37775.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_048927255.1">
+<property type="nucleotide sequence ID" value="NZ_KQ236103.1"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="KMW37775">
+<property type="protein sequence ID" value="KMW37775"/>
+<property type="gene ID" value="HMPREF1000_00856"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000037000">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-0732" evidence="1">Signal</keyword>
+<feature type="signal peptide" evidence="1">
+<location>
+<begin position="1"/>
+<end position="22"/>
+</location>
+</feature>
+<feature type="chain" id="PRO_5005319804" evidence="1">
+<location>
+<begin position="23"/>
+<end position="227"/>
+</location>
+</feature>
+<feature type="domain" description="SGNH_hydro" evidence="2">
+<location>
+<begin position="50"/>
+<end position="213"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="SignalP"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KMW37775.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000037000"/>
+</source>
+</evidence>
+<sequence length="227" mass="25372" checksum="2212CF04828638DF" modified="2015-10-14" version="1">
+MKNMRQALLVAGCLLATTTLFAQTEKGDWAQFGRYAEANKTVKVPSNVVFMGNSITDGWW
+PADSTFFIQNNFVDRGISGQTTSEMLVRFRQDVINLKPKAVVIMAGINDIAHNNGVIALE
+NVYGNLVSMAELAKVNNIKVIFCSVMPAYDFPWRPGMKPADKVIQLNKWIKEYADKNGLT
+YVDYHSAMKDERNGLPANLSKDGVHPTLEGYKIMEKIVLEAIHKTVK
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2009-05-26" modified="2016-05-11" version="38">
+<accession>C1F1H4</accession>
+<name>C1F1H4_ACIC5</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Lipase/acylhydrolase, GDSL family</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="2">ACP_0574</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Acidobacterium capsulatum (strain ATCC 51196 / DSM 11244 / JCM 7670 / NBRC 15755 / NCIMB 13165 / 161)</name>
+<dbReference type="NCBI Taxonomy" id="240015"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Acidobacteria</taxon>
+<taxon>Acidobacteriales</taxon>
+<taxon>Acidobacteriaceae</taxon>
+<taxon>Acidobacterium</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="journal article" date="2009" name="Appl. Environ. Microbiol." volume="75" first="2046" last="2056">
+<title>Three genomes from the phylum Acidobacteria provide insight into the lifestyles of these microorganisms in soils.</title>
+<authorList>
+<person name="Ward N.L."/>
+<person name="Challacombe J.F."/>
+<person name="Janssen P.H."/>
+<person name="Henrissat B."/>
+<person name="Coutinho P.M."/>
+<person name="Wu M."/>
+<person name="Xie G."/>
+<person name="Haft D.H."/>
+<person name="Sait M."/>
+<person name="Badger J."/>
+<person name="Barabote R.D."/>
+<person name="Bradley B."/>
+<person name="Brettin T.S."/>
+<person name="Brinkac L.M."/>
+<person name="Bruce D."/>
+<person name="Creasy T."/>
+<person name="Daugherty S.C."/>
+<person name="Davidsen T.M."/>
+<person name="DeBoy R.T."/>
+<person name="Detter J.C."/>
+<person name="Dodson R.J."/>
+<person name="Durkin A.S."/>
+<person name="Ganapathy A."/>
+<person name="Gwinn-Giglio M."/>
+<person name="Han C.S."/>
+<person name="Khouri H."/>
+<person name="Kiss H."/>
+<person name="Kothari S.P."/>
+<person name="Madupu R."/>
+<person name="Nelson K.E."/>
+<person name="Nelson W.C."/>
+<person name="Paulsen I."/>
+<person name="Penn K."/>
+<person name="Ren Q."/>
+<person name="Rosovitz M.J."/>
+<person name="Selengut J.D."/>
+<person name="Shrivastava S."/>
+<person name="Sullivan S.A."/>
+<person name="Tapia R."/>
+<person name="Thompson L.S."/>
+<person name="Watkins K.L."/>
+<person name="Yang Q."/>
+<person name="Yu C."/>
+<person name="Zafar N."/>
+<person name="Zhou L."/>
+<person name="Kuske C.R."/>
+</authorList>
+<dbReference type="PubMed" id="19201974"/>
+<dbReference type="DOI" id="10.1128/AEM.02294-08"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3">ATCC 51196 / DSM 11244 / JCM 7670 / NBRC 15755 / NCIMB 13165 / 161</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="CP001472">
+<property type="protein sequence ID" value="ACO34450.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="C1F1H4"/>
+<dbReference type="STRING" id="240015.ACP_0574"/>
+<dbReference type="EnsemblBacteria" id="ACO34450">
+<property type="protein sequence ID" value="ACO34450"/>
+<property type="gene ID" value="ACP_0574"/>
+</dbReference>
+<dbReference type="KEGG" id="aca:ACP_0574"/>
+<dbReference type="PATRIC" id="20664517">
+<property type="gene designation" value="VBIAciCap40988_0554"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4107XPG">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG41107NJ">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000252481"/>
+<dbReference type="OMA" id="EKRVVFM"/>
+<dbReference type="OrthoDB" id="EOG6BCSR1"/>
+<dbReference type="BioCyc" id="ACAP240015:GKF4-564-MONOMER"/>
+<dbReference type="Proteomes" id="UP000002207">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016787">
+<property type="term" value="F:hydrolase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-0378" evidence="2">Hydrolase</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="33"/>
+<end position="196"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="ACO34450.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000002207"/>
+</source>
+</evidence>
+<sequence length="215" mass="23723" checksum="F7881A8643995245" modified="2009-05-26" version="1">
+MKKTLQDWPDLARYRKADVELPPPAAGVSRVVFMGDSITDIWGRMKGTGEFFPGKPYVNR
+GISGQTTPQMLIRFQQDVVNLHPAVVLILAGTNDIAGNTGPTTNNMIENNYRSMAEIAEA
+NHIKVIFASITPAAAYPWRPGIDPVQRIHEVNEWLRQYCKQNGFVYLDYYDALALPNGAM
+KPGISFDGVHPNAKGFAIMAPLAEEAIHKALQSGQ
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

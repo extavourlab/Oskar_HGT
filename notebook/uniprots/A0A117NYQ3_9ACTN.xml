@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2016-04-13" modified="2016-06-08" version="3">
+<accession>A0A117NYQ3</accession>
+<name>A0A117NYQ3_9ACTN</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Aromatic ring-opening dioxygenase LigA</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">AQI70_29940</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Streptomyces curacoi</name>
+<dbReference type="NCBI Taxonomy" id="146536"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Streptomycetales</taxon>
+<taxon>Streptomycetaceae</taxon>
+<taxon>Streptomyces</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="submission" date="2015-10" db="EMBL/GenBank/DDBJ databases">
+<title>Draft genome sequence of Streptomyces curacoi DSM 40107, type strain for the species Streptomyces curacoi.</title>
+<authorList>
+<person name="Ruckert C."/>
+<person name="Winkler A."/>
+<person name="Kalinowski J."/>
+<person name="Kampfer P."/>
+<person name="Glaeser S."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3 4">DSM 40107</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="3">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="LMWJ01000025">
+<property type="protein sequence ID" value="KUM69866.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000054024">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051213">
+<property type="term" value="F:dioxygenase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-0223" evidence="3">Dioxygenase</keyword>
+<keyword id="KW-0560" evidence="3">Oxidoreductase</keyword>
+<keyword id="KW-0732" evidence="1">Signal</keyword>
+<feature type="signal peptide" evidence="1">
+<location>
+<begin position="1"/>
+<end position="41"/>
+</location>
+</feature>
+<feature type="chain" id="PRO_5007152497" evidence="1">
+<location>
+<begin position="42"/>
+<end position="669"/>
+</location>
+</feature>
+<feature type="domain" description="SGNH_hydro" evidence="2">
+<location>
+<begin position="162"/>
+<end position="332"/>
+</location>
+</feature>
+<feature type="domain" description="SGNH_hydro" evidence="2">
+<location>
+<begin position="483"/>
+<end position="654"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="SignalP"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KUM69866.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000054024"/>
+</source>
+</evidence>
+<sequence length="669" mass="71540" checksum="10A3A7BA1DA8AA12" modified="2016-04-13" version="1">
+MQITPHDLIAPRRARRGLPALLTAVLVACLLSWMGSSPAQAAPGDGSVSDPNIVYVGRWD
+TSSGTAAVPHWSGAYLQTAFTGTTVKVRARDAVNFYASIDGGPDVFHAGVRGTVNLTPQP
+LAAGTHTLRISYRSGDTVFQGLVLDSGARTVSPSTPASLIEFVGDSITAGALTDRLALDS
+YAWKTGERLGMRHTRIARAGYCLVARSGCTGLSSQFFRLGSTGDQNWDFTRYRANAVVVN
+LGTNDIGHGVSGSAFQAAYTKFLSDLRARYPQAHLFAVQTLKKRYVAETKAAVSARNGSG
+DSRVHYVDTTGWLTDGTDYEDGNGHPNEAGHTKFANRLAPVIADRLRTAAPGSTRAAAPG
+QPGDPNIKFVGRWDTKSSSTLYTPYWAGAYYRVGFTGRTVKLKQRNTIDFWARIDNGPVK
+FYDDVKGTVDLTPSPLSSGNHTLQVNYQVVAGSYRGDAVFQGLVLDSGATTFAPPAPAKL
+IEFVGDSITVGTTTSQNARTAYGWLIGERLGTEHTQIAQGGACLVATADGCVGLERQFTR
+LNPNAPTPDWDFSRYQADAVVINLGTNDVGHGVSSTQFQSAYTSLLRKARAAYPRAWIFA
+LETFRGRYVPQTQAAVKAVTDGGDTRVSFVDTTGWLGSGDLTDSVHPNDKGHRVIADRLA
+PIIAARMGG
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2011-03-08" modified="2015-12-09" version="16">
+<accession>E5SS60</accession>
+<name>E5SS60_TRISP</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Putative tudor domain-containing protein 7</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">Tsp_05342</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Trichinella spiralis</name>
+<name type="common">Trichina worm</name>
+<dbReference type="NCBI Taxonomy" id="6334"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Nematoda</taxon>
+<taxon>Enoplea</taxon>
+<taxon>Dorylaimia</taxon>
+<taxon>Trichocephalida</taxon>
+<taxon>Trichinellidae</taxon>
+<taxon>Trichinella</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="journal article" date="2011" name="Nat. Genet." volume="43" first="228" last="235">
+<title>The draft genome of the parasitic nematode Trichinella spiralis.</title>
+<authorList>
+<person name="Mitreva M."/>
+<person name="Jasmer D.P."/>
+<person name="Zarlenga D.S."/>
+<person name="Wang Z."/>
+<person name="Abubucker S."/>
+<person name="Martin J."/>
+<person name="Taylor C.M."/>
+<person name="Yin Y."/>
+<person name="Fulton L."/>
+<person name="Minx P."/>
+<person name="Yang S.P."/>
+<person name="Warren W.C."/>
+<person name="Fulton R.S."/>
+<person name="Bhonagiri V."/>
+<person name="Zhang X."/>
+<person name="Hallsworth-Pepin K."/>
+<person name="Clifton S.W."/>
+<person name="McCarter J.P."/>
+<person name="Appleton J."/>
+<person name="Mardis E.R."/>
+<person name="Wilson R.K."/>
+</authorList>
+<dbReference type="PubMed" id="21336279"/>
+<dbReference type="DOI" id="10.1038/ng.769"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2 3">ISS 195</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="ABIR02001615">
+<property type="protein sequence ID" value="EFV52384.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_003371671.1">
+<property type="nucleotide sequence ID" value="XM_003371623.1"/>
+</dbReference>
+<dbReference type="STRING" id="6334.EFV52384"/>
+<dbReference type="EnsemblMetazoa" id="EFV52384">
+<property type="protein sequence ID" value="EFV52384"/>
+<property type="gene ID" value="EFV52384"/>
+</dbReference>
+<dbReference type="GeneID" id="10913136"/>
+<dbReference type="KEGG" id="tsp:Tsp_05342"/>
+<dbReference type="CTD" id="10913136"/>
+<dbReference type="eggNOG" id="ENOG410XST4">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="InParanoid" id="E5SS60"/>
+<dbReference type="KO" id="K18405"/>
+<dbReference type="Proteomes" id="UP000006823">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="2"/>
+<end position="75"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EFV52384.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000006823"/>
+</source>
+</evidence>
+<sequence length="433" mass="49174" checksum="42E9C431F1D13AF2" modified="2011-03-08" version="1">
+MDLPTVVKKVHSVLLSFKNGAIEKELLNEFKALTGIDIPFRQHGFRTLDELLCTMPEQVQ
+INNNRGERLYVGMTNAATADLRSLIARQRGKDNYRMNEFRYEVKNAAPKMGPRAQTNVKF
+VEGKVKQNVPLDNPMRQMARPPAPCQMMAPKMMQKSNNSEMTKTSVQLTKTQSVQPKSVV
+PDRKENEEKRLICVQPMATPVKMESSSKSTYIIELPKKEKKQYKSVQPFMIQMYGSVKLP
+YQFRGTVCHVENPSLFFVCSVGLKNLFYDDFSCKMANDFRMNSSVSEGDIIPGRLYIVGA
+DISAMGYAHYTHRGLCLEKPKDDFGCIIPIEVKSVRMLKHSYASISPLVMACSIFGVKSS
+SPNDMNEYPADAIEYFNSLVWKNDFTIVVKKKTTYKNKLGMDMQLLCVDMVNTVTGVNVQ
+ENMLRERISVLQI
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

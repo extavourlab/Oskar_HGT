@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-01-22" modified="2016-01-20" version="8">
+<accession>U6D1U2</accession>
+<name>U6D1U2_NEOVI</name>
+<protein>
+<submittedName>
+<fullName evidence="3">KIAA0430</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3">F8VV09</name>
+</gene>
+<organism evidence="3">
+<name type="scientific">Neovison vison</name>
+<name type="common">American mink</name>
+<name type="synonym">Mustela vison</name>
+<dbReference type="NCBI Taxonomy" id="452646"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Laurasiatheria</taxon>
+<taxon>Carnivora</taxon>
+<taxon>Caniformia</taxon>
+<taxon>Mustelidae</taxon>
+<taxon>Mustelinae</taxon>
+<taxon>Neovison</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="submission" date="2012-11" db="EMBL/GenBank/DDBJ databases">
+<title>An American mink transcriptome.</title>
+<authorList>
+<person name="Anistoroaei R."/>
+<person name="Christensen K."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<tissue evidence="3">Pool of brain</tissue>
+</source>
+</reference>
+<dbReference type="EMBL" id="HAAF01004704">
+<property type="protein sequence ID" value="CCP76529.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005777">
+<property type="term" value="C:peroxisome"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003676">
+<property type="term" value="F:nucleic acid binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000166">
+<property type="term" value="F:nucleotide binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010468">
+<property type="term" value="P:regulation of gene expression"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.70.330">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024768">
+<property type="entry name" value="Marf1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR012677">
+<property type="entry name" value="Nucleotide-bd_a/b_plait"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000504">
+<property type="entry name" value="RRM_dom"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR14379">
+<property type="entry name" value="PTHR14379"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="5"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00076">
+<property type="entry name" value="RRM_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00360">
+<property type="entry name" value="RRM"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF54928">
+<property type="entry name" value="SSF54928"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="8"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50102">
+<property type="entry name" value="RRM"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<feature type="domain" description="RRM (RNA recognition motif)" evidence="1">
+<location>
+<begin position="25"/>
+<end position="104"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="109"/>
+<end position="183"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="237"/>
+<end position="313"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="333"/>
+<end position="407"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="409"/>
+<end position="484"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="493"/>
+<end position="568"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="569"/>
+<end position="644"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="645"/>
+<end position="719"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="720"/>
+<end position="794"/>
+</location>
+</feature>
+<feature type="non-terminal residue" evidence="3">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50102"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="CCP76529.1"/>
+</source>
+</evidence>
+<sequence length="976" mass="109440" checksum="69121A325EC1824E" modified="2014-01-22" version="1" fragment="single">
+SSPLAFNIANPSTVADSPDPFANGADIQISNIDYRLSRKELQQLMQEAFSRHGKVKSVEL
+SPHTDYQLKAVVQMENLQEAISAVNSLHRYKIGSKKILVSLATGAANKSLSLLSAETMSI
+LQDAPACCLPLFKFTDIYEKKFGHKLNVSDLYKLTDTVTIREQGNGRLVCLLPSSQARQS
+PLGSSQSHDGSSTNCSPIIFEELEYHEPVCRQHCSNKDFSEHEFDPDSYKIPFVILSLKT
+FAPQVHSLLQTHEGTVPLLSFPDCYAAEFGELEVVQENQAGVPLEHLVTCVPGVNIATAQ
+SGIKVVRWIHNKPPPPNTDPWLLRSKSPVGNPQLIQFSREVIDLLKSQPSCVIPISNFIP
+SYHHHFAKQCRVSDYGYSKLIELLEAVPHVLQILGMGSKRLLTLTHRAQVKRFTQDLLKL
+LKSQASKQVIVREFSQAYHWCFSKDWDVTEYGVCELIDIVSEIPDTTICLSQQDNEMVIC
+IPKRERTQDEIERTKQFSKDVVDLLRHQPHFRMPFNKFIPSYHHHFGRQCKLAYYGFTKL
+LELFEAIPDILQVLECGEEKILTLTEVERVKALAAQFVKLLRSQKDNCLMMTDLLTEYAK
+TFGYTFRLQDYDVSSISALTQKLCHVVKIADMESGKQIQLINRKSLRALTAQLLVLLMSW
+EGAAHLSVNELKRHYETTHSVPLNPCEYGFMTLTELLKSLPYLVEVFTNDKTEECVRLTS
+LYLFAKNVRSLLHTYHYQQLFLHEFSMAYTKYVGETLQPETYGCSSVEELLGAIPQVVWI
+KGHGHKRIVVLKNDMKCRLSSFGLAPTHSENQPLATGRISVVPKSGTAMELEPGAGSDGP
+HQTEQELLRLTSDSPVDLLCAPVPSCLPSPQLRPDPVVLQSADLIQFEEHPQECSEIMIL
+NQEEKIEIPVPVKSNNPASDSSSSGISAAVPVPPCPSSETSESLPSKDPVESPAKKQPKN
+RVKLAANFSFAPITKL
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

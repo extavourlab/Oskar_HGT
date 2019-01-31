@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2011-06-28" modified="2016-05-11" version="12">
+<accession>F4W6C0</accession>
+<name>F4W6C0_ACREC</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Tudor domain-containing protein 7</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">G5I_01014</name>
+</gene>
+<organism evidence="3">
+<name type="scientific">Acromyrmex echinatior</name>
+<name type="common">Panamanian leafcutter ant</name>
+<name type="synonym">Acromyrmex octospinosus echinatior</name>
+<dbReference type="NCBI Taxonomy" id="103372"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Hymenoptera</taxon>
+<taxon>Apocrita</taxon>
+<taxon>Aculeata</taxon>
+<taxon>Vespoidea</taxon>
+<taxon>Formicidae</taxon>
+<taxon>Myrmicinae</taxon>
+<taxon>Acromyrmex</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="journal article" date="2011" name="Genome Res.">
+<title>The genome of the leaf-cutting ant Acromyrmex echinatior suggests key adaptations to advanced social life and fungus farming.</title>
+<authorList>
+<person name="Nygaard S."/>
+<person name="Zhang G."/>
+<person name="Schiott M."/>
+<person name="Li C."/>
+<person name="Wurm Y."/>
+<person name="Hu H."/>
+<person name="Zhou J."/>
+<person name="Ji L."/>
+<person name="Qiu F."/>
+<person name="Rasmussen M."/>
+<person name="Pan H."/>
+<person name="Hauser F."/>
+<person name="Krogh A."/>
+<person name="Grimmelikhuijzen C.J."/>
+<person name="Wang J."/>
+<person name="Boomsma J.J."/>
+</authorList>
+<dbReference type="PubMed" id="21719571"/>
+<dbReference type="DOI" id="10.1101/gr.121392.111"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<dbReference type="EMBL" id="GL887707">
+<property type="protein sequence ID" value="EGI70255.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="InParanoid" id="F4W6C0"/>
+<dbReference type="Proteomes" id="UP000007755">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="440"/>
+<end position="507"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EGI70255.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000007755"/>
+</source>
+</evidence>
+<sequence length="1162" mass="131178" checksum="638C4D85C1798ED0" modified="2011-06-28" version="1">
+MSTITPVRPVVFGTSSPREVPTCLRFISNERYRERLTVIEITRVRRRRPAGPAYDSGGVG
+GGDDSNDDDDDDGDGERNLSVLKREADYRMITGELLPFKQLGYSSVEAFVRNVPDVTVTK
+KNGELFVEALPSKTSAHLTKLVSRQKNAKRKIRPQPKKWTPPRHVKGFSSSSRSFSGSRN
+NNLNSGFYSSKNNYISSSNSFTRSTPDKSNSYTDFTRPVPLMETIVQCPYPLNNTKSSFT
+PTTPPPSICNSPISTFPKRLTDKVTIPSLATVNQSDNCKTIEDVRFKVLNDNTASSVINQ
+KPKTVESKSSKLSDRLKITPPETPLPSISNYNNGYTSMSTPSIFNVPQVAPPLKALDSRK
+ELEVRANMLNLPPPIYKMYSKKEKHSVKVTIYASVKVGSHTFHTYPEDAATEEEAEKIAA
+RLALGHLAKESTSSEVTTADAELIKKRILKIITTHHSGVFMHLLPEYYNEQYGETLPHNW
+QTIIEKCVDINQEKGVGDSTILCLTSPTLKRLDSNSVLKNIPENILLTNKKIQLNPIGPA
+TPSILPVPEAHIWQVCVTYVVNTVEIWVRLGDDNNEFVDMTNEMTSYYDKLNKPTSSVAC
+VPGDFYAVLEENYWHRVECTDYDNETGIATVFFIDQGYVEQYKSDVLHPLDKKFNTLPFQ
+AIRIGLQGLKEFRDCAQMVTEIENYLLVDQLFYVKVHGMDSDEYGSYVTVTFYDTSKGDE
+DIDVNQILIDKILEVMAVTFKMRVGQLIELNVTHIDEYGKVYTQLNSFTKNILSNENMFQ
+FATNNIKVNAINFTKTYLAEWNSQWYRARVTDIPAEQEVMVFLIDVGKIVLIPRANLFHI
+DKTSKTLQCIPPQAMQIFLHNIDQSMYNKRFVAKFQELVSDTDMLVARVIRISNSGVPVV
+EIFKRVGPSNMLASINTSLIYAGELSKIKEDSNNNNKSKKRLDRKSTRAPEIVGKLNPPV
+ISDIGQYFDVHVTLVAHPGHFIVQPLNNVSQLREMMIDLRKYYDANNNPPLESVNEGKLY
+AGKLQDDWYRVYVTDIISDNDVSVYLCDYGDVTIISISNLQPLMSKFLKLPYQAVKAKLV
+GIEPLNVDWTVTDCVKFKDLVLDKDFVSVIVESVFDSLSPVNGTMLGLKLIDTSTEKDIY
+IDELLVEEKRAKYIEEVEGLPS
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

@@ -1,0 +1,3 @@
+[submodule "Iterative-HMMER"]
+	path = Iterative-HMMER
+	url = https://github.com/Xqua/Iterative-HMMER.git

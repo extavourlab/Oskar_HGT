@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-09-03" modified="2015-12-09" version="5">
+<accession>A0A060XMA4</accession>
+<name>A0A060XMA4_ONCMY</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">GSONMT00040962001</name>
+</gene>
+<organism evidence="3">
+<name type="scientific">Oncorhynchus mykiss</name>
+<name type="common">Rainbow trout</name>
+<name type="synonym">Salmo gairdneri</name>
+<dbReference type="NCBI Taxonomy" id="8022"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Actinopterygii</taxon>
+<taxon>Neopterygii</taxon>
+<taxon>Teleostei</taxon>
+<taxon>Protacanthopterygii</taxon>
+<taxon>Salmoniformes</taxon>
+<taxon>Salmonidae</taxon>
+<taxon>Salmoninae</taxon>
+<taxon>Oncorhynchus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="journal article" date="2014" name="Nat. Commun." volume="5" first="3657" last="3657">
+<title>The rainbow trout genome provides novel insights into evolution after whole-genome duplication in vertebrates.</title>
+<authorList>
+<person name="Berthelot C."/>
+<person name="Brunet F."/>
+<person name="Chalopin D."/>
+<person name="Juanchich A."/>
+<person name="Bernard M."/>
+<person name="Noel B."/>
+<person name="Bento P."/>
+<person name="Da Silva C."/>
+<person name="Labadie K."/>
+<person name="Alberti A."/>
+<person name="Aury J.M."/>
+<person name="Louis A."/>
+<person name="Dehais P."/>
+<person name="Bardou P."/>
+<person name="Montfort J."/>
+<person name="Klopp C."/>
+<person name="Cabau C."/>
+<person name="Gaspin C."/>
+<person name="Thorgaard G.H."/>
+<person name="Boussaha M."/>
+<person name="Quillet E."/>
+<person name="Guyomard R."/>
+<person name="Galiana D."/>
+<person name="Bobe J."/>
+<person name="Volff J.N."/>
+<person name="Genet C."/>
+<person name="Wincker P."/>
+<person name="Jaillon O."/>
+<person name="Roest Crollius H."/>
+<person name="Guiguen Y."/>
+</authorList>
+<dbReference type="PubMed" id="24755649"/>
+<dbReference type="DOI" id="10.1038/ncomms4657"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<reference key="2" evidence="3">
+<citation type="submission" date="2014-03" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Genoscope - CEA"/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<dbReference type="EMBL" id="FR905282">
+<property type="protein sequence ID" value="CDQ78030.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="6"/>
+<end position="79"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="127"/>
+<end position="203"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="324"/>
+<end position="400"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="560"/>
+<end position="618"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="CDQ78030.1"/>
+</source>
+</evidence>
+<sequence length="917" mass="100244" checksum="7C68712AC8B6DFDA" modified="2014-09-03" version="1">
+MTQEQLLSSLKKDVRSLLISAKQGLTPDQLKRDYINMLGHPMPLRILGFRNVLDMIREMP
+DVVHILYLGDGSIVLKAVADDTTRGIVELVAKQRSAKKTPAQRGGVGFFSPRYQHHNPMV
+LPRRGRAPPALPAQLRAQLHQLLSHGAVGLSELETAFVRRFGFPLRVNNYGFYSIAEMLA
+AAADLVAVTQSRMGSQLSLRGAVVALRRTGPIKPLFPLKQTFKTVPIVRQMTQTNSVPVE
+RHTTESSTPNPVSNTQNLVVPAPLPEAAVLNSPEGDQGSLPMDYTIPQPEPEPTQDGQLF
+QKCVIKLEEELRQRILENGEAGTVSPEVKAKLRQVVAQNSEGLSVHDLPAEFKRVFGEEL
+PVVQSGFLSTTEMVGALSDTLYLRPMAGDEGNHWVVMDIQNAPGHTTPQQPGTAEPEGPV
+EGVKALNPSGTGYYFSCGESPWEGEGGETKPNLEEDLELRITTKTSYQMVDMYGSLPVRC
+RRGAVIPPDAMRGQRLRAPTCRGPRELVAVLVEHVESPSNFYIRFDESQEARALENMMIE
+MRSCYTCPEVLERYRLPERYVRTGQVCCVAPQGIWFYRVVVHRVLNNTHAEVYYVDFGDL
+TTVQRSSLNFLKSCYSELPAQAVPSSLAGIKPFGGSWSANAKTSFQKLCCDRTLVAALHG
+YHADFLQLFLCDTHTEEDVYIHSALQAQGHGLCCAPTVSAALCNQFNPVSLYLGEGVFGE
+GMEIEDEDPTLEPCHEATTITFQHNTTQPLSKSSPCPTHTTPNLVGGNKTNEEEVLPDLP
+ALEFIEVNSTTQGGLNANPFAALQSKDPLLLCCSDWDQGWTPNAPAPTPAPEVVQPRANL
+GNHGDTAMPPPPSPSASELKEPCSANGGAGSHIPAVPPQPSTLKTLSLRTPGLTQTQTAP
+YGTVNKYTHGKQTITHT
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

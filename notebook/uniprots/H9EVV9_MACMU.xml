@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2012-05-16" modified="2016-05-11" version="11">
+<accession>H9EVV9</accession>
+<name>H9EVV9_MACMU</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Tudor domain-containing protein 7</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3">TDRD7</name>
+</gene>
+<organism evidence="3">
+<name type="scientific">Macaca mulatta</name>
+<name type="common">Rhesus macaque</name>
+<dbReference type="NCBI Taxonomy" id="9544"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Cercopithecidae</taxon>
+<taxon>Cercopithecinae</taxon>
+<taxon>Macaca</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="journal article" date="2014" name="Biol. Direct" volume="9" first="20" last="20">
+<title>A new rhesus macaque assembly and annotation for next-generation sequencing analyses.</title>
+<authorList>
+<person name="Zimin A.V."/>
+<person name="Cornish A.S."/>
+<person name="Maudhoo M.D."/>
+<person name="Gibbs R.M."/>
+<person name="Zhang X."/>
+<person name="Pandey S."/>
+<person name="Meehan D.T."/>
+<person name="Wipfler K."/>
+<person name="Bosinger S.E."/>
+<person name="Johnson Z.P."/>
+<person name="Tharp G.K."/>
+<person name="Marcais G."/>
+<person name="Roberts M."/>
+<person name="Ferguson B."/>
+<person name="Fox H.S."/>
+<person name="Treangen T."/>
+<person name="Salzberg S.L."/>
+<person name="Yorke J.A."/>
+<person name="Norgren R.B.Jr."/>
+</authorList>
+<dbReference type="PubMed" id="25319552"/>
+<dbReference type="DOI" id="10.1186/1745-6150-9-20"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<tissue evidence="3">Caudate</tissue>
+<tissue evidence="4">Thymus</tissue>
+</source>
+</reference>
+<dbReference type="EMBL" id="JU322762">
+<property type="protein sequence ID" value="AFE66518.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="JU473819">
+<property type="protein sequence ID" value="AFH30623.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_001181558.1">
+<property type="nucleotide sequence ID" value="NM_001194629.1"/>
+</dbReference>
+<dbReference type="UniGene" id="Mmu.4770"/>
+<dbReference type="STRING" id="9544.ENSMMUP00000016104"/>
+<dbReference type="GeneID" id="641450"/>
+<dbReference type="KEGG" id="mcc:641450"/>
+<dbReference type="CTD" id="23424"/>
+<dbReference type="eggNOG" id="ENOG410IPR1">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410XST4">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="KO" id="K18405"/>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="3"/>
+<end position="76"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="233"/>
+<end position="302"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="337"/>
+<end position="406"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="513"/>
+<end position="570"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="703"/>
+<end position="760"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AFE66518.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AFH30623.1"/>
+</source>
+</evidence>
+<sequence length="1098" mass="123527" checksum="EE3614D3C14EE2AC" modified="2012-05-16" version="1">
+MLEGDLVSKMLRAVLQSHKNGVALPRLQGEYRSLTGDWIPFKQLGFPTLEAYLRSVPAVV
+RIETSRSGEITCYAMACTETARIAQLVARQRSSKRKTGRQVNCQMRVKKTMPFFLEGKPK
+ATLRQPGFASNFSVGKKPNPAPLRDKGNSAGVKPEAEMSPYMLHTTLGNEALKDTPVQRH
+VTMSTNNRFSPKASLQPPLQIHLSRTSTKEMSDNLNQTVEKPNVTPPASYTYKMDEVQNR
+IKEILNKHNNGIWISKLPHFYKELYKEDLNQGILQQFEHWPHICTVEKPCSGGQDLLLYP
+AKRKQLLRSELDTEKVPPSPLPAPKQTPPLKGCPTVVAGDFKEKVAELLVKYTSGLWASA
+LPKAFEEMYKVKFPEDALKNLSSLSDVCTIDYISGNPQKAILYAKLPLPADKIQTDAGQA
+HGDHDIKAMVEQEYLQIEENIAESANTFMEDITVPPLMIPTEASPSVLVVELSNTNEVVI
+RYVGKDYSAAQELMEDEMKEYYSKNPKVIPVQAVNVGQLLAVNAEEDAWLRAQVISTEEN
+KIKVCYVDYGFSENVEKNKAYKLNPKFCSLSFQATKCKLAGLEVLSDDPDLVKVVESLTC
+GKIFAVEILDKADIPLVVLYDTSGEDDININATCLKAICDKSLEVHLQVDAMYTNVKVTN
+ICSDGTLYCQVPCKGLNKLNDLLHKIEDYFHCKHMTSECFVSLPFCGKICLFHCKGKWLR
+VEITNVHSSRALDVQFLDSGTVTSVKVSELREIPPRFLQEMIAIPPQAIKCCLADLPQSI
+GMWTPDAVLWLRDSVLNCSDCSIKVTKVDETRGIAHVYLFTPKNFPDPHRSINRQITNAD
+LWKHQKDVFLSAISSGAGSPDSKNGNMPMLGNTGENFRKNLTDVIKKSMVDHTSSFSTEE
+LPPPVHLSKPGEHMDVYVPVACHPGYFVIQPWQEIHKLEVLMEEMILYYSVSEERHIAVE
+KDQVYAAKVENKWHRVLLKGILTNGLVSVYELDYGKHELVNIRKVQPLVDMFRKLPFQAV
+TAQLAGVKCNQWSEEASMVFRNHVEKKPLVALVQTVIENANPWDRKVVVYLVDTSLPDTD
+IWIHDFMSEYLIELSKVN
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

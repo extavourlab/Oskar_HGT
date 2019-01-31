@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-01-09" modified="2016-05-11" version="16">
+<accession>K7KLJ7</accession>
+<name>K7KLJ7_SOYBN</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<organism evidence="2 3">
+<name type="scientific">Glycine max</name>
+<name type="common">Soybean</name>
+<name type="synonym">Glycine hispida</name>
+<dbReference type="NCBI Taxonomy" id="3847"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>rosids</taxon>
+<taxon>fabids</taxon>
+<taxon>Fabales</taxon>
+<taxon>Fabaceae</taxon>
+<taxon>Papilionoideae</taxon>
+<taxon>Phaseoleae</taxon>
+<taxon>Glycine</taxon>
+<taxon>Soja</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2">
+<citation type="journal article" date="2010" name="Nature" volume="463" first="178" last="183">
+<title>Genome sequence of the palaeopolyploid soybean.</title>
+<authorList>
+<person name="Schmutz J."/>
+<person name="Cannon S.B."/>
+<person name="Schlueter J."/>
+<person name="Ma J."/>
+<person name="Mitros T."/>
+<person name="Nelson W."/>
+<person name="Hyten D.L."/>
+<person name="Song Q."/>
+<person name="Thelen J.J."/>
+<person name="Cheng J."/>
+<person name="Xu D."/>
+<person name="Hellsten U."/>
+<person name="May G.D."/>
+<person name="Yu Y."/>
+<person name="Sakurai T."/>
+<person name="Umezawa T."/>
+<person name="Bhattacharyya M.K."/>
+<person name="Sandhu D."/>
+<person name="Valliyodan B."/>
+<person name="Lindquist E."/>
+<person name="Peto M."/>
+<person name="Grant D."/>
+<person name="Shu S."/>
+<person name="Goodstein D."/>
+<person name="Barry K."/>
+<person name="Futrell-Griggs M."/>
+<person name="Abernathy B."/>
+<person name="Du J."/>
+<person name="Tian Z."/>
+<person name="Zhu L."/>
+<person name="Gill N."/>
+<person name="Joshi T."/>
+<person name="Libault M."/>
+<person name="Sethuraman A."/>
+<person name="Zhang X.-C."/>
+<person name="Shinozaki K."/>
+<person name="Nguyen H.T."/>
+<person name="Wing R.A."/>
+<person name="Cregan P."/>
+<person name="Specht J."/>
+<person name="Grimwood J."/>
+<person name="Rokhsar D."/>
+<person name="Stacey G."/>
+<person name="Shoemaker R.C."/>
+<person name="Jackson S.A."/>
+</authorList>
+<dbReference type="PubMed" id="20075913"/>
+<dbReference type="DOI" id="10.1038/nature08670"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2">cv. Williams 82</strain>
+</source>
+</reference>
+<reference key="2" evidence="2">
+<citation type="submission" date="2013-05" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<consortium name="EnsemblPlants"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+<source>
+<strain evidence="2">Williams 82</strain>
+</source>
+</reference>
+<dbReference type="EnsemblPlants" id="GLYMA04G39440.3">
+<property type="protein sequence ID" value="GLYMA04G39440.3"/>
+<property type="gene ID" value="GLYMA04G39440"/>
+</dbReference>
+<dbReference type="Gramene" id="GLYMA04G39440.3">
+<property type="protein sequence ID" value="GLYMA04G39440.3"/>
+<property type="gene ID" value="GLYMA04G39440"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000008827">
+<property type="component" value="Chromosome 4"/>
+</dbReference>
+<dbReference type="ExpressionAtlas" id="K7KLJ7">
+<property type="expression patterns" value="baseline and differential"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005777">
+<property type="term" value="C:peroxisome"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010468">
+<property type="term" value="P:regulation of gene expression"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024768">
+<property type="entry name" value="Marf1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR021139">
+<property type="entry name" value="NYN_limkain-b1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR14379">
+<property type="entry name" value="PTHR14379"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01936">
+<property type="entry name" value="NYN"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="246"/>
+<end position="317"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="753"/>
+<end position="827"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EnsemblPlants" id="GLYMA04G39440.3"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000008827"/>
+</source>
+</evidence>
+<sequence length="975" mass="109160" checksum="4DFE9F4EA214057E" modified="2013-01-09" version="1">
+MRALLPNHLLHLSRSQARTLLVRFQACELSSSSSSPPHNSRDVRVSVWWDFKSCAVPDDM
+DASKVAPAIAQAVRANGIKGPIHINAFGDVSSLSKRQLQALASTGIQFTHFPHGAINCFN
+ILVDIMFWVSQNPPPAHLFLISSDRDFDCLLHRLRMNNYNILLAGSRNAPGFLSTAATIM
+WQWYKLLKGENLMGKHVNHPPDGPYGSWYGNFRVPLENPSPATEHSTSLEDVEIYEPSLD
+LKLGEVPKSVVQKVKHILTSHSKGISITDLHADLAKCDVHLDQNLYGFQSVSCFLLSIPH
+VQLQPLGDGNFCVCLVPSGSPEPFDSSVVPSASSVVKNEERGYENETPSISTVHARSMND
+DSTSFQPVPPQVKTIGEYVNSKSSFPSLVERHEFQPQNELQKSSLASEKIVDVANAQLPE
+IQQPSKEIKFSKTKTSSFKSRSKKSSDNDNVKFEDASHTIVEKHTTSGNHHARNDHKTME
+NNGVANYELGNCKAKNNYESPTRKKADEVCCSPYSPPVDDLLVDKRLSGIAETYNKRPTF
+FSWTRSWWSFWKSNAKSDDLEAHQNKVASQLEDPKVSEVDQTVSHFEEPKLSELDQNVIC
+SGKVELISSGSFWKDLESFIFSPEGSLLVSQSKNREDMAHKLQKDGPLVLRSLTQKDILQ
+LVELLISEKKWLEESLSQTFPFRLIQPVQKNSLMGRSHGANGLSSLFLSRATQSNLQTSF
+EHDVEKHNQSIPRTRVSATATETKYTERSRNDVLEDCQKLVSEILREHPEGYKISSYPRL
+FVDRYGYHLDFQKLGYQKLAPLLQIMPEVKVESTYIFPSVPAVSASDGESFILQTQVNNA
+SHAHHAVLNPDSELSDSALEDDNMESPWQKLGYNQSNMESKLSQKAEELDTPKLPDYEPI
+VSDYDSSESEGDSQPEKQGKLKCNKHDISLWQALDLWHNKKEGENSVKKPDNVGHLNKTL
+VADILNSSAKSTRGT
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

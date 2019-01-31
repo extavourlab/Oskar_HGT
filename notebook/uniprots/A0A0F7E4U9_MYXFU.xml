@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-07-22" modified="2016-05-11" version="8">
+<accession>A0A0F7E4U9</accession>
+<name>A0A0F7E4U9_MYXFU</name>
+<protein>
+<submittedName>
+<fullName evidence="2">GDSL family lipase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">MFUL124B02_18710</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Myxococcus fulvus 124B02</name>
+<dbReference type="NCBI Taxonomy" id="1334629"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Deltaproteobacteria</taxon>
+<taxon>Myxococcales</taxon>
+<taxon>Cystobacterineae</taxon>
+<taxon>Myxococcaceae</taxon>
+<taxon>Myxococcus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="submission" date="2013-05" db="EMBL/GenBank/DDBJ databases">
+<title>Complete genome sequence of Myxococcus fulvus type strain 124B02.</title>
+<authorList>
+<person name="Chen X."/>
+<person name="Han K."/>
+<person name="Feng J."/>
+<person name="Zhou X."/>
+<person name="Wang N."/>
+<person name="Li Z."/>
+<person name="Li Y.-Z."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3">124B02</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="CP006003">
+<property type="protein sequence ID" value="AKF85924.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="AKF85924">
+<property type="protein sequence ID" value="AKF85924"/>
+<property type="gene ID" value="MFUL124B02_18710"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000033810">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="10"/>
+<end position="184"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AKF85924.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000033810"/>
+</source>
+</evidence>
+<sequence length="200" mass="21675" checksum="AF267B05375624D2" modified="2015-07-22" version="1">
+MEHMSVNYVALGDSTAVGVGATRGGGYPERLASRLRRDGLSLGLTNLGVSGARIRDVFTG
+QVKAAVAAQPTLVTLGVGTNDIWRGTALDDFREDLERIARRLKQTGAPLVLVNIADMALA
+PIAQMVPSTLYEGRIEPFNAAIAEVARAEGLHLVDLHSASREMFPRSTHFFSQDGFHPSD
+EGYEEWADLMLPTVRTLVSR
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

@@ -1,0 +1,491 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2012-05-16" modified="2016-05-11" version="40">
+<accession>E1BZ85</accession>
+<name>MARF1_CHICK</name>
+<protein>
+<recommendedName>
+<fullName>Meiosis arrest female protein 1 homolog</fullName>
+</recommendedName>
+<alternativeName>
+<fullName>Limkain-b1</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">MARF1</name>
+<name type="synonym">LKAP</name>
+</gene>
+<organism>
+<name type="scientific">Gallus gallus</name>
+<name type="common">Chicken</name>
+<dbReference type="NCBI Taxonomy" id="9031"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Archelosauria</taxon>
+<taxon>Archosauria</taxon>
+<taxon>Dinosauria</taxon>
+<taxon>Saurischia</taxon>
+<taxon>Theropoda</taxon>
+<taxon>Coelurosauria</taxon>
+<taxon>Aves</taxon>
+<taxon>Neognathae</taxon>
+<taxon>Galloanserae</taxon>
+<taxon>Galliformes</taxon>
+<taxon>Phasianidae</taxon>
+<taxon>Phasianinae</taxon>
+<taxon>Gallus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2004" name="Nature" volume="432" first="695" last="716">
+<title>Sequence and comparative analysis of the chicken genome provide unique perspectives on vertebrate evolution.</title>
+<authorList>
+<person name="Hillier L.W."/>
+<person name="Miller W."/>
+<person name="Birney E."/>
+<person name="Warren W."/>
+<person name="Hardison R.C."/>
+<person name="Ponting C.P."/>
+<person name="Bork P."/>
+<person name="Burt D.W."/>
+<person name="Groenen M.A.M."/>
+<person name="Delany M.E."/>
+<person name="Dodgson J.B."/>
+<person name="Chinwalla A.T."/>
+<person name="Cliften P.F."/>
+<person name="Clifton S.W."/>
+<person name="Delehaunty K.D."/>
+<person name="Fronick C."/>
+<person name="Fulton R.S."/>
+<person name="Graves T.A."/>
+<person name="Kremitzki C."/>
+<person name="Layman D."/>
+<person name="Magrini V."/>
+<person name="McPherson J.D."/>
+<person name="Miner T.L."/>
+<person name="Minx P."/>
+<person name="Nash W.E."/>
+<person name="Nhan M.N."/>
+<person name="Nelson J.O."/>
+<person name="Oddy L.G."/>
+<person name="Pohl C.S."/>
+<person name="Randall-Maher J."/>
+<person name="Smith S.M."/>
+<person name="Wallis J.W."/>
+<person name="Yang S.-P."/>
+<person name="Romanov M.N."/>
+<person name="Rondelli C.M."/>
+<person name="Paton B."/>
+<person name="Smith J."/>
+<person name="Morrice D."/>
+<person name="Daniels L."/>
+<person name="Tempest H.G."/>
+<person name="Robertson L."/>
+<person name="Masabanda J.S."/>
+<person name="Griffin D.K."/>
+<person name="Vignal A."/>
+<person name="Fillon V."/>
+<person name="Jacobbson L."/>
+<person name="Kerje S."/>
+<person name="Andersson L."/>
+<person name="Crooijmans R.P."/>
+<person name="Aerts J."/>
+<person name="van der Poel J.J."/>
+<person name="Ellegren H."/>
+<person name="Caldwell R.B."/>
+<person name="Hubbard S.J."/>
+<person name="Grafham D.V."/>
+<person name="Kierzek A.M."/>
+<person name="McLaren S.R."/>
+<person name="Overton I.M."/>
+<person name="Arakawa H."/>
+<person name="Beattie K.J."/>
+<person name="Bezzubov Y."/>
+<person name="Boardman P.E."/>
+<person name="Bonfield J.K."/>
+<person name="Croning M.D.R."/>
+<person name="Davies R.M."/>
+<person name="Francis M.D."/>
+<person name="Humphray S.J."/>
+<person name="Scott C.E."/>
+<person name="Taylor R.G."/>
+<person name="Tickle C."/>
+<person name="Brown W.R.A."/>
+<person name="Rogers J."/>
+<person name="Buerstedde J.-M."/>
+<person name="Wilson S.A."/>
+<person name="Stubbs L."/>
+<person name="Ovcharenko I."/>
+<person name="Gordon L."/>
+<person name="Lucas S."/>
+<person name="Miller M.M."/>
+<person name="Inoko H."/>
+<person name="Shiina T."/>
+<person name="Kaufman J."/>
+<person name="Salomonsen J."/>
+<person name="Skjoedt K."/>
+<person name="Wong G.K.-S."/>
+<person name="Wang J."/>
+<person name="Liu B."/>
+<person name="Wang J."/>
+<person name="Yu J."/>
+<person name="Yang H."/>
+<person name="Nefedov M."/>
+<person name="Koriabine M."/>
+<person name="Dejong P.J."/>
+<person name="Goodstadt L."/>
+<person name="Webber C."/>
+<person name="Dickens N.J."/>
+<person name="Letunic I."/>
+<person name="Suyama M."/>
+<person name="Torrents D."/>
+<person name="von Mering C."/>
+<person name="Zdobnov E.M."/>
+<person name="Makova K."/>
+<person name="Nekrutenko A."/>
+<person name="Elnitski L."/>
+<person name="Eswara P."/>
+<person name="King D.C."/>
+<person name="Yang S.-P."/>
+<person name="Tyekucheva S."/>
+<person name="Radakrishnan A."/>
+<person name="Harris R.S."/>
+<person name="Chiaromonte F."/>
+<person name="Taylor J."/>
+<person name="He J."/>
+<person name="Rijnkels M."/>
+<person name="Griffiths-Jones S."/>
+<person name="Ureta-Vidal A."/>
+<person name="Hoffman M.M."/>
+<person name="Severin J."/>
+<person name="Searle S.M.J."/>
+<person name="Law A.S."/>
+<person name="Speed D."/>
+<person name="Waddington D."/>
+<person name="Cheng Z."/>
+<person name="Tuzun E."/>
+<person name="Eichler E."/>
+<person name="Bao Z."/>
+<person name="Flicek P."/>
+<person name="Shteynberg D.D."/>
+<person name="Brent M.R."/>
+<person name="Bye J.M."/>
+<person name="Huckle E.J."/>
+<person name="Chatterji S."/>
+<person name="Dewey C."/>
+<person name="Pachter L."/>
+<person name="Kouranov A."/>
+<person name="Mourelatos Z."/>
+<person name="Hatzigeorgiou A.G."/>
+<person name="Paterson A.H."/>
+<person name="Ivarie R."/>
+<person name="Brandstrom M."/>
+<person name="Axelsson E."/>
+<person name="Backstrom N."/>
+<person name="Berlin S."/>
+<person name="Webster M.T."/>
+<person name="Pourquie O."/>
+<person name="Reymond A."/>
+<person name="Ucla C."/>
+<person name="Antonarakis S.E."/>
+<person name="Long M."/>
+<person name="Emerson J.J."/>
+<person name="Betran E."/>
+<person name="Dupanloup I."/>
+<person name="Kaessmann H."/>
+<person name="Hinrichs A.S."/>
+<person name="Bejerano G."/>
+<person name="Furey T.S."/>
+<person name="Harte R.A."/>
+<person name="Raney B."/>
+<person name="Siepel A."/>
+<person name="Kent W.J."/>
+<person name="Haussler D."/>
+<person name="Eyras E."/>
+<person name="Castelo R."/>
+<person name="Abril J.F."/>
+<person name="Castellano S."/>
+<person name="Camara F."/>
+<person name="Parra G."/>
+<person name="Guigo R."/>
+<person name="Bourque G."/>
+<person name="Tesler G."/>
+<person name="Pevzner P.A."/>
+<person name="Smit A."/>
+<person name="Fulton L.A."/>
+<person name="Mardis E.R."/>
+<person name="Wilson R.K."/>
+</authorList>
+<dbReference type="PubMed" id="15592404"/>
+<dbReference type="DOI" id="10.1038/nature03154"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>Red jungle fowl</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Essential regulator of oogenesis required for female meiotic progression to repress transposable elements and preventing their mobilization, which is essential for the germline integrity.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Peroxisome</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="3">Contains 8 HTH OST-type domains.</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Contains 1 NYN domain.</text>
+</comment>
+<comment type="similarity">
+<text evidence="2">Contains 1 RRM (RNA recognition motif) domain.</text>
+</comment>
+<dbReference type="EMBL" id="AADN02023593">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AADN02023594">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AADN02023595">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="UniGene" id="Gga.54273"/>
+<dbReference type="UniGene" id="Gga.54985"/>
+<dbReference type="STRING" id="9031.ENSGALP00000010450"/>
+<dbReference type="PaxDb" id="E1BZ85"/>
+<dbReference type="eggNOG" id="ENOG410IF58">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410XQFX">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="InParanoid" id="E1BZ85"/>
+<dbReference type="OrthoDB" id="EOG7SXW2J"/>
+<dbReference type="PhylomeDB" id="E1BZ85"/>
+<dbReference type="TreeFam" id="TF329117"/>
+<dbReference type="Proteomes" id="UP000000539">
+<property type="component" value="Unplaced"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005777">
+<property type="term" value="C:peroxisome"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000166">
+<property type="term" value="F:nucleotide binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003723">
+<property type="term" value="F:RNA binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051321">
+<property type="term" value="P:meiotic cell cycle"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0048477">
+<property type="term" value="P:oogenesis"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010468">
+<property type="term" value="P:regulation of gene expression"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.70.330">
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1010">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024582">
+<property type="entry name" value="Limkain_b1_cons_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024768">
+<property type="entry name" value="Marf1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR012677">
+<property type="entry name" value="Nucleotide-bd_a/b_plait"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR021139">
+<property type="entry name" value="NYN_limkain-b1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029060">
+<property type="entry name" value="PIN_domain-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000504">
+<property type="entry name" value="RRM_dom"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR14379">
+<property type="entry name" value="PTHR14379"/>
+<property type="match status" value="4"/>
+</dbReference>
+<dbReference type="Pfam" id="PF11608">
+<property type="entry name" value="Limkain-b1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01936">
+<property type="entry name" value="NYN"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="5"/>
+</dbReference>
+<dbReference type="SMART" id="SM00360">
+<property type="entry name" value="RRM"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF54928">
+<property type="entry name" value="SSF54928"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="8"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50102">
+<property type="entry name" value="RRM"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0221">Differentiation</keyword>
+<keyword id="KW-0469">Meiosis</keyword>
+<keyword id="KW-0896">Oogenesis</keyword>
+<keyword id="KW-0576">Peroxisome</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0677">Repeat</keyword>
+<keyword id="KW-0694">RNA-binding</keyword>
+<feature type="chain" description="Meiosis arrest female protein 1 homolog" id="PRO_0000417528">
+<location>
+<begin position="1"/>
+<end position="1741"/>
+</location>
+</feature>
+<feature type="domain" description="NYN">
+<location>
+<begin position="345"/>
+<end position="482"/>
+</location>
+</feature>
+<feature type="domain" description="RRM" evidence="2">
+<location>
+<begin position="788"/>
+<end position="867"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type 1" evidence="3">
+<location>
+<begin position="872"/>
+<end position="946"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type 2" evidence="3">
+<location>
+<begin position="1000"/>
+<end position="1076"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type 3" evidence="3">
+<location>
+<begin position="1097"/>
+<end position="1171"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type 4" evidence="3">
+<location>
+<begin position="1173"/>
+<end position="1248"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type 5" evidence="3">
+<location>
+<begin position="1257"/>
+<end position="1332"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type 6" evidence="3">
+<location>
+<begin position="1333"/>
+<end position="1408"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type 7" evidence="3">
+<location>
+<begin position="1409"/>
+<end position="1483"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type 8" evidence="3">
+<location>
+<begin position="1484"/>
+<end position="1558"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00176"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00975"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<sequence length="1741" mass="193326" checksum="76523AC7FCDB258E" modified="2010-11-02" version="1">
+MEGNRTENLCNRSFGWLQRQENDVKPWLWKLSNCFSAAEKTLPCSAKTKDYMENQKGVVE
+SKDASSHNAGSKLFPAVPLPDVHPLQQQQIQLSPGPKVSCCAHGSDSCTPQMHCGVGDGS
+VIHPGTILDSKSTGTITCQVGSGFAFPSASSLKNPPPRSNLAGIASEFPGMCIENSVSSY
+QHLPCCGKLHFQSCHGNVHKLHQFPALQSCTPSGYFPCSEFTSGATGRLDEHIAQSELTS
+HVCASPLHLSVAPSVCLKGSHYCSDCLNKPTRNSLVDAAKIWPNIPPPNTQTGPVSIPIC
+NGCGTQGTGNEKSLLLASSLGKSPQKYGSPEVAVAGQVLENLPPIGVFWDIENCSVPTGR
+SAVAVVQRIREKFFKGHREAEFICVCDISKENKEVIQELNNCQVTVAHINATAKNAADDK
+LRQSLRRFADTHTAPATVVLVSTDVNFALELSDLRHRHGFRIILVHKNQASEALLHHAHE
+LVCFEEFISDLPPRLPLKMPACHTLLYVYNLPTNRDSKSVSNRLRRLSDNCGGKVLSISG
+SSAILRFLNQESAERAWKRMENEDVFGNRIVVSFAPKNKELNETKSSNFVGTEKVKSPKK
+VNRSTKLCITNKDGSDQSSGTKGSAGRGLQSHGSVIKPTNVKSLQELCRLESKTISRNTE
+NHQEHLREIPSQNNSHAAAPVSLTTKKSGVGESSCKSSYKKETSVSRSMTNSPVDKKDKD
+EAVFQVSYPSAFSKLTASRQLSPLFVSQNCWSSRSMSPNLSNRSSPLTFNVVNHTSGTDC
+PDPFANGADIQISNIDYRLSRKELQQTLQETFSRHGKVKCVELSPHTDYQLKATVQMENL
+QEAISAVNSLHRYKIGSKRIQVSLATGAANKSLSLLSSETVSILQDAPACCLPMFKFTEI
+YEKKFGRKLMVSDLYKLTDTVAIRDQGGGRLVCLLPSSQARQSPLGSSQSHDGSSANCSP
+IIFEELEYHEPVCKQHCLNKDVIEHEFDPDSYRIPFAILSLKTFAPQVHSLLQTHEGTVP
+LLSFPDCYMSEFNDLEMVPEGQGGVPLEHLITCVPGVNIATAQNGIKVIKWIHNKPPPPT
+TVDPWLLRSKSPVGNPQLIQFSREVIDLLKSQPSCIIPVSKFIPTYHHHFAKQCRVSDYG
+YSKLMELLEAVPHVLQILGMGSKRLLTLTHRAQVKRFTQDLLKLLKSQASKQVIVKEFLQ
+AYHWCFSKDWDVTEYGVCELADIISEIPDTTICLSQQDNEMVICIPKRERTQEEIERTKQ
+FSKEVVDLLRHQPHFRMPFSKFIPSYHHHFGRQCKLAYYGFTKLLELFEAIPEVLQVLEC
+GEEKILTLTEVEQVKAVAAQFVKLLRSQKDNCLMMSDLLSEYSKTFGYTLRLHDYDVSSV
+PALMQKLCHVVKVVDTESGKQIQLINRKSLRTLTAQLLVLLMSWDGASFLSVEQLKQHYE
+TIHSTSLNPCEYGFMTLTELLKSLPYLVEVFTNGAEEEYVRLTNLYMFAKNVRSLLHTYH
+YQQIFLHEFLVAYSKYTGEVLQPKAYGCNNLEELLGAIPQVVWIKGHGHKRIVVLKNDMK
+TRFSSPSFPLADHVDDHGNQLDDHNGHIMETPGSTSSMELSLGTPSNAPNQTEQELLCLT
+NTSPVDLLCEPVPSCLPSPQLRPDPVVLESADLIQFEERPVPLSEMMILTEEEKQKIVTT
+AQEKLTSGSVASSTAENTSVPPRHSSETQLNKEAMDSPAKKQHKNKVKLAANFSLAPVTK
+L
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

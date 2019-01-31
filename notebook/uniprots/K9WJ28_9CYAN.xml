@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-03-06" modified="2016-06-08" version="21">
+<accession>K9WJ28</accession>
+<name>K9WJ28_9CYAN</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Lysophospholipase L1-like esterase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">Mic7113_4114</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Microcoleus sp. PCC 7113</name>
+<dbReference type="NCBI Taxonomy" id="1173027"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Cyanobacteria</taxon>
+<taxon>Oscillatoriophycideae</taxon>
+<taxon>Oscillatoriales</taxon>
+<taxon>Microcoleus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="submission" date="2012-06" db="EMBL/GenBank/DDBJ databases">
+<title>Finished chromosome of genome of Microcoleus sp. PCC 7113.</title>
+<authorList>
+<consortium name="US DOE Joint Genome Institute"/>
+<person name="Gugger M."/>
+<person name="Coursin T."/>
+<person name="Rippka R."/>
+<person name="Tandeau De Marsac N."/>
+<person name="Huntemann M."/>
+<person name="Wei C.-L."/>
+<person name="Han J."/>
+<person name="Detter J.C."/>
+<person name="Han C."/>
+<person name="Tapia R."/>
+<person name="Chen A."/>
+<person name="Kyrpides N."/>
+<person name="Mavromatis K."/>
+<person name="Markowitz V."/>
+<person name="Szeto E."/>
+<person name="Ivanova N."/>
+<person name="Pagani I."/>
+<person name="Pati A."/>
+<person name="Goodwin L."/>
+<person name="Nordberg H.P."/>
+<person name="Cantor M.N."/>
+<person name="Hua S.X."/>
+<person name="Woyke T."/>
+<person name="Kerfeld C.A."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2 3">PCC 7113</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="CP003630">
+<property type="protein sequence ID" value="AFZ19816.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_015183952.1">
+<property type="nucleotide sequence ID" value="NC_019738.1"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="K9WJ28"/>
+<dbReference type="EnsemblBacteria" id="AFZ19816">
+<property type="protein sequence ID" value="AFZ19816"/>
+<property type="gene ID" value="Mic7113_4114"/>
+</dbReference>
+<dbReference type="KEGG" id="mic:Mic7113_4114"/>
+<dbReference type="Proteomes" id="UP000010471">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="75"/>
+<end position="231"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AFZ19816.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000010471"/>
+</source>
+</evidence>
+<sequence length="244" mass="28022" checksum="5494758089560679" modified="2013-03-06" version="1">
+MVKIVMLFSILFNLLILGAGSILVYSKGGIDYLIRQLSFLQTPEMRATFMYDTPYYRIRK
+NHFKILPQSEADIVFLGDSITDACEWQELFKNVRIKNRGISGDTTKGILNRIHEVVESQP
+QKIFIMIGINDLTKGSSIDETFNNYQDLLNILQKESPKTKVFVQSVLPVNNQKYPNIGVN
+NNIINLNNRLRDLAQKLSFNYIDLFSDFLDSNNQLDAQYTTDGIHLNGQGYLLWKGLIEQ
+EVMN
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

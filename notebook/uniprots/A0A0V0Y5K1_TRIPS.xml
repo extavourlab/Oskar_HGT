@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2016-03-16" modified="2016-06-08" version="4">
+<accession>A0A0V0Y5K1</accession>
+<name>A0A0V0Y5K1_TRIPS</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Tudor domain-containing protein 7</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3">Tdrd7</name>
+<name type="ORF" evidence="3">T4E_10933</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Trichinella pseudospiralis</name>
+<name type="common">Parasitic roundworm</name>
+<dbReference type="NCBI Taxonomy" id="6337"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Nematoda</taxon>
+<taxon>Enoplea</taxon>
+<taxon>Dorylaimia</taxon>
+<taxon>Trichocephalida</taxon>
+<taxon>Trichinellidae</taxon>
+<taxon>Trichinella</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="submission" date="2015-01" db="EMBL/GenBank/DDBJ databases">
+<title>Evolution of Trichinella species and genotypes.</title>
+<authorList>
+<person name="Korhonen P.K."/>
+<person name="Edoardo P."/>
+<person name="Giuseppe L.R."/>
+<person name="Gasser R.B."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3">ISS141</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="3">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="JYDU01000057">
+<property type="protein sequence ID" value="KRX95397.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000054815">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-0472" evidence="1">Membrane</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<keyword id="KW-0812" evidence="1">Transmembrane</keyword>
+<keyword id="KW-1133" evidence="1">Transmembrane helix</keyword>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="214"/>
+<end position="238"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="2"/>
+<end position="76"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Phobius"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KRX95397.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000054815"/>
+</source>
+</evidence>
+<sequence length="461" mass="52450" checksum="1AE23EC90DFD82A9" modified="2016-03-16" version="1">
+MDFSTLAKKVHSILMSFKNGAMEKEFKNEFKALTGVELPLRQHGFTTVEELLGAMPELVQ
+IKCNNRGEKLYVGVATAATADLKSLISKQRGNDNYKLNEFRYEVKNTPMKMTSRVQTNVK
+LVEGRLKQNFSPNNNPAKQTAGSPVHSQMTAPKMTQKSNCGEMTMILAQPTRTQAVLPKP
+IVPVKKEDSRIFVQPKAAPVEKESSNDSTYINIYFIYLFIYYSFIQLLVIMFVLVEVLKK
+EKIQQKSVEPYVIQLYGSVKLPYQFQSIVCYVESPYLFYVCSVGIKNLFYDDLACKMADD
+FKISPTLSENDIIPGRMYMVLNDVSAMGYSHYIHRGLCLEKPKDGFITFQLIDFGSIVSA
+KLKLVRMLNYSYINISPMVMACTLYGMKNDNPNDNAEYSEPAMQYFKSVLLNNYFTIIVK
+KKTTFKNKLGMDVQLLCVDLRNSTTGVTVIENLLEKRISVM
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

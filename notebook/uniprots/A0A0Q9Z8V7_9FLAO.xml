@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2016-01-20" modified="2016-05-11" version="5">
+<accession>A0A0Q9Z8V7</accession>
+<name>A0A0Q9Z8V7_9FLAO</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Acylhydrolase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">APR42_16405</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Salegentibacter mishustinae</name>
+<dbReference type="NCBI Taxonomy" id="270918"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Bacteroidetes</taxon>
+<taxon>Flavobacteriia</taxon>
+<taxon>Flavobacteriales</taxon>
+<taxon>Flavobacteriaceae</taxon>
+<taxon>Salegentibacter</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="submission" date="2015-10" db="EMBL/GenBank/DDBJ databases">
+<title>Draft genome sequence of Salegentibacter mishustinae KCTC 12263.</title>
+<authorList>
+<person name="Lin W."/>
+<person name="Zheng Q."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3 4">KCTC 12263</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="3">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="LKTP01000010">
+<property type="protein sequence ID" value="KRG29408.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_057481326.1">
+<property type="nucleotide sequence ID" value="NZ_LKTP01000010.1"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000051643">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016787">
+<property type="term" value="F:hydrolase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-0378" evidence="3">Hydrolase</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<keyword id="KW-0732" evidence="1">Signal</keyword>
+<feature type="signal peptide" evidence="1">
+<location>
+<begin position="1"/>
+<end position="19"/>
+</location>
+</feature>
+<feature type="chain" id="PRO_5006389209" evidence="1">
+<location>
+<begin position="20"/>
+<end position="232"/>
+</location>
+</feature>
+<feature type="domain" description="SGNH_hydro" evidence="2">
+<location>
+<begin position="56"/>
+<end position="218"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="SignalP"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KRG29408.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000051643"/>
+</source>
+</evidence>
+<sequence length="232" mass="26328" checksum="F24F5964CCDA4739" modified="2016-01-20" version="1">
+MKNFILLSILIFLSNVMFAQKEEYRELMEQDWANLKKYKAQNEKIIANQDFPDVVFMGNS
+ITEGWVNAQPEFFKNNNYAGRGIGGQTTPQMLLRFMPDVVKLNPKAVVILAGTNDIAGNT
+GFSSVEMITNNIQAMAQLAEANNIKVILASILPVYDYPWRPGLEPVQKIAKINTWIKKYA
+KENKHTYLDLFTPLKDEKEGLSKRYSEDGVHPNLEGYHVMAPITQNAIQNTL
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

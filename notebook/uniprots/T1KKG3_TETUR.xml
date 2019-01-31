@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-10-16" modified="2015-12-09" version="9">
+<accession>T1KKG3</accession>
+<name>T1KKG3_TETUR</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<organism evidence="2 3">
+<name type="scientific">Tetranychus urticae</name>
+<name type="common">Two-spotted spider mite</name>
+<dbReference type="NCBI Taxonomy" id="32264"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Chelicerata</taxon>
+<taxon>Arachnida</taxon>
+<taxon>Acari</taxon>
+<taxon>Acariformes</taxon>
+<taxon>Trombidiformes</taxon>
+<taxon>Prostigmata</taxon>
+<taxon>Eleutherengona</taxon>
+<taxon>Raphignathae</taxon>
+<taxon>Tetranychoidea</taxon>
+<taxon>Tetranychidae</taxon>
+<taxon>Tetranychus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="submission" date="2011-08" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Rombauts S."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<reference key="2" evidence="2">
+<citation type="submission" date="2015-06" db="UniProtKB">
+<authorList>
+<consortium name="EnsemblMetazoa"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<dbReference type="EMBL" id="CAEY01000176">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EnsemblMetazoa" id="tetur13g03630.1">
+<property type="protein sequence ID" value="tetur13g03630.1"/>
+<property type="gene ID" value="tetur13g03630"/>
+</dbReference>
+<dbReference type="OMA" id="SHEVCEE"/>
+<dbReference type="Proteomes" id="UP000015104">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="3"/>
+<end position="76"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EnsemblMetazoa" id="tetur13g03630.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000015104"/>
+</source>
+</evidence>
+<sequence length="587" mass="66543" checksum="E6DEAF758D4A954B" modified="2013-10-16" version="1">
+MASLEEIKKILKSLVISHQNGLSAIALNNEFLEIEGRHVPWQSFGAASLNEFFLSLTDIL
+VYQPNKAGARVFFAKTDEATAHIDRLVKQQKPQPLKRRNEIFRYEVEKRPYREPSPEPRQ
+ISPPSNGNLPDSTQKFRNPSPPPPDPKNMLFRSSSPEKSKLKRPSPQDSPPTDPYEESLR
+RARERRGIARRNYRSRRSRSRSSSPRRTKSPSPKRNSSTANRHTSSPNQRRQRSPTPKRG
+NSPVQRRQRSPSPWRGNSPVQRRQRSPSPRRGSSPVYRRQRSPSPRRGSSPVYRRQRSPS
+PRRGSSPVHRRQRSPSPKRGSSPVQSRQRSPVRKIPTKSISCQTDFEKVSKSCQTEVSNT
+HCISCKNQTSKSHVPNGTHPRPTNNSRQDYSNADENVDLNQLYYGTEYSVAPTFQCLYNP
+YSILPVLDPSFTEDTTHPEPGFYYDFDAGDHKPIPRIPEYYAYWIMAGWIPAAQETTPQA
+NHAPVLPSSQSADPRVNPPAAKNAKARDPRLARSEARISPNGADKVAAKRKSISIDDYKN
+LRKLGSNEQSDKSGVITGAGETIDYEPVITTEPVAKLPRDPRLRRAK
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

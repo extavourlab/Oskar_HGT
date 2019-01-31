@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-10-29" modified="2016-05-11" version="13">
+<accession>A0A078T4M1</accession>
+<name>A0A078T4M1_9PORP</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">M095_1810</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Parabacteroides distasonis str. 3999B T(B) 4</name>
+<dbReference type="NCBI Taxonomy" id="1339344"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Bacteroidetes</taxon>
+<taxon>Bacteroidia</taxon>
+<taxon>Bacteroidales</taxon>
+<taxon>Porphyromonadaceae</taxon>
+<taxon>Parabacteroides</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="submission" date="2014-04" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Sears C."/>
+<person name="Carroll K."/>
+<person name="Sack B.R."/>
+<person name="Qadri F."/>
+<person name="Myers L.L."/>
+<person name="Chung G.-T."/>
+<person name="Escheverria P."/>
+<person name="Fraser C.M."/>
+<person name="Sadzewicz L."/>
+<person name="Shefchek K.A."/>
+<person name="Tallon L."/>
+<person name="Das S.P."/>
+<person name="Daugherty S."/>
+<person name="Mongodin E.F."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="4">3999B T(B) 4</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="3">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="JNHP01000031">
+<property type="protein sequence ID" value="KDS68962.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_005857175.1">
+<property type="nucleotide sequence ID" value="NZ_JNHP01000031.1"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="A0A078T4M1"/>
+<dbReference type="EnsemblBacteria" id="KDS68962">
+<property type="protein sequence ID" value="KDS68962"/>
+<property type="gene ID" value="M095_1810"/>
+</dbReference>
+<dbReference type="GeneID" id="5306130"/>
+<dbReference type="Proteomes" id="UP000028056">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-0732" evidence="1">Signal</keyword>
+<feature type="signal peptide" evidence="1">
+<location>
+<begin position="1"/>
+<end position="22"/>
+</location>
+</feature>
+<feature type="chain" id="PRO_5001745783" evidence="1">
+<location>
+<begin position="23"/>
+<end position="227"/>
+</location>
+</feature>
+<feature type="domain" description="SGNH_hydro" evidence="2">
+<location>
+<begin position="50"/>
+<end position="213"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="SignalP"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KDS68962.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000028056"/>
+</source>
+</evidence>
+<sequence length="227" mass="25315" checksum="5B5BA55B04977519" modified="2014-10-29" version="1">
+MKNMKQALLVAGCLLATTTLFAQTEKGDWAQFGRYAEANKTVKVPSNVVFMGNSITDGWW
+PADSTFFIRNNFVDRGISGQTTSEMLVRFRQDVINLKPKAVVILAGINDIAHNNGVIALE
+NVFGNLVSMAELAKANHIKVIFCSVLPAYDFPWRPGMQPADKVIQLNKWIKEYADKNGLT
+YVDYHSAMKDERNGLPANLSKDGVHPTLEGYKIMEKIVLEAIHKTVK
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-03-19" modified="2015-12-09" version="13">
+<accession>W4ZBK4</accession>
+<name>W4ZBK4_STRPU</name>
+<protein>
+<submittedName>
+<fullName evidence="4">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="4">Sp-Tdrd5</name>
+</gene>
+<organism evidence="4 5">
+<name type="scientific">Strongylocentrotus purpuratus</name>
+<name type="common">Purple sea urchin</name>
+<dbReference type="NCBI Taxonomy" id="7668"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Echinodermata</taxon>
+<taxon>Eleutherozoa</taxon>
+<taxon>Echinozoa</taxon>
+<taxon>Echinoidea</taxon>
+<taxon>Euechinoidea</taxon>
+<taxon>Echinacea</taxon>
+<taxon>Echinoida</taxon>
+<taxon>Strongylocentrotidae</taxon>
+<taxon>Strongylocentrotus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="4">
+<citation type="submission" date="2015-06" db="UniProtKB">
+<authorList>
+<consortium name="EnsemblMetazoa"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<dbReference type="EMBL" id="AAGJ04101268">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AAGJ04101269">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="STRING" id="7668.SPU_025533tr"/>
+<dbReference type="EnsemblMetazoa" id="SPU_025533-tr">
+<property type="protein sequence ID" value="SPU_025533-tr"/>
+<property type="gene ID" value="SPU_025533"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410IPQZ">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4111HJ1">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="OMA" id="FDARTFV"/>
+<dbReference type="Proteomes" id="UP000007110">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR016071">
+<property type="entry name" value="Staphylococal_nuclease_OB-fold"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="4"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF50199">
+<property type="entry name" value="SSF50199"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="5">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="5">Reference proteome</keyword>
+<keyword id="KW-0732" evidence="1">Signal</keyword>
+<feature type="signal peptide" evidence="1">
+<location>
+<begin position="1"/>
+<end position="28"/>
+</location>
+</feature>
+<feature type="chain" id="PRO_5004853624" evidence="1">
+<location>
+<begin position="29"/>
+<end position="888"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="3">
+<location>
+<begin position="7"/>
+<end position="80"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="3">
+<location>
+<begin position="185"/>
+<end position="258"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="3">
+<location>
+<begin position="370"/>
+<end position="444"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="2">
+<location>
+<begin position="615"/>
+<end position="674"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="SignalP"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="EnsemblMetazoa" id="SPU_025533-tr"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000007110"/>
+</source>
+</evidence>
+<sequence length="888" mass="97890" checksum="CD121B1AED7E11F6" modified="2014-03-19" version="1">
+MTDKAKIKQEMKIVLRALLLSAPMGLTAVEIERDYREAQGYGVPFRELGYNSTSDLVEDL
+KDVASCQWERGHAVFHGIADKTTKHIKSLVSKQNVDVRKCLKRRNALERQVVRSGRGGYS
+SGRGGYSSGRGRSFSTSSNRYQPPYSKPPQGPQGYGPFGQGRRTNSYPGTGGRSQAPAPA
+APKSSPAYLRMQLKSLLNSHPNGILNTHFDSIFSRKCGFPIDYAQLGYTGLEDLVRSLSA
+VISIERISEEKFRIYSRENFPNKGPSDNSSTAKPKPLMSALGLGSQDHRNEKASQDISKP
+PSKSRPIPPPLISRPIPDARKSMPFEAPQKSIGRARRISSNRSDESKSRVGSTGSVTSPR
+QPSPPGNELIDKQLCGEIREVLEHHPNGLFAASLPTEYKALTKKELPLVSIGFYSVVELV
+SSIPEIVAIERQKKNSDWILFDARTFVSSKPPGHLYLLSHLALTKKELPLVSIGFYSVVE
+LVSSIPEIVAIERQKKNSDWILFDARTFVSSKPPDQVYLHAQDQRLPLCSGSLYSTIAKS
+IPQDAMGYGYSYPTIKKPKLNEYFPVYVSTVYSPHKISVQLKDKDNNLALENLMDALESV
+YFFAEGEKYLMPDAMIAVNQICCSLYHEDNNWHRGLITGVPNLDFVEVYYVDYGTSLRIP
+KSSLRLLKSCFMKLPKQAIDAKLGGIEPVGEKWSDQSRDRLLELTADRALQAYAMEEKNS
+VMSLILCDTSTTEDIHINDLLVSEGLARFAEQKTPAEPIAESPLVPPPAEVSLQMLTGMG
+LPVPDDDPALAFQWPEESAEVQDILGSGDASTTKGLQKGSSAGGQGMTNGGIMKAGDGHR
+VGATDEDFSSDSGPPPLQEDDLIEKMAKELSEIEEEEDGLQKPWSITK
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

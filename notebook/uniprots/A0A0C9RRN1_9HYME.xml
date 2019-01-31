@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-04-29" modified="2016-01-20" version="5">
+<accession>A0A0C9RRN1</accession>
+<name>A0A0C9RRN1_9HYME</name>
+<protein>
+<submittedName>
+<fullName evidence="2">LKAP protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="2">LKAP</name>
+<name type="ORF" evidence="2">g.16049</name>
+</gene>
+<organism evidence="2">
+<name type="scientific">Fopius arisanus</name>
+<dbReference type="NCBI Taxonomy" id="64838"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Hymenoptera</taxon>
+<taxon>Apocrita</taxon>
+<taxon>Ichneumonoidea</taxon>
+<taxon>Braconidae</taxon>
+<taxon>Opiinae</taxon>
+<taxon>Fopius</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2">
+<citation type="submission" date="2015-01" db="EMBL/GenBank/DDBJ databases">
+<title>Transcriptome Assembly of Fopius arisanus.</title>
+<authorList>
+<person name="Geib S."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<dbReference type="EMBL" id="GBYB01011210">
+<property type="protein sequence ID" value="JAG80977.1"/>
+<property type="molecule type" value="Transcribed_RNA"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005777">
+<property type="term" value="C:peroxisome"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000166">
+<property type="term" value="F:nucleotide binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010468">
+<property type="term" value="P:regulation of gene expression"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.70.330">
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024582">
+<property type="entry name" value="Limkain_b1_cons_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024768">
+<property type="entry name" value="Marf1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR012677">
+<property type="entry name" value="Nucleotide-bd_a/b_plait"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR14379">
+<property type="entry name" value="PTHR14379"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="Pfam" id="PF11608">
+<property type="entry name" value="Limkain-b1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="4"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF54928">
+<property type="entry name" value="SSF54928"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="6"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="566"/>
+<end position="637"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="659"/>
+<end position="733"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="735"/>
+<end position="810"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="820"/>
+<end position="894"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="897"/>
+<end position="970"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="1037"/>
+<end position="1112"/>
+</location>
+</feature>
+<feature type="non-terminal residue" evidence="2">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="JAG80977.1"/>
+</source>
+</evidence>
+<sequence length="1386" mass="154890" checksum="A4108159C727DC57" modified="2015-04-29" version="1" fragment="single">
+TVEPYDLLISNLPKDKGLTSIRRRLKRLSENCGGRVIGINSNAAILRFSSQDSVDRAQKR
+MDGAPVFDAKITVKLLKEKGTRIAREVSSTLDLTSESVAVTGSPIQMYSANAAVGVRSLP
+CTPHYNSSSPIVGGFSGWNGIHCPSVNPHSGGMVPAPVYLNRSYANNSDTMYNRPFTEPP
+RGHSPVVWPVVGPQYGRSWEDPYRMNSQKSFNKRSQLGTAREPNQPTLSNTPEGMRCIRG
+AHSGLNHTQAEWSMLRPSYCPLPPSNAFNGSNFCQNSYKRGSSSPLFMNQGRDHCNGQWN
+GQGQHIQPMRNTKTPSPYGNGGMLPMSQQSSRTSPYQHSESEEEVERFFNPINSRNSCPV
+ANSTYTPIELQVTNLDQSLEPKEMKRILSCIFMKHIHVIHVSVFMQSDGNFAASVKVPSL
+QDAQYAISQLHRCKVGYKRILISYAHAGGPNPQLVRSQIVMLLQEVPGHKLPLFKFREMY
+ESRFMISISVSELYKMKDVCIVTEDPSGRMVSLNPDHRNTPSPCIGNITQDGPLELPFCT
+IHMQKSVSDKGWAEQEMASLPNVMIPLEFLATRVEQLLSSHNGSLPLPSLPTCYEGVFQE
+ALNVDENGVPLEHLVSCVPSVELRQGIGSVKYLLWVGDKCPDDSHEEINKCVSPPLANQL
+ALFSRELVDLLKTAAHCQLPFNRFIPAYHHHFGRQCRVADYGFTKLIDLLEALPHTVQVM
+GEGNKRVVTLSHRAQVRRFTSDLLRVLKAQVSKQIMLSEFPRVYARVIGKPWDIVDYGVC
+EIHDILHEVSENTVVVATCNESDKLISIPTREQTPEEIERTKQFAVEVVELLRHAPQCSM
+QFNKFVPSYHHHFGHQCRVSDYGFTKLIELFEAIPHVVNIEDAVNGERRISLTEKEGLRV
+LGEQISKLVLKTRGGLAVSSIAQVFLHQFGYMLRPEFFGCSSMLQLMGKLDDTVKIIQGS
+NSPLVVLVDKSHAQLVGLQCRRILMDQSHHKMTLKDFKLLYSEVYSTPCNINEFKHDLSE
+IVKFSGEGDKESLQLTPLQCLACNIYKILMSHGGKLSLQKLENTYLNTFGKGLNPAQYGF
+PTLSALLQALPCTVTIKETRTKKKNIFLSKKLATVGIPLPSNFLSPHRGNNSSNESLESD
+QRIDINETAIPDKWMGKNAAVWNDRRNITSWKKDHQWGLSTSDKSLKWPILESSGESFFK
+SLINTPTLIKDLPKPPKPDTPPNGNVDGESTWKSSVWSTPPHFNRDIHGRSIEIPPITLP
+TWNNTDVEDSVLNLLSPAKYLLPATANPLNPKTPPYYSTKHLVIAPHPSELPLPSLTLAP
+RRSLHSNNDTLESRLLGNSLEVHSPTNSENYSVSESESSDALNTTPSKKMFAGKRRLAAQ
+FNQPMD
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

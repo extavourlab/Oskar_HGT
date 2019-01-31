@@ -1,0 +1,68 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../../Data/HMM/LOTUS.hmm
+# target sequence database:        ./tmp/A0A0K8TEH4_LYGHE.fasta
+# output directed to file:         log_lotus
+# per-seq hits tabular output:     ./tmp/test_oskar_lotus.out
+# number of worker threads:        7
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       LOTUS  [M=89]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                       -----------
+    7.2e-26   76.4   0.1    7.7e-24   69.9   0.0    3.2  3  tr|A0A0K8TEH4|A0A0K8TEH4_LYGHE  Uncharacterized protein OS=Lygus
+
+
+Domain annotation for each sequence (and alignments):
+>> tr|A0A0K8TEH4|A0A0K8TEH4_LYGHE  Uncharacterized protein OS=Lygus hesperus PE=4 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.9   0.0   7.7e-24   7.7e-24       2      89 .]       5      91 ..       4      91 .. 0.92
+   2 ?    2.2   0.0      0.01      0.01      14      61 ..     547     588 ..     534     599 .. 0.82
+   3 ?   -1.2   0.0      0.12      0.12      47      73 ..     965     992 ..     961    1000 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 69.9 bits;  conditional E-value: 7.7e-24
+                           LOTUS  2 eeevkelikiiisskkgGitiseledeYreltGesipylklgfesLtdfLrsipgvklsknesgervltvkstektkhisd 82
+                                    +++v++ ++++++s+ gG t+s+l+++Yr+l+Ge+ip+++lg++sL++fL+ +p+v +++++ +++v+     + ++hi++
+  tr|A0A0K8TEH4|A0A0K8TEH4_LYGHE  5 KDKVISNLRACLISSPGGTTVSDLNKDYRSLVGENIPFRRLGYSSLEEFLQFLPNVDIVNRGGQNHVIAKVA-ADSSHIAK 84
+                                    67889999***************************************************9988866666656.9******* PP
+
+                           LOTUS 83 likkqKs 89
+                                    l++ qK+
+  tr|A0A0K8TEH4|A0A0K8TEH4_LYGHE 85 LVQGQKK 91
+                                    *****96 PP
+
+  == domain 2  score: 2.2 bits;  conditional E-value: 0.01
+                           LOTUS  14 sskkgGitiseledeYreltGesipylklgfesLtdfLrsipgvklsk 61 
+                                       k +G+ + ++e+ Y+++  es+p       +L ++++++p +++sk
+  tr|A0A0K8TEH4|A0A0K8TEH4_LYGHE 547 KGKEQGVWLYQIEKMYKNQFNESLPK------DLPSLMDQCPTLEISK 588
+                                     557789999****************8......7777777777777665 PP
+
+  == domain 3  score: -1.2 bits;  conditional E-value: 0.12
+                           LOTUS  47 LtdfLrsipgvklsknesg.ervltvks 73 
+                                     + +fL+ ip++++  +++  +  + v+s
+  tr|A0A0K8TEH4|A0A0K8TEH4_LYGHE 965 VVSFLDGIPQIEIFVRNEAsNLLVSVNS 992
+                                     679********99765554255555554 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (89 nodes)
+Target sequences:                            1  (1227 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: inf
+//
+[ok]

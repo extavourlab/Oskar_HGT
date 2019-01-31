@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-01-22" modified="2016-05-11" version="8">
+<accession>V5HJ46</accession>
+<name>V5HJ46_IXORI</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Putative transcriptional coactivator</fullName>
+</submittedName>
+</protein>
+<organism evidence="3">
+<name type="scientific">Ixodes ricinus</name>
+<name type="common">Common tick</name>
+<dbReference type="NCBI Taxonomy" id="34613"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Chelicerata</taxon>
+<taxon>Arachnida</taxon>
+<taxon>Acari</taxon>
+<taxon>Parasitiformes</taxon>
+<taxon>Ixodida</taxon>
+<taxon>Ixodoidea</taxon>
+<taxon>Ixodidae</taxon>
+<taxon>Ixodinae</taxon>
+<taxon>Ixodes</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="journal article" date="2015" name="Sci. Rep." volume="5" first="9103" last="9103">
+<title>Tissue- and time-dependent transcription in Ixodes ricinus salivary glands and midguts when blood feeding on the vertebrate host.</title>
+<authorList>
+<person name="Kotsyfakis M."/>
+<person name="Schwarz A."/>
+<person name="Erhart J."/>
+<person name="Ribeiro J.M."/>
+</authorList>
+<dbReference type="PubMed" id="25765539"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<tissue evidence="3">Salivary gland and midgut</tissue>
+</source>
+</reference>
+<dbReference type="EMBL" id="GANP01006854">
+<property type="protein sequence ID" value="JAB77614.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="4"/>
+<end position="77"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="462"/>
+<end position="537"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="631"/>
+<end position="691"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="JAB77614.1"/>
+</source>
+</evidence>
+<sequence length="1039" mass="116068" checksum="F487DD94022AEE96" modified="2014-01-22" version="1">
+MDDRLKSEKELISSVLVTMQKDPMISEFLTEYRQMVEREFPFRDHGCSSVLEFFEMIRDT
+VTIVKRPYGEPIIRLRVDESFEHISNLVKTQKKSPVKRTTRSKFNTTRPFVPTKRPLLRR
+PPPQVSSSWSQKALTPTALQGRQKGVGIASQSKPVEWQHFRALNSVKRELPSPAQRTRSV
+DFSCQTDLESPEILDAPNVSLDREGSLADKEREDRLFRERLDLGAAEASGNIVKKWQANN
+NPPMRTFHTTKESSPVPIPCVRRLVPKQQSSQLTPVGPAWGVVPGPMVLSPQHYVIHNSV
+PLASAPVVSATYPTWQNPKRSNLNPHANEYVPEIFDRSGAELQAEERPELVDQWTSTADL
+CGAAHAHTSTDDLPEGISDEVTRAVKTLLQMHPAGLEVGELIGLCRLETGKDSCGETESP
+LEFARALLASGSSISINCFEPGKLVVKSLESGLCPDKPFATIPKEVAHGLTSILLRYPDG
+LDVKELLNVYRKHFAPHEYLDGASANAANFARDLLVSVPTMTVTSKGEDIYWVNLSAKGC
+QSSSGRNKDAKGLGLSSSIDESDTSEDESSFDKQELPQTQDFLVVIGEVFDPTEFYILNF
+ATVSMLQSMMTELDEFYSTAPLAFYSVNRKDLKAGYACAAPYVIHGKPFWHRAVVTYVKA
+PKVCVRYVDYGTVKNVKIEELRRLRPDFMELPAQGIRASLANLKPKGSNTWSVEAKRRFL
+ALTKATGLSCTVVERREDVVVIELTTALDSVSCSVGDILAEEGFARRVPKYIESCQLAED
+YKVKLVVLNNVRYMTGAAISRLFGWDQNECSLRLQNLVLPSVFKTCSTVFVGKEELPELH
+EQICESEDSLCPSDVELYPLEQLPTILRLLEHPSKTLRREIQKLADGTNGYSSDETTHFL
+DISEEDDEEEECDSILRRNGKRRDLVAKLESLTERRRILRMRAYEADDREALSQLPHVER
+QIGSVRSLLEEFDRVPSVSASQYSMSAQQSVSSPSPVPSVLDTATASRRNSGGRVQDPDV
+SVSLQNKLLEMLISAKRGM
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

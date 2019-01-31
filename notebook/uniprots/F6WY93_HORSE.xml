@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2011-07-27" modified="2015-12-09" version="20">
+<accession>F6WY93</accession>
+<name>F6WY93_HORSE</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3">TDRD5</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Equus caballus</name>
+<name type="common">Horse</name>
+<dbReference type="NCBI Taxonomy" id="9796"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Laurasiatheria</taxon>
+<taxon>Perissodactyla</taxon>
+<taxon>Equidae</taxon>
+<taxon>Equus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="journal article" date="2009" name="Science" volume="326" first="865" last="867">
+<title>Genome sequence, comparative analysis, and population genetics of the domestic horse.</title>
+<authorList>
+<consortium name="Broad Institute Genome Sequencing Platform"/>
+<consortium name="Broad Institute Whole Genome Assembly Team"/>
+<person name="Wade C.M."/>
+<person name="Giulotto E."/>
+<person name="Sigurdsson S."/>
+<person name="Zoli M."/>
+<person name="Gnerre S."/>
+<person name="Imsland F."/>
+<person name="Lear T.L."/>
+<person name="Adelson D.L."/>
+<person name="Bailey E."/>
+<person name="Bellone R.R."/>
+<person name="Bloecker H."/>
+<person name="Distl O."/>
+<person name="Edgar R.C."/>
+<person name="Garber M."/>
+<person name="Leeb T."/>
+<person name="Mauceli E."/>
+<person name="MacLeod J.N."/>
+<person name="Penedo M.C.T."/>
+<person name="Raison J.M."/>
+<person name="Sharpe T."/>
+<person name="Vogel J."/>
+<person name="Andersson L."/>
+<person name="Antczak D.F."/>
+<person name="Biagi T."/>
+<person name="Binns M.M."/>
+<person name="Chowdhary B.P."/>
+<person name="Coleman S.J."/>
+<person name="Della Valle G."/>
+<person name="Fryc S."/>
+<person name="Guerin G."/>
+<person name="Hasegawa T."/>
+<person name="Hill E.W."/>
+<person name="Jurka J."/>
+<person name="Kiialainen A."/>
+<person name="Lindgren G."/>
+<person name="Liu J."/>
+<person name="Magnani E."/>
+<person name="Mickelson J.R."/>
+<person name="Murray J."/>
+<person name="Nergadze S.G."/>
+<person name="Onofrio R."/>
+<person name="Pedroni S."/>
+<person name="Piras M.F."/>
+<person name="Raudsepp T."/>
+<person name="Rocchi M."/>
+<person name="Roeed K.H."/>
+<person name="Ryder O.A."/>
+<person name="Searle S."/>
+<person name="Skow L."/>
+<person name="Swinburne J.E."/>
+<person name="Syvaenen A.C."/>
+<person name="Tozaki T."/>
+<person name="Valberg S.J."/>
+<person name="Vaudin M."/>
+<person name="White J.R."/>
+<person name="Zody M.C."/>
+<person name="Lander E.S."/>
+<person name="Lindblad-Toh K."/>
+</authorList>
+<dbReference type="PubMed" id="19892987"/>
+<dbReference type="DOI" id="10.1126/science.1178158"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3 4">Thoroughbred</strain>
+</source>
+</reference>
+<reference key="2" evidence="3">
+<citation type="submission" date="2011-07" db="UniProtKB">
+<authorList>
+<consortium name="Ensembl"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+<source>
+<strain evidence="3">Thoroughbred</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="3">The sequence shown here is derived from an Ensembl automatic analysis pipeline and should be considered as preliminary data.</text>
+</comment>
+<dbReference type="STRING" id="9796.ENSECAP00000014721"/>
+<dbReference type="PaxDb" id="F6WY93"/>
+<dbReference type="Ensembl" id="ENSECAT00000018070">
+<property type="protein sequence ID" value="ENSECAP00000014721"/>
+<property type="gene ID" value="ENSECAG00000017037"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410IPQZ">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4111HJ1">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00730000110295"/>
+<dbReference type="InParanoid" id="F6WY93"/>
+<dbReference type="OMA" id="QKLYIPR"/>
+<dbReference type="OrthoDB" id="EOG7W6WKS"/>
+<dbReference type="TreeFam" id="TF342664"/>
+<dbReference type="Proteomes" id="UP000002281">
+<property type="component" value="Chromosome 5"/>
+</dbReference>
+<dbReference type="GO" id="GO:0033391">
+<property type="term" value="C:chromatoid body"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0071546">
+<property type="term" value="C:pi-body"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043046">
+<property type="term" value="P:DNA methylation involved in gamete generation"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030719">
+<property type="term" value="P:P granule organization"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007286">
+<property type="term" value="P:spermatid development"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="7"/>
+<end position="80"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="127"/>
+<end position="202"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="296"/>
+<end position="370"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="526"/>
+<end position="585"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Ensembl" id="ENSECAP00000014721"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000002281"/>
+</source>
+</evidence>
+<sequence length="982" mass="109668" checksum="73F1D650D48725CC" modified="2011-07-27" version="1">
+MSEQERMQECLRKEIRSLLISTKDGLTPQQLEKEYLSMVGNHLPLRILGYRSTMELVLDM
+PDVVSVCPCGDGTVILKAIPDESTKGIASLVAKQRSSHKVRNSVQKGRASVCSGPSSRPR
+VPYRGRVPPILPAVVKSELKDLLAFSPVLLSDFEKAFAKRFGRSFQYVQYGFLSMFEVLN
+AASDVISVEQTRGGSLLMLKKSVSEEKQRGWSAGKIFTQPFRVKKQGSYPTGSPVAKTRF
+SQPTSNVEPPKQVLNVEKASKSNVVETSRLNHTEKLNQLENTFKSVIAQIGPGGTINPEL
+KDKIKFVVSKFPEGLLISKLLGEFEVHFKEQLSPKKLGFLNVTELVGALSDILHVEFREG
+EQDLLVFDADMKPLPPVHSYKKTEAKACVSSPPRNSLSTAAVKATTWDCPSKNLEEQKQK
+ICKKPNLVVKPLQLQVEISKSQLNLAMANHDIPPDAVRDKKLCRLPPLDTSTLVGVFVEY
+VISPSQFYIRIYSRDSSEKLEDMMIEMRRCYSNQLVSDRYAMPEYFIQPGHLCCVKISED
+KWWYRVIIHRVLGKQEVEVFYPDFGNIGTVQKSALRFLKCCYTKLPAQAIPCSLAWVRPV
+EEHWTSRAVLQFQKLCGLKPLVGVVDEYVDGILNIFLCDTSSNEDVYFHHVLRLEGHAIV
+CRENVPSKGFRELNPLALYTESSAGPEDVGLTDLGYLSQQHYFHEDREISPQSKESELYT
+LDEIPTGMPCLESVTIDDDIWDENWLLLQTKMGNGGDAASHLFTSDLDGKKPYPSCKEMP
+PKDWCFSMPKDMWDDSWQPSGLVNGMKVEVQKSEGLGARENSTDTARSQKQPGLKSPSDS
+SALPQWEEFYIPLIQAQQSAEGDRVEPNDVQNQEKQIQLSTAALSSAPTVVDSPENHSSS
+VESSPGSLKNEDFSSSPAIPVFKDKSEGAMGQLSLILSPQHQIPQKLYIPRSTATAALGA
+AARLATSRSLLHWYPSVKRMDA
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

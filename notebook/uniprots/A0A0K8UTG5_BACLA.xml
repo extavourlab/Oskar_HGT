@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-11-11" modified="2016-01-20" version="3">
+<accession>A0A0K8UTG5</accession>
+<name>A0A0K8UTG5_BACLA</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Tudor domain-containing protein 5</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3">Tdrd5_1</name>
+<name type="ORF" evidence="3">c0_g2_i3</name>
+</gene>
+<organism evidence="3">
+<name type="scientific">Bactrocera latifrons</name>
+<name type="common">Malaysian fruit fly</name>
+<name type="synonym">Chaetodacus latifrons</name>
+<dbReference type="NCBI Taxonomy" id="174628"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Diptera</taxon>
+<taxon>Brachycera</taxon>
+<taxon>Muscomorpha</taxon>
+<taxon>Tephritoidea</taxon>
+<taxon>Tephritidae</taxon>
+<taxon>Bactrocera</taxon>
+<taxon>Bactrocera</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="submission" date="2015-06" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Hoefler B.C."/>
+<person name="Straight P.D."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<dbReference type="EMBL" id="GDHF01022443">
+<property type="protein sequence ID" value="JAI29871.1"/>
+<property type="molecule type" value="Transcribed_RNA"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="5"/>
+<end position="79"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="412"/>
+<end position="469"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="JAI29871.1"/>
+</source>
+</evidence>
+<sequence length="560" mass="63896" checksum="9CB3F24189E84DA3" modified="2015-11-11" version="1">
+MEIGYLQEVKAIIKSLVISCPKAITIDELNRDYRNIEGQRIPHHKLGFQTLESFLRSIPD
+TVNVYGNGPSASVGIVLNEKSAHIHKMVSEQKKTRIKPKSSKQKIIPVNASNFDKPHSAG
+QKVERSSKKTSNNTLPSSNIRLSHFISRCGPRNTVIKCQALDTSKFMIKRVEQKPIQFSG
+QSFPDDVNEINKPLHLIPGNILQSNKPIHKISETLAQIKHSKHEMHETISHSEVEQNIIL
+GRPPLTQLNQDEYLWKIFGMCEIRDDVDPSRNKTVENGKQNFTEISNNNENGDDELSVKH
+VFKPLSLKNSLEKSHIDDIEEAVPAFAANSLVFRMDFPENTMTFGKKIPSYKISDQIIRG
+SIIGIFISEIHSPYKFWFHIYKKHHELDELMLQIERFYTSLEPEIFCIPSVCVSPGQVCA
+ALYKGLWHRAEILTSVIGNKAKVFFVDYGTVSNVPVSNIKFLLTSFARLPKQAIRGSLSH
+ICPNNYHWSPESIQYFLSLSSELMLYGQVSEINEKKRIIHMVLCDSNRNEVLQINRELVE
+KGFAFYDEQWLKSDKVNSSQ
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

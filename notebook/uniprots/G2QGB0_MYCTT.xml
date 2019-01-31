@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2011-11-16" modified="2016-05-11" version="27">
+<accession>G2QGB0</accession>
+<name>G2QGB0_MYCTT</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Carbohydrate esterase family 3 protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">MYCTH_53698</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Myceliophthora thermophila (strain ATCC 42464 / BCRC 31852 / DSM 1799)</name>
+<name type="synonym">Sporotrichum thermophile</name>
+<dbReference type="NCBI Taxonomy" id="573729"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Pezizomycotina</taxon>
+<taxon>Sordariomycetes</taxon>
+<taxon>Sordariomycetidae</taxon>
+<taxon>Sordariales</taxon>
+<taxon>Chaetomiaceae</taxon>
+<taxon>Myceliophthora</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="journal article" date="2011" name="Nat. Biotechnol." volume="29" first="922" last="927">
+<title>Comparative genomic analysis of the thermophilic biomass-degrading fungi Myceliophthora thermophila and Thielavia terrestris.</title>
+<authorList>
+<person name="Berka R.M."/>
+<person name="Grigoriev I.V."/>
+<person name="Otillar R."/>
+<person name="Salamov A."/>
+<person name="Grimwood J."/>
+<person name="Reid I."/>
+<person name="Ishmael N."/>
+<person name="John T."/>
+<person name="Darmond C."/>
+<person name="Moisan M.-C."/>
+<person name="Henrissat B."/>
+<person name="Coutinho P.M."/>
+<person name="Lombard V."/>
+<person name="Natvig D.O."/>
+<person name="Lindquist E."/>
+<person name="Schmutz J."/>
+<person name="Lucas S."/>
+<person name="Harris P."/>
+<person name="Powlowski J."/>
+<person name="Bellemare A."/>
+<person name="Taylor D."/>
+<person name="Butler G."/>
+<person name="de Vries R.P."/>
+<person name="Allijn I.E."/>
+<person name="van den Brink J."/>
+<person name="Ushinsky S."/>
+<person name="Storms R."/>
+<person name="Powell A.J."/>
+<person name="Paulsen I.T."/>
+<person name="Elbourne L.D.H."/>
+<person name="Baker S.E."/>
+<person name="Magnuson J."/>
+<person name="LaBoissiere S."/>
+<person name="Clutterbuck A.J."/>
+<person name="Martinez D."/>
+<person name="Wogulis M."/>
+<person name="de Leon A.L."/>
+<person name="Rey M.W."/>
+<person name="Tsang A."/>
+</authorList>
+<dbReference type="PubMed" id="21964414"/>
+<dbReference type="DOI" id="10.1038/nbt.1976"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="4">ATCC 42464 / BCRC 31852 / DSM 1799</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="CP003005">
+<property type="protein sequence ID" value="AEO59370.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_003664615.1">
+<property type="nucleotide sequence ID" value="XM_003664567.1"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="G2QGB0"/>
+<dbReference type="EnsemblFungi" id="AEO59370">
+<property type="protein sequence ID" value="AEO59370"/>
+<property type="gene ID" value="MYCTH_53698"/>
+</dbReference>
+<dbReference type="GeneID" id="11506430"/>
+<dbReference type="KEGG" id="mtm:MYCTH_53698"/>
+<dbReference type="eggNOG" id="ENOG410IPVC">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410Y6YC">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="InParanoid" id="G2QGB0"/>
+<dbReference type="OrthoDB" id="EOG7VQJQN"/>
+<dbReference type="Proteomes" id="UP000007322">
+<property type="component" value="Chromosome 4"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<keyword id="KW-0732" evidence="1">Signal</keyword>
+<feature type="signal peptide" evidence="1">
+<location>
+<begin position="1"/>
+<end position="18"/>
+</location>
+</feature>
+<feature type="chain" id="PRO_5003436278" evidence="1">
+<location>
+<begin position="19"/>
+<end position="235"/>
+</location>
+</feature>
+<feature type="domain" description="SGNH_hydro" evidence="2">
+<location>
+<begin position="36"/>
+<end position="215"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="SignalP"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AEO59370.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000007322"/>
+</source>
+</evidence>
+<sequence length="235" mass="25723" checksum="CFFF809A69091431" modified="2011-11-16" version="1">
+MHILSFVSAFSLASLALASPVEVAERQAQKLRIMPLGDSITEITCWRAFVWDQLAAAGLA
+DQVQYVGSQNSNPQGCQPQTANWDQHHEGHSGWLAIDIANNYLANWLRSTPADIVMFMLG
+TNDVVRGHTTDEIINAYTKMVEIMRAANPNTKIIVDLVIPLPFSNGPIQAINSRIPQWAA
+GLNSTESPIVVADCYQGFTSSMLRDGVHPNLEGDRLIASRVGPLLLDYVKQSLGQ
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

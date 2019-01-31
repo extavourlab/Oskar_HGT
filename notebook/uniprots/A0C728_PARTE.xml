@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2006-11-28" modified="2016-03-16" version="27">
+<accession>A0C728</accession>
+<name>A0C728_PARTE</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">GSPATT00035725001</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Paramecium tetraurelia</name>
+<dbReference type="NCBI Taxonomy" id="5888"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Alveolata</taxon>
+<taxon>Ciliophora</taxon>
+<taxon>Intramacronucleata</taxon>
+<taxon>Oligohymenophorea</taxon>
+<taxon>Peniculida</taxon>
+<taxon>Parameciidae</taxon>
+<taxon>Paramecium</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="journal article" date="2006" name="Nature" volume="444" first="171" last="178">
+<title>Global trends of whole-genome duplications revealed by the ciliate Paramecium tetraurelia.</title>
+<authorList>
+<consortium name="Genoscope"/>
+<person name="Aury J.-M."/>
+<person name="Jaillon O."/>
+<person name="Duret L."/>
+<person name="Noel B."/>
+<person name="Jubin C."/>
+<person name="Porcel B.M."/>
+<person name="Segurens B."/>
+<person name="Daubin V."/>
+<person name="Anthouard V."/>
+<person name="Aiach N."/>
+<person name="Arnaiz O."/>
+<person name="Billaut A."/>
+<person name="Beisson J."/>
+<person name="Blanc I."/>
+<person name="Bouhouche K."/>
+<person name="Camara F."/>
+<person name="Duharcourt S."/>
+<person name="Guigo R."/>
+<person name="Gogendeau D."/>
+<person name="Katinka M."/>
+<person name="Keller A.-M."/>
+<person name="Kissmehl R."/>
+<person name="Klotz C."/>
+<person name="Koll F."/>
+<person name="Le Mouel A."/>
+<person name="Lepere G."/>
+<person name="Malinsky S."/>
+<person name="Nowacki M."/>
+<person name="Nowak J.K."/>
+<person name="Plattner H."/>
+<person name="Poulain J."/>
+<person name="Ruiz F."/>
+<person name="Serrano V."/>
+<person name="Zagulski M."/>
+<person name="Dessen P."/>
+<person name="Betermier M."/>
+<person name="Weissenbach J."/>
+<person name="Scarpelli C."/>
+<person name="Schaechter V."/>
+<person name="Sperling L."/>
+<person name="Meyer E."/>
+<person name="Cohen J."/>
+<person name="Wincker P."/>
+</authorList>
+<dbReference type="PubMed" id="17086204"/>
+<dbReference type="DOI" id="10.1038/nature05230"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2 3">Stock d4-2</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="CT868046">
+<property type="protein sequence ID" value="CAK66595.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_001433992.1">
+<property type="nucleotide sequence ID" value="XM_001433955.1"/>
+</dbReference>
+<dbReference type="EnsemblProtists" id="CAK66595">
+<property type="protein sequence ID" value="CAK66595"/>
+<property type="gene ID" value="GSPATT00035725001"/>
+</dbReference>
+<dbReference type="GeneID" id="5019763"/>
+<dbReference type="KEGG" id="ptm:GSPATT00035725001"/>
+<dbReference type="Proteomes" id="UP000000600">
+<property type="component" value="Partially assembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025677">
+<property type="entry name" value="OST-HTH-assoc_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="Pfam" id="PF14418">
+<property type="entry name" value="OHA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="374"/>
+<end position="449"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="477"/>
+<end position="551"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="CAK66595.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000000600"/>
+</source>
+</evidence>
+<sequence length="706" mass="83260" checksum="D1A85758AA8F6200" modified="2006-11-28" version="1">
+MQYLQKKTQSQGDQVNQRQNIIDDSFLDESIHLDSESSRENLKTLINCKAEHTLSTKESC
+NSNSFTLSSNKVIEFLIQFKFLAYEILEWETLDNTLPSEVYNFLSILKCQCYAGTITYTI
+EQIEVLINQSQIYVYLIKNKNSKNLLEFLSQILDKGWIFKTIRIFNGSILNFYALAVKTL
+TFENLFWIIKSLKKDLITPTESSVQSRIKECYGLKYKRKEWNLIINQIKSEKSSQGKQVE
+LPMIQVIQIKDPFIQEETQGIYIQNQNWNPEDEFQEDLYQKQEWNIFIEYLQSIIDDQND
+YQFFKDGGYGCAQFIKLFGPKNLRELSLARLKLYTHMAINKHYIRNTKKVQYNREKSEYA
+TDDSQDRDNNIKMKIEELKEQLIQLLLESQDGYSVSFTQIPKLLKKRVNFKINLIDLGFP
+KLRNFIESIKEEISIEKNGRNNVIVKLDRIKYWNQYQSTQQKLILDKIGGDLSNQAISSN
+ILELLKNILSQHKYGISINELYYDLSQLLGEWFNFKKFQCQSFFQFLQNYAENILIIVCQ
+KGNQYLIYERDLRFLPPPTYIQDSNNQQFDRNLSEVYQCNLGLSLHQSSFSNSWLGKAGD
+SQLRQKSLQLIEDSHQEIKENLKFIDEILGLQILQPQGYETKQNDTYSIQDWSEKSMNRF
+EMFSSINYGQSEIPADFDLTKELQNPLSQKQQIQQQTIQQNESKKK
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

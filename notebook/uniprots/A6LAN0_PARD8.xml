@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2007-07-24" modified="2016-05-11" version="52">
+<accession>A6LAN0</accession>
+<name>A6LAN0_PARD8</name>
+<protein>
+<submittedName>
+<fullName evidence="4">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="4">BDI_0976</name>
+</gene>
+<organism evidence="4 5">
+<name type="scientific">Parabacteroides distasonis (strain ATCC 8503 / DSM 20701 / NCTC 11152)</name>
+<dbReference type="NCBI Taxonomy" id="435591"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Bacteroidetes</taxon>
+<taxon>Bacteroidia</taxon>
+<taxon>Bacteroidales</taxon>
+<taxon>Porphyromonadaceae</taxon>
+<taxon>Parabacteroides</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="4 5">
+<citation type="journal article" date="2007" name="PLoS Biol." volume="5" first="1574" last="1586">
+<title>Evolution of symbiotic bacteria in the distal human intestine.</title>
+<authorList>
+<person name="Xu J."/>
+<person name="Mahowald M.A."/>
+<person name="Ley R.E."/>
+<person name="Lozupone C.A."/>
+<person name="Hamady M."/>
+<person name="Martens E.C."/>
+<person name="Henrissat B."/>
+<person name="Coutinho P.M."/>
+<person name="Minx P."/>
+<person name="Latreille P."/>
+<person name="Cordum H."/>
+<person name="Van Brunt A."/>
+<person name="Kim K."/>
+<person name="Fulton R.S."/>
+<person name="Fulton L.A."/>
+<person name="Clifton S.W."/>
+<person name="Wilson R.K."/>
+<person name="Knight R.D."/>
+<person name="Gordon J.I."/>
+</authorList>
+<dbReference type="PubMed" id="17579514"/>
+<dbReference type="DOI" id="10.1371/journal.pbio.0050156"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="5">ATCC 8503 / DSM 20701 / NCTC 11152</strain>
+</source>
+</reference>
+<reference key="2" evidence="1">
+<citation type="submission" date="2010-10" db="PDB data bank">
+<title>Crystal structure of a GDSL-like Lipase (BDI_0976) from Parabacteroides distasonis ATCC 8503 at 1.93 A resolution.</title>
+<authorList>
+<consortium name="Joint Center for Structural Genomics (JCSG)"/>
+</authorList>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (1.93 ANGSTROMS) OF 25-227</scope>
+</reference>
+<dbReference type="EMBL" id="CP000140">
+<property type="protein sequence ID" value="ABR42744.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_005857175.1">
+<property type="nucleotide sequence ID" value="NC_009615.1"/>
+</dbReference>
+<dbReference type="PDB" id="3P94">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.93"/>
+<property type="chains" value="A/B/C/D=25-227"/>
+</dbReference>
+<dbReference type="PDBsum" id="3P94"/>
+<dbReference type="ProteinModelPortal" id="A6LAN0"/>
+<dbReference type="STRING" id="435591.BDI_0976"/>
+<dbReference type="DNASU" id="5306130"/>
+<dbReference type="EnsemblBacteria" id="ABR42744">
+<property type="protein sequence ID" value="ABR42744"/>
+<property type="gene ID" value="BDI_0976"/>
+</dbReference>
+<dbReference type="GeneID" id="5306130"/>
+<dbReference type="KEGG" id="pdi:BDI_0976"/>
+<dbReference type="PATRIC" id="22845104">
+<property type="gene designation" value="VBIParDis29947_0959"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4105VS5">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG2755">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000252481"/>
+<dbReference type="OMA" id="EKRVVFM"/>
+<dbReference type="OrthoDB" id="EOG6BCSR1"/>
+<dbReference type="BioCyc" id="PDIS435591:GCNH-975-MONOMER"/>
+<dbReference type="EvolutionaryTrace" id="A6LAN0"/>
+<dbReference type="Proteomes" id="UP000000566">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002" evidence="1">3D-structure</keyword>
+<keyword id="KW-0181" evidence="5">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="5">Reference proteome</keyword>
+<keyword id="KW-0732" evidence="2">Signal</keyword>
+<feature type="signal peptide" evidence="2">
+<location>
+<begin position="1"/>
+<end position="22"/>
+</location>
+</feature>
+<feature type="chain" id="PRO_5002695331" evidence="2">
+<location>
+<begin position="23"/>
+<end position="227"/>
+</location>
+</feature>
+<feature type="domain" description="SGNH_hydro" evidence="3">
+<location>
+<begin position="50"/>
+<end position="213"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000213">
+<source>
+<dbReference type="PDB" id="3P94"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="SignalP"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="ABR42744.1"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000000566"/>
+</source>
+</evidence>
+<sequence length="227" mass="25315" checksum="5B5BA55B04977519" modified="2007-07-24" version="1">
+MKNMKQALLVAGCLLATTTLFAQTEKGDWAQFGRYAEANKTVKVPSNVVFMGNSITDGWW
+PADSTFFIRNNFVDRGISGQTTSEMLVRFRQDVINLKPKAVVILAGINDIAHNNGVIALE
+NVFGNLVSMAELAKANHIKVIFCSVLPAYDFPWRPGMQPADKVIQLNKWIKEYADKNGLT
+YVDYHSAMKDERNGLPANLSKDGVHPTLEGYKIMEKIVLEAIHKTVK
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

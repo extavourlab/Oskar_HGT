@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-11-13" modified="2016-05-11" version="16">
+<accession>T2F4S9</accession>
+<name>T2F4S9_LACLC</name>
+<protein>
+<submittedName>
+<fullName evidence="2">GDSL-like lipase/acylhydrolase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">kw2_0915</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Lactococcus lactis subsp. cremoris KW2</name>
+<dbReference type="NCBI Taxonomy" id="1295826"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Bacilli</taxon>
+<taxon>Lactobacillales</taxon>
+<taxon>Streptococcaceae</taxon>
+<taxon>Lactococcus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="journal article" date="2013" name="Front. Microbiol." volume="4" first="257" last="257">
+<title>Interaction between the genomes of Lactococcus lactis and phages of the P335 species.</title>
+<authorList>
+<person name="Kelly W.J."/>
+<person name="Altermann E."/>
+<person name="Lambie S.C."/>
+<person name="Leahy S.C."/>
+</authorList>
+<dbReference type="PubMed" id="24009606"/>
+<dbReference type="DOI" id="10.3389/fmicb.2013.00257"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2">KW2</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="CP004884">
+<property type="protein sequence ID" value="AGV72873.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_021037065.1">
+<property type="nucleotide sequence ID" value="NC_022369.1"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="AGV72873">
+<property type="protein sequence ID" value="AGV72873"/>
+<property type="gene ID" value="kw2_0915"/>
+</dbReference>
+<dbReference type="KEGG" id="llw:kw2_0915"/>
+<dbReference type="Proteomes" id="UP000016704">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016787">
+<property type="term" value="F:hydrolase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-0378" evidence="2">Hydrolase</keyword>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="228"/>
+<end position="416"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AGV72873.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000016704"/>
+</source>
+</evidence>
+<sequence length="428" mass="46530" checksum="18BCCF346C682F4E" modified="2013-11-13" version="1">
+MSNKARRRKRRQPRILKIGLSLLLILIVALIGLLGYEKIRSAAPSGKVTSLNASKHNKAS
+SWVSTWAASPVDMGNHNYTGTIRNLLVTDVSGTAFRLNFTNTFGNAGLQIEDAYIGIADA
+KGNIIGQNVPITFQGKSATTIAQGKELLSDTIKLTVPARTRLAVTFYTPKAIEQTGHWLA
+NETSYITIGTNQTTAKNTAGWLETPNWWFIDSLDVQASDTGASKTIVALGDSLTDGFHST
+NEGRYTDTLMNRLNSQKGNEWSLVNEGITGNQVLTDSPTNVAKNAYFGQSALSRLDRDVL
+NRPALKDILLLEGVNDINTGASANKIIEGYKKIINQAHTSGVRVIAGTIPPFKGYPTWSV
+KKEKVRQKVNHWILTSGAFDGTVDFSKVLVASGNLEELNPIYDSGDHLHPNNAGYKVMGN
+AVNLSLFK
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2005-07-19" modified="2016-03-16" version="40">
+<accession>Q4SF36</accession>
+<name>Q4SF36_TETNG</name>
+<protein>
+<submittedName>
+<fullName evidence="4">Chromosome 1 SCAF14609, whole genome shotgun sequence</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="4">GSTENG00019271001</name>
+</gene>
+<organism>
+<name type="scientific">Tetraodon nigroviridis</name>
+<name type="common">Spotted green pufferfish</name>
+<name type="synonym">Chelonodon nigroviridis</name>
+<dbReference type="NCBI Taxonomy" id="99883"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Actinopterygii</taxon>
+<taxon>Neopterygii</taxon>
+<taxon>Teleostei</taxon>
+<taxon>Neoteleostei</taxon>
+<taxon>Acanthomorphata</taxon>
+<taxon>Eupercaria</taxon>
+<taxon>Tetraodontiformes</taxon>
+<taxon>Tetradontoidea</taxon>
+<taxon>Tetraodontidae</taxon>
+<taxon>Tetraodon</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="4">
+<citation type="journal article" date="2004" name="Nature" volume="431" first="946" last="957">
+<title>Genome duplication in the teleost fish Tetraodon nigroviridis reveals the early vertebrate proto-karyotype.</title>
+<authorList>
+<person name="Jaillon O."/>
+<person name="Aury J.-M."/>
+<person name="Brunet F."/>
+<person name="Petit J.-L."/>
+<person name="Stange-Thomann N."/>
+<person name="Mauceli E."/>
+<person name="Bouneau L."/>
+<person name="Fischer C."/>
+<person name="Ozouf-Costaz C."/>
+<person name="Bernot A."/>
+<person name="Nicaud S."/>
+<person name="Jaffe D."/>
+<person name="Fisher S."/>
+<person name="Lutfalla G."/>
+<person name="Dossat C."/>
+<person name="Segurens B."/>
+<person name="Dasilva C."/>
+<person name="Salanoubat M."/>
+<person name="Levy M."/>
+<person name="Boudet N."/>
+<person name="Castellano S."/>
+<person name="Anthouard V."/>
+<person name="Jubin C."/>
+<person name="Castelli V."/>
+<person name="Katinka M."/>
+<person name="Vacherie B."/>
+<person name="Biemont C."/>
+<person name="Skalli Z."/>
+<person name="Cattolico L."/>
+<person name="Poulain J."/>
+<person name="De Berardinis V."/>
+<person name="Cruaud C."/>
+<person name="Duprat S."/>
+<person name="Brottier P."/>
+<person name="Coutanceau J.-P."/>
+<person name="Gouzy J."/>
+<person name="Parra G."/>
+<person name="Lardier G."/>
+<person name="Chapple C."/>
+<person name="McKernan K.J."/>
+<person name="McEwan P."/>
+<person name="Bosak S."/>
+<person name="Kellis M."/>
+<person name="Volff J.-N."/>
+<person name="Guigo R."/>
+<person name="Zody M.C."/>
+<person name="Mesirov J."/>
+<person name="Lindblad-Toh K."/>
+<person name="Birren B."/>
+<person name="Nusbaum C."/>
+<person name="Kahn D."/>
+<person name="Robinson-Rechavi M."/>
+<person name="Laudet V."/>
+<person name="Schachter V."/>
+<person name="Quetier F."/>
+<person name="Saurin W."/>
+<person name="Scarpelli C."/>
+<person name="Wincker P."/>
+<person name="Lander E.S."/>
+<person name="Weissenbach J."/>
+<person name="Roest Crollius H."/>
+</authorList>
+<dbReference type="PubMed" id="15496914"/>
+<dbReference type="DOI" id="10.1038/nature03025"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<reference key="2" evidence="4">
+<citation type="submission" date="2004-02" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<consortium name="Genoscope"/>
+<consortium name="Whitehead Institute Centre for Genome Research"/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<dbReference type="EMBL" id="CAAE01014609">
+<property type="protein sequence ID" value="CAG00746.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="Q4SF36"/>
+<dbReference type="STRING" id="99883.ENSTNIP00000013070"/>
+<dbReference type="eggNOG" id="KOG2039">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG1525">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0472" evidence="1">Membrane</keyword>
+<keyword id="KW-0812" evidence="1">Transmembrane</keyword>
+<keyword id="KW-1133" evidence="1">Transmembrane helix</keyword>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="341"/>
+<end position="359"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="3">
+<location>
+<begin position="6"/>
+<end position="79"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="2">
+<location>
+<begin position="378"/>
+<end position="430"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Phobius"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="CAG00746.1"/>
+</source>
+</evidence>
+<sequence length="430" mass="48727" checksum="184FA0C20D10699B" modified="2005-07-19" version="1">
+MNQEKILPKLKKDIRSLLISSKLGVEPEQLRRDYVALVGEPLPLRPLGLTNVMDMVVAMP
+DVVSVHFREDGSVYLKAVGVESTQNIEMLVAKQRTSKADVQRLKRGHLHGGCHRPPRVLL
+PRRGLAPPAVPAQLRAQLWKLLSQRRMQPRMRKVSALRSTSKRFAATVRTSPGLPGLLFI
+FPSFLPAGKGILPPDRGERGGRYHQPGVKGEAEKDSEEAEGPEVQQPSSGYYLSCGDSPW
+ESNQDDATVTFAHRNHVQEPSVPTQHMFSLVCRTSAVPPDALQGQRLKKPSRLGEGEVQV
+LVEHVESPGCFYVSVCDSREARATEDMMIQMRWWRRGAPRAFSALLLYVVSHIFVFSFFR
+RCYRCPEVSERYRLPERFVRRGQVCCLCPEGVWFYRVVIHRILSPTHVEVYFVDFGNTIA
+APRNRLKFLK
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

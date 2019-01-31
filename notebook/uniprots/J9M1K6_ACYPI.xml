@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2012-10-31" modified="2015-12-09" version="14">
+<accession>J9M1K6</accession>
+<name>J9M1K6_ACYPI</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<organism evidence="2 3">
+<name type="scientific">Acyrthosiphon pisum</name>
+<name type="common">Pea aphid</name>
+<dbReference type="NCBI Taxonomy" id="7029"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Paraneoptera</taxon>
+<taxon>Hemiptera</taxon>
+<taxon>Sternorrhyncha</taxon>
+<taxon>Aphidiformes</taxon>
+<taxon>Aphidoidea</taxon>
+<taxon>Aphididae</taxon>
+<taxon>Macrosiphini</taxon>
+<taxon>Acyrthosiphon</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2">
+<citation type="submission" date="2010-06" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Jiang H."/>
+<person name="Abraham K."/>
+<person name="Ali S."/>
+<person name="Alsbrooks S.L."/>
+<person name="Anim B.N."/>
+<person name="Anosike U.S."/>
+<person name="Attaway T."/>
+<person name="Bandaranaike D.P."/>
+<person name="Battles P.K."/>
+<person name="Bell S.N."/>
+<person name="Bell A.V."/>
+<person name="Beltran B."/>
+<person name="Bickham C."/>
+<person name="Bustamante Y."/>
+<person name="Caleb T."/>
+<person name="Canada A."/>
+<person name="Cardenas V."/>
+<person name="Carter K."/>
+<person name="Chacko J."/>
+<person name="Chandrabose M.N."/>
+<person name="Chavez D."/>
+<person name="Chavez A."/>
+<person name="Chen L."/>
+<person name="Chu H.-S."/>
+<person name="Claassen K.J."/>
+<person name="Cockrell R."/>
+<person name="Collins M."/>
+<person name="Cooper J.A."/>
+<person name="Cree A."/>
+<person name="Curry S.M."/>
+<person name="Da Y."/>
+<person name="Dao M.D."/>
+<person name="Das B."/>
+<person name="Davila M.-L."/>
+<person name="Davy-Carroll L."/>
+<person name="Denson S."/>
+<person name="Dinh H."/>
+<person name="Ebong V.E."/>
+<person name="Edwards J.R."/>
+<person name="Egan A."/>
+<person name="El-Daye J."/>
+<person name="Escobedo L."/>
+<person name="Fernandez S."/>
+<person name="Fernando P.R."/>
+<person name="Flagg N."/>
+<person name="Forbes L.D."/>
+<person name="Fowler R.G."/>
+<person name="Fu Q."/>
+<person name="Gabisi R.A."/>
+<person name="Ganer J."/>
+<person name="Garbino Pronczuk A."/>
+<person name="Garcia R.M."/>
+<person name="Garner T."/>
+<person name="Garrett T.E."/>
+<person name="Gonzalez D.A."/>
+<person name="Hamid H."/>
+<person name="Hawkins E.S."/>
+<person name="Hirani K."/>
+<person name="Hogues M.E."/>
+<person name="Hollins B."/>
+<person name="Hsiao C.-H."/>
+<person name="Jabil R."/>
+<person name="James M.L."/>
+<person name="Jhangiani S.N."/>
+<person name="Johnson B."/>
+<person name="Johnson Q."/>
+<person name="Joshi V."/>
+<person name="Kalu J.B."/>
+<person name="Kam C."/>
+<person name="Kashfia A."/>
+<person name="Keebler J."/>
+<person name="Kisamo H."/>
+<person name="Kovar C.L."/>
+<person name="Lago L.A."/>
+<person name="Lai C.-Y."/>
+<person name="Laidlaw J."/>
+<person name="Lara F."/>
+<person name="Le T.-K."/>
+<person name="Lee S.L."/>
+<person name="Legall F.H."/>
+<person name="Lemon S.J."/>
+<person name="Lewis L.R."/>
+<person name="Li B."/>
+<person name="Liu Y."/>
+<person name="Liu Y.-S."/>
+<person name="Lopez J."/>
+<person name="Lozado R.J."/>
+<person name="Lu J."/>
+<person name="Madu R.C."/>
+<person name="Maheshwari M."/>
+<person name="Maheshwari R."/>
+<person name="Malloy K."/>
+<person name="Martinez E."/>
+<person name="Mathew T."/>
+<person name="Mercado I.C."/>
+<person name="Mercado C."/>
+<person name="Meyer B."/>
+<person name="Montgomery K."/>
+<person name="Morgan M.B."/>
+<person name="Munidasa M."/>
+<person name="Nazareth L.V."/>
+<person name="Nelson J."/>
+<person name="Ng B.M."/>
+<person name="Nguyen N.B."/>
+<person name="Nguyen P.Q."/>
+<person name="Nguyen T."/>
+<person name="Obregon M."/>
+<person name="Okwuonu G.O."/>
+<person name="Onwere C.G."/>
+<person name="Orozco G."/>
+<person name="Parra A."/>
+<person name="Patel S."/>
+<person name="Patil S."/>
+<person name="Perez A."/>
+<person name="Perez Y."/>
+<person name="Pham C."/>
+<person name="Primus E.L."/>
+<person name="Pu L.-L."/>
+<person name="Puazo M."/>
+<person name="Qin X."/>
+<person name="Quiroz J.B."/>
+<person name="Reese J."/>
+<person name="Richards S."/>
+<person name="Rives C.M."/>
+<person name="Robberts R."/>
+<person name="Ruiz S.J."/>
+<person name="Ruiz M.J."/>
+<person name="Santibanez J."/>
+<person name="Schneider B.W."/>
+<person name="Sisson I."/>
+<person name="Smith M."/>
+<person name="Sodergren E."/>
+<person name="Song X.-Z."/>
+<person name="Song B.B."/>
+<person name="Summersgill H."/>
+<person name="Thelus R."/>
+<person name="Thornton R.D."/>
+<person name="Trejos Z.Y."/>
+<person name="Usmani K."/>
+<person name="Vattathil S."/>
+<person name="Villasana D."/>
+<person name="Walker D.L."/>
+<person name="Wang S."/>
+<person name="Wang K."/>
+<person name="White C.S."/>
+<person name="Williams A.C."/>
+<person name="Williamson J."/>
+<person name="Wilson K."/>
+<person name="Woghiren I.O."/>
+<person name="Woodworth J.R."/>
+<person name="Worley K.C."/>
+<person name="Wright R.A."/>
+<person name="Wu W."/>
+<person name="Young L."/>
+<person name="Zhang L."/>
+<person name="Zhang J."/>
+<person name="Zhu Y."/>
+<person name="Muzny D.M."/>
+<person name="Weinstock G."/>
+<person name="Gibbs R.A."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<reference key="2" evidence="2">
+<citation type="submission" date="2015-06" db="UniProtKB">
+<authorList>
+<consortium name="EnsemblMetazoa"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<dbReference type="EMBL" id="ABLF02025384">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="ABLF02025388">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EnsemblMetazoa" id="ACYPI51767-RA">
+<property type="protein sequence ID" value="ACYPI51767-PA"/>
+<property type="gene ID" value="ACYPI51767"/>
+</dbReference>
+<dbReference type="InParanoid" id="J9M1K6"/>
+<dbReference type="OrthoDB" id="EOG7F24T7"/>
+<dbReference type="Proteomes" id="UP000007819">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="7"/>
+<end position="81"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EnsemblMetazoa" id="ACYPI51767-PA"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000007819"/>
+</source>
+</evidence>
+<sequence length="607" mass="70471" checksum="9BC155E40ED7373D" modified="2014-05-14" version="2">
+MMSNPTEIGEIISNLKATITSNKGGVQLNCIESDYFNLIGEHIPYRELGYNSLLEFLEPL
+KVFKIKNNGFNKFVHVVSDGKTQHLEKMINKQKTKKSKRSKSKFRVVPSKSLNYTYNSYN
+SSMQNRLKKKRQPVNKLEKHTADVNPTIKEHFRLPKIKYENKIFEKKDKPKARPKVSAQD
+RLQKYEKKDIYQIEVKDEELKSNTTINEKSKSETIINEELKSNTTINEKSKSETIINEEL
+LKNNTTINENSKSETIINEESRSETIIEDSFLELSGVFTKKCNIYETVYNIPIQPKQIPT
+YYNDQTNLKMYQYILESKCKKIVKVVAVLSSSSICVVLEDSNTNAVIAVLNKLKLFDEFP
+FIKEIVIDKLLETKCILIPESVITHPLTVTLYDLETKMNINDDIISSFFQKVTPNITSED
+RFDSTEAKLISMEAGYCYLQFNKDLIKSLEKLFSTDQFLGPCLKNSRDVDYKETYLAYYE
+PNIKGRVKVEYFVNDNQVKVFFIDYGRFKIVEVNTLIALFSINALLVRIPSQAIKVALHL
+FPPEDVTRRTQEELFNILGNNTYVSIYKLKDYKGQIPCVQLWNIAYPDTFINIILYSRLF
+KHELSEK
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

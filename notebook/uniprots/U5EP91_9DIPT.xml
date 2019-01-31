@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-12-11" modified="2016-05-11" version="7">
+<accession>U5EP91</accession>
+<name>U5EP91_9DIPT</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Putative transcriptional coactivator</fullName>
+</submittedName>
+</protein>
+<organism evidence="3">
+<name type="scientific">Corethrella appendiculata</name>
+<dbReference type="NCBI Taxonomy" id="1370023"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Diptera</taxon>
+<taxon>Nematocera</taxon>
+<taxon>Culicoidea</taxon>
+<taxon>Chaoboridae</taxon>
+<taxon>Corethrella</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="journal article" date="2014" name="Insect Biochem. Mol. Biol." volume="44" first="23" last="32">
+<title>An insight into the sialome of the frog biting fly, Corethrella appendiculata.</title>
+<authorList>
+<person name="Ribeiro J.M.C."/>
+<person name="Chagas A.C."/>
+<person name="Pham V.M."/>
+<person name="Lounibos L.P."/>
+<person name="Calvo E."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<tissue evidence="3">Salivary glands</tissue>
+</source>
+</reference>
+<dbReference type="EMBL" id="GANO01003776">
+<property type="protein sequence ID" value="JAB56095.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="6"/>
+<end position="80"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="477"/>
+<end position="545"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="1042"/>
+<end position="1102"/>
+</location>
+</feature>
+<feature type="non-terminal residue" evidence="3">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="JAB56095.1"/>
+</source>
+</evidence>
+<sequence length="1187" mass="136668" checksum="FE2DB5F24338C49A" modified="2013-12-11" version="1" fragment="single">
+KMSSADIDAATEVIRSLITSRKDDSTVQSLMREYREVEGHALEYKKLGFKSFEDFLRGSG
+QFIVRTNFRGEQIVNSILKLNVAHIEAMVARQLKKKGGGGSGFSHNPPQQRRTTNTGSNW
+NRSAYTTNYSKMNSSSINRGNNRNYSNNSNNNSYNYRSLPLSNNRSKDTSIKPQSSILTQ
+RIDNKFQQQKQSESNNNNCTTKNLNSTQQRDANVANIKRQNSNNNNAIELAPNDLRYQLT
+NKRLAANDKTTVAAPTTKTSNLNETGSLRSQQLRSINRDLNTNNFAQQKRTLNTDNIRVR
+IDDNIQQKPKTIIETPSTGSISSNSPISLMPLGKSSVQNRMEIYRRTTASPVMAEYDSNS
+PPNSLSPASQSSTTSIPQFTKTKSVPPFSWYQQEITDAVKMLALYCQYHNYGEPEYKFHR
+CKSKRVHCKVAVNGLTYATYPDDYAHESEAKVAAAAIAISNIKTNEHSNKFPQCLDSDQE
+IAMKIYDIVLGSTSGIMLKNNIPDIFQDEYKLKLPNHWHNIMEQYHNLFEFEENVKDEIL
+VLAKTNLNLDEELLNSTIQQLQPLQLPWKEKHWNLYVTNPISTIEIYARLVGKEYSAQYD
+ELITNIEMEFLDKKIKPEILRVDDYYITSVSDCIYRLTIREISYPRNECFCYLIDIGVED
+WISIDEIYVCDPKYLKLPAQIVCLELDGLEDFHENPNAKKHIRDTLESIVCIGEILTTEE
+EFNNSVKHQIRCVLYDTSSEYDINLNPLILKYICDDTKIPELERNKINDVIVTHIDDNGN
+IYLQKEKDSGMNYILKLIKNLIDSNALEGKKPGILSTIDAKQLYLVYDLQANKWYRASYQ
+STVNDKYYKMFCVDFGLSIIANCQNIYSLELLSIALNYYPSQAICTHLFNMEINPNVISR
+LRALLNNNTQVMAKVCNPNLDIIIYKRSPKDHHIVNINDSIRMEMELEKDSEPINITSSS
+TINDNLNIINNNFTSDLTVSKITPIRKIILPNINEIYEVKVMIVSSPKFFYVQPYKMIRD
+LNKLMYNLQEYCKTAKPLNIKEIKKGEAYAGYKPDEDIWYRVIVDICSETTDEFHVYFCD
+FGEVQILSSKDLKFLPQEFRNLEKQAIKAKLYGVKPKQKKDWTSEDAIRFQELISDKVFS
+SQIKFIGKDKFNPSDEIVELMLIDVSQENDIYIDKLLVDENRAEYEI
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

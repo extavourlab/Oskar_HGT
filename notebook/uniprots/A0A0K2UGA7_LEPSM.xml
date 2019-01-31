@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-11-11" modified="2016-01-20" version="3">
+<accession>A0A0K2UGA7</accession>
+<name>A0A0K2UGA7_LEPSM</name>
+<protein>
+<submittedName>
+<fullName evidence="4">Tudor domaincontaining protein 7Alike [Bombus terrestris]</fullName>
+</submittedName>
+</protein>
+<organism evidence="4">
+<name type="scientific">Lepeophtheirus salmonis</name>
+<name type="common">Salmon louse</name>
+<dbReference type="NCBI Taxonomy" id="72036"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Crustacea</taxon>
+<taxon>Maxillopoda</taxon>
+<taxon>Copepoda</taxon>
+<taxon>Siphonostomatoida</taxon>
+<taxon>Caligidae</taxon>
+<taxon>Lepeophtheirus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="4">
+<citation type="submission" date="2014-05" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Chronopoulou M."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<tissue evidence="4">Whole organism</tissue>
+</source>
+</reference>
+<dbReference type="EMBL" id="HACA01019621">
+<property type="protein sequence ID" value="CDW36982.1"/>
+<property type="molecule type" value="Transcribed_RNA"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.160.20">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR014720">
+<property type="entry name" value="dsRBD_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00035">
+<property type="entry name" value="dsrm"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SMART" id="SM00358">
+<property type="entry name" value="DSRM"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50137">
+<property type="entry name" value="DS_RBD"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<feature type="domain" description="HTH OST-type" evidence="3">
+<location>
+<begin position="7"/>
+<end position="79"/>
+</location>
+</feature>
+<feature type="domain" description="DRBM (double-stranded RNA-binding)" evidence="1">
+<location>
+<begin position="228"/>
+<end position="300"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="3">
+<location>
+<begin position="321"/>
+<end position="388"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="2">
+<location>
+<begin position="498"/>
+<end position="556"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="2">
+<location>
+<begin position="691"/>
+<end position="751"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="2">
+<location>
+<begin position="933"/>
+<end position="992"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50137"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="CDW36982.1"/>
+</source>
+</evidence>
+<sequence length="1076" mass="121909" checksum="E55361425625430F" modified="2015-11-11" version="1">
+MMSTEDQRKEVVDLIRACLLSSKGGVGLDQINKDYKDLVGDNIPFRSLGHNTLTDFFSKA
+RDVCRIMETNGRIIIHPVATESTHHIDNLVSHQKKSSAKGGKRRVQSQYGLSAGRRPNQR
+SNWIPPSPMNTNGNSNHPRGGRRPTNSRKVGSGRLPPRSSIANSTYRPYPSHQKLRTPST
+HHSFTNNQSNSNHSNSYPLKIGTFHSGKPNHHPRSKSGGKNQNPPERSYVKDLTQYYQDK
+GYGTPEFKTSEMGSKKMRHRTYVSSVTVEGQSFRTFPIEYSSKELAEEAAARLAVDSLGL
+KRETQNNKHNDGFNFRQAGEINSLIADRIVEIVGDKWNGIWSTQIDVEYKAKYEEVLPPD
+WPQLIIPTKHHLRIDIPIENHYIVLPMKEKEEPKVNSNNNGLENVDAQITSVHSDLKGDT
+KEDNFEELLSVDDNYSGKALPPISISEETYWDVYITVISSPNEVVVRLLSENYNKIFEDL
+TTDMELYYYDYSSKLPLVNEPLVGCLYAAKLDTDWHRVRVTNVHGIKVTCYFIDHGDEDD
+LNVQNLRPIHPKFLKLPPQALSIKLAGFENLVDADDTILTYMRENVLGRSLVAEVVSRGE
+KGTDPTLILFDTSTEKDININKKILELSNEGVNCNSSILPSAGEEVVSVYLSYVSSTGIC
+YIQRETPTINLIEKLIDETKDKILEQEFSHSLDINTLYLARNRSDNRWLRAALLTTEVID
+EKVEIVHIDYGSHDEVDLSDLRDIGSTKLLSETPYQALKCRLANIPCTYQWTEETTNRLK
+NLAPENKLLSLKVISSSGDTPEVEIYAKEDDKLSVSFNSIISQLKELFIVNNQDFENSTS
+PTNVITDDNDKKRSSLSPQDELLFSDIASLKGLVPPKIPEKEEYFDVTVTLAANPSTFYV
+KPWRQTESLEILTSEMIEFYSSPTRRVVDITLEDLSKDSFFAAVHSDGFWYRIKVDRVLD
+DQTITVKFVDYGDFAMVNLKNLQPLWPQFRNLPMQAIKAFLSDIVPVNGDWTPADAIWFS
+NRSVNKQFVSVVKDISQEEDGSVKLGVSLIDVSHPKEDIIIDKLLVDEKRAVYLCI
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

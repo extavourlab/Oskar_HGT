@@ -1,0 +1,411 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2004-06-21" modified="2016-06-08" version="99">
+<accession>Q9R1R4</accession>
+<accession>Q5FVD0</accession>
+<name>TDRD7_RAT</name>
+<protein>
+<recommendedName>
+<fullName>Tudor domain-containing protein 7</fullName>
+</recommendedName>
+<alternativeName>
+<fullName>PCTAIRE2-binding protein</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Tudor repeat associator with PCTAIRE-2</fullName>
+<shortName>Trap</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">Tdrd7</name>
+<name type="synonym">Pctaire2bp</name>
+</gene>
+<organism>
+<name type="scientific">Rattus norvegicus</name>
+<name type="common">Rat</name>
+<dbReference type="NCBI Taxonomy" id="10116"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Sciurognathi</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+<taxon>Rattus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2000" name="Eur. J. Biochem." volume="267" first="2113" last="2121">
+<title>Identification of tudor repeat associator with PCTAIRE 2 (Trap). A novel protein that interacts with the N-terminal domain of PCTAIRE 2 in rat brain.</title>
+<authorList>
+<person name="Hirose T."/>
+<person name="Kawabuchi M."/>
+<person name="Tamaru T."/>
+<person name="Okumura N."/>
+<person name="Nagai K."/>
+<person name="Okada M."/>
+</authorList>
+<dbReference type="PubMed" id="10727952"/>
+<dbReference type="DOI" id="10.1046/j.1432-1327.2000.01218.x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<scope>DEVELOPMENTAL STAGE</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+<scope>IDENTIFICATION IN A COMPLEX WITH CDK16 AND CDK17</scope>
+<scope>INTERACTION WITH CDK17</scope>
+<source>
+<tissue>Hypothalamus</tissue>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+<title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+<authorList>
+<consortium name="The MGC Project Team"/>
+</authorList>
+<dbReference type="PubMed" id="15489334"/>
+<dbReference type="DOI" id="10.1101/gr.2596504"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2)</scope>
+<source>
+<tissue>Lung</tissue>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2012" name="Nat. Commun." volume="3" first="876" last="876">
+<title>Quantitative maps of protein phosphorylation sites across 14 different rat organs and tissues.</title>
+<authorList>
+<person name="Lundby A."/>
+<person name="Secher A."/>
+<person name="Lage K."/>
+<person name="Nordsborg N.B."/>
+<person name="Dmytriyev A."/>
+<person name="Lundby C."/>
+<person name="Olsen J.V."/>
+</authorList>
+<dbReference type="PubMed" id="22673903"/>
+<dbReference type="DOI" id="10.1038/ncomms1871"/>
+</citation>
+<scope>PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-874</scope>
+<scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+</reference>
+<comment type="function">
+<text evidence="2">Component of specific cytoplasmic RNA granules involved in post-transcriptional regulation of specific genes: probably acts by binding to specific mRNAs and regulating their translation. Required for lens transparency during lens development, by regulating translation of genes such as CRYBB3 and HSPB1 in the developing lens. Also required during spermatogenesis (By similarity).</text>
+</comment>
+<comment type="subunit">
+<text evidence="2">Found in a mRNP complex, at least composed of TDRD1, TDRD6, TDRD7 and DDX4. Found in a complex containing CABLES1, CDK16 and CDK17. Interacts with CABLES1, CDK17 and PIWIL1 (By similarity).</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="2">Cytoplasm</location>
+</subcellularLocation>
+<text evidence="2 5">Localizes to cytoplasmic RNA granules (By similarity). Present in chromatoid body (CB) of spermatids (mammalian counterpart of germplasm, pole plasm or polar granules in Drosophila germ cells), also named processing bodies (P-bodies) in somatic cells. Detected in the multilobular cytoplasmic CBs (also called intermitochondrial cementin) in pachytene spermatocytes and as a single perinuclear CB in haploid round spermatids (By similarity). According to PubMed:10727952 localizes preferentially on the periphery of mitochondria.</text>
+</comment>
+<comment type="alternative products">
+<event type="alternative splicing"/>
+<isoform>
+<id>Q9R1R4-1</id>
+<name>1</name>
+<sequence type="displayed"/>
+</isoform>
+<isoform>
+<id>Q9R1R4-2</id>
+<name>2</name>
+<sequence type="described" ref="VSP_041317"/>
+</isoform>
+</comment>
+<comment type="tissue specificity">
+<text evidence="5">Expressed in brain and testis.</text>
+</comment>
+<comment type="developmental stage">
+<text evidence="5">Expressed in embryo at 16 dpc onwards.</text>
+</comment>
+<comment type="similarity">
+<text evidence="7">Belongs to the TDRD7 family.</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Contains 3 HTH OST-type domains.</text>
+</comment>
+<comment type="similarity">
+<text evidence="3">Contains 2 Tudor domains.</text>
+</comment>
+<dbReference type="EMBL" id="AB030644">
+<property type="protein sequence ID" value="BAA82968.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC090066">
+<property type="protein sequence ID" value="AAH90066.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_620226.1">
+<molecule id="Q9R1R4-1"/>
+<property type="nucleotide sequence ID" value="NM_138871.1"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_006238173.1">
+<molecule id="Q9R1R4-2"/>
+<property type="nucleotide sequence ID" value="XM_006238111.2"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_008761926.1">
+<molecule id="Q9R1R4-2"/>
+<property type="nucleotide sequence ID" value="XM_008763704.1"/>
+</dbReference>
+<dbReference type="UniGene" id="Rn.16138"/>
+<dbReference type="ProteinModelPortal" id="Q9R1R4"/>
+<dbReference type="STRING" id="10116.ENSRNOP00000013726"/>
+<dbReference type="iPTMnet" id="Q9R1R4"/>
+<dbReference type="PhosphoSite" id="Q9R1R4"/>
+<dbReference type="PaxDb" id="Q9R1R4"/>
+<dbReference type="PRIDE" id="Q9R1R4"/>
+<dbReference type="Ensembl" id="ENSRNOT00000085738">
+<molecule id="Q9R1R4-1"/>
+<property type="protein sequence ID" value="ENSRNOP00000068568"/>
+<property type="gene ID" value="ENSRNOG00000055779"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENSRNOT00000089938">
+<molecule id="Q9R1R4-1"/>
+<property type="protein sequence ID" value="ENSRNOP00000070634"/>
+<property type="gene ID" value="ENSRNOG00000055779"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENSRNOT00000090186">
+<molecule id="Q9R1R4-2"/>
+<property type="protein sequence ID" value="ENSRNOP00000070639"/>
+<property type="gene ID" value="ENSRNOG00000055779"/>
+</dbReference>
+<dbReference type="GeneID" id="85425"/>
+<dbReference type="KEGG" id="rno:85425"/>
+<dbReference type="UCSC" id="RGD:619724">
+<molecule id="Q9R1R4-1"/>
+<property type="organism name" value="rat"/>
+</dbReference>
+<dbReference type="CTD" id="23424"/>
+<dbReference type="RGD" id="619724">
+<property type="gene designation" value="Tdrd7"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410IPR1">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410XST4">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00830000128334"/>
+<dbReference type="HOGENOM" id="HOG000294063"/>
+<dbReference type="HOVERGEN" id="HBG055704"/>
+<dbReference type="InParanoid" id="Q9R1R4"/>
+<dbReference type="KO" id="K18405"/>
+<dbReference type="OMA" id="KCSQWSE"/>
+<dbReference type="OrthoDB" id="EOG7BW0HQ"/>
+<dbReference type="PhylomeDB" id="Q9R1R4"/>
+<dbReference type="PRO" id="PR:Q9R1R4"/>
+<dbReference type="Proteomes" id="UP000002494">
+<property type="component" value="Chromosome 5"/>
+</dbReference>
+<dbReference type="Genevisible" id="Q9R1R4">
+<property type="organism ID" value="RN"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005759">
+<property type="term" value="C:mitochondrial matrix"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0035770">
+<property type="term" value="C:ribonucleoprotein granule"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003729">
+<property type="term" value="F:mRNA binding"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0047485">
+<property type="term" value="F:protein N-terminus binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0070306">
+<property type="term" value="P:lens fiber cell differentiation"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0002089">
+<property type="term" value="P:lens morphogenesis in camera-type eye"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010608">
+<property type="term" value="P:posttranscriptional regulation of gene expression"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007283">
+<property type="term" value="P:spermatogenesis"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0025">Alternative splicing</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0221">Differentiation</keyword>
+<keyword id="KW-0597">Phosphoprotein</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0677">Repeat</keyword>
+<keyword id="KW-0694">RNA-binding</keyword>
+<keyword id="KW-0744">Spermatogenesis</keyword>
+<feature type="chain" description="Tudor domain-containing protein 7" id="PRO_0000183171">
+<location>
+<begin position="1"/>
+<end position="1113"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type 1" evidence="4">
+<location>
+<begin position="3"/>
+<end position="76"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type 2" evidence="4">
+<location>
+<begin position="249"/>
+<end position="318"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type 3" evidence="4">
+<location>
+<begin position="352"/>
+<end position="421"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor 1" evidence="3">
+<location>
+<begin position="528"/>
+<end position="585"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor 2" evidence="3">
+<location>
+<begin position="718"/>
+<end position="775"/>
+</location>
+</feature>
+<feature type="region of interest" description="Interacts with CDK17">
+<location>
+<begin position="876"/>
+<end position="1113"/>
+</location>
+</feature>
+<feature type="region of interest" description="Interacts with CABLES1" evidence="2">
+<location>
+<begin position="908"/>
+<end position="1113"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Poly-Pro">
+<location>
+<begin position="334"/>
+<end position="340"/>
+</location>
+</feature>
+<feature type="modified residue" description="Phosphoserine" evidence="1">
+<location>
+<position position="874"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform 2." id="VSP_041317" evidence="6">
+<original>SVTVLRSHPEASKLQFMGYSPKPHCLLL</original>
+<variation>R</variation>
+<location>
+<begin position="177"/>
+<end position="204"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PubMed" id="22673903"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000250"/>
+<evidence key="3" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00211"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00975"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="10727952"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="15489334"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000305"/>
+<sequence length="1113" mass="125310" checksum="752E2C6CA0D6148A" modified="2000-05-01" version="1">
+MLEADLVSKMLRAVLQSHKNGIVLPRLQGEYRSLTGDWIPFKQLGYPTLEAYLRSVPAVV
+RIEASRSGEIVCYAVACTETARIAQLVARQRTSKRKTGRQINCQMRVKKTMPFFLEGKPK
+ATLRQPGFASDYSISKKPNPTLLREKGSTLGAKADVDMPPYPDAPVQRHVSMSANSSVTV
+LRSHPEASKLQFMGYSPKPHCLLLFSPKSSLPAPFQTHISRACPKEVNDNLNQTVEKPNV
+TPPASYTNKMDEVQNRIKEILDKHNNGIWISKLPHFYKEFYKEDLNQGVLQQFEHWPHIC
+TVEKPCGGGQDLLLYPAKREQPLRSDQDPEKERPPPPPAPRQEVPSKGSPAVMPDVKEKV
+AELLGKYSSGLWASALPKAFEDMYKVKFPEDALKNLASLSDVCTINYISGNTQKAILYAK
+LPLPTDKILKDEAQAQGDFDIKSMIEQEYLQIEKNMAESADDFVEDITVPPLVIPTEASP
+SVLVVELSNTNDVVIRYVGKDYSAAQELMEDEMKEYYSRNPRVTPIQTVHVGQLLAVNAE
+EDAWLRAQIISTDENKIKVCYVDYGFCENIEKSKAYRLNPRFCSLSFQATKCKLAGLEIL
+NDDPNLVKVVESLTCGKIFAVEILDKSDIPLVVLYDTSGEDDININATCLKAICDRSLEV
+HLQVDAMYTNVKVTNICSDGTLYCQVPCKGLNKLNDLLHKTEDYFHCKHMTSEYFISLPF
+CGKICLFHCKGKWLRVEITNVHSSRALDVQFLDSGNSTSVKVSELREIPPRFLQEMLAIP
+PQAIKCCLADLPQSIGMWTPDAVLWLRDSVLNCSDCSIKVTKVDEARGVAYVYLFTPKNF
+PDPHRSINRQITNADLWKHQKDVFLSAVSAAASSPGNRNASTPAPGSPAESLRKSHPEVL
+RKSVLDHTSSFSLEELPPPVHLSKSGEHMDVYVPVACHPGHFVIQPWQEIHKLEVLMEEM
+ILYYSVSEERHIAVERDQVYAAKVENKWYRVLLKGILTNGLVSVYELDYGKHELVNIRKV
+QPLVDVFRKLPFQAVTAQLAGVKCSQWSEEASMVFRNHVEKKPLVALVQTVIEHANPWDR
+KVVVYLVDTSLPDTDTWIHDFMSQYLVELSKAN
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

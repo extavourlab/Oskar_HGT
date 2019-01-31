@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2016-06-08" modified="2016-06-08" version="1">
+<accession>A0A143Y580</accession>
+<name>A0A143Y580_9LACT</name>
+<protein>
+<submittedName>
+<fullName evidence="1">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="1">Tcol_1</name>
+</gene>
+<organism evidence="1">
+<name type="scientific">Trichococcus collinsii</name>
+<dbReference type="NCBI Taxonomy" id="157076"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Bacilli</taxon>
+<taxon>Lactobacillales</taxon>
+<taxon>Carnobacteriaceae</taxon>
+<taxon>Trichococcus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="1">
+<citation type="submission" date="2016-02" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Wen L."/>
+<person name="He K."/>
+<person name="Yang H."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="1">Trichococcus collinsii1</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="FJNA01000001">
+<property type="protein sequence ID" value="CZQ79965.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<feature type="non-terminal residue" evidence="1">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="CZQ79965.1"/>
+</source>
+</evidence>
+<sequence length="144" mass="16307" checksum="0E40406A04DE57A0" modified="2016-06-08" version="1" fragment="single">
+NKVTTQGILEMVSSIADDSPSKIFLMVGTNDLDQSVENETTKNNYKNIIEEIQKKSPATK
+IYIQSMLPINNELNGSKVSSETIVELNTYLKNLSSDYDNCEFIDLYPHFQVNGQMNTDYT
+NDGTHLNGQGYLLWKEQIQDFVNG
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

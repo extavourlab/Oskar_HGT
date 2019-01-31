@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-01-22" modified="2016-03-16" version="8">
+<accession>U6NIH9</accession>
+<name>U6NIH9_HAECO</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Maternal tudor protein domain containing protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">HCOI_00192800</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Haemonchus contortus</name>
+<name type="common">Barber pole worm</name>
+<dbReference type="NCBI Taxonomy" id="6289"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Nematoda</taxon>
+<taxon>Chromadorea</taxon>
+<taxon>Rhabditida</taxon>
+<taxon>Strongylida</taxon>
+<taxon>Trichostrongyloidea</taxon>
+<taxon>Haemonchidae</taxon>
+<taxon>Haemonchinae</taxon>
+<taxon>Haemonchus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="submission" date="2013-05" db="EMBL/GenBank/DDBJ databases">
+<title>The genome and transcriptome of Haemonchus contortus: a key model parasite for drug and vaccine discovery.</title>
+<authorList>
+<person name="Laing R."/>
+<person name="Kikuchi T."/>
+<person name="Martinelli A."/>
+<person name="Tsai I.J."/>
+<person name="Beech R.N."/>
+<person name="Redman E."/>
+<person name="Holroyd N."/>
+<person name="Bartley D.J."/>
+<person name="Beasley H."/>
+<person name="Britton C."/>
+<person name="Curran D."/>
+<person name="Devaney E."/>
+<person name="Gilabert A."/>
+<person name="Jackson F."/>
+<person name="Hunt M."/>
+<person name="Johnston S."/>
+<person name="Kryukov I."/>
+<person name="Li K."/>
+<person name="Morrison A.A."/>
+<person name="Reid A.J."/>
+<person name="Sargison N."/>
+<person name="Saunders G."/>
+<person name="Wasmuth J.D."/>
+<person name="Wolstenholme A."/>
+<person name="Berriman M."/>
+<person name="Gilleard J.S."/>
+<person name="Cotton J.A."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2 3">ISE/inbred ISE</strain>
+</source>
+</reference>
+<reference key="2" evidence="2 3">
+<citation type="submission" date="2013-05" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Aslett M."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2 3">ISE/inbred ISE</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="HF955620">
+<property type="protein sequence ID" value="CDJ80291.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000025227">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="6"/>
+<end position="83"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="CDJ80291.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000025227"/>
+</source>
+</evidence>
+<sequence length="768" mass="87500" checksum="1ED55EFB6AE5F8ED" modified="2014-01-22" version="1">
+MADGKELEEFITQLHTVILTKATKGGSRIAEIKKDYKDMCGKDIDTRKFGFNSLENFLQS
+FKDKFYCRGDRWFGETTEAVENIVQSMATEKSKKGGRSFRKPTFERAPPPGFRSSSRPNF
+EPPRGYSRYDGNHSSKPFTPRNEQQFRHSASDGRLPSFGYGQQNRKPMNDERGTSLKMNS
+DASNPQIVNRFGFGNTSYNIASETASLKSTTSSSTDENQSRELYYDAPPGFDAPSVPQPR
+RPPSSTANSRASEGLPSSSRTLVPRTVEEPSYPPGLDIEIEGKRVPTPVRSNTVCSGNGG
+GQPIQLNSLEIARKVFDLLRDFPQGLLLREISQRISLPQNGDEQLSNNAKIGVAVTTYKH
+TFSMNPMGPNGRVTITPGALRPGSEMRLPTDSERNRSTGTPYLFRQREDSDRARDRREST
+RDDNVSGSGFNDRSMRDDPPPYRDDGSQHYTRGPYGSESEGRSSRFSAPAYNQEARRRSP
+SPIRRQPEDMYSEEERFGQGWGEQRWQHPWRNRADSREPSLDRRYESGGGWPSEQERYPQ
+YSGDMVGNGYPRRRVPQEPKKYECKHIYLMDSSEVPYEESVRVTHFVALDEFYVRFESEE
+DRYKDMLAQLREDYTGVLESARPQLWMKGDGVAVWLDRQWQRGVVYTPMLNSTSSTIDVF
+LIDVGKTVAISRDQVLPLHGYYHKPPFAVCCSIGSFDIFRGRRPDLLEECNNMADAFMSA
+KSGSLVAEITDKIWDDKEKLKVRLCYRQAKKDIFVPDYLVFDKIIDLR
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

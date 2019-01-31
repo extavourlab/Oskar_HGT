@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-04-16" modified="2016-05-11" version="14">
+<accession>W5KUF8</accession>
+<name>W5KUF8_ASTMX</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3">TDRD7 (1 to many)</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Astyanax mexicanus</name>
+<name type="common">Blind cave fish</name>
+<name type="synonym">Astyanax fasciatus mexicanus</name>
+<dbReference type="NCBI Taxonomy" id="7994"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Actinopterygii</taxon>
+<taxon>Neopterygii</taxon>
+<taxon>Teleostei</taxon>
+<taxon>Ostariophysi</taxon>
+<taxon>Characiformes</taxon>
+<taxon>Characoidei</taxon>
+<taxon>Characidae</taxon>
+<taxon>Characidae incertae sedis</taxon>
+<taxon>Astyanax clade</taxon>
+<taxon>Astyanax</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="submission" date="2013-03" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Jeffery W."/>
+<person name="Warren W."/>
+<person name="Wilson R.K."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="3">female</strain>
+</source>
+</reference>
+<reference key="2" evidence="3">
+<citation type="submission" date="2014-02" db="UniProtKB">
+<authorList>
+<consortium name="Ensembl"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<comment type="caution">
+<text evidence="3">The sequence shown here is derived from an Ensembl automatic analysis pipeline and should be considered as preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="APWO01085184">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="APWO01085185">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_007248068.1">
+<property type="nucleotide sequence ID" value="XM_007248006.2"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENSAMXT00000011220">
+<property type="protein sequence ID" value="ENSAMXP00000011220"/>
+<property type="gene ID" value="ENSAMXG00000010917"/>
+</dbReference>
+<dbReference type="GeneID" id="103032447"/>
+<dbReference type="CTD" id="23424"/>
+<dbReference type="GeneTree" id="ENSGT00830000128334"/>
+<dbReference type="OMA" id="VISTEEN"/>
+<dbReference type="Proteomes" id="UP000018467">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="3"/>
+<end position="76"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="234"/>
+<end position="304"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="356"/>
+<end position="426"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="514"/>
+<end position="572"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Ensembl" id="ENSAMXP00000011220"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000018467"/>
+</source>
+</evidence>
+<sequence length="1111" mass="124129" checksum="4257B6284C72EE4F" modified="2014-04-16" version="1">
+MADYELVKKMLRAILQSSKSGLPLSRLQAEYKELTGEAIPHKQLGHATLDTLLHSMSSVV
+RLDRGRSGEVMCYATVGNEMAHITKLAARHHTAKKTGRPQVVNCQMRVKPSAPLVLNAKP
+RTSLRQPEHRGRQGRGGGRPGGHGDSRPGSMREQQPDGKGSKPHSTQHTPPNTPTRRPNL
+PSDRSDKRMTLPSRFQKEVHAHLSRNPQQSNAPFNLNESTTPPKPRTPHSSPYSPKLVQS
+RLKEVLSKHSNGLWVSKLPQLYRELYKQDLPSEALKDLEEWTHICTIEKPCSSKPQELLL
+YPAKDISQTTTPPSPAMTPTANKQSPPTQKPPSQIQQAARTPPTSTSSPPASPTVLSADL
+KQKLGELLLKYSSGLWAHALPKLYQDTYKTKLPEYVLDNLPLLSDICTIDYPMPDNPKRA
+ILYVKAVEDENCNQEDLADLRAREEAGRRISYQTVPPLLIPREEYPSVLVVEASNTNSVV
+LRYIGEGYSKAQEKLEDEMKEFYGQDNTKKSLVSPSSGQLTAVHAEEEEEILRAQVCEVM
+SEKVKVYYVDHGFSEVISKSKLLELHEKFFRLPFQATKCKLAGLEPFSQEPVVLKKFDSM
+ASGKILLAEILERNDIPLMVLYDTSQDDDVNINAACLKALQDKSLESPMQVNSAYMNVNV
+TSVSSDGTFCCQLPSRGLTKLNEVLEKAETYFHSQVTSESLVSRPFCGKSCLARFKGKWS
+RVEITNLHGSRVLDILFVDLGVQASVEVIELREIPPPFLRDLTAIPPQAVKCCLADLSVS
+VGSWTPDAVQWLRDRALQCSDCSLKIAKVEESKRLAHVYLFTSKNFHDLSRSLNHQLAES
+DLWKHQKDVFLSSQGPLKTPSSPKTPPTTPPNTNSTGNSSPSTNGRSKAPQTSKKVPPQS
+RTTPPITPPRNLALPPVLELPPAGHNIDIYVSVACHPGHFVLQPWQDMYKLVVLMGEMIL
+YYNKTEEKPLTVEKNQVYAAKVENNWHRVLVKGVLTNGLVSVYELDYGKHELVSCTLLRP
+LIQEFRQLPFQGITAQLAGVKPRQWSEEASIVFRNHVEKKPLVAQLDSVQDAAQPWDRKV
+TVFLVDTSQEDRDVWVHDIMAEFADELTKAA
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

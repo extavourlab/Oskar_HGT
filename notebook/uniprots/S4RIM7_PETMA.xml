@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-09-18" modified="2015-12-09" version="12">
+<accession>S4RIM7</accession>
+<name>S4RIM7_PETMA</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="2">KIAA0430</name>
+</gene>
+<organism evidence="2">
+<name type="scientific">Petromyzon marinus</name>
+<name type="common">Sea lamprey</name>
+<dbReference type="NCBI Taxonomy" id="7757"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Cyclostomata</taxon>
+<taxon>Hyperoartia</taxon>
+<taxon>Petromyzontiformes</taxon>
+<taxon>Petromyzontidae</taxon>
+<taxon>Petromyzon</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2">
+<citation type="submission" date="2013-07" db="UniProtKB">
+<authorList>
+<consortium name="Ensembl"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<comment type="caution">
+<text evidence="2">The sequence shown here is derived from an Ensembl automatic analysis pipeline and should be considered as preliminary data.</text>
+</comment>
+<dbReference type="STRING" id="7757.ENSPMAP00000005059"/>
+<dbReference type="Ensembl" id="ENSPMAT00000005078">
+<property type="protein sequence ID" value="ENSPMAP00000005059"/>
+<property type="gene ID" value="ENSPMAG00000004619"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410IF58">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410XQFX">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00390000002393"/>
+<dbReference type="GO" id="GO:0005777">
+<property type="term" value="C:peroxisome"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010468">
+<property type="term" value="P:regulation of gene expression"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024768">
+<property type="entry name" value="Marf1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR14379">
+<property type="entry name" value="PTHR14379"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="4"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="5"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="1"/>
+<end position="44"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="53"/>
+<end position="127"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="129"/>
+<end position="204"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="205"/>
+<end position="280"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="281"/>
+<end position="362"/>
+</location>
+</feature>
+<feature type="non-terminal residue" evidence="2">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="Ensembl" id="ENSPMAP00000005059"/>
+</source>
+</evidence>
+<sequence length="482" mass="53008" checksum="685F9EB8FF0C3863" modified="2013-09-18" version="1" fragment="single">
+CFSREWDVREYGMCELSDLLAEVPDAVVAMTPQEGGPVLSIPIKVRTEEERSRTRVFARE
+VVKLLRQMPRGRMAFSRFIPAYHHHYGRQCKLAHYGFTKLTDLFEAIPEVVTMLERGEDK
+LLVLTETEQLKALACQISQLLRVHKAEGLAPSELPAEYARAVGHPLYLQDYDVSSVTELL
+SKIPHVVKVVDTPVGRRIQLLCHKSQKVATTQLLLLLMSQRPGALVKLALLEQLYHAVFG
+APLAPHDFGFLCLADMLRTMHSMFELETESGTAVGVRLTPLLQFAACVRALLLTYHYHQI
+SLADFPSAYAQFTGNSAASVASTLGFGSLEEALLAFPQQVVWVKKHNKMLVLKHDMSVRL
+SCASPATLPSEEGEMHSEPSTPPPPATSGCAELALPGPSLDELLSGPLPRTLPSPQLRPH
+PAPLLAQPTAAYSRDLIELEPPATGDSDDARGEDEAAPDSPSRRRTGRSRVRLAVSFSLA
+PL
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

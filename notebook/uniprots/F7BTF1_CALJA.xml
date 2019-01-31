@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2011-07-27" modified="2016-05-11" version="26">
+<accession>F7BTF1</accession>
+<name>F7BTF1_CALJA</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Tudor domain-containing protein 7</fullName>
+</submittedName>
+<submittedName>
+<fullName evidence="7">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3 7">TDRD7</name>
+</gene>
+<organism evidence="7 8">
+<name type="scientific">Callithrix jacchus</name>
+<name type="common">White-tufted-ear marmoset</name>
+<dbReference type="NCBI Taxonomy" id="9483"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Platyrrhini</taxon>
+<taxon>Cebidae</taxon>
+<taxon>Callitrichinae</taxon>
+<taxon>Callithrix</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="7 8">
+<citation type="submission" date="2009-03" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Warren W."/>
+<person name="Ye L."/>
+<person name="Minx P."/>
+<person name="Worley K."/>
+<person name="Gibbs R."/>
+<person name="Wilson R.K."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<reference key="2" evidence="7">
+<citation type="submission" date="2011-06" db="UniProtKB">
+<authorList>
+<consortium name="Ensembl"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<reference key="3" evidence="3">
+<citation type="journal article" date="2014" name="Gigascience" volume="3" first="14" last="14">
+<title>De novo assembly of the common marmoset transcriptome from NextGen mRNA sequences.</title>
+<authorList>
+<person name="Maudhoo M.D."/>
+<person name="Ren D."/>
+<person name="Gradnigo J.S."/>
+<person name="Gibbs R.M."/>
+<person name="Lubker A.C."/>
+<person name="Moriyama E.N."/>
+<person name="French J.A."/>
+<person name="Norgren R.B.Jr."/>
+</authorList>
+<dbReference type="PubMed" id="25243066"/>
+<dbReference type="DOI" id="10.1186/2047-217X-3-14"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<tissue evidence="6">Cerebellum</tissue>
+<tissue evidence="4">Cerebral cortex</tissue>
+<tissue evidence="3">Hippocampus</tissue>
+<tissue evidence="5">Skeletal muscle</tissue>
+</source>
+</reference>
+<dbReference type="EMBL" id="ACFV01034071">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="ACFV01034072">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="ACFV01034073">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="GAMS01009341">
+<property type="protein sequence ID" value="JAB13795.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="GAMR01001795">
+<property type="protein sequence ID" value="JAB32137.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="GAMQ01002165">
+<property type="protein sequence ID" value="JAB39686.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="GAMP01006664">
+<property type="protein sequence ID" value="JAB46091.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_002743155.1">
+<property type="nucleotide sequence ID" value="XM_002743109.1"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_008998087.1">
+<property type="nucleotide sequence ID" value="XM_008999839.1"/>
+</dbReference>
+<dbReference type="STRING" id="9483.ENSCJAP00000019868"/>
+<dbReference type="Ensembl" id="ENSCJAT00000020995">
+<property type="protein sequence ID" value="ENSCJAP00000019868"/>
+<property type="gene ID" value="ENSCJAG00000010731"/>
+</dbReference>
+<dbReference type="GeneID" id="100396834"/>
+<dbReference type="KEGG" id="cjc:100396834"/>
+<dbReference type="CTD" id="23424"/>
+<dbReference type="eggNOG" id="ENOG410IPR1">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410XST4">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00830000128334"/>
+<dbReference type="InParanoid" id="F7BTF1"/>
+<dbReference type="KO" id="K18405"/>
+<dbReference type="OMA" id="VISTEEN"/>
+<dbReference type="Proteomes" id="UP000008225">
+<property type="component" value="Chromosome 1"/>
+</dbReference>
+<dbReference type="GO" id="GO:0035770">
+<property type="term" value="C:ribonucleoprotein granule"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003729">
+<property type="term" value="F:mRNA binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0070306">
+<property type="term" value="P:lens fiber cell differentiation"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0002089">
+<property type="term" value="P:lens morphogenesis in camera-type eye"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010608">
+<property type="term" value="P:posttranscriptional regulation of gene expression"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-0181" evidence="8">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="8">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="3"/>
+<end position="76"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="231"/>
+<end position="300"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="335"/>
+<end position="404"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="511"/>
+<end position="568"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="701"/>
+<end position="758"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="JAB13795.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="JAB32137.1"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="JAB39686.1"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="JAB46091.1"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000313">
+<source>
+<dbReference type="Ensembl" id="ENSCJAP00000019868"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000008225"/>
+</source>
+</evidence>
+<sequence length="1096" mass="123341" checksum="ACE5256992D86844" modified="2011-07-27" version="1">
+MPEGDLVSKMLRAVLQSHKNGVALPRLQGEYRSLTGDWIPFKQLGFPTLEAYLRSVPAVV
+RIETSRSGEITCYAVACTETARIAQLVARQRSSKRKTGRQVNCQMRVKKTMPFFLEGKPK
+ATLRQPGFASNFSIGKKPNPPLLRDKGNSAGVKSDAETSLYTLQTTLGNEAFKDIPMQRH
+VTMSTNNRFSPKAFIQPPLQIHLSRTSAKEMSDNLNQTVEKPNVTPPASYKMDEVQNRVK
+EILNKHNNGIWISKLPHFYKELYKEDLNQGILQQFEHWPHICTVEKPCSGGQDLLLYPAK
+RKQILRSELDTEKVPPSPLPAPKQTPPLKGGLPVMPGDFKEKVAELLVKYTSGLWASALP
+KAFEEMYKVKFPEDALKNLASLSDVCTIDYISGNPQKAILYAKLPLPTEKIQKDAGQAHG
+DHDIKTMVEQEYLQIKETIAESANTFMEDITVPPLMIPTEASPSVLVVELSNTNEVVIRY
+VGKDYSAAQELMEDEMKEYYSKNPKVTPVQAVHVGQLLAINAEEDAWLRAQVISTEENKI
+KVCYVDYGFSENVEKSKAYKLNPKFCSLSFQATKCKLAGLEVLSDDPDLVKVVESLTCGK
+IFAVEILDKADIPLVVLYDTSGEDDININASCLKAICDKSLEVHLQVDAMYTNVKVTNIC
+SDGTLYCQVPCKGLNKLNDLLHKIEDYFHCKHMTSECFVSLPFCGKICLFRCKGKWLRVE
+ITNVHSSRALDVQFLDSGTVTSVKVSELREIPPRFLQEMIAIPPQAIKCCLADLPQSIGM
+WTPDAVLWLRDSVLNCWDCSIKVTKVDETRGIAHVYLFTPENFPDPHRSINLQITNADLW
+KHQKDVFLSAISSGAGSPDSKNGNMPVSGNTGENIRKNLTDVIKKSMVDHTGSFSTEELP
+PPVLLSKPGEHMDVYIPVACHPGYFVIQPWQEIHKLEVLMEEMILYYSVSEERHIAVEKD
+QVYAAKVENKWHRVLLKGILTNGLVSVYELDYGKHELVNIRKVQPLVDMFRKLPFQAVTA
+QLAGVKCNQWCEEASMVFRNHVEKKPLVALVQTVIENANPWDRKVVIYLVDTSLPDTDIW
+IHDFMSEYLIELSKVN
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

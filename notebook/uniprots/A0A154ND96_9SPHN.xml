@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2016-06-08" modified="2016-06-08" version="1">
+<accession>A0A154ND96</accession>
+<name>A0A154ND96_9SPHN</name>
+<protein>
+<submittedName>
+<fullName evidence="1">GDSL family lipase</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="1">AVM11_02245</name>
+</gene>
+<organism evidence="1">
+<name type="scientific">Sphingomonas melonis TY</name>
+<dbReference type="NCBI Taxonomy" id="621456"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Alphaproteobacteria</taxon>
+<taxon>Sphingomonadales</taxon>
+<taxon>Sphingomonadaceae</taxon>
+<taxon>Sphingomonas</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="1">
+<citation type="submission" date="2016-03" db="EMBL/GenBank/DDBJ databases">
+<title>Sphingomonas melonis TY, whole genome shotgun sequencing.</title>
+<authorList>
+<person name="Wang H."/>
+<person name="Zhu P."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<strain evidence="1">TY</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="1">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="LQCK02000001">
+<property type="protein sequence ID" value="KZB96987.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<evidence key="1" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KZB96987.1"/>
+</source>
+</evidence>
+<sequence length="259" mass="27408" checksum="581D08ED9405C0B0" modified="2016-06-08" version="1">
+MGAAVLVSGAVPSAAQVSVAGDPFASDPTGIVADPCPAHPKVSWTEQQLHTLTRDFGQLC
+RYRAANAALTERPRVVFAGDSITDNWINFDPAFFSNGVIDRGIGGQTSPQLLLRFRQDVI
+DLHPQAVHIMIGSNDIAGNTGAATIETVEGHIASMAELARAHGIRVILASVPPAGAFPWA
+KDKQPVPQIAALNAWIREYAQREGFTYVDYHPMLDDGQGAMKPGLASDGVHPTAAGYAAM
+RPVAEAAIRRALGERGAGR
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

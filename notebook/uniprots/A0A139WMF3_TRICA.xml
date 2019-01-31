@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2016-05-11" modified="2016-06-08" version="2">
+<accession>A0A139WMF3</accession>
+<name>A0A139WMF3_TRICA</name>
+<protein>
+<submittedName>
+<fullName evidence="1">Tudor domain-containing protein 7-like Protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="1">TcasGA2_TC032037</name>
+</gene>
+<organism evidence="1">
+<name type="scientific">Tribolium castaneum</name>
+<name type="common">Red flour beetle</name>
+<dbReference type="NCBI Taxonomy" id="7070"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Coleoptera</taxon>
+<taxon>Polyphaga</taxon>
+<taxon>Cucujiformia</taxon>
+<taxon>Tenebrionidae</taxon>
+<taxon>Tenebrionidae incertae sedis</taxon>
+<taxon>Tribolium</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="1 2">
+<citation type="journal article" date="2008" name="Nature" volume="452" first="949" last="955">
+<title>The genome of the model beetle and pest Tribolium castaneum.</title>
+<authorList>
+<consortium name="Tribolium Genome Sequencing Consortium"/>
+<person name="Richards S."/>
+<person name="Gibbs R.A."/>
+<person name="Weinstock G.M."/>
+<person name="Brown S.J."/>
+<person name="Denell R."/>
+<person name="Beeman R.W."/>
+<person name="Gibbs R."/>
+<person name="Beeman R.W."/>
+<person name="Brown S.J."/>
+<person name="Bucher G."/>
+<person name="Friedrich M."/>
+<person name="Grimmelikhuijzen C.J."/>
+<person name="Klingler M."/>
+<person name="Lorenzen M."/>
+<person name="Richards S."/>
+<person name="Roth S."/>
+<person name="Schroder R."/>
+<person name="Tautz D."/>
+<person name="Zdobnov E.M."/>
+<person name="Muzny D."/>
+<person name="Gibbs R.A."/>
+<person name="Weinstock G.M."/>
+<person name="Attaway T."/>
+<person name="Bell S."/>
+<person name="Buhay C.J."/>
+<person name="Chandrabose M.N."/>
+<person name="Chavez D."/>
+<person name="Clerk-Blankenburg K.P."/>
+<person name="Cree A."/>
+<person name="Dao M."/>
+<person name="Davis C."/>
+<person name="Chacko J."/>
+<person name="Dinh H."/>
+<person name="Dugan-Rocha S."/>
+<person name="Fowler G."/>
+<person name="Garner T.T."/>
+<person name="Garnes J."/>
+<person name="Gnirke A."/>
+<person name="Hawes A."/>
+<person name="Hernandez J."/>
+<person name="Hines S."/>
+<person name="Holder M."/>
+<person name="Hume J."/>
+<person name="Jhangiani S.N."/>
+<person name="Joshi V."/>
+<person name="Khan Z.M."/>
+<person name="Jackson L."/>
+<person name="Kovar C."/>
+<person name="Kowis A."/>
+<person name="Lee S."/>
+<person name="Lewis L.R."/>
+<person name="Margolis J."/>
+<person name="Morgan M."/>
+<person name="Nazareth L.V."/>
+<person name="Nguyen N."/>
+<person name="Okwuonu G."/>
+<person name="Parker D."/>
+<person name="Richards S."/>
+<person name="Ruiz S.J."/>
+<person name="Santibanez J."/>
+<person name="Savard J."/>
+<person name="Scherer S.E."/>
+<person name="Schneider B."/>
+<person name="Sodergren E."/>
+<person name="Tautz D."/>
+<person name="Vattahil S."/>
+<person name="Villasana D."/>
+<person name="White C.S."/>
+<person name="Wright R."/>
+<person name="Park Y."/>
+<person name="Beeman R.W."/>
+<person name="Lord J."/>
+<person name="Oppert B."/>
+<person name="Lorenzen M."/>
+<person name="Brown S."/>
+<person name="Wang L."/>
+<person name="Savard J."/>
+<person name="Tautz D."/>
+<person name="Richards S."/>
+<person name="Weinstock G."/>
+<person name="Gibbs R.A."/>
+<person name="Liu Y."/>
+<person name="Worley K."/>
+<person name="Weinstock G."/>
+<person name="Elsik C.G."/>
+<person name="Reese J.T."/>
+<person name="Elhaik E."/>
+<person name="Landan G."/>
+<person name="Graur D."/>
+<person name="Arensburger P."/>
+<person name="Atkinson P."/>
+<person name="Beeman R.W."/>
+<person name="Beidler J."/>
+<person name="Brown S.J."/>
+<person name="Demuth J.P."/>
+<person name="Drury D.W."/>
+<person name="Du Y.Z."/>
+<person name="Fujiwara H."/>
+<person name="Lorenzen M."/>
+<person name="Maselli V."/>
+<person name="Osanai M."/>
+<person name="Park Y."/>
+<person name="Robertson H.M."/>
+<person name="Tu Z."/>
+<person name="Wang J.J."/>
+<person name="Wang S."/>
+<person name="Richards S."/>
+<person name="Song H."/>
+<person name="Zhang L."/>
+<person name="Sodergren E."/>
+<person name="Werner D."/>
+<person name="Stanke M."/>
+<person name="Morgenstern B."/>
+<person name="Solovyev V."/>
+<person name="Kosarev P."/>
+<person name="Brown G."/>
+<person name="Chen H.C."/>
+<person name="Ermolaeva O."/>
+<person name="Hlavina W."/>
+<person name="Kapustin Y."/>
+<person name="Kiryutin B."/>
+<person name="Kitts P."/>
+<person name="Maglott D."/>
+<person name="Pruitt K."/>
+<person name="Sapojnikov V."/>
+<person name="Souvorov A."/>
+<person name="Mackey A.J."/>
+<person name="Waterhouse R.M."/>
+<person name="Wyder S."/>
+<person name="Zdobnov E.M."/>
+<person name="Zdobnov E.M."/>
+<person name="Wyder S."/>
+<person name="Kriventseva E.V."/>
+<person name="Kadowaki T."/>
+<person name="Bork P."/>
+<person name="Aranda M."/>
+<person name="Bao R."/>
+<person name="Beermann A."/>
+<person name="Berns N."/>
+<person name="Bolognesi R."/>
+<person name="Bonneton F."/>
+<person name="Bopp D."/>
+<person name="Brown S.J."/>
+<person name="Bucher G."/>
+<person name="Butts T."/>
+<person name="Chaumot A."/>
+<person name="Denell R.E."/>
+<person name="Ferrier D.E."/>
+<person name="Friedrich M."/>
+<person name="Gordon C.M."/>
+<person name="Jindra M."/>
+<person name="Klingler M."/>
+<person name="Lan Q."/>
+<person name="Lattorff H.M."/>
+<person name="Laudet V."/>
+<person name="von Levetsow C."/>
+<person name="Liu Z."/>
+<person name="Lutz R."/>
+<person name="Lynch J.A."/>
+<person name="da Fonseca R.N."/>
+<person name="Posnien N."/>
+<person name="Reuter R."/>
+<person name="Roth S."/>
+<person name="Savard J."/>
+<person name="Schinko J.B."/>
+<person name="Schmitt C."/>
+<person name="Schoppmeier M."/>
+<person name="Schroder R."/>
+<person name="Shippy T.D."/>
+<person name="Simonnet F."/>
+<person name="Marques-Souza H."/>
+<person name="Tautz D."/>
+<person name="Tomoyasu Y."/>
+<person name="Trauner J."/>
+<person name="Van der Zee M."/>
+<person name="Vervoort M."/>
+<person name="Wittkopp N."/>
+<person name="Wimmer E.A."/>
+<person name="Yang X."/>
+<person name="Jones A.K."/>
+<person name="Sattelle D.B."/>
+<person name="Ebert P.R."/>
+<person name="Nelson D."/>
+<person name="Scott J.G."/>
+<person name="Beeman R.W."/>
+<person name="Muthukrishnan S."/>
+<person name="Kramer K.J."/>
+<person name="Arakane Y."/>
+<person name="Beeman R.W."/>
+<person name="Zhu Q."/>
+<person name="Hogenkamp D."/>
+<person name="Dixit R."/>
+<person name="Oppert B."/>
+<person name="Jiang H."/>
+<person name="Zou Z."/>
+<person name="Marshall J."/>
+<person name="Elpidina E."/>
+<person name="Vinokurov K."/>
+<person name="Oppert C."/>
+<person name="Zou Z."/>
+<person name="Evans J."/>
+<person name="Lu Z."/>
+<person name="Zhao P."/>
+<person name="Sumathipala N."/>
+<person name="Altincicek B."/>
+<person name="Vilcinskas A."/>
+<person name="Williams M."/>
+<person name="Hultmark D."/>
+<person name="Hetru C."/>
+<person name="Jiang H."/>
+<person name="Grimmelikhuijzen C.J."/>
+<person name="Hauser F."/>
+<person name="Cazzamali G."/>
+<person name="Williamson M."/>
+<person name="Park Y."/>
+<person name="Li B."/>
+<person name="Tanaka Y."/>
+<person name="Predel R."/>
+<person name="Neupert S."/>
+<person name="Schachtner J."/>
+<person name="Verleyen P."/>
+<person name="Raible F."/>
+<person name="Bork P."/>
+<person name="Friedrich M."/>
+<person name="Walden K.K."/>
+<person name="Robertson H.M."/>
+<person name="Angeli S."/>
+<person name="Foret S."/>
+<person name="Bucher G."/>
+<person name="Schuetz S."/>
+<person name="Maleszka R."/>
+<person name="Wimmer E.A."/>
+<person name="Beeman R.W."/>
+<person name="Lorenzen M."/>
+<person name="Tomoyasu Y."/>
+<person name="Miller S.C."/>
+<person name="Grossmann D."/>
+<person name="Bucher G."/>
+</authorList>
+<dbReference type="PubMed" id="18362917"/>
+<dbReference type="DOI" id="10.1038/nature06784"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="1 2">Georgia GA2</strain>
+</source>
+</reference>
+<reference key="2" evidence="1 2">
+<citation type="journal article" date="2010" name="Nucleic Acids Res." volume="38" first="D437" last="D442">
+<title>BeetleBase in 2010: revisions to provide comprehensive genomic information for Tribolium castaneum.</title>
+<authorList>
+<person name="Kim H.S."/>
+<person name="Murphy T."/>
+<person name="Xia J."/>
+<person name="Caragea D."/>
+<person name="Park Y."/>
+<person name="Beeman R.W."/>
+<person name="Lorenzen M.D."/>
+<person name="Butcher S."/>
+<person name="Manak J.R."/>
+<person name="Brown S.J."/>
+</authorList>
+<dbReference type="PubMed" id="19820115"/>
+<dbReference type="DOI" id="10.1093/nar/gkp807"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="1 2">Georgia GA2</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="KQ971312">
+<property type="protein sequence ID" value="KYB29056.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000007266">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="2">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="2">Reference proteome</keyword>
+<evidence key="1" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KYB29056.1"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000007266"/>
+</source>
+</evidence>
+<sequence length="416" mass="48225" checksum="F312346B3C12EFDB" modified="2016-05-11" version="1">
+MGSQQESEVKNIITGLLTSNPLRCTIQKLCKDFYETVGYNVPFRKLGFTNVEDYLHSIPD
+TVQVFGHGPSAEVQGVFKPKSAHINLMVVKQKNVPKTNRKQIVPKRKSLPRVDDGYRSRV
+PPGIQNNLRKLILRFPDGIWCTKLPEVYKKMFNVDLNYQIFHYRSLIEMCTDLTEIFHYT
+QISSDDYMLYDRNSVAPSLNQNDTVLQLSDKDNLAKAADWSLGSALIPSNIVPLSEEIPR
+YFPNTTTQGEYLEVTIGEIYDINNFWVYLHDGQLKKLMTDLQEHFQSQRNRYVISELFLQ
+KGLYCVVLYSDFYHRGVIMDLWDTEPPSVKVLFIDYGSIGEIPCHHIWYLPKEFSKVPCQ
+AIKASLYNIKSELDKNQCTRKFEHLISNKQLIAEVLKIDKKACVRLYLKLLVTFEL
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

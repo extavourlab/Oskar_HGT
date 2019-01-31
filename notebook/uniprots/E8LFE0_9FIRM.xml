@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2011-04-05" modified="2016-05-11" version="22">
+<accession>E8LFE0</accession>
+<name>E8LFE0_9FIRM</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">HMPREF9443_01580</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Phascolarctobacterium succinatutens YIT 12067</name>
+<dbReference type="NCBI Taxonomy" id="626939"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Negativicutes</taxon>
+<taxon>Selenomonadales</taxon>
+<taxon>Acidaminococcaceae</taxon>
+<taxon>Phascolarctobacterium</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="submission" date="2011-01" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Weinstock G."/>
+<person name="Sodergren E."/>
+<person name="Clifton S."/>
+<person name="Fulton L."/>
+<person name="Fulton B."/>
+<person name="Courtney L."/>
+<person name="Fronick C."/>
+<person name="Harrison M."/>
+<person name="Strong C."/>
+<person name="Farmer C."/>
+<person name="Delahaunty K."/>
+<person name="Markovic C."/>
+<person name="Hall O."/>
+<person name="Minx P."/>
+<person name="Tomlinson C."/>
+<person name="Mitreva M."/>
+<person name="Hou S."/>
+<person name="Chen J."/>
+<person name="Wollam A."/>
+<person name="Pepin K.H."/>
+<person name="Johnson M."/>
+<person name="Bhonagiri V."/>
+<person name="Zhang X."/>
+<person name="Suruliraj S."/>
+<person name="Warren W."/>
+<person name="Chinwalla A."/>
+<person name="Mardis E.R."/>
+<person name="Wilson R.K."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2 3">YIT 12067</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="AEVN01000074">
+<property type="protein sequence ID" value="EFY04461.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_009145933.1">
+<property type="nucleotide sequence ID" value="NZ_GL830908.1"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="E8LFE0"/>
+<dbReference type="STRING" id="626939.HMPREF9443_01580"/>
+<dbReference type="EnsemblBacteria" id="EFY04461">
+<property type="protein sequence ID" value="EFY04461"/>
+<property type="gene ID" value="HMPREF9443_01580"/>
+</dbReference>
+<dbReference type="PATRIC" id="46686167">
+<property type="gene designation" value="VBIPhaSp142870_1424"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000004923">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="6"/>
+<end position="165"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EFY04461.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000004923"/>
+</source>
+</evidence>
+<sequence length="184" mass="21117" checksum="EA9700B5B6D11DE4" modified="2011-04-05" version="1">
+MKYVACYGDSLVQGFPFGSRYSWTAQVEKLTQIKMLNYGVCGDCCDDIIYRMRQYALPEY
+VHHVIFLGGANDILQGRRIEDISRDYKRVLEWCEEKQYSLCVVLPFISTEQALNRQLLNL
+RQEAEHICGGKAFLLDLQPAIGMDAGARFKAYVDGIHPKSQTYEAMGSYAAPLIWKWLKN
+EKEA
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

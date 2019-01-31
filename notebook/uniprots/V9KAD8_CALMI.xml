@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-03-19" modified="2016-05-11" version="8">
+<accession>V9KAD8</accession>
+<name>V9KAD8_CALMI</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Tudor domain-containing protein 7</fullName>
+</submittedName>
+</protein>
+<organism evidence="3">
+<name type="scientific">Callorhinchus milii</name>
+<name type="common">Ghost shark</name>
+<dbReference type="NCBI Taxonomy" id="7868"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Chondrichthyes</taxon>
+<taxon>Holocephali</taxon>
+<taxon>Chimaeriformes</taxon>
+<taxon>Callorhinchidae</taxon>
+<taxon>Callorhinchus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="journal article" date="2014" name="Nature" volume="505" first="174" last="179">
+<title>Elephant shark genome provides unique insights into gnathostome evolution.</title>
+<authorList>
+<person name="Venkatesh B."/>
+<person name="Lee A.P."/>
+<person name="Ravi V."/>
+<person name="Maurya A.K."/>
+<person name="Lian M.M."/>
+<person name="Swann J.B."/>
+<person name="Ohta Y."/>
+<person name="Flajnik M.F."/>
+<person name="Sutoh Y."/>
+<person name="Kasahara M."/>
+<person name="Hoon S."/>
+<person name="Gangu V."/>
+<person name="Roy S.W."/>
+<person name="Irimia M."/>
+<person name="Korzh V."/>
+<person name="Kondrychyn I."/>
+<person name="Lim Z.W."/>
+<person name="Tay B.-H."/>
+<person name="Tohari S."/>
+<person name="Kong K.W."/>
+<person name="Ho S."/>
+<person name="Lorente-Galdos B."/>
+<person name="Quilez J."/>
+<person name="Marques-Bonet T."/>
+<person name="Raney B.J."/>
+<person name="Ingham P.W."/>
+<person name="Tay A."/>
+<person name="Hillier L.W."/>
+<person name="Minx P."/>
+<person name="Boehm T."/>
+<person name="Wilson R.K."/>
+<person name="Brenner S."/>
+<person name="Warren W.C."/>
+</authorList>
+<dbReference type="PubMed" id="24402279"/>
+<dbReference type="DOI" id="10.1038/nature12826"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<tissue evidence="3">Testis</tissue>
+</source>
+</reference>
+<dbReference type="EMBL" id="JW862101">
+<property type="protein sequence ID" value="AFO94618.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="5"/>
+<end position="78"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="246"/>
+<end position="314"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="359"/>
+<end position="429"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="570"/>
+<end position="627"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="760"/>
+<end position="817"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AFO94618.1"/>
+</source>
+</evidence>
+<sequence length="1150" mass="128732" checksum="F36E1A313C7258C2" modified="2014-03-19" version="1">
+MSEAEKDLVAKMLRAVLQSSKDGVALTRLQTEYKQLTGELISHKQLGFPTLESYLKSMPS
+VVKFGVKNGETICFAAVSNEIAHIAKLVARQRSPKKRHNGQMLVNSQLRLKRVTPATQVG
+KPKATLRQPEYVNPPGRGGKRSTPASRGRGNLQGVTKSGLGREFLSEAKVHTPIGGGTPK
+DASVRKPLSVASNRSEKRPPLSFPPRFQKELQVHLAKNTPSEQTGVWSESVDTGKSNLTT
+SKSSYNAELVQSRLKEILNKYTNGVWVSKYPQLYKKMFNEELHQDVLKQLETWTHICTVE
+KSSGSGLAELLLYPAKSGHAQRKGSFNQKTADKNQEASVSNKPVTQGGKQAAAKTQPATD
+TDIKENLIELLQKYSSGLWANALPKLFEETYKMQFPQNILDNLDCLSEICTVDYAVSGDR
+KKAILYAKATKNDDEQSEKPREIPSPVPVTPTALVKPDVKSEKINEDGTGVGLRTPHKTC
+VNTDLLALAENEMALISHEFTETCTVQPLPLPLSIPVEQFPSVLVVELNTTDEAVIRYIG
+PEYSGALEQIEDAMKEHFTNSDNPMVPLNSQSVGQLVAVSAEEDSWLRAQIVEVEATKVK
+VFFVDHGFNEIVDRMKLHKLDGKFCSLPFQAAKCKLAGLEPFCKEPCVLESFETLACGKI
+LLMEILERREVPLVLLYDTSGDDDFNINTACLKALHYKTLELNLKENGVYLNVVVTNVCS
+DGTIYCQVPSKGWNRLNALLDKVEYYFNSRQITSEYFVSLPFCGKRCLARSRGKWARVEI
+TNVHGTRVVDVMFLDTGTVASVAVSELREIPSPFLQESVSIPPQAIKCCLADLTFNIGMW
+TPDAVLWLRDTVLNCSDCSIKIVKVDDSKGLVHIYLFTSKNFPNPERSINHKITNADLWK
+HQKDVYLSSGTHSSPSNKGDANITSEFEIKSPSKDHGFAPIKPVVPLFVHSELPTRLVLP
+QPGEHLDVFISVACHPGHFVFQPWQELYKLEVLMEEMILYYNRTDWQSVPIEKNKIFAAQ
+LDNKWYRVLVKGILTNGLVSVYQLDYGRHELVSCRKVQTLVQQFRQLPFQAVTAQLAGVK
+CEQWSEETSIVFRNHVERKPLVAQIQAVHESMYSWDRKVVTYLVDTSLPDTDVWIHDLLT
+EYLVELSKVA
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

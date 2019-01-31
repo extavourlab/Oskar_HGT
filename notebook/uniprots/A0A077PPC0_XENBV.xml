@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-10-29" modified="2016-05-11" version="10">
+<accession>A0A077PPC0</accession>
+<name>A0A077PPC0_XENBV</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Multifunctional: acyl-CoA thioesterase I protease I lysophospholipaseL(I)</fullName>
+<ecNumber evidence="2">3.1.1.5</ecNumber>
+<ecNumber evidence="2">3.1.2.-</ecNumber>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="2">tesA</name>
+<name type="ORF" evidence="2">XBKB1_140006</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Xenorhabdus bovienii str. kraussei Becker Underwood</name>
+<dbReference type="NCBI Taxonomy" id="1398204"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacteriales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Xenorhabdus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="submission" date="2013-07" db="EMBL/GenBank/DDBJ databases">
+<title>Sub-species coevolution in mutualistic symbiosis.</title>
+<authorList>
+<person name="Murfin K."/>
+<person name="Klassen J."/>
+<person name="Lee M."/>
+<person name="Forst S."/>
+<person name="Stock P."/>
+<person name="Goodrich-Blair H."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3">kraussei</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EC" id="3.1.1.5" evidence="2"/>
+<dbReference type="EC" id="3.1.2.-" evidence="2"/>
+<dbReference type="EMBL" id="CBSZ010000046">
+<property type="protein sequence ID" value="CDH22853.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="CDH22853">
+<property type="protein sequence ID" value="CDH22853"/>
+<property type="gene ID" value="XBKB1_140006"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000028493">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004622">
+<property type="term" value="F:lysophospholipase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008233">
+<property type="term" value="F:peptidase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006629">
+<property type="term" value="P:lipid metabolic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008265">
+<property type="entry name" value="Lipase_GDSL_AS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01098">
+<property type="entry name" value="LIPASE_GDSL_SER"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-0378" evidence="2">Hydrolase</keyword>
+<keyword id="KW-0645" evidence="2">Protease</keyword>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="16"/>
+<end position="172"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="CDH22853.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000028493"/>
+</source>
+</evidence>
+<sequence length="193" mass="21750" checksum="A54CB165D2F73A63" modified="2014-10-29" version="1">
+MLCSARATAADTLLILGDSLSAGYRLPVEQSWPALMAKKWQQSGNKTTIVNGSISGNTTA
+QSLERLPELLKQHNPKWVLVELGGNDGLRGFPVQQIEQDLQKIITLIKQANAQPLLMQIR
+ISPNYGKRYTQSFAKIYPSLSERNQIPLLPFFMEHVAIKPEWIQDDGLHPNQLAQPFITH
+WMSDQLSAYIPFK
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2011-04-05" modified="2015-12-09" version="17">
+<accession>E9GNF3</accession>
+<name>E9GNF3_DAPPU</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Putative uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">DAPPUDRAFT_319969</name>
+</gene>
+<organism evidence="3">
+<name type="scientific">Daphnia pulex</name>
+<name type="common">Water flea</name>
+<dbReference type="NCBI Taxonomy" id="6669"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Crustacea</taxon>
+<taxon>Branchiopoda</taxon>
+<taxon>Diplostraca</taxon>
+<taxon>Cladocera</taxon>
+<taxon>Anomopoda</taxon>
+<taxon>Daphniidae</taxon>
+<taxon>Daphnia</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="journal article" date="2011" name="Science" volume="331" first="555" last="561">
+<title>The ecoresponsive genome of Daphnia pulex.</title>
+<authorList>
+<person name="Colbourne J.K."/>
+<person name="Pfrender M.E."/>
+<person name="Gilbert D."/>
+<person name="Thomas W.K."/>
+<person name="Tucker A."/>
+<person name="Oakley T.H."/>
+<person name="Tokishita S."/>
+<person name="Aerts A."/>
+<person name="Arnold G.J."/>
+<person name="Basu M.K."/>
+<person name="Bauer D.J."/>
+<person name="Caceres C.E."/>
+<person name="Carmel L."/>
+<person name="Casola C."/>
+<person name="Choi J.H."/>
+<person name="Detter J.C."/>
+<person name="Dong Q."/>
+<person name="Dusheyko S."/>
+<person name="Eads B.D."/>
+<person name="Frohlich T."/>
+<person name="Geiler-Samerotte K.A."/>
+<person name="Gerlach D."/>
+<person name="Hatcher P."/>
+<person name="Jogdeo S."/>
+<person name="Krijgsveld J."/>
+<person name="Kriventseva E.V."/>
+<person name="Kultz D."/>
+<person name="Laforsch C."/>
+<person name="Lindquist E."/>
+<person name="Lopez J."/>
+<person name="Manak J.R."/>
+<person name="Muller J."/>
+<person name="Pangilinan J."/>
+<person name="Patwardhan R.P."/>
+<person name="Pitluck S."/>
+<person name="Pritham E.J."/>
+<person name="Rechtsteiner A."/>
+<person name="Rho M."/>
+<person name="Rogozin I.B."/>
+<person name="Sakarya O."/>
+<person name="Salamov A."/>
+<person name="Schaack S."/>
+<person name="Shapiro H."/>
+<person name="Shiga Y."/>
+<person name="Skalitzky C."/>
+<person name="Smith Z."/>
+<person name="Souvorov A."/>
+<person name="Sung W."/>
+<person name="Tang Z."/>
+<person name="Tsuchiya D."/>
+<person name="Tu H."/>
+<person name="Vos H."/>
+<person name="Wang M."/>
+<person name="Wolf Y.I."/>
+<person name="Yamagata H."/>
+<person name="Yamada T."/>
+<person name="Ye Y."/>
+<person name="Shaw J.R."/>
+<person name="Andrews J."/>
+<person name="Crease T.J."/>
+<person name="Tang H."/>
+<person name="Lucas S.M."/>
+<person name="Robertson H.M."/>
+<person name="Bork P."/>
+<person name="Koonin E.V."/>
+<person name="Zdobnov E.M."/>
+<person name="Grigoriev I.V."/>
+<person name="Lynch M."/>
+<person name="Boore J.L."/>
+</authorList>
+<dbReference type="PubMed" id="21292972"/>
+<dbReference type="DOI" id="10.1126/science.1197761"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<dbReference type="EMBL" id="GL732554">
+<property type="protein sequence ID" value="EFX79037.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="STRING" id="6669.DappuP319969"/>
+<dbReference type="EnsemblMetazoa" id="EFX79037">
+<property type="protein sequence ID" value="EFX79037"/>
+<property type="gene ID" value="DAPPUDRAFT_319969"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410IPQW">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG41104YI">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="InParanoid" id="E9GNF3"/>
+<dbReference type="OMA" id="VISTEEN"/>
+<dbReference type="PhylomeDB" id="E9GNF3"/>
+<dbReference type="Proteomes" id="UP000000305">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="1">
+<location>
+<begin position="11"/>
+<end position="85"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EFX79037.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000000305"/>
+</source>
+</evidence>
+<sequence length="1092" mass="122405" checksum="6A859BD7F0B8C339" modified="2011-04-05" version="1">
+MSGNVSPKDVVLETLKEDIHALLCAVKGSVPSEQIIKDYRMVCGSHLPYRQLGFASVNDL
+LKSIPDVVSCHNLNGNVLVKAVLKNESAHINKLVQGQKGTKKRPRMLQASSVQRGPGSLL
+RNPINANNRPAAPWNFPKYYTPPAMRSVVSVPPSSSIRQPMLPRPTQQQLPQQAVQAPVH
+QQVYQVPHPKQTTQLMQPKPSQNPPVAAPKLPQVNQRPLPPTNLQLSGVQAIPPTGRPAK
+PAVPTLPVVRPNNFHREKLQRFVLLHRLGEITYEDAKMKNGKYVATVVIDKKKSSCYPDE
+FTTKEDAYEKAAEVALSEWESKYHDTIRKTSVTTDDNIMAKRVVDIVSKHPDGCWSEEFV
+KLYEYTFYGESLPEDWVQRVKAITDELEFTAGIEHFLVCMATTKKTPEPVTSSPFLQREP
+LFNQPPPSNESFYNHSVSEFFRQPAQKGMQPQIPRQSDGFGCRPVPVQNIDSDVWAVHVL
+VVRGGDQLAIRRTDSEQYSAWEEMMNDMDLFYSEHEATLNPVGLLERGCLYASQIDGIWA
+RVELISYTENGDVELKLVDYADVETVAPSSVFVLEKKFGEVPTQGIKCHLHGLAPFANSE
+HTITTEIDRLLNNQFVARVVSREPYLSIILYESPSELNINEWILDQVAEKVGAVVQKTVI
+SYVSSACDVYMLRETPQKNVIDCLILLLELRIEQSPPPPTLTADNLYLGRSEKHGWCRMR
+LYSSIPTHDGNVSVQLMDFGDTELVPGNTLRELQTLSPVLARIPDQAVRVFLARLPPPSC
+SFTDKAAKTLRELTPHGLSLMVRVVEFRNGIPVVELFERIEESGKLVTINAMMEMDETLY
+RSTDQVSNQSSLPLTRLDPDLTQRVAAMTLPSRRSSASSSPSPTFQMERVVVPEAEIPPI
+DTGRFLTPFDVQVFNVSNPDHFYVHSIQSMQLLNSLMLRLKEYCNREDVKNAKMESVIVD
+GYYAAWHPKSESYRRICVTGKSGSIIAVAFIDHGEIDFLPLSNIRSLLPEFAELPAQAMK
+AQLFGVKPVAGDWSPQNALFFKKFVDGRVFSSYVMGVSPEKTLRLQLNDVLSGDKDIDVA
+KYLVENCQATAA
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

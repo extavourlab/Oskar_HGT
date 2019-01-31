@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-01-07" modified="2016-06-08" version="8">
+<accession>A0A099HVJ4</accession>
+<name>A0A099HVJ4_9CLOT</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">KD33_14165</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Clostridium sp. NCR</name>
+<dbReference type="NCBI Taxonomy" id="1538552"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Clostridia</taxon>
+<taxon>Clostridiales</taxon>
+<taxon>Clostridiaceae</taxon>
+<taxon>Clostridium</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="submission" date="2014-08" db="EMBL/GenBank/DDBJ databases">
+<title>Identificaton and characterization of novel Clostridium species isolated from Mehsani buffalo rumen fluid.</title>
+<authorList>
+<person name="Nathani N.M."/>
+<person name="Duggirala S.M."/>
+<person name="Reddy B."/>
+<person name="Kothari R.K."/>
+<person name="Joshi C.G."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3 4">NCR</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="3">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="JQHY01000012">
+<property type="protein sequence ID" value="KGJ48503.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="KGJ48503">
+<property type="protein sequence ID" value="KGJ48503"/>
+<property type="gene ID" value="KD33_14165"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000029862">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-0472" evidence="1">Membrane</keyword>
+<keyword id="KW-0812" evidence="1">Transmembrane</keyword>
+<keyword id="KW-1133" evidence="1">Transmembrane helix</keyword>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="12"/>
+<end position="30"/>
+</location>
+</feature>
+<feature type="domain" description="SGNH_hydro" evidence="2">
+<location>
+<begin position="112"/>
+<end position="241"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Phobius"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KGJ48503.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000029862"/>
+</source>
+</evidence>
+<sequence length="254" mass="28646" checksum="ADDDC37215509F66" modified="2015-01-07" version="1">
+MRKILYVRIVKIALIGGAILILLGFARHIYKSKFGQTEANPEKGVAKIKELESQDISSIR
+NEIEKNSDDNSNIDENKDDVNFEKVFENSVIMGDSRGEGLTEYGFLSPSSVVAYKGRNVI
+EAKGDVSEVVNLSPSNIFLTYGMNDLQLFSNSKEFINKYEILIKDIKQKLPSSKIYVTSI
+IPTTQSAMEKDHSFKNVYSFNKALEDMCKDLNVEFINVNDSVNSKNNLYAPDGIHFSPKF
+YNGYLNILKNKANL
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2008-05-20" modified="2016-05-11" version="48">
+<accession>B1YLM8</accession>
+<name>B1YLM8_EXIS2</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Lipolytic protein G-D-S-L family</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="2">Exig_2483</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Exiguobacterium sibiricum (strain DSM 17290 / JCM 13490 / 255-15)</name>
+<dbReference type="NCBI Taxonomy" id="262543"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Bacilli</taxon>
+<taxon>Bacillales</taxon>
+<taxon>Bacillales Family XII. Incertae Sedis</taxon>
+<taxon>Exiguobacterium</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="submission" date="2008-04" db="EMBL/GenBank/DDBJ databases">
+<title>Complete sequence of chromosome of Exiguobacterium sibiricum 255-15.</title>
+<authorList>
+<consortium name="US DOE Joint Genome Institute"/>
+<person name="Copeland A."/>
+<person name="Lucas S."/>
+<person name="Lapidus A."/>
+<person name="Glavina del Rio T."/>
+<person name="Dalin E."/>
+<person name="Tice H."/>
+<person name="Bruce D."/>
+<person name="Goodwin L."/>
+<person name="Pitluck S."/>
+<person name="Kiss H."/>
+<person name="Chertkov O."/>
+<person name="Monk C."/>
+<person name="Brettin T."/>
+<person name="Detter J.C."/>
+<person name="Han C."/>
+<person name="Kuske C.R."/>
+<person name="Schmutz J."/>
+<person name="Larimer F."/>
+<person name="Land M."/>
+<person name="Hauser L."/>
+<person name="Kyrpides N."/>
+<person name="Mikhailova N."/>
+<person name="Vishnivetskaya T."/>
+<person name="Rodrigues D.F."/>
+<person name="Gilichinsky D."/>
+<person name="Tiedje J."/>
+<person name="Richardson P."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3">DSM 17290 / JCM 13490 / 255-15</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="CP001022">
+<property type="protein sequence ID" value="ACB61933.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_012371349.1">
+<property type="nucleotide sequence ID" value="NC_010556.1"/>
+</dbReference>
+<dbReference type="ProteinModelPortal" id="B1YLM8"/>
+<dbReference type="STRING" id="262543.Exig_2483"/>
+<dbReference type="EnsemblBacteria" id="ACB61933">
+<property type="protein sequence ID" value="ACB61933"/>
+<property type="gene ID" value="Exig_2483"/>
+</dbReference>
+<dbReference type="KEGG" id="esi:Exig_2483"/>
+<dbReference type="PATRIC" id="32138606">
+<property type="gene designation" value="VBIExiSib53410_2524"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4105VS5">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG2755">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="OMA" id="INDIRHF"/>
+<dbReference type="OrthoDB" id="EOG6T7NCN"/>
+<dbReference type="BioCyc" id="ESIB262543:GHBP-2565-MONOMER"/>
+<dbReference type="Proteomes" id="UP000001681">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13472">
+<property type="entry name" value="Lipase_GDSL_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="3">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="domain" description="SGNH_hydro" evidence="1">
+<location>
+<begin position="82"/>
+<end position="226"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF13472"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="ACB61933.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000001681"/>
+</source>
+</evidence>
+<sequence length="246" mass="27795" checksum="378D8E94092BF76F" modified="2008-05-20" version="1">
+MKKALVILSIVANVVLLALLLGRKPIELFEQAFPATNTQPISTFQYTKNPNYVRLNSLFH
+TYQYPKSPNSVMLGDSMTNFGDWRILLNDPTIVNFGIPGDTTEGFLTRLDLIVEMKPKRV
+FLMGGINDIRHFTPIPTITENMTTIVTTLRKNNIDVVIQSTLPVAPKYSDSVRVNRDVEA
+LNRNLEQLAKSAGVPFVDLRPELTNQQGYLQNRMTYDGLHLVGGGYLRWSDALKPFAERI
+QITENK
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2006-01-24" modified="2016-06-08" version="39">
+<accession>Q2PP79</accession>
+<name>Q2PP79_AEDAE</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Oskar</fullName>
+</submittedName>
+</protein>
+<organism evidence="2">
+<name type="scientific">Aedes aegypti</name>
+<name type="common">Yellowfever mosquito</name>
+<name type="synonym">Culex aegypti</name>
+<dbReference type="NCBI Taxonomy" id="7159"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Diptera</taxon>
+<taxon>Nematocera</taxon>
+<taxon>Culicoidea</taxon>
+<taxon>Culicidae</taxon>
+<taxon>Culicinae</taxon>
+<taxon>Aedini</taxon>
+<taxon>Aedes</taxon>
+<taxon>Stegomyia</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2">
+<citation type="journal article" date="2006" name="Insect Mol. Biol." volume="15" first="363" last="372">
+<title>oskar gene expression in the vector mosquitoes, Anopheles gambiae and Aedes aegypti.</title>
+<authorList>
+<person name="Juhn J."/>
+<person name="James A.A."/>
+</authorList>
+<dbReference type="PubMed" id="16756555"/>
+<dbReference type="DOI" id="10.1111/j.1365-2583.2006.00655.x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<dbReference type="EMBL" id="DQ314204">
+<property type="protein sequence ID" value="ABC41128.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="STRING" id="7159.AAEL000442-PA"/>
+<dbReference type="eggNOG" id="ENOG410J2FG">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410YZPD">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1110">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR033447">
+<property type="entry name" value="OSK"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013830">
+<property type="entry name" value="SGNH_hydro"/>
+</dbReference>
+<dbReference type="Pfam" id="PF17182">
+<property type="entry name" value="OSK"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52266">
+<property type="entry name" value="SSF52266"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<feature type="domain" description="OSK" evidence="1">
+<location>
+<begin position="195"/>
+<end position="391"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF17182"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="ABC41128.1"/>
+</source>
+</evidence>
+<sequence length="394" mass="45664" checksum="4FAA3096B785ED33" modified="2006-01-24" version="1">
+MVQSVCSDVHDGTTQSEAGSLEKIAPILKSIIVTRSKDGATVDEIIDDYYDFTGESLLTT
+WRSRDNIGNLLRQIDGIWSTYSEPNGPFLWYCSSDNTRHIAEMIKKQKSPRFHNRRYHQP
+AQPSFRTPHTSRTTTTKNNVTNAPGPRDKFYPDNMNFIPKRNAWNRTPHRSVASHPYLPP
+QRRQMQHHMQKPMMQQQYYSNSFYSGPTFCGMQMIGDDFFLSLARWELGFQYDPGHNIQQ
+SGLCISGQTIAEAADRVMKAPYINDRVIINLGVVDILHGNDFVDMQEDLYQLKKNLENRG
+ARAILTTLSPLANSSHIPDISDKLHRFNNLIRRYQWEHIDLWRCFVNERDQTLYECFQPA
+PRQVTGSNKPHVLWNKLGRQRIIKFMKTQLASLI
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

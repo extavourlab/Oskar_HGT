@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-01-07" modified="2016-02-17" version="12">
+<accession>A0A0A0MQD1</accession>
+<name>A0A0A0MQD1_MOUSE</name>
+<protein>
+<submittedName>
+<fullName evidence="6">Tudor domain-containing protein 7</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="6 7">Tdrd7</name>
+</gene>
+<organism evidence="6 8">
+<name type="scientific">Mus musculus</name>
+<name type="common">Mouse</name>
+<dbReference type="NCBI Taxonomy" id="10090"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Sciurognathi</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+<taxon>Mus</taxon>
+<taxon>Mus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="6 8">
+<citation type="journal article" date="2009" name="PLoS Biol." volume="7" first="E1000112" last="E1000112">
+<title>Lineage-specific biology revealed by a finished genome assembly of the mouse.</title>
+<authorList>
+<person name="Church D.M."/>
+<person name="Goodstadt L."/>
+<person name="Hillier L.W."/>
+<person name="Zody M.C."/>
+<person name="Goldstein S."/>
+<person name="She X."/>
+<person name="Bult C.J."/>
+<person name="Agarwala R."/>
+<person name="Cherry J.L."/>
+<person name="DiCuccio M."/>
+<person name="Hlavina W."/>
+<person name="Kapustin Y."/>
+<person name="Meric P."/>
+<person name="Maglott D."/>
+<person name="Birtle Z."/>
+<person name="Marques A.C."/>
+<person name="Graves T."/>
+<person name="Zhou S."/>
+<person name="Teague B."/>
+<person name="Potamousis K."/>
+<person name="Churas C."/>
+<person name="Place M."/>
+<person name="Herschleb J."/>
+<person name="Runnheim R."/>
+<person name="Forrest D."/>
+<person name="Amos-Landgraf J."/>
+<person name="Schwartz D.C."/>
+<person name="Cheng Z."/>
+<person name="Lindblad-Toh K."/>
+<person name="Eichler E.E."/>
+<person name="Ponting C.P."/>
+</authorList>
+<dbReference type="PubMed" id="19468303"/>
+<dbReference type="DOI" id="10.1371/journal.pbio.1000112"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="6 8">C57BL/6J</strain>
+</source>
+</reference>
+<reference key="2" evidence="3">
+<citation type="journal article" date="2010" name="Cell" volume="143" first="1174" last="1189">
+<title>A tissue-specific atlas of mouse protein phosphorylation and expression.</title>
+<authorList>
+<person name="Huttlin E.L."/>
+<person name="Jedrychowski M.P."/>
+<person name="Elias J.E."/>
+<person name="Goswami T."/>
+<person name="Rad R."/>
+<person name="Beausoleil S.A."/>
+<person name="Villen J."/>
+<person name="Haas W."/>
+<person name="Sowa M.E."/>
+<person name="Gygi S.P."/>
+</authorList>
+<dbReference type="PubMed" id="21183079"/>
+<dbReference type="DOI" id="10.1016/j.cell.2010.12.001"/>
+</citation>
+<scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+</reference>
+<reference key="3" evidence="6">
+<citation type="submission" date="2014-11" db="UniProtKB">
+<authorList>
+<consortium name="Ensembl"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+<source>
+<strain evidence="6">C57BL/6J</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="6">The sequence shown here is derived from an Ensembl automatic analysis pipeline and should be considered as preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="AL732615">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AL772381">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_001277404.1">
+<property type="nucleotide sequence ID" value="NM_001290475.1"/>
+</dbReference>
+<dbReference type="UniGene" id="Mm.275413"/>
+<dbReference type="STRING" id="10090.ENSMUSP00000099993"/>
+<dbReference type="PaxDb" id="A0A0A0MQD1"/>
+<dbReference type="Ensembl" id="ENSMUST00000107777">
+<property type="protein sequence ID" value="ENSMUSP00000103406"/>
+<property type="gene ID" value="ENSMUSG00000035517"/>
+</dbReference>
+<dbReference type="GeneID" id="100121"/>
+<dbReference type="KEGG" id="mmu:100121"/>
+<dbReference type="UCSC" id="uc008stb.2">
+<property type="organism name" value="mouse"/>
+</dbReference>
+<dbReference type="CTD" id="23424"/>
+<dbReference type="MGI" id="MGI:2140279">
+<property type="gene designation" value="Tdrd7"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410IPR1">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410XST4">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00830000128334"/>
+<dbReference type="KO" id="K18405"/>
+<dbReference type="OMA" id="KCSQWSE"/>
+<dbReference type="PhylomeDB" id="A0A0A0MQD1"/>
+<dbReference type="Proteomes" id="UP000000589">
+<property type="component" value="Chromosome 4"/>
+</dbReference>
+<dbReference type="ExpressionAtlas" id="A0A0A0MQD1">
+<property type="expression patterns" value="baseline and differential"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005759">
+<property type="term" value="C:mitochondrial matrix"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0035770">
+<property type="term" value="C:ribonucleoprotein granule"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003729">
+<property type="term" value="F:mRNA binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0070306">
+<property type="term" value="P:lens fiber cell differentiation"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0002089">
+<property type="term" value="P:lens morphogenesis in camera-type eye"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010608">
+<property type="term" value="P:posttranscriptional regulation of gene expression"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SMART" id="SM00333">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0181" evidence="8">Complete proteome</keyword>
+<keyword id="KW-1267" evidence="1 2">Proteomics identification</keyword>
+<keyword id="KW-1185" evidence="8">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="5">
+<location>
+<begin position="36"/>
+<end position="109"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="5">
+<location>
+<begin position="255"/>
+<end position="324"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="5">
+<location>
+<begin position="358"/>
+<end position="427"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="4">
+<location>
+<begin position="534"/>
+<end position="591"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="4">
+<location>
+<begin position="724"/>
+<end position="781"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000213">
+<source>
+<dbReference type="MaxQB" id="A0A0A0MQD1"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000213">
+<source>
+<dbReference type="PeptideAtlas" id="A0A0A0MQD1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000213">
+<source>
+<dbReference type="PubMed" id="21183079"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000313">
+<source>
+<dbReference type="Ensembl" id="ENSMUSP00000103406"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000313">
+<source>
+<dbReference type="MGI" id="MGI:2140279"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000000589"/>
+</source>
+</evidence>
+<sequence length="1119" mass="125837" checksum="7136F5E6970682F6" modified="2015-01-07" version="1">
+MRSQQSTTQRRVLSRTGPSWHPDPGLSASRTAKMLEADLVSKMLRAVLQSHKNGIVLPRL
+QGEYRSLTGDWIPFKQLGYPTLEAYLRSVPAVVRIEASRSGEIVCYAVACTETARIAQLV
+ARQRTSKRKIGRQINCQMRVKKAMPFFLEGKPKATLRQPGFASDYSISRKPNSALLRDRG
+SALGVKADVDMPPYPDTPVQRHASMSANSRFSPKSSLPASFQTHISRACPTEVNDNLNQT
+VEKPNITPPASYTNKMDEVQNRIKEILDKHNNGIWISKLPHFYKEFYKEDLNQGVLQQFE
+HWPHICTVEKPCGGGQDSLLYPARREQPLKSDQDPEKELPPPPPAPKQEVPSQGSPAVMP
+DVKEKVAELLGKYSSGLWASALPKAFEDMYKVKFPEDALKNLASLSDVCTINYISGNTQK
+AILYAKLPLPTDKILKDEGQAQGDFDIKSMIEQEYLQIEKNMAESADEFLEDITVPPLVI
+PTEASPSVLVVELSNTNDVVIRYVGKDYSAAQELMEDEMKEFYSKNPRVTPIQTVHVGQL
+LAVNAEEDAWLRAQIISTDENKIKVCYVDYGFCENIEKSKAYRLNPRFCSLSFQATKCKL
+AGLEVLNDDPDLVKAVESLTCGKIFAVEILDKSDVPLVVLYDTSGEDDININATCLKAIC
+DRSLQVHLQVDAMYTNVKVTNICSDGTLYCQVPCKGLNKLNDLLHKTEDYFHCKHMTSEY
+FISLPFCGKICLFHCKGKWLRVEITNVHSSRALDVQFLDSGNSTSVKVSELREIPPRFLQ
+EMLAIPPQAIKCCLADLPQSIGMWTPDAVLWLRDSVLNCSDCSIKVTKMDETKGVAYVYL
+FTPNNFPDPHRSINRQITNADLWKHQKDVFLSAVSTAASSPGNRNGGTPAPGSPAESLRK
+SHPEVIKKSVLDHTSSFSLEELPPPVHLSRSGEHMDVYVPVACHPGHFVIQPWQEIHKLE
+VLMEEMILYYSVSEERHIAVERDQVYAAKVENKWYRVLLKGILTNGLVSVYELDYGKHEL
+VNIRKVQPLVDVFRKLPFQAVTAQLAGVKCSQWSEEASMVFRNHVEKKALVALVQTVVEH
+TNPWDRKVVLYLVDTSLPDTDTWIHDFMSQYLLELSKVN
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

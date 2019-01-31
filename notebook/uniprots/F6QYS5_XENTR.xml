@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2011-07-27" modified="2015-12-09" version="17">
+<accession>F6QYS5</accession>
+<name>F6QYS5_XENTR</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<organism evidence="3 4">
+<name type="scientific">Xenopus tropicalis</name>
+<name type="common">Western clawed frog</name>
+<name type="synonym">Silurana tropicalis</name>
+<dbReference type="NCBI Taxonomy" id="8364"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Amphibia</taxon>
+<taxon>Batrachia</taxon>
+<taxon>Anura</taxon>
+<taxon>Pipoidea</taxon>
+<taxon>Pipidae</taxon>
+<taxon>Xenopodinae</taxon>
+<taxon>Xenopus</taxon>
+<taxon>Silurana</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="journal article" date="2010" name="Science" volume="328" first="633" last="636">
+<title>The genome of the Western clawed frog Xenopus tropicalis.</title>
+<authorList>
+<person name="Hellsten U."/>
+<person name="Harland R.M."/>
+<person name="Gilchrist M.J."/>
+<person name="Hendrix D."/>
+<person name="Jurka J."/>
+<person name="Kapitonov V."/>
+<person name="Ovcharenko I."/>
+<person name="Putnam N.H."/>
+<person name="Shu S."/>
+<person name="Taher L."/>
+<person name="Blitz I.L."/>
+<person name="Blumberg B."/>
+<person name="Dichmann D.S."/>
+<person name="Dubchak I."/>
+<person name="Amaya E."/>
+<person name="Detter J.C."/>
+<person name="Fletcher R."/>
+<person name="Gerhard D.S."/>
+<person name="Goodstein D."/>
+<person name="Graves T."/>
+<person name="Grigoriev I.V."/>
+<person name="Grimwood J."/>
+<person name="Kawashima T."/>
+<person name="Lindquist E."/>
+<person name="Lucas S.M."/>
+<person name="Mead P.E."/>
+<person name="Mitros T."/>
+<person name="Ogino H."/>
+<person name="Ohta Y."/>
+<person name="Poliakov A.V."/>
+<person name="Pollet N."/>
+<person name="Robert J."/>
+<person name="Salamov A."/>
+<person name="Sater A.K."/>
+<person name="Schmutz J."/>
+<person name="Terry A."/>
+<person name="Vize P.D."/>
+<person name="Warren W.C."/>
+<person name="Wells D."/>
+<person name="Wills A."/>
+<person name="Wilson R.K."/>
+<person name="Zimmerman L.B."/>
+<person name="Zorn A.M."/>
+<person name="Grainger R."/>
+<person name="Grammer T."/>
+<person name="Khokha M.K."/>
+<person name="Richardson P.M."/>
+<person name="Rokhsar D.S."/>
+</authorList>
+<dbReference type="PubMed" id="20431018"/>
+<dbReference type="DOI" id="10.1126/science.1183670"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<reference key="2" evidence="3">
+<citation type="submission" date="2011-06" db="UniProtKB">
+<authorList>
+<consortium name="Ensembl"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<comment type="caution">
+<text evidence="3">The sequence shown here is derived from an Ensembl automatic analysis pipeline and should be considered as preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="AAMC01064414">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AAMC01064415">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENSXETT00000061891">
+<property type="protein sequence ID" value="ENSXETP00000059469"/>
+<property type="gene ID" value="ENSXETG00000029942"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00730000110295"/>
+<dbReference type="OMA" id="MWFYRVV"/>
+<dbReference type="OrthoDB" id="EOG7W6WKS"/>
+<dbReference type="Proteomes" id="UP000008143">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="ExpressionAtlas" id="F6QYS5">
+<property type="expression patterns" value="baseline"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025605">
+<property type="entry name" value="OST-HTH/LOTUS_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002999">
+<property type="entry name" value="Tudor"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12872">
+<property type="entry name" value="OST-HTH"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00567">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51644">
+<property type="entry name" value="HTH_OST"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50304">
+<property type="entry name" value="TUDOR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181" evidence="4">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="7"/>
+<end position="80"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="123"/>
+<end position="198"/>
+</location>
+</feature>
+<feature type="domain" description="HTH OST-type" evidence="2">
+<location>
+<begin position="286"/>
+<end position="360"/>
+</location>
+</feature>
+<feature type="domain" description="Tudor" evidence="1">
+<location>
+<begin position="518"/>
+<end position="577"/>
+</location>
+</feature>
+<feature type="non-terminal residue" evidence="3">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50304"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51644"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Ensembl" id="ENSXETP00000059469"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000008143"/>
+</source>
+</evidence>
+<sequence length="732" mass="83317" checksum="AF024EE51D300568" modified="2011-07-27" version="1" fragment="single">
+VMEQERIMQRIQKDVRALLIASKNGLSIHELEQDYRMMIGSHIPIRSLGYKSTMELLLDM
+PSVVKIHTQLDGTVKLSAVVDETTRRIADLVSCQKDRCTARTRNRRRNIRPRCPVDLVRR
+GRVSPVLPATVKSDLRDLLSVSPLLLSELEKAFSSRFGRSFQYTRYGFYSMLEVLRSITD
+IVEVKQTRAGSLLVLRNSETGRISAITAGLLRTQNWLSTTGLFYKKFPWEGGFSSCPTFK
+LLDFAQPDIQEKNIPVVNQHSDGLKISQLPTVFKYIFCQDLPPTFICESCTFALKKILFH
+YKQSLQLSLLINNNKSFTGKDLPFKELGFMSVMELVGSLGDILCVESTVDGKDWKLFDAK
+KKDLVDVEFSAGLPSTSSILSSWNSSQQTTTPVKPVGTIFSKELVQFTQKIVPFHILTVH
+FLFVCIKWGPLELKLCSTEQIDIPPDAVRNQKLHCLPSMKRGFMIGVYVENIESPSQFYV
+RCCGKDTSEKLEDMMIEMSRHCYSNECVSERYIVTDNCISVGQIYALRVPGDVWWYRVIV
+HDIKNSELLDVFYPDFGNVATVKKSWLRFLKNCYMKIPAQAVPSSLPYVTSTEDQWSAQA
+IKKFQQLCSCIPLVGMVLQYVQDILHIFLCDTSSEEDLYLHQLLISQGLAKMEPEHACKK
+ISKKRNPFMQYLTPSQEQPQEESSQLSVPSESSQSEIPCAKEIALLVKDEDDLGMPYLEA
+FPSGSDVWDENW
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>
