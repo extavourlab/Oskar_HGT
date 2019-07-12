@@ -1,6 +1,7 @@
 # Supporting scripts for Bacterial contribution to the genesis of the novel germ line determinant oskar
-This repository contains all the scripts used in the analyses performed for the preprint Bacterial contribution to the genesis of the novel germ line determinant oskar. 
-The preprint can be accessed on BiorXiv: https://doi.org/10.1101/453514
+This repository contains all the scripts used in the analyses performed for the preprint:
+
+Bacterial contribution to genesis of the novel germ line determinant oskar. Leo Blondel, Tamsin E. M. Jones, Cassandra G. Extavour. bioRxiv 453514; doi: https://doi.org/10.1101/453514
 
 ## Composition of the repository
 This repository contains 3 folders:
@@ -23,3 +24,5 @@ The following libraries are used throughout the code:
 * bs4
 * dendropy
 * networkx
+
+
