@@ -1,0 +1,96 @@
+Type,ID,Species,Family,Order,Annotation,Note
+TSA,GAWC01068734.1,Aretaon asperrimus,Heteropterygidae,Phasmatodea,putative homolog identified by pipeline,Found by HMMER
+TSA,GAKJ01010751.1,Sitodiplosis mosellana,Cecidomyiidae,Diptera,putative homolog identified by pipeline,Found by HMMER
+TSA,GATI01010233.1,Bombylius major,Bombyliidae,Diptera,putative homolog identified by pipeline,Found by HMMER
+TSA,GAWW01000144.1,Tenthredo koehleri,Tenthredinidae,Hymenoptera,putative homolog identified by pipeline,Found by HMMER
+TSA,GAIW01009539.1,Ganaspis sp.,Figitidae,Hymenoptera,putative homolog identified by pipeline,Found by HMMER
+TSA,GATY01008637.1,Chrysis viridula,Chrysididae,Hymenoptera,putative homolog identified by pipeline,Found by HMMER
+TSA,GAXM01030263.1,Mischocyttarus flavitarsis,Vespidae,Hymenoptera,putative homolog identified by pipeline,Found by HMMER
+TSA,GAFR01040300.1,Polistes canadensis,Vespidae,Hymenoptera,putative homolog identified by pipeline,Found by HMMER
+TSA,GAZD01106195.1,Lipara lucens,Chloropidae,Diptera,putative homolog identified by pipeline,Found by HMMER
+TSA,GAVA01002196.1,Triarthria setipennis,Tachinidae,Diptera,putative homolog identified by pipeline,Found by HMMER
+TSA,GACV01001831.1,Philopotamus ludificatus,Philopotaminae,Trichoptera,putative homolog identified by pipeline,Found by HMMER
+TSA,GAPE01019095.1,Brassicogethes aeneus,Nitidulidae,Coleoptera,putative homolog identified by pipeline,Found by HMMER
+TSA,GBCX01024638.1_7.1,Dastarcus helophoroides,Bothrideridae,Coleoptera,putative homolog identified by pipeline,Found by BLAST / Sequence recomposed from two transcripts: GBCX01024638.1 and GBCX01024637.1
+TSA,GAKJ01010751.1,Sitodiplosis mosellana,Cecidomyiidae,Diptera,putative homolog identified by pipeline,Found by HMMER
+TSA,GAWM01006639.1,Culicoides sonorensis,Ceratopogonidae,Diptera,putative homolog identified by pipeline,Found by HMMER
+TSA,GAMD01000859.1,Anopheles aquasalis,Culicidae,Diptera,putative homolog identified by pipeline,Found by HMMER
+TSA,GBEO01001325.1,Anopheles sinensis,Culicidae,Diptera,putative homolog identified by pipeline,Found by HMMER
+TSA,GAKP01002609.1,Bactrocera dorsalis,Tephritidae,Diptera,putative homolog identified by pipeline,Found by HMMER
+TSA,GAXM01030263.1,Mischocyttarus flavitarsis,Vespidae,Hymenoptera,putative homolog identified by pipeline,Found by HMMER
+TSA,GAFR01040300.1,Polistes canadensis canadensis,Vespidae,Hymenoptera,putative homolog identified by pipeline,Found by HMMER
+TSA,GBGV01010610.1,Polistes metricus,Vespidae,Hymenoptera,putative homolog identified by pipeline,Found by HMMER
+TSA,GAIW01011550.1,Ganaspis sp. G1,Figitidae,Hymenoptera,putative homolog identified by pipeline,Found by HMMER
+TSA,GAJC01011221.1,Leptopilina heterotoma,Figitidae,Hymenoptera,putative homolog identified by pipeline,Found by HMMER
+TSA,GAIW01009539.1,Ganaspis sp. G1,Figitidae,Hymenoptera,putative homolog identified by pipeline,Found by HMMER
+TSA,GAJA01020544.1,Leptopilina boulardi,Figitidae,Hymenoptera,putative homolog identified by pipeline,Found by HMMER
+TSA,GAJC01009625.1,Leptopilina heterotoma,Figitidae,Hymenoptera,putative homolog identified by pipeline,Found by HMMER
+TSA,GAXO01016630.1,Argochrysis armilla,Chrysididae,Hymenoptera,putative homolog identified by pipeline,Found by HMMER
+TSA,GAEO01004319.1,Pissodes strobi,Curculionidae,Coleoptera,putative homolog identified by pipeline,Found by HMMER
+TSA,GBBP01080309.1,Teleopsis dalmanni,Diopsidae,Diptera,putative homolog identified by pipeline,Found by HMMER
+TSA,GAVM01000124.1,Hydroptila actia/argosa,Hydroptilidae,Trichoptera,putative homolog identified by pipeline,Found by HMMER
+TSA,GAWC01068728,Aretaon asperrimus,Heteropterygidae,Phasmatodea,putative homolog identified by pipeline,Found by HMMER
+TSA,GBEO01001325.1,Anopheles sinensis,Culicidae,Diptera,putative homolog identified by pipeline,Found by HMMER
+Genome,GCA_000349125.1,Anopheles albimanus,Culicidae,Diptera,putative homolog identified by pipeline,Found by Snap
+Genome,GCA_000349065.1,Anopheles quadriannulatus,Culicidae,Diptera,putative homolog identified by pipeline,Found by Augustus
+Genome,GCA_000349185.1,Anopheles arabiensis,Culicidae,Diptera,putative homolog identified by pipeline,Found by Augustus
+Genome,GCA_000473845.2,Anopheles merus,Culicidae,Diptera,putative homolog identified by pipeline,Found by Augustus
+Genome,GCA_000473375.1,Anopheles culicifacies,Culicidae,Diptera,putative homolog identified by pipeline,Found by Augustus
+Genome,GCA_000349085.1,Anopheles funestus,Culicidae,Diptera,putative homolog identified by pipeline,Found by Augustus
+Genome,GCA_000209185.1,Culex quinquefasciatus,Culicidae,Diptera,putative homolog identified by pipeline,Found by Snap
+Genome,GCF_000004015.3,Aedes aegypti,Culicidae,Diptera,putative homolog identified by pipeline,Found by Augustus
+Genome,GCA_001014445.1,Scaptodrosophila lebanonensis,Drosophilidae,Diptera,putative homolog identified by pipeline,Found by Snap
+Genome,GCA_000005925.1,Drosophila willistoni,Drosophilidae,Diptera,putative homolog identified by pipeline,Found by Augustus
+Genome,GCA_000005115.1,Drosophila ananassae,Drosophilidae,Diptera,putative homolog identified by pipeline,Found by Snap
+Genome,GCA_000236285.2,Drosophila bipectinata,Drosophilidae,Diptera,putative homolog identified by pipeline,Found by Augustus
+Genome,GCA_000224215.2,Drosophila kikkawai,Drosophilidae,Diptera,putative homolog identified by pipeline,Found by Snap
+Genome,GCA_000236325.2,Drosophila eugracilis,Drosophilidae,Diptera,putative homolog identified by pipeline,Found by Augustus
+Genome,GCA_000001215.4,Drosophila melanogaster,Drosophilidae,Diptera,putative homolog identified by pipeline,Found by Augustus
+Genome,GCA_000259055.1,Drosophila simulans,Drosophilidae,Diptera,putative homolog identified by pipeline,Found by Snap
+Genome,GCA_000005215.1,Drosophila sechellia,Drosophilidae,Diptera,putative homolog identified by pipeline,Found by Augustus
+Genome,GCA_000005135.1,Drosophila erecta,Drosophilidae,Diptera,putative homolog identified by pipeline,Found by Augustus
+Genome,GCA_000005975.1,Drosophila yakuba,Drosophilidae,Diptera,putative homolog identified by pipeline,Found by Augustus
+Genome,GCA_000220665.2,Drosophila ficusphila,Drosophilidae,Diptera,putative homolog identified by pipeline,Found by Snap
+Genome,GCA_000224195.2,Drosophila elegans,Drosophilidae,Diptera,putative homolog identified by pipeline,Found by Snap
+Genome,GCA_000236305.2,Drosophila rhopaloa,Drosophilidae,Diptera,putative homolog identified by pipeline,Found by Augustus
+Genome,GCA_000233415.2,Drosophila biarmipes,Drosophilidae,Diptera,putative homolog identified by pipeline,Found by Snap
+Genome,GCA_000224235.2,Drosophila takahashii,Drosophilidae,Diptera,putative homolog identified by pipeline,Found by Augustus
+Genome,GCA_000269505.2,Drosophila miranda,Drosophilidae,Diptera,putative homolog identified by pipeline,Found by Augustus
+Genome,GCA_000001765.2,Drosophila pseudoobscura,Drosophilidae,Diptera,putative homolog identified by pipeline,Found by Snap
+Genome,GCA_000005195.1,Drosophila persimilis,Drosophilidae,Diptera,putative homolog identified by pipeline,Found by Snap
+Genome,GCA_000298335.1,Drosophila albomicans,Drosophilidae,Diptera,putative homolog identified by pipeline,Found by Snap
+Genome,GCA_000005155.1,Drosophila grimshawi,Drosophilidae,Diptera,putative homolog identified by pipeline,Found by Snap
+Genome,GCA_000005175.1,Drosophila mojavensis,Drosophilidae,Diptera,putative homolog identified by pipeline,Found by Snap
+Genome,GCA_000005245.1,Drosophila virilis,Drosophilidae,Diptera,putative homolog identified by pipeline,Found by Snap
+Genome,GCA_000371365.1,Musca domestica,Muscidae,Diptera,putative homolog identified by pipeline,Found by Augustus
+Genome,GCA_000648655.1,Copidosoma floridanum,Encyrtidae,Hymenoptera,putative homolog identified by pipeline,Found by Blast
+Protein,ABC54566.1,Anopheles gambiae,Culicidae,Diptera,homolog from database annotation,-
+Protein,KYN09041,Trachymyrmex cornetzi,Formicidae,Hymenoptera,homolog from database annotation,-
+Protein,KYM88541,Atta colombica,Formicidae,Hymenoptera,homolog from database annotation,-
+Protein,XP_012060266,Atta cephalotes,Formicidae,Hymenoptera,homolog from database annotation,-
+Protein,XP_011057669,Acromyrmex echinatior,Formicidae,Hymenoptera,homolog from database annotation,-
+Protein,ADM07366,Messor pergandei,Formicidae,Hymenoptera,homolog from database annotation,-
+Protein,XP_008556449,Microplitis demolitor,Microgastrinae,Hymenoptera,homolog from database annotation,-
+Protein,XP_012229836,Linepithema humile,Dolichoderinae,Hymenoptera,homolog from database annotation,-
+Protein,ABC54566,Anopheles gambiae,Culicidae,Diptera,homolog from database annotation,-
+Protein,ACB20969,Culex quinquefasciatus,Culicidae,Diptera,homolog from database annotation,-
+Protein,ABC41128,Aedes aegypti,Culicidae,Diptera,homolog from database annotation,-
+Protein,XP_004529162,Ceratitis capitata,Tephritidae,Diptera,homolog from database annotation,-
+Protein,NP_001234884,Nasonia vitripennis,Pteromalidae,Hymenoptera,homolog from database annotation,-
+Protein,XM_011167600,Solenopsis invicta,Formicidae,Hymenoptera,homolog from database annotation,-
+Protein,JR477371.1,Rhynchophorus errugineus,Curculionidae,Coleoptera,homolog from database annotation,-
+Nucleotide,JO902149,Aedes albopictus,Aedes,Diptera,homolog from database annotation,-
+Nucleotide,JO874052,Aedes albopictus,Aedes,Diptera,homolog from database annotation,-
+Nucleotide,JO885398,Aedes albopictus,Aedes,Diptera,homolog from database annotation,-
+1KITE,INStmbTBGRAAPEI-33,Liposcelis bostrychophila,Liposcelididae,Psocodea,putative homolog identified by pipeline,Found by Blast
+1KITE,INSjdsTABRAAPEI-20,Frankliniella cephalica,Thripidae,Thysanoptera,putative homolog identified by pipeline,Found by Blast
+1KITE,INSjdsTACRAAPEI-21,Thrips palmi,Thripidae,Thysanoptera,putative homolog identified by pipeline,Found by Blast
+1KITE,INShauTABRAAPEI-93,Nemophora degeerella,Adelidae,Lepidoptera,putative homolog identified by pipeline,Found by Blast
+1KITE,INSbttTARAAPEI-9,Platycentropus radiatus,Limnephilidae,Trichoptera,putative homolog identified by pipeline,Found by Blast
+1KITE,INSnfrTALRAAPEI-31,Leuctra sp.,Leuctridae,Plecoptera,putative homolog identified by pipeline,Found by Blast
+1KITE,INShauTAKRAAPEI-90,Baetis pumilus,Baetidae,Ephemeroptera,putative homolog identified by pipeline,Found by Blast
+1KITE,INSjdsTADRAAPEI-22,Gynaikothrips ficorum,Phlaeothripidae,Thysanoptera,putative homolog identified by pipeline,Found by Blast
+1KITE,INStmbTAWRAAPEI-13,Boreus hyemalis,Boreidae,Mecoptera,putative homolog identified by pipeline,Found by Blast
+1KITE,INSytvTCDRAAPEI-35,Cryptocercus wrighti,Cryptocercidae,Blattodea,putative homolog identified by pipeline,Found by Blast
+1KITE,INSnfrTAQRAAPEI-37,Cotesia vestalis,Braconidae,Hymenoptera,putative homolog identified by pipeline,Found by Blast
+1KITE,INSjdsTAURAAPEI-62,Leptopilina clavipes,Figitidae,Hymenoptera,putative homolog identified by pipeline,Found by Blast

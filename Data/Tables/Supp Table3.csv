@@ -1,0 +1,101 @@
+﻿Accession Number,Domain,Phylum,E-value,score,bias,description of target
+V3Z0B0_LOTGI,Eukarya,Mollusca,8.30E-32,120.8,0.1,Uncharacterized protein OS=Lottia gigantea GN=LOTGIDRAFT_236389 PE=4 SV=1
+R7UJX3_CAPTE,Eukarya,Annelida,4.00E-30,115.3,0,Uncharacterized protein OS=Capitella teleta GN=CAPTEDRAFT_218952 PE=4 SV=1
+E9IZ46_SOLIN,Eukarya,Arthropoda,2.80E-27,106.2,0.1,Putative uncharacterized protein (Fragment) OS=Solenopsis invicta GN=SINV_01516 PE=4 SV=1
+K7JUZ2_NASVI,Eukarya,Arthropoda,9.00E-27,104.6,0.2,Uncharacterized protein OS=Nasonia vitripennis GN=oskar PE=4 SV=1
+F4WQN7_ACREC,Eukarya,Arthropoda,1.30E-25,100.9,0.1,Maternal effect protein oskar OS=Acromyrmex echinatior GN=G5I_08127 PE=4 SV=1
+W4ZBK4_STRPU,Eukarya,Echinodemata,1.70E-25,100.5,0.1,Uncharacterized protein OS=Strongylocentrotus purpuratus GN=Sp-Tdrd5 PE=4 SV=1
+E2A7I8_CAMFO,Eukarya,Arthropoda,1.90E-25,100.4,2.1,Putative uncharacterized protein OS=Camponotus floridanus GN=EAG_03874 PE=4 SV=1
+F2WJY6_9HYME,Eukarya,Arthropoda,3.40E-25,99.6,0,Oskar (Fragment) OS=Messor pergandei PE=2 SV=1
+B4N816_DROWI,Eukarya,Arthropoda,8.50E-25,98.3,9.6,Uncharacterized protein OS=Drosophila willistoni GN=Dwil\GK11116 PE=4 SV=2
+B4K9E5_DROMO,Eukarya,Arthropoda,8.70E-25,98.2,0.6,Uncharacterized protein OS=Drosophila mojavensis GN=Dmoj\GI10055 PE=4 SV=2
+A0A026WMY1_CERBI,Eukarya,Arthropoda,2.20E-24,97,0.1,Maternal effect protein oskar OS=Cerapachys biroi GN=X777_01612 PE=4 SV=1
+C3ZCL9_BRAFL,Eukarya,Arthropoda,5.40E-24,95.7,0,Putative uncharacterized protein OS=Branchiostoma floridae GN=BRAFLDRAFT_64001 PE=4 SV=1
+B4LXK5_DROVI,Eukarya,Arthropoda,8.00E-24,95.2,0.9,Oskar OS=Drosophila virilis GN=osk PE=4 SV=1
+K4MTL4_GRYBI,Eukarya,Arthropoda,6.70E-23,92.2,0,Oskar OS=Gryllus bimaculatus PE=2 SV=1
+B4JTJ1_DROGR,Eukarya,Arthropoda,8.30E-23,91.9,1.4,GH23955 OS=Drosophila grimshawi GN=Dgri\GH23955 PE=4 SV=1
+A1Y1T7_DROIM,Eukarya,Arthropoda,8.60E-23,91.9,0.8,Oskar OS=Drosophila immigrans GN=osk PE=4 SV=1
+Q2PP79_AEDAE,Eukarya,Arthropoda,1.70E-22,90.9,0,Oskar OS=Aedes aegypti PE=4 SV=1
+W8CE30_CERCA,Eukarya,Arthropoda,2.00E-22,90.7,0.3,Maternal effect protein oskar OS=Ceratitis capitata GN=OSKA PE=2 SV=1
+T1PG45_MUSDO,Eukarya,Arthropoda,1.60E-21,87.8,1.2,GDSL-like Lipase/Acylhydrolase OS=Musca domestica PE=2 SV=1
+A0A0L8HW18_OCTBM,Eukarya,Mollusca,1.70E-21,87.7,7.5,Uncharacterized protein OS=Octopus bimaculoides GN=OCBIM_22005378mg PE=4 SV=1
+F6QYS5_XENTR,Eukarya,Vertebrata,6.10E-20,82.7,0.2,Uncharacterized protein (Fragment) OS=Xenopus tropicalis PE=4 SV=1
+B0WIV7_CULQU,Eukarya,Arthropoda,8.90E-20,82.2,0.1,Oskar OS=Culex quinquefasciatus GN=CpipJ_CPIJ007471 PE=2 SV=1
+A0A034WRF5_BACDO,Eukarya,Arthropoda,1.30E-19,81.6,13.1,Maternal effect protein oskar OS=Bactrocera dorsalis GN=OSKA PE=4 SV=1
+Q7PQJ3_ANOGA,Eukarya,Arthropoda,1.40E-19,81.5,0,AGAP003545-PA OS=Anopheles gambiae GN=osk PE=4 SV=3
+X1WIW2_ACYPI,Eukarya,Arthropoda,1.70E-19,81.3,12.3,Uncharacterized protein OS=Acyrthosiphon pisum GN=LOC100162069 PE=4 SV=1
+A0A023EWV9_TRIIF,Eukarya,Arthropoda,1.80E-19,81.2,0.2,Putative transcriptional coactivator (Fragment) OS=Triatoma infestans PE=2 SV=1
+A0A0L0CP24_LUCCU,Eukarya,Arthropoda,2.40E-19,80.8,0.5,Uncharacterized protein OS=Lucilia cuprina GN=FF38_12727 PE=4 SV=1
+A0A0K8W0W3_BACLA,Eukarya,Arthropoda,5.00E-19,79.8,0,Maternal effect protein oskar OS=Bactrocera latifrons GN=osk_1 PE=4 SV=1
+A0A0A1XRQ4_BACCU,Eukarya,Arthropoda,7.20E-19,79.3,6.4,Maternal effect protein oskar OS=Bactrocera cucurbitae GN=osk PE=4 SV=1
+A0A088ASD6_APIME,Eukarya,Arthropoda,2.90E-18,77.3,0.2,Uncharacterized protein OS=Apis mellifera GN=LOC726241 PE=4 SV=1
+K1QZD2_CRAGI,Eukarya,Mollusca,1.60E-17,75,0,Tudor domain-containing protein 7 OS=Crassostrea gigas GN=CGI_10018436 PE=4 SV=1
+A0A139WGI6_TRICA,Eukarya,Arthropoda,1.70E-17,74.9,0.1,Tudor domain-containing protein 7-like protein OS=Tribolium castaneum GN=TcasGA2_TC034722 PE=4 SV=1
+F6YH90_ORNAN,Eukarya,Vertebrata,1.80E-17,74.8,0,Uncharacterized protein OS=Ornithorhynchus anatinus GN=TDRD5 PE=4 SV=1
+W5JJ85_ANODA,Eukarya,Arthropoda,2.10E-17,74.6,0,Uncharacterized protein OS=Anopheles darlingi GN=AND_005442 PE=4 SV=1
+A0A084WRU4_ANOSI,Eukarya,Arthropoda,2.40E-17,74.4,0.2,AGAP003545-PA-like protein OS=Anopheles sinensis GN=ZHAS_00021239 PE=4 SV=1
+H2YLA8_CIOSA,Eukarya,Tunicata,2.60E-17,74.3,0.1,Uncharacterized protein OS=Ciona savignyi GN=Csa.10307 PE=4 SV=1
+G1KVT0_ANOCA,Eukarya,Vertebrata,2.70E-17,74.2,0.1,Uncharacterized protein OS=Anolis carolinensis GN=TDRD5 PE=4 SV=1
+G3TEV7_LOXAF,Eukarya,Vertebrata,4.50E-17,73.5,0,Uncharacterized protein OS=Loxodonta africana GN=TDRD5 PE=4 SV=1
+A0A0K8TEH4_LYGHE,Eukarya,Arthropoda,6.40E-17,73,0,Uncharacterized protein OS=Lygus hesperus PE=4 SV=1
+A0A067RPA3_ZOONE,Eukarya,Arthropoda,7.10E-17,72.9,0.1,Tudor domain-containing protein 7 OS=Zootermopsis nevadensis GN=L798_01728 PE=4 SV=1
+G3VEY7_SARHA,Eukarya,Vertebrata,1.30E-16,72.1,0,Uncharacterized protein OS=Sarcophilus harrisii GN=TDRD5 PE=4 SV=1
+L8I7L7_9CETA,Eukarya,Vertebrata,1.40E-16,72,0.1,Tudor domain-containing protein 5 (Fragment) OS=Bos mutus GN=M91_03486 PE=4 SV=1
+W5Q779_SHEEP,Eukarya,Vertebrata,1.40E-16,71.9,0.5,Uncharacterized protein OS=Ovis aries GN=TDRD5 PE=4 SV=1
+G5E528_BOVIN,Eukarya,Vertebrata,2.30E-16,71.3,0,Tudor domain-containing protein 5 OS=Bos taurus GN=TDRD5 PE=4 SV=1
+H2MII4_ORYLA,Eukarya,Vertebrata,2.90E-16,71,0,Uncharacterized protein OS=Oryzias latipes GN=TDRD7 (1 to many) PE=4 SV=1
+N6TQX5_DENPD,Eukarya,Arthropoda,3.20E-16,70.8,0.1,Uncharacterized protein (Fragment) OS=Dendroctonus ponderosae GN=YQE_11709 PE=4 SV=1
+F6WY93_HORSE,Eukarya,Vertebrata,5.80E-16,70,0,Uncharacterized protein OS=Equus caballus GN=TDRD5 PE=4 SV=1
+A0A0J9YJ00_DANRE,Eukarya,Vertebrata,5.90E-16,69.9,0,Tudor domain-containing protein 7A (Fragment) OS=Danio rerio GN=tdrd7a PE=1 SV=2
+U5EFJ8_9DIPT,Eukarya,Arthropoda,9.50E-16,69.3,0.9,Putative oskar (Fragment) OS=Corethrella appendiculata PE=2 SV=1
+H2USX7_TAKRU,Eukarya,Vertebrata,9.60E-16,69.3,0,Uncharacterized protein OS=Takifugu rubripes PE=4 SV=1
+F1S6A1_PIG,Eukarya,Vertebrata,1.10E-15,69.1,0,Uncharacterized protein OS=Sus scrofa GN=TDRD5 PE=4 SV=2
+T1DTM7_ANOAQ,Eukarya,Arthropoda,1.10E-15,69,0,Uncharacterized protein (Fragment) OS=Anopheles aquasalis PE=2 SV=1
+A0A060W2X9_ONCMY,Eukarya,Vertebrata,2.20E-15,68.1,0,Uncharacterized protein OS=Oncorhynchus mykiss GN=GSONMT00078733001 PE=4 SV=1
+S7NG41_MYOBR,Eukarya,Vertebrata,2.60E-15,67.9,0.1,Tudor domain-containing protein 5 OS=Myotis brandtii GN=D623_10022817 PE=4 SV=1
+F7B4W0_MONDO,Eukarya,Vertebrata,2.70E-15,67.8,0,Uncharacterized protein OS=Monodelphis domestica GN=TDRD5 PE=4 SV=2
+V9KH94_CALMI,Eukarya,Vertebrata,3.50E-15,67.5,0,Tudor domain-containing protein 5 OS=Callorhinchus milii PE=2 SV=1
+A0A0P7YHR6_9TELE,Eukarya,Vertebrata,4.70E-15,67,0,Uncharacterized protein OS=Scleropages formosus GN=Z043_114704 PE=4 SV=1
+G1PFT9_MYOLU,Eukarya,Vertebrata,5.70E-15,66.8,0.1,Uncharacterized protein OS=Myotis lucifugus GN=TDRD5 PE=4 SV=1
+H3DL34_TETNG,Eukarya,Vertebrata,7.70E-15,66.4,0,Uncharacterized protein OS=Tetraodon nigroviridis PE=4 SV=1
+A0A096NXU4_PAPAN,Eukarya,Vertebrata,8.70E-15,66.2,0,Uncharacterized protein OS=Papio anubis GN=TDRD5 PE=4 SV=1
+F7GPY1_CALJA,Eukarya,Vertebrata,1.10E-14,65.9,0,Uncharacterized protein OS=Callithrix jacchus GN=TDRD5 PE=4 SV=1
+W5N030_LEPOC,Eukarya,Vertebrata,1.20E-14,65.8,0.1,Uncharacterized protein OS=Lepisosteus oculatus PE=4 SV=1
+M3VXB3_FELCA,Eukarya,Vertebrata,1.30E-14,65.6,0,Uncharacterized protein OS=Felis catus GN=TDRD5 PE=4 SV=1
+A0A099ZTT8_TINGU,Eukarya,Vertebrata,1.40E-14,65.6,0,Tudor domain-containing protein 7 OS=Tinamus guttatus GN=N309_12928 PE=4 SV=1
+G3R6R4_GORGO,Eukarya,Vertebrata,1.50E-14,65.5,0,Uncharacterized protein OS=Gorilla gorilla gorilla GN=TDRD5 PE=4 SV=1
+L9L889_TUPCH,Eukarya,Vertebrata,1.60E-14,65.4,0.3,Tudor domain-containing protein 5 OS=Tupaia chinensis GN=TREES_T100015801 PE=4 SV=1
+A0A0J7KVQ7_LASNI,Eukarya,Arthropoda,1.70E-14,65.3,0,Tudor domain-containing protein 5 (Fragment) OS=Lasius niger GN=RF55_5458 PE=4 SV=1
+E0VJL4_PEDHC,Eukarya,Arthropoda,1.70E-14,65.3,0.9,Putative uncharacterized protein OS=Pediculus humanus subsp. corporis GN=Phum_PHUM247930 PE=4 SV=1
+A0A0D9RID1_CHLSB,Eukarya,Vertebrata,1.70E-14,65.2,0,Uncharacterized protein OS=Chlorocebus sabaeus GN=TDRD5 PE=4 SV=1
+E2BFZ8_HARSA,Eukarya,Arthropoda,2.00E-14,65,0.9,Tudor domain-containing protein 7 OS=Harpegnathos saltator GN=EAI_14615 PE=4 SV=1
+A0A0T6AU98_9SCAR,Eukarya,Arthropoda,2.10E-14,65,3.9,Uncharacterized protein (Fragment) OS=Oryctes borbonicus GN=AMK59_7658 PE=4 SV=1
+R9PXP1_CHICK,Eukarya,Vertebrata,2.30E-14,64.8,0,Tudor domain-containing protein 7 OS=Gallus gallus GN=TDRD7 PE=4 SV=1
+F7CN93_MACMU,Eukarya,Vertebrata,2.70E-14,64.6,0,Uncharacterized protein OS=Macaca mulatta GN=TDRD5 PE=4 SV=1
+A0A0A0MPC8_CANLF,Eukarya,Vertebrata,2.70E-14,64.6,0,Tudor domain-containing protein 5 OS=Canis lupus familiaris GN=TDRD5 PE=4 SV=1
+M3Y1J3_MUSPF,Eukarya,Vertebrata,2.90E-14,64.5,0,Uncharacterized protein OS=Mustela putorius furo GN=TDRD5 PE=4 SV=1
+H2N4J0_PONAB,Eukarya,Vertebrata,3.00E-14,64.5,0,Uncharacterized protein OS=Pongo abelii GN=TDRD5 PE=4 SV=1
+H2Q0P6_PANTR,Eukarya,Vertebrata,3.20E-14,64.4,0,Uncharacterized protein OS=Pan troglodytes GN=TDRD5 PE=4 SV=1
+W5LEX2_ASTMX,Eukarya,Vertebrata,3.50E-14,64.3,0,Uncharacterized protein OS=Astyanax mexicanus PE=4 SV=1
+A0A024R910_HUMAN,Eukarya,Vertebrata,4.00E-14,64.1,0,"Tudor domain containing 5, isoform CRA_b OS=Homo sapiens GN=TDRD5 PE=4 SV=1"
+A0A0P6JFX9_HETGA,Eukarya,Vertebrata,4.10E-14,64.1,0,Tudor domain-containing protein 5 isoform 2 OS=Heterocephalus glaber GN=TDRD5 PE=4 SV=1
+H0WXJ6_OTOGA,Eukarya,Vertebrata,4.70E-14,63.8,0,Uncharacterized protein OS=Otolemur garnettii GN=TDRD5 PE=4 SV=1
+H0V001_CAVPO,Eukarya,Vertebrata,5.20E-14,63.7,0,Uncharacterized protein OS=Cavia porcellus GN=TDRD5 PE=4 SV=1
+G7NU06_MACFA,Eukarya,Vertebrata,5.80E-14,63.6,0,Putative uncharacterized protein OS=Macaca fascicularis GN=EGM_01633 PE=4 SV=1
+G1S4T3_NOMLE,Eukarya,Vertebrata,6.40E-14,63.4,0,Uncharacterized protein OS=Nomascus leucogenys GN=TDRD7 PE=4 SV=1
+G1M861_AILME,Eukarya,Vertebrata,6.80E-14,63.3,0,Tudor domain-containing protein 5 OS=Ailuropoda melanoleuca GN=TDRD5 PE=4 SV=1
+A0A061HYN9_CRIGR,Eukarya,Vertebrata,7.10E-14,63.3,0,Tudor domain-containing protein 5 OS=Cricetulus griseus GN=H671_5g14992 PE=4 SV=1
+A0A0F8AWR5_LARCR,Eukarya,Vertebrata,1.00E-13,62.7,0,Tudor domain-containing protein 7A OS=Larimichthys crocea GN=EH28_10800 PE=4 SV=1
+V5GPP4_ANOGL,Eukarya,Arthropoda,1.10E-13,62.6,1.4,Tudor domain-containing protein (Fragment) OS=Anoplophora glabripennis GN=TDRD7 PE=4 SV=1
+A0A087XQP1_POEFO,Eukarya,Vertebrata,1.10E-13,62.6,0,Uncharacterized protein OS=Poecilia formosa PE=4 SV=2
+S4NW46_9NEOP,Eukarya,Arthropoda,1.20E-13,62.5,0,Tudor domain containing 7 (Fragment) OS=Pararge aegeria PE=4 SV=1
+L5KMV4_PTEAL,Eukarya,Vertebrata,2.10E-13,61.8,0,Tudor domain-containing protein 7 OS=Pteropus alecto GN=PAL_GLEAN10008027 PE=4 SV=1
+I3NCP3_ICTTR,Eukarya,Vertebrata,2.40E-13,61.6,0,Uncharacterized protein OS=Ictidomys tridecemlineatus GN=TDRD7 PE=4 SV=1
+G1SCH8_RABIT,Eukarya,Vertebrata,2.50E-13,61.5,0,Uncharacterized protein OS=Oryctolagus cuniculus GN=TDRD7 PE=4 SV=1
+Q3TTK4_MOUSE,Eukarya,Vertebrata,2.50E-13,61.5,0,Putative uncharacterized protein (Fragment) OS=Mus musculus GN=Tdrd7 PE=2 SV=1
+A0A0H2UHC6_RAT,Eukarya,Vertebrata,3.90E-13,60.9,0,Tudor domain-containing protein 5 OS=Rattus norvegicus GN=Tdrd5 PE=4 SV=1
+U6CRG5_NEOVI,Eukarya,Vertebrata,3.90E-13,60.9,0,Tudor domain-containing protein 7 OS=Neovison vison GN=TDRD7 PE=2 SV=1
+K7FVR3_PELSI,Eukarya,Vertebrata,5.10E-13,60.5,0,Uncharacterized protein OS=Pelodiscus sinensis GN=TDRD5 PE=4 SV=1
+J4K9P6_9FIRM,Bacteria,Firmicutes,2.90E-07,42.1,31.8,NYN domain protein OS=Peptostreptococcaceae bacterium AS15 GN=HMPREF1142_1162 PE=4 SV=1
+E0QL58_9FIRM,Bacteria,Firmicutes,0.00014,33.5,29.1,Uncharacterized protein OS=[Eubacterium] yurii subsp. margaretiae ATCC 43715 GN=HMPREF0379_1756 PE=4 SV=1
+A0A0G0IVI6_9BACT,Bacteria,unclassified,0.0025,29.5,1.9,Uncharacterized protein OS=candidate division TM6 bacterium GW2011_GWA2_36_9 GN=US32_C0002G0021 PE=4 SV=1

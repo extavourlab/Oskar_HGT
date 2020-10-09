@@ -1,0 +1,18 @@
+Species,Family,Order,Genome ID,Oskar Nucleotide ID 
+Drosophila melanogaster,Drosophilidae,Diptera,GCA_001014345.1,NM_169248.4
+Nasonia vitripennis,Pteromalidae,Hymenoptera,GCA_000002325.2,HM535628.1
+Culex quinquefasciatus,Culicidae,Diptera,GCA_000209185.1,EU517695.1
+Drosophila virilis,Drosophilidae,Diptera,GCA_000005245.1,L22556.1
+Ceratitis capitata,Tephritidae,Diptera,GCA_000347755.4,LOC101450245
+Musca domestica,Muscidae,Diptera,GCA_000371365.1 ,LOC101890691
+Acromyrmex echinatior,Formicidae,Hymenoptera,GCA_000204515.1,LOC105147973
+Harpegnathos saltator,Formicidae,Hymenoptera,GCA_000147195.1,LOC105187957
+Bactrocera dorsalis,Tephritidae,Diptera,GCA_000789215.2 ,LOC105232054
+Fopius arisanus,Braconidae,Hymenoptera,GCA_000806365.1,LOC105267990
+Athalia rosae,Tenthrendinidae,Hymenoptera,GCA_000344095.2 ,LOC105692731
+Orussus abietinus,Orussidae,Hymenoptera,GCA_000612105.2,LOC105696794
+Stomoxys calcitrans,Muscidae,Diptera,GCA_001015335.1,LOC106086381
+Bactrocera oleae,Tephritidae,Diptera,GCA_001188975.2 ,LOC106622417
+Copidosoma floridanum,Encyrtidae,Hymenoptera,GCA_000648655.2,LOC106642594
+Polistes canadensis,Vespidae,Hymenoptera,GCA_001313835.1 ,LOC106790143
+Neodiprion lecontei,Diprionidae,Hymenoptera,GCF_001263575.1,LOC107223453

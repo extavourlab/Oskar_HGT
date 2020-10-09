@@ -1,0 +1,88 @@
+Accession Number,Domain,Phylum,E-value,score,bias,description of target
+A1Y1T7_DROIM,Eukarya,Arthropoda,2.90E-34,128.4,0.6,Oskar OS=Drosophila immigrans GN=osk PE=4 SV=1
+F2WJY6_9HYME,Eukarya,Arthropoda,3.50E-34,128.2,0.9,Oskar (Fragment) OS=Messor pergandei PE=2 SV=1
+B4JTJ1_DROGR,Eukarya,Arthropoda,5.00E-34,127.6,0.1,GH23955 OS=Drosophila grimshawi GN=Dgri\GH23955 PE=4 SV=1
+F4WQN7_ACREC,Eukarya,Arthropoda,8.10E-34,127,0.9,Maternal effect protein oskar OS=Acromyrmex echinatior GN=G5I_08127 PE=4 SV=1
+E2A7I8_CAMFO,Eukarya,Arthropoda,2.80E-33,125.2,0.4,Putative uncharacterized protein OS=Camponotus floridanus GN=EAG_03874 PE=4 SV=1
+W8CE30_CERCA,Eukarya,Arthropoda,5.80E-33,124.2,0.3,Maternal effect protein oskar OS=Ceratitis capitata GN=OSKA PE=2 SV=1
+A0A0A1XRQ4_BACCU,Eukarya,Arthropoda,7.50E-33,123.9,0.4,Maternal effect protein oskar OS=Bactrocera cucurbitae GN=osk PE=4 SV=1
+B4N815_DROWI,Eukarya,Arthropoda,8.10E-33,123.8,0.3,Uncharacterized protein OS=Drosophila willistoni GN=Dwil\GK11117 PE=4 SV=2
+A0A026WMY1_CERBI,Eukarya,Arthropoda,2.40E-32,122.3,0.7,Maternal effect protein oskar OS=Cerapachys biroi GN=X777_01612 PE=4 SV=1
+E9IZ46_SOLIN,Eukarya,Arthropoda,2.50E-32,122.2,0.1,Putative uncharacterized protein (Fragment) OS=Solenopsis invicta GN=SINV_01516 PE=4 SV=1
+A0A034WRF5_BACDO,Eukarya,Arthropoda,2.70E-32,122.1,0.5,Maternal effect protein oskar OS=Bactrocera dorsalis GN=OSKA PE=4 SV=1
+A0A0K8U7J3_BACLA,Eukarya,Arthropoda,5.70E-32,121,0.5,Maternal effect protein oskar OS=Bactrocera latifrons GN=osk_2 PE=4 SV=1
+Q2PP79_AEDAE,Eukarya,Arthropoda,6.30E-32,120.9,0.1,Oskar OS=Aedes aegypti PE=4 SV=1
+B4K9E5_DROMO,Eukarya,Arthropoda,8.60E-32,120.5,0.1,Uncharacterized protein OS=Drosophila mojavensis GN=Dmoj\GI10055 PE=4 SV=2
+B4LXK5_DROVI,Eukarya,Arthropoda,1.20E-31,120,0.1,Oskar OS=Drosophila virilis GN=osk PE=4 SV=1
+A0A0M4F3M8_DROBS,Eukarya,Arthropoda,1.80E-31,119.4,0.4,Osk OS=Drosophila busckii GN=Dbus_chr3Rg607 PE=4 SV=1
+A0A0L0CP24_LUCCU,Eukarya,Arthropoda,2.90E-31,118.8,1.5,Uncharacterized protein OS=Lucilia cuprina GN=FF38_12727 PE=4 SV=1
+B4PTX6_DROYA,Eukarya,Arthropoda,1.00E-30,117,0.5,Uncharacterized protein OS=Drosophila yakuba GN=Dyak\GE25914 PE=4 SV=1
+B3P1W4_DROER,Eukarya,Arthropoda,2.70E-30,115.6,0.5,GG13545 OS=Drosophila erecta GN=Dere\GG13545 PE=4 SV=1
+T1PG45_MUSDO,Eukarya,Arthropoda,4.20E-30,115.1,0.7,GDSL-like Lipase/Acylhydrolase OS=Musca domestica PE=2 SV=1
+B4HKZ1_DROSE,Eukarya,Arthropoda,5.20E-30,114.8,0.2,GM23770 OS=Drosophila sechellia GN=Dsec\GM23770 PE=4 SV=1
+Q295Q4_DROPS,Eukarya,Arthropoda,6.40E-30,114.5,0.2,"Uncharacterized protein, isoform A OS=Drosophila pseudoobscura pseudoobscura GN=Dpse\GA10627 PE=4 SV=2"
+E8NH25_DROME,Eukarya,Arthropoda,7.30E-30,114.3,0.2,RE24380p (Fragment) OS=Drosophila melanogaster GN=osk-RA PE=2 SV=1
+T1DTM7_ANOAQ,Eukarya,Arthropoda,1.00E-29,113.8,0,Uncharacterized protein (Fragment) OS=Anopheles aquasalis PE=2 SV=1
+B3LZ06_DROAN,Eukarya,Arthropoda,2.20E-28,109.5,0.1,Uncharacterized protein OS=Drosophila ananassae GN=Dana\GF17692 PE=4 SV=1
+E1A883_NASVI,Eukarya,Arthropoda,4.20E-28,108.6,0.2,Oskar OS=Nasonia vitripennis PE=2 SV=1
+A0A084WRU4_ANOSI,Eukarya,Arthropoda,1.30E-27,107.1,0.1,AGAP003545-PA-like protein OS=Anopheles sinensis GN=ZHAS_00021239 PE=4 SV=1
+W5JJ85_ANODA,Eukarya,Arthropoda,4.50E-27,105.3,0,Uncharacterized protein OS=Anopheles darlingi GN=AND_005442 PE=4 SV=1
+Q7PQJ3_ANOGA,Eukarya,Arthropoda,6.00E-27,104.9,0,AGAP003545-PA OS=Anopheles gambiae GN=osk PE=4 SV=3
+B0WIV7_CULQU,Eukarya,Arthropoda,1.30E-26,103.9,0.4,Oskar OS=Culex quinquefasciatus GN=CpipJ_CPIJ007471 PE=2 SV=1
+U5EFJ8_9DIPT,Eukarya,Arthropoda,4.00E-25,99.1,0,Putative oskar (Fragment) OS=Corethrella appendiculata PE=2 SV=1
+A0A126GUR4_DROME,Eukarya,Arthropoda,3.10E-24,96.2,0.3,"Oskar, isoform D OS=Drosophila melanogaster GN=osk PE=4 SV=1"
+A0A059PGF2_9MUSC,Eukarya,Arthropoda,3.10E-24,96.2,0.5,GA10627 (Fragment) OS=Drosophila pseudoobscura GN=GA10627 PE=4 SV=1
+K4MTL4_GRYBI,Eukarya,Arthropoda,1.20E-23,94.2,0.2,Oskar OS=Gryllus bimaculatus PE=2 SV=1
+A0A0C9QHR7_9HYME,Eukarya,Arthropoda,5.40E-22,89,0,Osk protein OS=Fopius arisanus GN=osk PE=4 SV=1
+A0A059PF64_9MUSC,Eukarya,Arthropoda,1.90E-19,80.8,0.7,GA10627 (Fragment) OS=Drosophila pseudoobscura GN=GA10627 PE=4 SV=1
+A0A0J7KH44_LASNI,Eukarya,Arthropoda,1.40E-13,61.9,0,Maternal effect protein oskar (Fragment) OS=Lasius niger GN=RF55_10783 PE=4 SV=1
+E2BYH0_HARSA,Eukarya,Arthropoda,4.00E-12,57.3,0,Putative uncharacterized protein OS=Harpegnathos saltator GN=EAI_08923 PE=4 SV=1
+A0A0J6BBM7_BREBE,Bacteria,Firmicutes,3.10E-10,51.2,0,Lysophospholipase OS=Brevibacillus brevis GN=AB432_04505 PE=4 SV=1
+A0A0H0SJ00_9BACL,Bacteria,Firmicutes,9.60E-10,49.6,0,Lysophospholipase OS=Brevibacillus formosus GN=AA984_15375 PE=4 SV=1
+E9I8K8_SOLIN,Bacteria,Arthropoda,5.90E-09,47.1,1,Putative uncharacterized protein (Fragment) OS=Solenopsis invicta GN=SINV_16199 PE=4 SV=1
+J3A568_9BACL,Bacteria,Firmicutes,5.80E-08,43.9,0,Lysophospholipase L1-like esterase OS=Brevibacillus sp. BC25 GN=PMI05_03395 PE=4 SV=1
+G2HS43_9PROT,Bacteria,Proteobacteria,1.10E-07,43,1,Lipolytic protein OS=Arcobacter sp. L GN=ABLL_2651 PE=4 SV=1
+E6L4E3_9PROT,Bacteria,Proteobacteria,1.70E-07,42.4,0.7,Lipolytic protein OS=Arcobacter butzleri JV22 GN=HMPREF9401_1319 PE=4 SV=1
+R5GT16_9FIRM,Bacteria,Firmicutes,2.60E-07,41.8,0,GDSL-like protein OS=Eubacterium sp. CAG:786 GN=BN782_00012 PE=4 SV=1
+A0A078KJ49_9FIRM,Bacteria,Firmicutes,3.40E-07,41.4,0,Uncharacterized protein OS=[Clostridium] cellulosi GN=CCDG5_0508 PE=4 SV=1
+A8EWS4_ARCB4,Bacteria,Proteobacteria,3.80E-07,41.3,0.7,"Lipolytic enzyme, GDSL domain OS=Arcobacter butzleri (strain RM4018) GN=Abu_2183 PE=4 SV=1"
+S5PEQ8_9PROT,Bacteria,Proteobacteria,4.00E-07,41.2,0.4,"Lipolytic enzyme, GDSL domain protein OS=Arcobacter butzleri 7h1h GN=A7H1H_2115 PE=4 SV=1"
+A0A0G9K3L5_9PROT,Bacteria,Proteobacteria,4.00E-07,41.2,0.6,Lipolytic protein OS=Arcobacter butzleri L348 GN=AA20_04280 PE=4 SV=1
+R6T7B3_9BACE,Bacteria,Bacteroidetes,4.80E-07,41,0,GDSL-like protein OS=Bacteroides sp. CAG:770 GN=BN777_00744 PE=4 SV=1
+A0A0A6S1U2_STRUB,Bacteria,Firmicutes,4.90E-07,40.9,0.2,Acylneuraminate cytidylyltransferase OS=Streptococcus uberis GN=NC01_08240 PE=4 SV=1
+W3AC50_9BACL,Bacteria,Firmicutes,5.50E-07,40.8,0.3,Uncharacterized protein OS=Planomicrobium glaciei CHR43 GN=G159_16940 PE=4 SV=1
+A0A0M1UPT0_9PROT,Bacteria,Proteobacteria,5.50E-07,40.8,0.4,Lipolytic protein OS=Arcobacter butzleri ED-1 GN=ABED_1978 PE=4 SV=1
+U6EVC2_CLOTA,Bacteria,Firmicutes,6.30E-07,40.6,0.7,Platelet activating factor acetylhydrolase-likeprotein OS=Clostridium tetani 12124569 GN=BN906_00617 PE=4 SV=1
+A0A098EIL2_9BACL,Bacteria,Firmicutes,7.90E-07,40.3,0.1,Multifunctional acyl-CoA thioesterase I and protease I and lysophospholipase L1 OS=Planomicrobium sp. ES2 GN=BN1080_01055 PE=4 SV=1
+A0A069S7Q5_9PORP,Bacteria,Bacteroidetes,1.10E-06,39.9,0,Uncharacterized protein OS=Parabacteroides distasonis str. 3776 Po2 i GN=M090_4091 PE=4 SV=1
+Q897X6_CLOTE,Bacteria,Firmicutes,1.20E-06,39.7,0.8,Platelet activating factor acetylhydrolase-like protein OS=Clostridium tetani (strain Massachusetts / E88) GN=CTC_00594 PE=4 SV=1
+A0A0J9FZD4_9PORP,Bacteria,Bacteroidetes,1.30E-06,39.6,0,Uncharacterized protein OS=Parabacteroides sp. D26 GN=HMPREF1000_00856 PE=4 SV=1
+K9WJ28_9CYAN,Bacteria,Cyanobcteria,1.60E-06,39.3,1.2,Lysophospholipase L1-like esterase OS=Microcoleus sp. PCC 7113 GN=Mic7113_4114 PE=4 SV=1
+A0A0G1KN57_9BACT,Bacteria,unclassified,3.70E-06,38.1,0,Secreted protein OS=candidate division WWE3 bacterium GW2011_GWC2_44_9 GN=UW82_C0006G0015 PE=4 SV=1
+R5VMZ1_9FIRM,Bacteria,Firmicutes,5.00E-06,37.7,0.1,GDSL-like protein OS=Firmicutes bacterium CAG:631 GN=BN742_01282 PE=4 SV=1
+A0A0L0WAR6_CLOPU,Bacteria,Firmicutes,7.20E-06,37.2,0.4,Lysophospholipase L1 OS=Clostridium purinilyticum GN=CLPU_6c00720 PE=4 SV=1
+R5S0B3_9BACE,Bacteria,Bacteroidetes,7.30E-06,37.2,0,GDSL-like protein OS=Bacteroides sp. CAG:545 GN=BN702_00435 PE=4 SV=1
+A0A073IAZ3_9PORP,Bacteria,Bacteroidetes,7.60E-06,37.1,0,Uncharacterized protein OS=Porphyromonas sp. 31_2 GN=HMPREF1002_01104 PE=4 SV=1
+R4JC30_9BACT,Bacteria,unclassified,7.90E-06,37.1,0.1,Uncharacterized protein OS=uncultured bacterium BAC25G1 GN=metaSSY_00600 PE=4 SV=1
+A0A0C1UEU0_9CLOT,Bacteria,Firmicutes,7.90E-06,37,0.8,GDSL-like Lipase/Acylhydrolase family protein OS=Clostridium argentinense CDC 2741 GN=U732_2423 PE=4 SV=1
+R5LL12_9FIRM,Bacteria,Firmicutes,1.00E-05,36.7,0,GDSL-like protein OS=Eubacterium sp. CAG:115 GN=BN470_02036 PE=4 SV=1
+A0A0E3QN36_METBA,Bacteria,Archaea,1.20E-05,36.5,0.2,Putative tesA-like protease OS=Methanosarcina barkeri str. Wiesmoor GN=MSBRW_2234 PE=4 SV=1
+B7KKA6_CYAP7,Bacteria,Cyanobcteria,1.60E-05,36.1,0.3,Lipolytic protein G-D-S-L family OS=Cyanothece sp. (strain PCC 7424) GN=PCC7424_2577 PE=4 SV=1
+R2P1Z4_9ENTE,Bacteria,FIrmicutes,1.60E-05,36,0.1,Uncharacterized protein OS=Enterococcus raffinosus ATCC 49464 GN=UAK_02837 PE=4 SV=1
+A0A072Y8N5_9CLOT,Bacteria,Firmicutes,1.80E-05,35.9,1.5,Acetylhydrolase OS=Clostridium sp. K25 GN=Z957_08245 PE=4 SV=1
+K8GFE2_9CYAN,Bacteria,Cyanobcteria,2.00E-05,35.8,0.1,Lysophospholipase L1-like esterase OS=Oscillatoriales cyanobacterium JSC-12 GN=OsccyDRAFT_3941 PE=4 SV=1
+A0A095ZDI3_9FIRM,Bacteria,Firmicutes,2.00E-05,35.8,0.3,Uncharacterized protein OS=Tissierellia bacterium S7-1-4 GN=HMPREF1634_08565 PE=4 SV=1
+E1YW67_9PORP,Bacteria,Bacteroidetes,2.20E-05,35.6,0,GDSL-like protein OS=Parabacteroides sp. 20_3 GN=HMPREF9008_00759 PE=4 SV=1
+A0A0M0WNM0_9BACI,Bacteria,Firmicutes,2.60E-05,35.4,0.4,Lipase OS=Bacillus sp. FJAT-21351 GN=AMS61_13120 PE=4 SV=1
+A0A0G3CFD7_METBA,Bacteria,Archaea,2.80E-05,35.3,0.1,GDSL family lipase/acylhydrolase OS=Methanosarcina barkeri CM1 GN=MCM1_0752 PE=4 SV=1
+F6DQC0_DESRL,Bacteria,Firmicutes,3.40E-05,35,0,Lipolytic protein G-D-S-L family OS=Desulfotomaculum ruminis (strain ATCC 23193 / DSM 2154 / NCIB 8452 / DL) GN=Desru_1430 PE=4 SV=1
+D5DGY9_BACMD,Bacteria,Firmicutes,3.50E-05,35,0.5,Lipase/Acylhydrolase (GDSL) OS=Bacillus megaterium (strain DSM 319) GN=BMD_3140 PE=4 SV=1
+A5N8N5_CLOK5,Bacteria,Firmicutes,3.70E-05,34.9,1.6,Uncharacterized protein OS=Clostridium kluyveri (strain ATCC 8527 / DSM 555 / NCIMB 10680) GN=CKL_1624 PE=4 SV=1
+R7ADB4_9BACE,Bacteria,Firmicutes,3.90E-05,34.8,0.2,Uncharacterized protein OS=Bacteroides pectinophilus CAG:437 GN=BN656_00903 PE=4 SV=1
+A0A0H1UPZ9_STRAG,Bacteria,Firmicutes,4.30E-05,34.7,0.2,Acylneuraminate cytidylyltransferase OS=Streptococcus agalactiae GN=WA03_09270 PE=4 SV=1
+A0A094AE00_9PEZI,Eukarya,Fungi,0.00036,31.7,0.1,Uncharacterized protein (Fragment) OS=Pseudogymnoascus sp. VKM F-4281 (FW-2241) GN=V493_03380 PE=4 SV=1
+A0A0L1HYX4_9PLEO,Eukarya,Fungi,0.00066,30.9,0,Carbohydrate esterase family 3 protein OS=Stemphylium lycopersici GN=TW65_91054 PE=4 SV=1
+G2QGB0_MYCTT,Eukarya,Fungi,0.00074,30.7,0.1,Carbohydrate esterase family 3 protein OS=Myceliophthora thermophila (strain ATCC 42464 / BCRC 31852 / DSM 1799) GN=MYCTH_53698 PE=4 SV=1
+E3RJZ5_PYRTT,Eukarya,Fungi,0.0014,29.8,0,Putative uncharacterized protein OS=Pyrenophora teres f. teres (strain 0-1) GN=PTT_08513 PE=4 SV=1
+G2QVW9_THITE,Eukarya,Fungi,0.0066,27.7,0.1,Carbohydrate esterase family 3 protein OS=Thielavia terrestris (strain ATCC 38088 / NRRL 8126) GN=THITE_2042744 PE=4 SV=1
+G0S9F4_CHATD,Eukarya,Fungi,0.01,27.1,0,Putative uncharacterized protein OS=Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719) GN=CTHT_0045680 PE=4 SV=1
